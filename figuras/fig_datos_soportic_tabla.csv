@@ -1,0 +1,18 @@
+,Dataset propio,Generalización,Externo (una intención),"Externo (varias, apariciones)",MASSIVE (fuera de dominio)
+wifi_sede,26,4,6,5,0
+teams,26,4,6,5,0
+sobre_bot,26,4,5,2,0
+saludo,26,4,5,0,0
+salas_computo,26,4,5,5,0
+restablecer_contrasena,26,4,6,6,0
+plataforma_academica,26,4,5,5,0
+office365,26,4,5,6,0
+moodle_entregas,26,4,6,5,0
+moodle_acceso,26,4,5,4,0
+instalar_python,26,4,6,4,0
+hablar_con_soporte,26,4,5,3,0
+fuera_de_dominio,26,4,5,1,180
+despedida,26,4,5,0,0
+correo_institucional,26,4,5,6,0
+colab_gpu,26,4,5,4,0
+agradecimiento,26,4,5,0,0

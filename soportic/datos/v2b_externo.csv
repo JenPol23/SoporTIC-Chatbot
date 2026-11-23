@@ -1,0 +1,5 @@
+conjunto,método,n,exact_match,f1_micro,f1_macro,hamming,exactitud_1,n_1,exactitud_2mas,n_2mas,tasa_fp_multi
+externo completo (120),Ensamble (completo + segmentos),120,0.8,0.86,0.8404472052774413,0.020588235294117647,0.8444444444444444,90,0.6666666666666666,30,0.044444444444444446
+una intención (90),Ensamble (completo + segmentos),90,0.8444444444444444,0.8369565217391305,0.8316294816294816,0.0196078431372549,0.8444444444444444,90,,0,0.044444444444444446
+30 naturales de varias intenciones,Ensamble (completo + segmentos),30,0.6666666666666666,0.896551724137931,0.765934065934066,0.023529411764705882,,0,0.6666666666666666,30,
+5 de control con conectores,Ensamble (completo + segmentos),5,1.0,1.0,1.0,0.0,1.0,5,,0,0.0

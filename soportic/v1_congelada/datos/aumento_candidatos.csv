@@ -1,0 +1,1327 @@
+texto,frase_origen,tecnica,intencion,sim_origen,ref_pred,ref_conf
+ola,hola,ruido,saludo,0.8927,despedida,0.3782
+vuenass tardes,buenas tardes,ruido,saludo,0.6561,saludo,0.9623
+q a pues,q mas pues,ruido,saludo,0.9653,sobre_bot,0.4443
+"holi, ay alguien ateniendo?","holi, hay alguien atendiendo?",ruido,saludo,0.9325,saludo,0.9734
+buenos dias meesa dee ayuda,buenos dias mesa de ayuda,ruido,saludo,0.6841,saludo,0.9698
+kiub bot,quiubo bot,ruido,saludo,0.4276,agradecimiento,0.2683
+"buenas noches, estas activo??","buenas noches, estas activo?",ruido,saludo,0.9752,saludo,0.974
+hey qque tl,hey que tal,ruido,saludo,0.7935,saludo,0.9437
+ola vunas,ola buenas,ruido,saludo,0.5554,sobre_bot,0.723
+"vuenas deepbot, me alludas?","buenas deepbot, me ayudas?",ruido,saludo,0.8725,saludo,0.9364
+"saludos cordiales, tengo una inkieetud","saludos cordiales, tengo una inquietud",ruido,saludo,0.8605,saludo,0.9429
+epa vuens,epa buenas,ruido,saludo,0.5999,saludo,0.8856
+"buen ddia, una consltica","buen dia, una consultica",ruido,saludo,0.8017,saludo,0.2933
+"holiz, todo vien?","holis, todo bien?",ruido,saludo,0.8717,saludo,0.9547
+bueas,buenaas,ruido,saludo,0.8792,saludo,0.5193
+"hola, acavo de abrir l chat","hola, acabo de abrir el chat",ruido,saludo,0.9247,saludo,0.9731
+que hubo parcee,que hubo parce,ruido,saludo,0.9124,fuera_de_dominio,0.7536
+hollaaa como ba,holaaa como va,ruido,saludo,0.5748,saludo,0.4165
+"buenas, me puedes collborar?","buenas, me puedes colaborar?",ruido,saludo,0.8667,saludo,0.9758
+ola sporte,hola soporte,ruido,saludo,0.5897,fuera_de_dominio,0.6053
+"vuenos dia, disculpa la hora","buenos dias, disculpa la hora",ruido,saludo,0.9062,saludo,0.8747
+comoo eztas bot,como estas bot,ruido,saludo,0.7622,sobre_bot,0.5083
+"qhuvo, estaz ahi?","qhubo, estas ahi?",ruido,saludo,0.9076,saludo,0.9717
+"hola, ke mas, todo vien por alla?","hola, que mas, todo bien por alla?",ruido,saludo,0.8994,saludo,0.9705
+buenasz tardecitass,buenass tardecitas,ruido,saludo,0.9448,saludo,0.9709
+"hey, buen dia x aya","hey, buen dia por alla",ruido,saludo,0.7926,saludo,0.9732
+cho,chao,ruido,despedida,0.8425,saludo,0.2956
+"vueno, ezo era todo","bueno, eso era todo",ruido,despedida,0.7617,saludo,0.4637
+asta lueo,hasta luego,ruido,despedida,0.5898,fuera_de_dominio,0.5056
+nos bems,nos vemos,ruido,despedida,0.6798,despedida,0.8626
+"me vy, vye","me voy, bye",ruido,despedida,0.6398,saludo,0.4431
+"listo, me dezcnecto","listo, me desconecto",ruido,despedida,0.975,agradecimiento,0.7922
+caito vot,chaito bot,ruido,despedida,0.2967,despedida,0.8698
+ya me tengo qee ir,ya me tengo que ir,ruido,despedida,0.937,despedida,0.9137
+ast mañana,hasta mañana,ruido,despedida,0.9404,office365,0.8414
+despues te vuelvvo a escrivir,despues te vuelvo a escribir,ruido,despedida,0.8635,despedida,0.8819
+adiooz,adios,ruido,despedida,0.7467,despedida,0.9273
+"bueno parze, sigo con mis cosas","bueno parce, sigo con mis cosas",ruido,despedida,0.9895,despedida,0.851
+"me despido, feis dia","me despido, feliz dia",ruido,despedida,0.8712,despedida,0.9627
+"listo, camvi y fuera","listo, cambio y fuera",ruido,despedida,0.8681,despedida,0.9611
+ahi habllamoz,ahi hablamos,ruido,despedida,0.8736,saludo,0.8937
+"lla no necesito naada mas, chao","ya no necesito nada mas, chao",ruido,despedida,0.8891,despedida,0.9571
+sierro el chhat,cierro el chat,ruido,despedida,0.3393,saludo,0.6569
+"suuerte, asta pronto","suerte, hasta pronto",ruido,despedida,0.7502,despedida,0.4394
+byeee,byee,ruido,despedida,1.0,despedida,0.9641
+"me boy  clase, despues sigo","me voy a clase, despues sigo",ruido,despedida,0.8177,despedida,0.9604
+eso fue todo po oy,eso fue todo por hoy,ruido,despedida,0.6469,despedida,0.878
+nz pillamos,nos pillamos,ruido,despedida,0.9623,despedida,0.3839
+cuite bot,cuidate bot,ruido,despedida,0.8772,fuera_de_dominio,0.2425
+"buenno lla termine, adios","bueno ya termine, adios",ruido,despedida,0.6958,despedida,0.9606
+ciaa,ciao,ruido,despedida,0.9114,despedida,0.9642
+"me salgo, ffelis noche","me salgo, feliz noche",ruido,despedida,0.6755,despedida,0.9572
+grciaz,gracias,ruido,agradecimiento,0.6728,agradecimiento,0.5361
+"ufff, grasias infinitas","uff, gracias infinitas",ruido,agradecimiento,0.8112,despedida,0.3119
+"ya me funsiono, graacias!!","ya me funciono, gracias!!",ruido,agradecimiento,0.8474,agradecimiento,0.9366
+muchaas graciaas por la ayuda,muchas gracias por la ayuda,ruido,agradecimiento,0.5293,agradecimiento,0.9292
+grx,grax,ruido,agradecimiento,0.9489,agradecimiento,0.6697
+"uy zi sirvio, tee lo agradezco","uy si sirvio, te lo agradezco",ruido,agradecimiento,0.9561,agradecimiento,0.9609
+"ke vien, ya pude entrar","que bien, ya pude entrar",ruido,agradecimiento,0.9738,agradecimiento,0.9516
+"lizto ya quedo, graciaz parce","listo ya quedo, gracias parce",ruido,agradecimiento,0.8871,agradecimiento,0.8823
+"me salvaste, maññana entreego tranquilo","me salvaste, mañana entrego tranquilo",ruido,agradecimiento,0.9594,agradecimiento,0.9439
+mu aamable de tu parte,muy amable de tu parte,ruido,agradecimiento,0.9051,agradecimiento,0.4132
+"super, prolema resuelto","super, problema resuelto",ruido,agradecimiento,0.9222,agradecimiento,0.8254
+eres u rack,eres un crack,ruido,agradecimiento,0.6754,sobre_bot,0.6338
+te agradesco muc,te agradezco much,ruido,agradecimiento,0.8555,agradecimiento,0.9589
+"ok, entndido, chebere","ok, entendido, chevere",ruido,agradecimiento,0.9247,agradecimiento,0.6014
+thanns,thanks,ruido,agradecimiento,0.2595,despedida,0.7672
+"vuenizimo, eso era","buenisimo, eso era",ruido,agradecimiento,0.8594,fuera_de_dominio,0.4314
+"de na, lla me salio","de una, ya me salio",ruido,agradecimiento,0.5631,agradecimiento,0.6572
+graciaaz por la paciencia,gracias por la paciencia,ruido,agradecimiento,0.9015,agradecimiento,0.8774
+"perfecto, yya me concte, gracias","perfecto, ya me conecte, gracias",ruido,agradecimiento,0.9924,agradecimiento,0.969
+"bale, mil grasias por explicar","vale, mil gracias por explicar",ruido,agradecimiento,0.4725,agradecimiento,0.7916
+"uyy que bien, graciaz de una","uy que bien, gracias de una",ruido,agradecimiento,0.8645,fuera_de_dominio,0.4779
+muy uti la nfo,muy util la info,ruido,agradecimiento,0.5859,agradecimiento,0.5868
+"vendiciones, me ayudazte un monton","bendiciones, me ayudaste un monton",ruido,agradecimiento,0.6469,fuera_de_dominio,0.6668
+listto funsiono a la primera,listo funciono a la primera,ruido,agradecimiento,0.7847,fuera_de_dominio,0.8058
+txx,tx,ruido,agradecimiento,0.9045,despedida,0.4738
+agradesid con el soporte,agradecida con el soporte,ruido,agradecimiento,0.9541,agradecimiento,0.9405
+qien erez,quien eres,ruido,sobre_bot,0.3885,sobre_bot,0.9227
+ke erez tu,que eres tu,ruido,sobre_bot,0.8004,despedida,0.4494
+eres uuna persona o un rovot?,eres una persona o un robot?,ruido,sobre_bot,0.7974,sobre_bot,0.8215
+ke puedes acer,que puedes hacer,ruido,sobre_bot,0.6711,saludo,0.6071
+en ke me puedes ayuudar,en que me puedes ayudar,ruido,sobre_bot,0.6224,sobre_bot,0.4454
+kien te creoo,quien te creo,ruido,sobre_bot,0.3956,agradecimiento,0.8065
+como funcionaz or dentro,como funcionas por dentro,ruido,sobre_bot,0.898,sobre_bot,0.9517
+erez inteligenciaa artificial?,eres inteligencia artificial?,ruido,sobre_bot,0.9358,sobre_bot,0.8191
+ke problemaz sabes resolver,que problemas sabes resolver,ruido,sobre_bot,0.8567,sobre_bot,0.807
+como t yamas,como te llamas,ruido,sobre_bot,0.4327,fuera_de_dominio,0.3936
+tu ees de la mesa de alluda o un programa?,tu eres de la mesa de ayuda o un programa?,ruido,sobre_bot,0.7991,sobre_bot,0.4106
+estoy havlando con una makina?,estoy hablando con una maquina?,ruido,sobre_bot,0.6569,wifi_sede,0.3591
+que temaz manejaz,que temas manejas,ruido,sobre_bot,0.8067,sobre_bot,0.9148
+para ke sirve ezte chat,para que sirve este chat,ruido,sobre_bot,0.5993,sobre_bot,0.8162
+eres chaatggpt?,eres chatgpt?,ruido,sobre_bot,0.6378,sobre_bot,0.7905
+ke moelo usas,que modelo usas,ruido,sobre_bot,0.4974,agradecimiento,0.867
+de donde saca laas respuestas,de donde sacas las respuestas,ruido,sobre_bot,0.9464,sobre_bot,0.5314
+eres de la u o de una empresaa,eres de la u o de una empresa,ruido,sobre_bot,0.9986,sobre_bot,0.5413
+cales son tus unciones,cuales son tus funciones,ruido,sobre_bot,0.6504,sobre_bot,0.6553
+me puedes alludar con cualkier cosa?,me puedes ayudar con cualquier cosa?,ruido,sobre_bot,0.6406,sobre_bot,0.688
+que tan confiable ez lo ke dices,que tan confiable es lo que dices,ruido,sobre_bot,0.8211,sobre_bot,0.9682
+ke servicios de la u cuvres,que servicios de la u cubres,ruido,sobre_bot,0.7298,hablar_con_soporte,0.8639
+eres nuebo? no te abia visto,eres nuevo? no te habia visto,ruido,sobre_bot,0.7645,saludo,0.6817
+quien te proamo,quien te programo,ruido,sobre_bot,0.8141,fuera_de_dominio,0.7125
+guardas lo ke te ezcribo?,guardas lo que te escribo?,ruido,sobre_bot,0.5195,sobre_bot,0.5149
+deepbot ke e,deepbot que es,ruido,sobre_bot,0.9774,sobre_bot,0.595
+como va a estar el clima mañana en facaa,como va a estar el clima mañana en faca,ruido,fuera_de_dominio,0.9967,fuera_de_dominio,0.964
+kien gano el partiido de millos,quien gano el partido de millos,ruido,fuera_de_dominio,0.8354,fuera_de_dominio,0.7751
+recomieendme una serie,recomiendame una serie,ruido,fuera_de_dominio,0.9544,fuera_de_dominio,0.5486
+cuentame un chizt,cuentame un chiste,ruido,fuera_de_dominio,0.7609,fuera_de_dominio,0.9031
+como haago unas arepaz,como hago unas arepas,ruido,fuera_de_dominio,0.5687,fuera_de_dominio,0.2513
+me ayuda con la taarea de calculo,me ayudas con la tarea de calculo,ruido,fuera_de_dominio,0.9036,fuera_de_dominio,0.9686
+cuanto ezta el dolr,cuanto esta el dolar,ruido,fuera_de_dominio,0.5124,fuera_de_dominio,0.8819
+commo hago una homologasion de materias,como hago una homologacion de materias,ruido,fuera_de_dominio,0.9659,fuera_de_dominio,0.8588
+quiero poner una keja porque el profe me puso mal la not,quiero poner una queja porque el profe me puso mal la nota,ruido,fuera_de_dominio,0.6704,fuera_de_dominio,0.9225
+cuado salimos a vacasiones,cuando salimos a vacaciones,ruido,fuera_de_dominio,0.9172,fuera_de_dominio,0.9386
+se me rompio a pantalla del celular donde lo aarreglo,se me rompio la pantalla del celular donde lo arreglo,ruido,fuera_de_dominio,0.9804,fuera_de_dominio,0.6925
+que clular me recomiendaz comprar,que celular me recomiendas comprar,ruido,fuera_de_dominio,0.9467,fuera_de_dominio,0.914
+explicame ke ez una red neuronal,explicame que es una red neuronal,ruido,fuera_de_dominio,0.9668,fuera_de_dominio,0.9619
+kien es el retor de la universidad,quien es el rector de la universidad,ruido,fuera_de_dominio,0.7848,moodle_acceso,0.2389
+donde queda una drrogueria serca de la sede,donde queda una drogueria cerca de la sede,ruido,fuera_de_dominio,0.3697,fuera_de_dominio,0.6583
+esribeme un pooema,escribeme un poema,ruido,fuera_de_dominio,0.4281,hablar_con_soporte,0.2387
+cuanto cuesta un domicilio a facatativaa,cuanto cuesta un domicilio a facatativa,ruido,fuera_de_dominio,0.999,fuera_de_dominio,0.9666
+ayudame a rsolver este ejercisio de java,ayudame a resolver este ejercicio de java,ruido,fuera_de_dominio,0.7946,fuera_de_dominio,0.9518
+como zolisito un supletorio,como solicito un supletorio,ruido,fuera_de_dominio,0.8531,fuera_de_dominio,0.9516
+kiero pedir revision de mi nota del parccial,quiero pedir revision de mi nota del parcial,ruido,fuera_de_dominio,0.8766,fuera_de_dominio,0.928
+quee hora ez,que hora es,ruido,fuera_de_dominio,0.5994,sobre_bot,0.9019
+pn musica de regggaeton,pon musica de reggaeton,ruido,fuera_de_dominio,0.9544,fuera_de_dominio,0.2717
+cual es la capital de australiaa,cual es la capital de australia,ruido,fuera_de_dominio,0.9991,fuera_de_dominio,0.9451
+como me inscribo a la zeleccion de fubol de la u,como me inscribo a la seleccion de futbol de la u,ruido,fuera_de_dominio,0.6628,fuera_de_dominio,0.8895
+la veca de vienestar como se pide,la beca de bienestar como se pide,ruido,fuera_de_dominio,0.6367,fuera_de_dominio,0.7866
+m recomiendaz un portatil barato para la carrera,me recomiendas un portatil barato para la carrera,ruido,fuera_de_dominio,0.9808,fuera_de_dominio,0.9375
+no me deeja eentrar a moodle y mañana entrego,no me deja entrar a moodle y mañana entrego,ruido,moodle_acceso,0.6733,moodle_acceso,0.9607
+moodle me dice contraseña incorrecta pero estoy segura ke es essa,moodle me dice contraseña incorrecta pero estoy segura que es esa,ruido,moodle_acceso,0.9941,moodle_acceso,0.9402
+el aula birtual no carga desde el selular,el aula virtual no carga desde el celular,ruido,moodle_acceso,0.6288,salas_computo,0.3615
+intento entrar a moodle en el portatil y se qued la pantaya en blanco,intento entrar a moodle en el portatil y se queda la pantalla en blanco,ruido,moodle_acceso,0.8692,moodle_acceso,0.9697
+en el pc de la sala no avre la pllataforma virtual,en el pc de la sala no abre la plataforma virtual,ruido,moodle_acceso,0.8726,salas_computo,0.3395
+moodle ezta caido?? no me abe nada,moodle esta caido?? no me abre nada,ruido,moodle_acceso,0.8813,moodle_acceso,0.9566
+ento y no me aparese ninguno de mis cursos,entro y no me aparece ninguno de mis cursos,ruido,moodle_acceso,0.9752,wifi_sede,0.3404
+me sale error al inisiar sesion en mmoodle,me sale error al iniciar sesion en moodle,ruido,moodle_acceso,0.658,moodle_acceso,0.793
+cual ez el link para entrar al aula birtual,cual es el link para entrar al aula virtual,ruido,moodle_acceso,0.6359,moodle_acceso,0.9479
+"me saca de moodle a cada rato, se sierra la sesion ssola","me saca de moodle a cada rato, se cierra la sesion sola",ruido,moodle_acceso,0.9104,moodle_acceso,0.9701
+"no beo la materia nueba en mi moodle, ya estoy matriculado","no veo la materia nueva en mi moodle, ya estoy matriculado",ruido,moodle_acceso,0.7491,moodle_acceso,0.9673
+la app de moodle en el cel dice ke el sitio no es balido,la app de moodle en el cel dice que el sitio no es valido,ruido,moodle_acceso,0.7902,moodle_entregas,0.3927
+"moodle super lento, se demora aañoz en cargar","moodle super lento, se demora años en cargar",ruido,moodle_acceso,0.8599,moodle_acceso,0.9691
+parce no puedo iingresar a la plataforma de cusos,parce no puedo ingresar a la plataforma de cursos,ruido,moodle_acceso,0.5511,moodle_acceso,0.8441
+me aparece acceso denegado cuando entro al cursoo,me aparece acceso denegado cuando entro al curso,ruido,moodle_acceso,0.9814,moodle_acceso,0.9614
+desde laa casa no me abre moodle pero enn la u si,desde la casa no me abre moodle pero en la u si,ruido,moodle_acceso,0.9655,moodle_acceso,0.9659
+pongo uzzuario y clave y vuelve a la pagina de login,pongo usuario y clave y vuelve a la pagina de login,ruido,moodle_acceso,0.9246,moodle_acceso,0.5848
+"ayuda urgente, el aula virtual noo me deja loguear y el parsial es en una hora","ayuda urgente, el aula virtual no me deja loguear y el parcial es en una hora",ruido,moodle_acceso,0.9549,moodle_acceso,0.9568
+"con que uzario entro a moodle, con el correo o con el codigo?","con que usuario entro a moodle, con el correo o con el codigo?",ruido,moodle_acceso,0.8273,moodle_acceso,0.9637
+en el portatil me zale error 503 n moodle,en el portatil me sale error 503 en moodle,ruido,moodle_acceso,0.903,moodle_acceso,0.9643
+moodle no carga e chrome ppero en edge si,moodle no carga en chrome pero en edge si,ruido,moodle_acceso,0.7933,moodle_acceso,0.959
+soy de primer semeztre y no se como entrar  moodle,soy de primer semestre y no se como entrar a moodle,ruido,moodle_acceso,0.8263,moodle_acceso,0.9683
+mi cuenta de moodle dice ke esta suzpendida,mi cuenta de moodle dice que esta suspendida,ruido,moodle_acceso,0.8638,moodle_acceso,0.9612
+la plataforma virtual me dice sesion expirada todo el tiempoo,la plataforma virtual me dice sesion expirada todo el tiempo,ruido,moodle_acceso,0.9964,moodle_acceso,0.9569
+en el celular moodle ze be toda rara y no puedo abrir el curso,en el celular moodle se ve toda rara y no puedo abrir el curso,ruido,moodle_acceso,0.9693,moodle_acceso,0.9666
+"hace dos dias no puedo acceder a mooodle, ya intent de todo","hace dos dias no puedo acceder a moodle, ya intente de todo",ruido,moodle_acceso,0.998,moodle_acceso,0.9591
+"no puedo suvir el taller a mooodle, me sale error","no puedo subir el taller a moodle, me sale error",ruido,moodle_entregas,0.9333,moodle_entregas,0.6224
+el archibo pesa mucho y moodle no me lo resibe,el archivo pesa mucho y moodle no me lo recibe,ruido,moodle_entregas,0.6636,moodle_acceso,0.9344
+subi la tarea pero sigu disiendo que no he entregado,subi la tarea pero sigue diciendo que no he entregado,ruido,moodle_entregas,0.9798,moodle_entregas,0.9635
+no me aparese el boton de enviar tareea,no me aparece el boton de enviar tarea,ruido,moodle_entregas,0.5693,moodle_entregas,0.7926
+desde el celula no se como adjuntar el pdf en la actibidad,desde el celular no se como adjuntar el pdf en la actividad,ruido,moodle_entregas,0.7128,moodle_entregas,0.3703
+"se me bensio el plazo por 2 minutos, moodle ya no deja subir","se me vencio el plazo por 2 minutos, moodle ya no deja subir",ruido,moodle_entregas,0.9881,moodle_acceso,0.9576
+el cueztionario se me cerro sol a la mitad,el cuestionario se me cerro solo a la mitad,ruido,moodle_entregas,0.4955,moodle_entregas,0.4587
+"subi l archivo equivocado, como l cambio","subi el archivo equivocado, como lo cambio",ruido,moodle_entregas,0.9935,moodle_entregas,0.9477
+"moole dice tipo de archibo no permitido, es un .ipynb","moodle dice tipo de archivo no permitido, es un .ipynb",ruido,moodle_entregas,0.6059,moodle_entregas,0.5691
+en el portatil arrastro el archibo y no carga la varra,en el portatil arrastro el archivo y no carga la barra,ruido,moodle_entregas,0.6643,moodle_entregas,0.832
+"ze fue el internet en medio del quiz, ke hago","se fue el internet en medio del quiz, que hago",ruido,moodle_entregas,0.6289,wifi_sede,0.5026
+"la entrea queda en borrador, como la mando de berdad","la entrega queda en borrador, como la mando de verdad",ruido,moodle_entregas,0.662,moodle_entregas,0.4736
+entreguee a tiempo pero dice entregado con retaso,entregue a tiempo pero dice entregado con retraso,ruido,moodle_entregas,0.9061,moodle_entregas,0.9341
+cual ez el tamaño maximo para suvir archivos en moodle,cual es el tamaño maximo para subir archivos en moodle,ruido,moodle_entregas,0.9453,moodle_entregas,0.8842
+el foro no me deja publicar mi rezpuezta,el foro no me deja publicar mi respuesta,ruido,moodle_entregas,0.8931,moodle_entregas,0.7288
+en el pc de la sala suvo el zip y zale error de servidor,en el pc de la sala subo el zip y sale error de servidor,ruido,moodle_entregas,0.9238,moodle_entregas,0.7749
+donde veo la retroalimentazion del profe en la tarea,donde veo la retroalimentacion del profe en la tarea,ruido,moodle_entregas,0.989,plataforma_academica,0.4674
+la actividad aparese serrada y aun no es la fecha,la actividad aparece cerrada y aun no es la fecha,ruido,moodle_entregas,0.8601,moodle_entregas,0.8628
+suvo el travajo y se queda cargando infinito,subo el trabajo y se queda cargando infinito,ruido,moodle_entregas,0.8624,moodle_entregas,0.7352
+no encuentro donde se sube el travajo finall del curso,no encuentro donde se sube el trabajo final del curso,ruido,moodle_entregas,0.9109,moodle_entregas,0.8838
+como se si mi tarea zi quedo enbiada,como se si mi tarea si quedo enviada,ruido,moodle_entregas,0.7886,moodle_entregas,0.8737
+"ayuda, el boton de agregar archivo en la tarea no responde y es parrra mañana","ayuda, el boton de agregar archivo en la tarea no responde y es para mañana",ruido,moodle_entregas,0.9908,moodle_entregas,0.9636
+el kis no me deja pasar a la siguiente pregunta,el quiz no me deja pasar a la siguiente pregunta,ruido,moodle_entregas,0.8432,restablecer_contrasena,0.5607
+me salio no ze pudo cargar el archibo en la tarea,me salio no se pudo cargar el archivo en la tarea,ruido,moodle_entregas,0.5616,moodle_entregas,0.7296
+en el zelular la entrega se queda en 0% subiendo,en el celular la entrega se queda en 0% subiendo,ruido,moodle_entregas,0.8794,moodle_entregas,0.5437
+puedo entregar un lin de driive en vez del archivo?,puedo entregar un link de drive en vez del archivo?,ruido,moodle_entregas,0.6313,moodle_entregas,0.9437
+no me llegan loz correos al institusional,no me llegan los correos al institucional,ruido,correo_institucional,0.9797,correo_institucional,0.909
+como configuro el correo de la u en el celulllar,como configuro el correo de la u en el celular,ruido,correo_institucional,0.7945,correo_institucional,0.9622
+me dise ke el buzon esta lleno,me dice que el buzon esta lleno,ruido,correo_institucional,0.957,correo_institucional,0.9495
+cua es mi correo institusional,cual es mi correo institucional,ruido,correo_institucional,0.9631,correo_institucional,0.9516
+nunca e activado mi correo de l universidad,nunca he activado mi correo de la universidad,ruido,correo_institucional,0.8397,correo_institucional,0.9532
+los correos ke envio rebtan,los correos que envio rebotan,ruido,correo_institucional,0.9316,correo_institucional,0.9591
+outlook en el portatil no zincroniza el correo e la u,outlook en el portatil no sincroniza el correo de la u,ruido,correo_institucional,0.9604,correo_institucional,0.9601
+como reenvio el orreo instiucional a mi gmail,como reenvio el correo institucional a mi gmail,ruido,correo_institucional,0.4721,correo_institucional,0.9196
+el profe dice que me mando un corrrreo y no me aparece,el profe dice que me mando un correo y no me aparece,ruido,correo_institucional,1.0,correo_institucional,0.9619
+en el celular la app de outlook me sale error al agregar la cunta institusional,en el celular la app de outlook me sale error al agregar la cuenta institucional,ruido,correo_institucional,0.9518,correo_institucional,0.3428
+los correos de loss profes me caen en correo no deseaddo,los correos de los profes me caen en correo no deseado,ruido,correo_institucional,0.8762,correo_institucional,0.9624
+como camvio la firma del correo institcional,como cambio la firma del correo institucional,ruido,correo_institucional,0.9017,correo_institucional,0.9495
+no puedo adjuntar arhivos grandess en el correo de la u,no puedo adjuntar archivos grandes en el correo de la u,ruido,correo_institucional,0.9149,correo_institucional,0.9613
+"el correo inztitusional no carga, se queda la pantalla blanca","el correo institucional no carga, se queda la pantalla blanca",ruido,correo_institucional,0.9133,correo_institucional,0.8661
+"se me vorraron correoz importantes, se pueden recuperar?","se me borraron correos importantes, se pueden recuperar?",ruido,correo_institucional,0.9202,correo_institucional,0.9368
+dezde el pc dde la sala no abre el correo de la u,desde el pc de la sala no abre el correo de la u,ruido,correo_institucional,0.8345,correo_institucional,0.6737
+a quien le escrivo zi mi correo tiene mal escrito el nombre,a quien le escribo si mi correo tiene mal escrito el nombre,ruido,correo_institucional,0.9489,correo_institucional,0.9577
+como mando un crrreo a todos los de mi curso,como mando un correo a todos los de mi curso,ruido,correo_institucional,0.7104,plataforma_academica,0.3333
+el correo diice ke no tengo permiso para enviar,el correo dice que no tengo permiso para enviar,ruido,correo_institucional,0.8959,correo_institucional,0.963
+quiero tener el correo de la u en el mismo ceular ke el personal,quiero tener el correo de la u en el mismo celular que el personal,ruido,correo_institucional,0.792,correo_institucional,0.957
+"me yegan correos de phishing al institucional, ue hago","me llegan correos de phishing al institucional, que hago",ruido,correo_institucional,0.9742,correo_institucional,0.9595
+me salio eror 550 al enbiar un correo,me salio error 550 al enviar un correo,ruido,correo_institucional,0.8696,correo_institucional,0.9364
+cuando me gradue pierdo el orreo de la universidaad?,cuando me gradue pierdo el correo de la universidad?,ruido,correo_institucional,0.7575,wifi_sede,0.5511
+cual es el fformato del crreo de estudiante,cual es el formato del correo de estudiante,ruido,correo_institucional,0.6386,wifi_sede,0.4383
+la bandeja de entrada no actualliza desde aller,la bandeja de entrada no actualiza desde ayer,ruido,correo_institucional,0.8517,correo_institucional,0.6374
+en el correo de la u me dise contraseña incorrecta y no la he camviado,en el correo de la u me dice contraseña incorrecta y no la he cambiado,ruido,correo_institucional,0.9853,correo_institucional,0.9591
+olvvide la contraseña del correo institusional,olvide la contraseña del correo institucional,ruido,restablecer_contrasena,0.9858,correo_institucional,0.847
+como cambio mi contrazeeña de la u,como cambio mi contraseña de la u,ruido,restablecer_contrasena,0.3734,restablecer_contrasena,0.5449
+mi cuenta esta bloqueada por intentar muchas bces,mi cuenta esta bloqueada por intentar muchas veces,ruido,restablecer_contrasena,0.9458,plataforma_academica,0.2476
+me dice ke la contraseña expiro y no e deja poner una nueva,me dice que la contraseña expiro y no me deja poner una nueva,ruido,restablecer_contrasena,0.9578,restablecer_contrasena,0.9621
+no mee acuerdo la clave de la pllataforma,no me acuerdo la clave de la plataforma,ruido,restablecer_contrasena,0.7148,restablecer_contrasena,0.9527
+kiero restavlecer la contraseña desde el celular,quiero restablecer la contraseña desde el celular,ruido,restablecer_contrasena,0.9746,restablecer_contrasena,0.7406
+perdi el celular y no me yega el codigo d verificacion,perdi el celular y no me llega el codigo de verificacion,ruido,restablecer_contrasena,0.9863,restablecer_contrasena,0.9547
+como activo la verificasion en dos pass,como activo la verificacion en dos pasos,ruido,restablecer_contrasena,0.8304,restablecer_contrasena,0.959
+cambie la contrazeña y ahoa en el portatil no me deja entrar a nada,cambie la contraseña y ahora en el portatil no me deja entrar a nada,ruido,restablecer_contrasena,0.6968,restablecer_contrasena,0.9548
+"la nueba contraseña no cumple los requisitoz, que pide?","la nueva contraseña no cumple los requisitos, que pide?",ruido,restablecer_contrasena,0.8898,restablecer_contrasena,0.5973
+le di olvide mi contraseña y no me llega ninun coreo,le di olvide mi contraseña y no me llega ningun correo,ruido,restablecer_contrasena,0.8965,restablecer_contrasena,0.9278
+"me hackearon la cuenta inztitucional, kiero cambiar la clave","me hackearon la cuenta institucional, quiero cambiar la clave",ruido,restablecer_contrasena,0.9378,restablecer_contrasena,0.8955
+en el pc de la sala me pide cambiar laa contraseña al inisiar,en el pc de la sala me pide cambiar la contraseña al iniciar,ruido,restablecer_contrasena,0.9767,restablecer_contrasena,0.917
+ze me olvido la clave y mañana eentrego en moodle,se me olvido la clave y mañana entrego en moodle,ruido,restablecer_contrasena,0.9789,moodle_acceso,0.9519
+cada cuanto toca cambiar la contraseñaa,cada cuanto toca cambiar la contraseña,ruido,restablecer_contrasena,0.9983,restablecer_contrasena,0.9647
+laa autenticasion de microsoft me pide un numero y no se cual,la autenticacion de microsoft me pide un numero y no se cual,ruido,restablecer_contrasena,0.9915,office365,0.4707
+como recupero el acceso zii no tengo el correo alterno,como recupero el acceso si no tengo el correo alterno,ruido,restablecer_contrasena,0.9429,restablecer_contrasena,0.9545
+me sale tu cuenta se ha vloqueado en eel celular,me sale tu cuenta se ha bloqueado en el celular,ruido,restablecer_contrasena,0.7766,wifi_sede,0.6102
+puse mal la clave varias veces y lla o puedo,puse mal la clave varias veces y ya no puedo,ruido,restablecer_contrasena,0.9304,restablecer_contrasena,0.9575
+me sale error al camviar la contrazeña en el portatil,me sale error al cambiar la contraseña en el portatil,ruido,restablecer_contrasena,0.5981,restablecer_contrasena,0.7898
+cambie de numero y la verificasion le llega al aterior,cambie de numero y la verificacion le llega al anterior,ruido,restablecer_contrasena,0.9529,restablecer_contrasena,0.9233
+donde sse cambia la clave del usuario institusional,donde se cambia la clave del usuario institucional,ruido,restablecer_contrasena,0.9848,restablecer_contrasena,0.9107
+me dieeron una contrazeña temporal y no funciona,me dieron una contraseña temporal y no funciona,ruido,restablecer_contrasena,0.6495,restablecer_contrasena,0.822
+restavleecer clave,restablecer clave,ruido,restablecer_contrasena,0.9411,agradecimiento,0.8131
+"no se cual es mi contrazeña inicia, soy nuevo","no se cual es mi contraseña inicial, soy nuevo",ruido,restablecer_contrasena,0.5488,moodle_acceso,0.3987
+la app authenticatorr se borro del celular y no puedo enntrar,la app authenticator se borro del celular y no puedo entrar,ruido,restablecer_contrasena,0.9736,instalar_python,0.8457
+cual es laa clave del wif de la u,cual es la clave del wifi de la u,ruido,wifi_sede,0.6307,hablar_con_soporte,0.463
+el wifi de la sedde o me conecta desde el celular,el wifi de la sede no me conecta desde el celular,ruido,wifi_sede,0.8497,wifi_sede,0.9702
+me conecto al wifi pero dise zin internet,me conecto al wifi pero dice sin internet,ruido,wifi_sede,0.9036,wifi_sede,0.9717
+en la bblioteca casi no hay zeñal de wifi,en la biblioteca casi no hay señal de wifi,ruido,wifi_sede,0.8361,wifi_sede,0.9643
+como me conecto a la redd dee la universidad en el portatil,como me conecto a la red de la universidad en el portatil,ruido,wifi_sede,0.8488,wifi_sede,0.822
+el poratil no be la red wifi de la u,el portatil no ve la red wifi de la u,ruido,wifi_sede,0.9292,wifi_sede,0.9665
+me sale error de autnticacion al conectarme al wiifi,me sale error de autenticacion al conectarme al wifi,ruido,wifi_sede,0.777,wifi_sede,0.9619
+el wiifi de la sede sta caido?,el wifi de la sede esta caido?,ruido,wifi_sede,0.6646,wifi_sede,0.9483
+n abre la pagina de loggin del wifi,no abre la pagina de login del wifi,ruido,wifi_sede,0.7722,wifi_sede,0.965
+el internet de a u esta lentsimo,el internet de la u esta lentisimo,ruido,wifi_sede,0.9427,wifi_sede,0.9485
+con ke uzuario entro al wifi de faca,con que usuario entro al wifi de faca,ruido,wifi_sede,0.8725,wifi_sede,0.8995
+el wiffi me desconecta cada 5 mintos,el wifi me desconecta cada 5 minutos,ruido,wifi_sede,0.6894,wifi_sede,0.7766
+en eel selular dice contraseña incorrecta en la red de la u,en el celular dice contraseña incorrecta en la red de la u,ruido,wifi_sede,0.9165,wifi_sede,0.9447
+"zoy visitante, pueddo usar el wifi?","soy visitante, puedo usar el wifi?",ruido,wifi_sede,0.8629,wifi_sede,0.9604
+en el celular si nabego pero el portatil no agarrra la red,en el celular si navego pero el portatil no agarra la red,ruido,wifi_sede,0.9693,moodle_acceso,0.3099
+el wifi bloquea lloutuve? no carga nada,el wifi bloquea youtube? no carga nada,ruido,wifi_sede,0.5776,wifi_sede,0.9522
+coomo olvido laa red y me vuelvo a conectar,como olvido la red y me vuelvo a conectar,ruido,wifi_sede,0.9572,wifi_sede,0.9274
+mi mac no se conecta al wifi e la zede,mi mac no se conecta al wifi de la sede,ruido,wifi_sede,0.9792,wifi_sede,0.9652
+la red pide un certificaado y no se ke poner,la red pide un certificado y no se que poner,ruido,wifi_sede,0.9185,wifi_sede,0.9557
+pace no ay internet en la cafeteria de la u,parce no hay internet en la cafeteria de la u,ruido,wifi_sede,0.7821,wifi_sede,0.7453
+cuantos dispositivoz puedo conectar al wfi institucional,cuantos dispositivos puedo conectar al wifi institucional,ruido,wifi_sede,0.8246,wifi_sede,0.9498
+me onecte pero las paginaz no cargan,me conecte pero las paginas no cargan,ruido,wifi_sede,0.801,office365,0.9358
+e la tabblet no me deja entrar al wifi de la u,en la tablet no me deja entrar al wifi de la u,ruido,wifi_sede,0.8097,wifi_sede,0.967
+aparese no se puede conectar a eesta red en windows,aparece no se puede conectar a esta red en windows,ruido,wifi_sede,0.8591,wifi_sede,0.9615
+neesito internet para el parcial y el wifi no ssirve,necesito internet para el parcial y el wifi no sirve,ruido,wifi_sede,0.9241,wifi_sede,0.9714
+el wifi de la sede tiene red para estudiantes aparte??,el wifi de la sede tiene red para estudiantes aparte?,ruido,wifi_sede,0.9534,wifi_sede,0.9727
+no puedo entrar a la clase  teams,no puedo entrar a la clase por teams,ruido,teams,0.9896,teams,0.9617
+como me no a un ekipo con codigo,como me uno a un equipo con codigo,ruido,teams,0.8423,teams,0.7793
+teams no m reconoce el microfoono,teams no me reconoce el microfono,ruido,teams,0.9966,teams,0.9609
+la camara no prende en teamz dezde el portatil,la camara no prende en teams desde el portatil,ruido,teams,0.7819,teams,0.8532
+donde kedan las grabasiones de las clases en teams,donde quedan las grabaciones de las clases en teams,ruido,teams,0.981,teams,0.9615
+"teams no abre en el pc, se queda enn la pantala morada","teams no abre en el pc, se queda en la pantalla morada",ruido,teams,0.9166,teams,0.9611
+en el celuar teams me zaca de la reunion,en el celular teams me saca de la reunion,ruido,teams,0.8572,teams,0.9616
+me sale error al inisiar sezion en teams con la cuenta de la u,me sale error al iniciar sesion en teams con la cuenta de la u,ruido,teams,0.9427,teams,0.9577
+el link e la reunion me manda a descargar teams y no lo teno,el link de la reunion me manda a descargar teams y no lo tengo,ruido,teams,0.9731,teams,0.9612
+no me aparece el equipo de la materia ennn teams,no me aparece el equipo de la materia en teams,ruido,teams,0.9866,teams,0.9613
+como comparto pantala en teamz para exponer,como comparto pantalla en teams para exponer,ruido,teams,0.71,teams,0.9449
+en teammz no escucho al profe,en teams no escucho al profe,ruido,teams,0.799,teams,0.9591
+puedo usar teams deesde el naavegador?,puedo usar teams desde el navegador?,ruido,teams,0.3868,teams,0.9308
+teams dice ke no tengo permizo para unirme,teams dice que no tengo permiso para unirme,ruido,teams,0.7956,teams,0.9589
+la clase virtual e congela en teamz,la clase virtual se congela en teams,ruido,teams,0.9305,teams,0.9552
+commo cambio el fondo en teamz,como cambio el fondo en teams,ruido,teams,0.6176,teams,0.9532
+el chat de teamz no envia mensajez,el chat de teams no envia mensajes,ruido,teams,0.8588,teams,0.9457
+teams me tiene en la sala de espea ace rato,teams me tiene en la sala de espera hace rato,ruido,teams,0.8804,teams,0.96
+la app de teams del seluular dice error de red,la app de teams del celular dice error de red,ruido,teams,0.7478,teams,0.9624
+noo encuentro la tarea ke dejaron en teams,no encuentro la tarea que dejaron en teams,ruido,teams,0.7945,teams,0.9609
+se me sierra teams olo en el pc de la sala,se me cierra teams solo en el pc de la sala,ruido,teams,0.8501,teams,0.9603
+teams pide una cuenta perrsonal y yo tengo la institusional,teams pide una cuenta personal y yo tengo la institucional,ruido,teams,0.9512,teams,0.9603
+comoo escargo teams en windows,como descargo teams en windows,ruido,teams,0.932,teams,0.9583
+mañana expongo por teams y no me zirbe el audio,mañana expongo por teams y no me sirve el audio,ruido,teams,0.9699,teams,0.9623
+entro a la reunion y la pantaya queeda negra,entro a la reunion y la pantalla queda negra,ruido,teams,0.6755,fuera_de_dominio,0.3464
+el codigo del equipo me dce ke no es valido,el codigo del equipo me dice que no es valido,ruido,teams,0.8381,teams,0.953
+como inztalo offise con la cuenta de la u,como instalo office con la cuenta de la u,ruido,office365,0.4099,office365,0.709
+word me dicee producto sin licensia,word me dice producto sin licencia,ruido,office365,0.8268,office365,0.9131
+excel ze vloquea en el portatil,excel se bloquea en el portatil,ruido,office365,0.561,office365,0.9262
+tengo derecho a offise gratis por ser eztudiante?,tengo derecho a office gratis por ser estudiante?,ruido,office365,0.6754,wifi_sede,0.5669
+onedrve no sincrroniza mis archivos,onedrive no sincroniza mis archivos,ruido,office365,0.5841,office365,0.9347
+cuanto espasio tengo en onedribe institucional,cuanto espacio tengo en onedrive institucional,ruido,office365,0.7267,office365,0.9573
+como comparto un archvo d onedrive con un compañero,como comparto un archivo de onedrive con un compañero,ruido,office365,0.9133,office365,0.8517
+me sale error al activar offize en el pc,me sale error al activar office en el pc,ruido,office365,0.5282,instalar_python,0.7099
+powerpoint dce ke la cuenta no tiene licencia,powerpoint dice que la cuenta no tiene licencia,ruido,office365,0.9046,instalar_python,0.7907
+se puede instalar offise een el celular con la cuenta de la u,se puede instalar office en el celular con la cuenta de la u,ruido,office365,0.8314,office365,0.8781
+cuantas veces puedo instalar officee en diztintos equipos,cuantas veces puedo instalar office en distintos equipos,ruido,office365,0.9526,office365,0.9402
+en el mac no me dej inisiar sesion en word,en el mac no me deja iniciar sesion en word,ruido,office365,0.948,office365,0.8698
+"se me perdio un archibo de onedribe, como lo recupero","se me perdio un archivo de onedrive, como lo recupero",ruido,office365,0.464,office365,0.6441
+la instalaccion de offce se queda en 0%,la instalacion de office se queda en 0%,ruido,office365,0.7599,office365,0.8623
+pudo usar word en linea zin instalar nada?,puedo usar word en linea sin instalar nada?,ruido,office365,0.8374,office365,0.9406
+offise me pide pagar la zuscripcion,office me pide pagar la suscripcion,ruido,office365,0.7354,office365,0.8136
+onedribe dice almasenamiento lleno,onedrive dice almacenamiento lleno,ruido,office365,0.4314,office365,0.9447
+el excel en linea no cargaa,el excel en linea no carga,ruido,office365,0.9957,office365,0.9574
+como cierro la cuenta personal de oooffice y pongo la de la u,como cierro la cuenta personal de office y pongo la de la u,ruido,office365,0.9204,wifi_sede,0.3909
+"word ze cerro y peerdi el documento, se recupera?","word se cerro y perdi el documento, se recupera?",ruido,office365,0.8623,moodle_entregas,0.4056
+me zale fuuncionalidad reducida en office,me sale funcionalidad reducida en office,ruido,office365,0.6963,office365,0.8109
+donde descargo officee 365 de la unibersidad,donde descargo office 365 de la universidad,ruido,office365,0.7271,office365,0.9272
+office me dice que se alcanzo el limite de instalasionez,office me dice que se alcanzo el limite de instalaciones,ruido,office365,0.9722,office365,0.9564
+"no pued editar el documento cmpartido, solo lectura","no puedo editar el documento compartido, solo lectura",ruido,office365,0.8145,moodle_entregas,0.6381
+forms no me deja responder la encueesta de profe,forms no me deja responder la encuesta del profe,ruido,office365,0.9254,hablar_con_soporte,0.2253
+"mi portatil nuevoo trae office de prueva, como lo cambio por el de la u","mi portatil nuevo trae office de prueba, como lo cambio por el de la u",ruido,office365,0.9178,office365,0.9552
+como instal python en windowz,como instalo python en windows,ruido,instalar_python,0.8773,instalar_python,0.9655
+me zale python no se reconose como comando interno,me sale python no se reconoce como comando interno,ruido,instalar_python,0.9474,instalar_python,0.9665
+"ze me olvido marcar add to path, ke hago","se me olvido marcar add to path, que hago",ruido,instalar_python,0.7098,instalar_python,0.966
+pi no funciona en la termnal,pip no funciona en la terminal,ruido,instalar_python,0.3278,instalar_python,0.5195
+como instalo jupyter en mi computadorr,como instalo jupyter en mi computador,ruido,instalar_python,0.9986,instalar_python,0.9653
+que berzion de python descargo,que version de python descargo,ruido,instalar_python,0.8585,instalar_python,0.965
+en el portatil instale python pero vs code no lo encuentraa,en el portatil instale python pero vs code no lo encuentra,ruido,instalar_python,0.9945,instalar_python,0.9655
+como creo un entorno birtal,como creo un entorno virtual,ruido,instalar_python,0.4713,instalar_python,0.959
+pip install me zale error d permisos,pip install me sale error de permisos,ruido,instalar_python,0.9586,instalar_python,0.9653
+tengo dos versiones d python instaladas y se crusan,tengo dos versiones de python instaladas y se cruzan,ruido,instalar_python,0.9679,instalar_python,0.9678
+al escriibir python se abre la microzoft store,al escribir python se abre la microsoft store,ruido,instalar_python,0.6497,instalar_python,0.9623
+com installo python en mac,como instalo python en mac,ruido,instalar_python,0.9711,instalar_python,0.9628
+como inztalo numpy con pipp,como instalo numpy con pip,ruido,instalar_python,0.7825,instalar_python,0.9657
+no me deja activarr l venv en powershell,no me deja activar el venv en powershell,ruido,instalar_python,0.9267,instalar_python,0.9667
+el insttalador de python se cierra zolo,el instalador de python se cierra solo,ruido,instalar_python,0.8736,instalar_python,0.9639
+jupyter notebook no avre en el nnavegador,jupyter notebook no abre en el navegador,ruido,instalar_python,0.7839,instalar_python,0.9642
+como desinzttalo python completo,como desinstalo python completo,ruido,instalar_python,0.8399,instalar_python,0.9668
+necesito python para el tayer y no se inztalarlo,necesito python para el taller y no se instalarlo,ruido,instalar_python,0.7878,instalar_python,0.9663
+sale modulenotfounderror aunke ya instale la livreria,sale ModuleNotFoundError aunque ya instale la libreria,ruido,instalar_python,0.8083,instalar_python,0.9529
+como se ssi python quedo vien instalado,como se si python quedo bien instalado,ruido,instalar_python,0.9109,instalar_python,0.9662
+python en linux como lo insto,python en linux como lo instalo,ruido,instalar_python,0.8909,instalar_python,0.9662
+puedo inztalar python en una tavlet o en el celular?,puedo instalar python en una tablet o en el celular?,ruido,instalar_python,0.8289,instalar_python,0.9646
+vs code no muestra el interrete d python,vs code no muestra el interprete de python,ruido,instalar_python,0.8109,instalar_python,0.9639
+el pip esta desactualizado y zale un abiso amarillo,el pip esta desactualizado y sale un aviso amarillo,ruido,instalar_python,0.9261,instalar_python,0.9597
+inztale anaconda  ahora no se cual python usa,instale anaconda y ahora no se cual python usa,ruido,instalar_python,0.8961,instalar_python,0.9628
+al instalar un pakete me sale error de micrsoft visual c++,al instalar un paquete me sale error de microsoft visual c++,ruido,instalar_python,0.8078,instalar_python,0.9608
+como activo lla gpu en colav,como activo la gpu en colab,ruido,colab_gpu,0.3765,colab_gpu,0.9564
+colab ise que no hay gpu disponible,colab dice que no hay gpu disponible,ruido,colab_gpu,0.9575,colab_gpu,0.965
+ze me desconecto colab y perdi too,se me desconecto colab y perdi todo,ruido,colab_gpu,0.7712,colab_gpu,0.9642
+como montto google dribe en colab,como monto google drive en colab,ruido,colab_gpu,0.6353,colab_gpu,0.9637
+zale cuda out of memory en colav,sale cuda out of memory en colab,ruido,colab_gpu,0.6841,colab_gpu,0.9593
+alcanse el limite de uso de gpu en colav,alcance el limite de uso de gpu en colab,ruido,colab_gpu,0.563,colab_gpu,0.9653
+como instalo una lliberia en colab,como instalo una libreria en colab,ruido,colab_gpu,0.6041,colab_gpu,0.963
+colab no carga en el zelular,colab no carga en el celular,ruido,colab_gpu,0.855,colab_gpu,0.9659
+el entorno de colab ze reinici solo,el entorno de colab se reinicia solo,ruido,colab_gpu,0.8909,colab_gpu,0.9651
+colab me sale error al immortar torch,colab me sale error al importar torch,ruido,colab_gpu,0.8999,colab_gpu,0.9663
+cuanto dura una sesion de colavv gratis,cuanto dura una sesion de colab gratis,ruido,colab_gpu,0.8406,colab_gpu,0.9593
+como zubo un archivo del poortatil a colab,como subo un archivo del portatil a colab,ruido,colab_gpu,0.6502,colab_gpu,0.9674
+colab no abr con l cuenta de la u,colab no abre con la cuenta de la u,ruido,colab_gpu,0.9246,colab_gpu,0.9659
+la gpu t4 que ta buena es para entenar,la gpu t4 que tan buena es para entrenar,ruido,colab_gpu,0.7819,colab_gpu,0.2875
+en el portatil colav ze queda en conectando,en el portatil colab se queda en conectando,ruido,colab_gpu,0.8302,colab_gpu,0.9624
+como guardo el notebook de colabb enn drive,como guardo el notebook de colab en drive,ruido,colab_gpu,0.9107,colab_gpu,0.9656
+colab me pide berificar que no zoy un robot cada rato,colab me pide verificar que no soy un robot cada rato,ruido,colab_gpu,0.8888,colab_gpu,0.9682
+"el entrenamieto en colav es muy lento, usa cpu","el entrenamiento en colab es muy lento, usa cpu",ruido,colab_gpu,0.7397,colab_gpu,0.9479
+descarrgue el .ipyb y no lo puedo abrir en colab,descargue el .ipynb y no lo puedo abrir en colab,ruido,colab_gpu,0.9223,colab_gpu,0.9676
+colab dise que el entorno se blokeo por usar toda la ram,colab dice que el entorno se bloqueo por usar toda la ram,ruido,colab_gpu,0.9917,colab_gpu,0.9676
+comoo se si colab esa usando la gpu,como se si colab esta usando la gpu,ruido,colab_gpu,0.943,colab_gpu,0.9665
+en el pc de la zala colab no deja montar dribe,en el pc de la sala colab no deja montar drive,ruido,colab_gpu,0.7057,colab_gpu,0.9665
+colab pro valee la pea?,colab pro vale la pena?,ruido,colab_gpu,0.5132,colab_gpu,0.9641
+mañana enntrego el modelo y colav no me da gpu,mañana entrego el modelo y colab no me da gpu,ruido,colab_gpu,0.697,colab_gpu,0.9624
+loz archivos que subi a colab desaparesieron,los archivos que subi a colab desaparecieron,ruido,colab_gpu,0.991,colab_gpu,0.9645
+como conecto colav a un repositorio de githhub,como conecto colab a un repositorio de github,ruido,colab_gpu,0.8675,colab_gpu,0.887
+no puedo entraar a la lataforma academica,no puedo entrar a la plataforma academica,ruido,plataforma_academica,0.9317,plataforma_academica,0.9242
+donde beo mis notaz definitivas,donde veo mis notas definitivas,ruido,plataforma_academica,0.8244,plataforma_academica,0.8637
+como inscribo materias para el otro semestree,como inscribo materias para el otro semestre,ruido,plataforma_academica,0.9949,plataforma_academica,0.9168
+la plataforma academica no caga cuando boy a matricular,la plataforma academica no carga cuando voy a matricular,ruido,plataforma_academica,0.9278,plataforma_academica,0.9645
+me sale error al descargar el recibo de pagoo desd el celular,me sale error al descargar el recibo de pago desde el celular,ruido,plataforma_academica,0.9778,correo_institucional,0.4863
+donde saco un certificado de eztuudio,donde saco un certificado de estudio,ruido,plataforma_academica,0.806,plataforma_academica,0.8697
+el horario ofical n me aparece,el horario oficial no me aparece,ruido,plataforma_academica,0.7039,plataforma_academica,0.2959
+en el celular laa plataforma acaemica se ve cortada,en el celular la plataforma academica se ve cortada,ruido,plataforma_academica,0.7981,plataforma_academica,0.9532
+"no me eja inscribir una maateria, dice cruce de horario","no me deja inscribir una materia, dice cruce de horario",ruido,plataforma_academica,0.8675,plataforma_academica,0.5903
+cual es la pagina para ver las notaz del ssemestre,cual es la pagina para ver las notas del semestre,ruido,plataforma_academica,0.6359,plataforma_academica,0.4767
+ya pague y la plataforma sigue diciendo que no estoy matriculadoo,ya pague y la plataforma sigue diciendo que no estoy matriculado,ruido,plataforma_academica,0.9879,plataforma_academica,0.955
+la nota definitiva no apaece todabia,la nota definitiva no aparece todavia,ruido,plataforma_academica,0.6879,plataforma_academica,0.48
+se cayo l sistema justo en las inscripsiones,se cayo el sistema justo en las inscripciones,ruido,plataforma_academica,0.9803,plataforma_academica,0.9137
+como descargo mi istorial aademico,como descargo mi historial academico,ruido,plataforma_academica,0.44,plataforma_academica,0.7161
+en el portatil me sale errror de sesion en la plataorma academica,en el portatil me sale error de sesion en la plataforma academica,ruido,plataforma_academica,0.9607,plataforma_academica,0.9593
+cuando abren las inzcripsiones en la plataforma,cuando abren las inscripciones en la plataforma,ruido,plataforma_academica,0.6728,office365,0.1878
+la plataforma me dice ke tengo un vloqueo financiero,la plataforma me dice que tengo un bloqueo financiero,ruido,plataforma_academica,0.7857,plataforma_academica,0.826
+como actualiso mis datos personales en el sistema academio,como actualizo mis datos personales en el sistema academico,ruido,plataforma_academica,0.8364,plataforma_academica,0.9643
+donde veo mi prmedio acumulad,donde veo mi promedio acumulado,ruido,plataforma_academica,0.5432,plataforma_academica,0.8545
+no encuentr el voton para matricular materias,no encuentro el boton para matricular materias,ruido,plataforma_academica,0.3218,plataforma_academica,0.9491
+la plattaforma academica me pide una contrasea distinta a la del correo,la plataforma academica me pide una contraseña distinta a la del correo,ruido,plataforma_academica,0.7123,correo_institucional,0.9342
+me zalio pantalla en vlanco al imprimir el horario,me salio pantalla en blanco al imprimir el horario,ruido,plataforma_academica,0.9555,plataforma_academica,0.5718
+el recibo de matricula no se generaa,el recibo de matricula no se genera,ruido,plataforma_academica,0.9926,correo_institucional,0.22
+hay otra pagina istinta a oodle para las notas finales?,hay otra pagina distinta a moodle para las notas finales?,ruido,plataforma_academica,0.951,plataforma_academica,0.9203
+nesesito el crtificado de notas urgente para una beca,necesito el certificado de notas urgente para una beca,ruido,plataforma_academica,0.6829,plataforma_academica,0.902
+dede el pc de la sala no abre el portal academico,desde el pc de la sala no abre el portal academico,ruido,plataforma_academica,0.9868,plataforma_academica,0.9529
+a que hora abren laz sala de computo,a que hora abren las salas de computo,ruido,salas_computo,0.9781,salas_computo,0.9639
+como reservo una sala de isstemas,como reservo una sala de sistemas,ruido,salas_computo,0.8203,salas_computo,0.9535
+el pc de la zala no pende,el pc de la sala no prende,ruido,salas_computo,0.839,wifi_sede,0.5568
+con que usuario inicio seeesion en los computadores de la sala,con que usuario inicio sesion en los computadores de la sala,ruido,salas_computo,0.9238,salas_computo,0.9653
+el computdor de la zala no tiene internet,el computador de la sala no tiene internet,ruido,salas_computo,0.7543,salas_computo,0.4751
+ke programmas tienen instalados las salas,que programas tienen instalados las salas,ruido,salas_computo,0.8433,salas_computo,0.9415
+puedo imprimir n la zala de computo?,puedo imprimir en la sala de computo?,ruido,salas_computo,0.8368,wifi_sede,0.8085
+la usb no me la reconce el pc de la zala,la usb no me la reconoce el pc de la sala,ruido,salas_computo,0.9104,restablecer_contrasena,0.5189
+el teclado del ekipo 12 no sirbe,el teclado del equipo 12 no sirve,ruido,salas_computo,0.8752,salas_computo,0.2754
+los computadore de la sala tienen pyhon?,los computadores de la sala tienen python?,ruido,salas_computo,0.734,salas_computo,0.9653
+se me borraron los archibos al apagaar el pc de la sala,se me borraron los archivos al apagar el pc de la sala,ruido,salas_computo,0.9324,salas_computo,0.9634
+nesesito una sala para estudiar estaa tarde,necesito una sala para estudiar esta tarde,ruido,salas_computo,0.909,salas_computo,0.96
+el pc del laborratorio esta lentsimo,el pc del laboratorio esta lentisimo,ruido,salas_computo,0.8718,wifi_sede,0.2773
+la sala esa abiertaa los sabados?,la sala esta abierta los sabados?,ruido,salas_computo,0.9656,salas_computo,0.9464
+en el ekipo de la zala me sale error de perfil temporal,en el equipo de la sala me sale error de perfil temporal,ruido,salas_computo,0.8558,moodle_entregas,0.5808
+el mouse del computador de la zala no funiona,el mouse del computador de la sala no funciona,ruido,salas_computo,0.9572,salas_computo,0.4052
+a quien le aviso ke un ekipo de la sala esta dañado,a quien le aviso que un equipo de la sala esta dañado,ruido,salas_computo,0.9682,salas_computo,0.9588
+puedo instalar rogramas en los ppc de la sala?,puedo instalar programas en los pc de la sala?,ruido,salas_computo,0.6549,salas_computo,0.9556
+la pantaya del computador del aboratorio queda negra,la pantalla del computador del laboratorio queda negra,ruido,salas_computo,0.8685,fuera_de_dominio,0.3389
+hay salaz con pc para hacer el arcial virtual?,hay salas con pc para hacer el parcial virtual?,ruido,salas_computo,0.7959,salas_computo,0.7558
+donde kedan las salaz de computo en la sede,donde quedan las salas de computo en la sede,ruido,salas_computo,0.7642,salas_computo,0.8972
+no me deja guardar en el ezcritorio del pc de la zala,no me deja guardar en el escritorio del pc de la sala,ruido,salas_computo,0.7969,fuera_de_dominio,0.2324
+el proyector de la sala noo concta,el proyector de la sala no conecta,ruido,salas_computo,0.7451,salas_computo,0.9356
+se puede yevar comida a la zala de sistemas,se puede llevar comida a la sala de sistemas,ruido,salas_computo,0.8613,fuera_de_dominio,0.579
+el pc de la zala me dice contraseña incorrecta con mi uzuario de la u,el pc de la sala me dice contraseña incorrecta con mi usuario de la u,ruido,salas_computo,0.9396,wifi_sede,0.5413
+"la zala esta yena, hay otra disponible?","la sala esta llena, hay otra disponible?",ruido,salas_computo,0.5147,fuera_de_dominio,0.2651
+kiero havlar con una persona,quiero hablar con una persona,ruido,hablar_con_soporte,0.8041,hablar_con_soporte,0.3996
+nesessito un tecnico,necesito un tecnico,ruido,hablar_con_soporte,0.811,hablar_con_soporte,0.8665
+coomo avro un ticket de soporte,como abro un ticket de soporte,ruido,hablar_con_soporte,0.8768,hablar_con_soporte,0.963
+cual es el correo de la msa de alluda,cual es el correo de la mesa de ayuda,ruido,hablar_con_soporte,0.5854,correo_institucional,0.9436
+a que hora atende la mesa de alluda,a que hora atiende la mesa de ayuda,ruido,hablar_con_soporte,0.7976,hablar_con_soporte,0.52
+"nada de lo que dices funsiona, pasame con alguin","nada de lo que dices funciona, pasame con alguien",ruido,hablar_con_soporte,0.8258,hablar_con_soporte,0.9275
+donde queda la oficcina de sistemaz,donde queda la oficina de sistemas,ruido,hablar_con_soporte,0.5995,hablar_con_soporte,0.4229
+ay un numero de telefono de soporrte?,hay un numero de telefono de soporte?,ruido,hablar_con_soporte,0.8095,hablar_con_soporte,0.8557
+"ya intente todo y sigue zin serbir, quiero un humano","ya intente todo y sigue sin servir, quiero un humano",ruido,hablar_con_soporte,0.9553,hablar_con_soporte,0.9574
+como ago seguimiento a mi ticet,como hago seguimiento a mi ticket,ruido,hablar_con_soporte,0.4258,moodle_acceso,0.2225
+me puedes comunicar con u azesor,me puedes comunicar con un asesor,ruido,hablar_con_soporte,0.7372,hablar_con_soporte,0.814
+"no me sirve el vot, necezito atencion personalizada","no me sirve el bot, necesito atencion personalizada",ruido,hablar_con_soporte,0.4929,hablar_con_soporte,0.9594
+laa mesa de ayuda atiende los savados?,la mesa de ayuda atiende los sabados?,ruido,hablar_con_soporte,0.7238,hablar_con_soporte,0.9187
+quiero reprtar una falla grave en el zistema,quiero reportar una falla grave en el sistema,ruido,hablar_con_soporte,0.4227,hablar_con_soporte,0.8656
+llebo una zemana esperando respuesta de soporte,llevo una semana esperando respuesta de soporte,ruido,hablar_con_soporte,0.9054,hablar_con_soporte,0.9634
+pedo ir personalmente a ke me revisen el portatil,puedo ir personalmente a que me revisen el portatil,ruido,hablar_con_soporte,0.8614,hablar_con_soporte,0.9618
+ay chat on un agente real?,hay chat con un agente real?,ruido,hablar_con_soporte,0.8648,sobre_bot,0.439
+a quien escribo para un problemaa quue no esta en tu lista,a quien escribo para un problema que no esta en tu lista,ruido,hablar_con_soporte,0.8502,hablar_con_soporte,0.9539
+me urge que alguien de sistemas me llamee,me urge que alguien de sistemas me llame,ruido,hablar_con_soporte,0.9975,hablar_con_soporte,0.9565
+el ticket que avri lo cerraron sin soluciona,el ticket que abri lo cerraron sin solucionar,ruido,hablar_con_soporte,0.9298,plataforma_academica,0.3503
+escalr caso a sporte,escalar caso a soporte,ruido,hablar_con_soporte,0.4506,fuera_de_dominio,0.559
+donde radio una solcitud a tecnologia,donde radico una solicitud a tecnologia,ruido,hablar_con_soporte,0.6793,fuera_de_dominio,0.3688
+me pasaz con un funsionario,me pasas con un funcionario,ruido,hablar_con_soporte,0.8111,fuera_de_dominio,0.8998
+llevo dos horas con el error en el pc y necesito que alguien me ayude yaa,llevo dos horas con el error en el pc y necesito que alguien me ayude ya,ruido,hablar_con_soporte,0.9991,hablar_con_soporte,0.9642
+"el selular sigue con el mismo error, quiero que lo bea un tecnico","el celular sigue con el mismo error, quiero que lo vea un tecnico",ruido,hablar_con_soporte,0.665,hablar_con_soporte,0.9587
+cual es el whatsapp de sopore de laa u,cual es el whatsapp de soporte de la u,ruido,hablar_con_soporte,0.9041,hablar_con_soporte,0.5056
+Hola.,hola,retrotraduccion,saludo,0.9843,saludo,0.9752
+- Hola.,hola,retrotraduccion,saludo,0.9843,saludo,0.9752
+Buenas tardes.,buenas tardes,retrotraduccion,saludo,0.9876,saludo,0.9737
+- Buenas tardes.,buenas tardes,retrotraduccion,saludo,0.9876,saludo,0.9737
+q más así,q mas pues,retrotraduccion,saludo,0.9024,saludo,0.3887
+q más,q mas pues,retrotraduccion,saludo,0.8031,sobre_bot,0.3739
+"Holi, ¿alguien está atendiendo?","holi, hay alguien atendiendo?",retrotraduccion,saludo,0.9845,saludo,0.961
+"Holi, ¿alguien está cuidando?","holi, hay alguien atendiendo?",retrotraduccion,saludo,0.9449,saludo,0.8878
+"Buenos días, servicio de ayuda.",buenos dias mesa de ayuda,retrotraduccion,saludo,0.7299,saludo,0.9545
+"Buenos días, servicio de asistencia.",buenos dias mesa de ayuda,retrotraduccion,saludo,0.7111,saludo,0.9409
+quiubo bot,quiubo bot,retrotraduccion,saludo,1.0,fuera_de_dominio,0.4462
+quiubo bot,quiubo bot,retrotraduccion,saludo,1.0,fuera_de_dominio,0.4462
+"Buenas noches, ¿estás activo?","buenas noches, estas activo?",retrotraduccion,saludo,0.8821,saludo,0.9725
+"Buenas noches, ¿está activo?","buenas noches, estas activo?",retrotraduccion,saludo,0.9054,saludo,0.9736
+"Hola, ¿cómo te va?",hey que tal,retrotraduccion,saludo,0.6073,saludo,0.9738
+"Hola, ¿cómo va todo?",hey que tal,retrotraduccion,saludo,0.618,saludo,0.972
+ola buena,ola buenas,retrotraduccion,saludo,0.9722,saludo,0.4587
+ola bien,ola buenas,retrotraduccion,saludo,0.6549,despedida,0.4455
+"Buen Deepbot, ¿me ayudarás?","buenas deepbot, me ayudas?",retrotraduccion,saludo,0.9915,saludo,0.958
+"Buen Deepbot, ¿me ayudas?","buenas deepbot, me ayudas?",retrotraduccion,saludo,0.9977,saludo,0.971
+"saludos cordiales, tengo una inquietud","saludos cordiales, tengo una inquietud",retrotraduccion,saludo,1.0,saludo,0.975
+"saludos cordiales, tengo inquietud","saludos cordiales, tengo una inquietud",retrotraduccion,saludo,0.9965,saludo,0.9734
+ypa buenos,epa buenas,retrotraduccion,saludo,0.9921,saludo,0.9574
+Ypa buenos,epa buenas,retrotraduccion,saludo,0.9921,saludo,0.9574
+"Buenos días, un consultor.","buen dia, una consultica",retrotraduccion,saludo,0.9269,saludo,0.4623
+"Buenos días, un asesor.","buen dia, una consultica",retrotraduccion,saludo,0.916,saludo,0.5199
+"Holis, ¿todo bien?","holis, todo bien?",retrotraduccion,saludo,0.9901,saludo,0.967
+"Holis, ¿está todo bien?","holis, todo bien?",retrotraduccion,saludo,0.9566,saludo,0.9679
+bona fide,buenaas,retrotraduccion,saludo,0.823,agradecimiento,0.535
+bonafide,buenaas,retrotraduccion,saludo,0.8543,despedida,0.5105
+"Hola, acabo de abrir la charla.","hola, acabo de abrir el chat",retrotraduccion,saludo,0.9124,saludo,0.9527
+"Hola, acabo de abrir el chat.","hola, acabo de abrir el chat",retrotraduccion,saludo,0.9951,saludo,0.9725
+que había un parche,que hubo parce,retrotraduccion,saludo,0.7645,fuera_de_dominio,0.575
+que había un parche.,que hubo parce,retrotraduccion,saludo,0.7538,fuera_de_dominio,0.885
+"Hola, ¿cómo te va?",holaaa como va,retrotraduccion,saludo,0.7974,saludo,0.9738
+"Hola, ¿cómo va todo?",holaaa como va,retrotraduccion,saludo,0.7464,saludo,0.972
+"Bueno, ¿puedes ayudarme?","buenas, me puedes colaborar?",retrotraduccion,saludo,0.7487,saludo,0.4459
+"Bien, ¿puedes ayudarme?","buenas, me puedes colaborar?",retrotraduccion,saludo,0.7661,saludo,0.5844
+"Hola, apoyo.",hola soporte,retrotraduccion,saludo,0.733,saludo,0.973
+"- Hola, apoyo.",hola soporte,retrotraduccion,saludo,0.733,saludo,0.973
+"Buenos días, disculpen la hora.","buenos dias, disculpa la hora",retrotraduccion,saludo,0.858,saludo,0.9611
+"Buenos días, disculpe la hora.","buenos dias, disculpa la hora",retrotraduccion,saludo,0.8574,saludo,0.969
+¿Cómo están estos bots?,como estas bot,retrotraduccion,saludo,0.8949,office365,0.3001
+¿Cómo están estos robots?,como estas bot,retrotraduccion,saludo,0.6617,sobre_bot,0.5775
+"¿Qué, estás ahí?","qhubo, estas ahi?",retrotraduccion,saludo,0.8901,saludo,0.6878
+¿Qué? ¿Estás ahí?,"qhubo, estas ahi?",retrotraduccion,saludo,0.8685,saludo,0.6599
+"Hola, ¿qué más, todo bien por allí?","hola, que mas, todo bien por alla?",retrotraduccion,saludo,0.9055,saludo,0.9738
+"Hola, ¿qué más? ¿Todo bien por ahí?","hola, que mas, todo bien por alla?",retrotraduccion,saludo,0.913,saludo,0.9701
+Buenas noches.,buenass tardecitas,retrotraduccion,saludo,0.7437,saludo,0.954
+Buenas tardes.,buenass tardecitas,retrotraduccion,saludo,0.7939,saludo,0.9737
+"Hola, buenos días allí.","hey, buen dia por alla",retrotraduccion,saludo,0.848,saludo,0.9718
+"Hola, buenos días por ahí.","hey, buen dia por alla",retrotraduccion,saludo,0.8637,saludo,0.9715
+Adiós.,chao,retrotraduccion,despedida,0.4868,despedida,0.4365
+- Adiós.,chao,retrotraduccion,despedida,0.4868,despedida,0.4365
+"Bueno, eso fue todo.","bueno, eso era todo",retrotraduccion,despedida,0.9957,despedida,0.9528
+"Bueno, eso era todo.","bueno, eso era todo",retrotraduccion,despedida,0.9968,despedida,0.9452
+Hasta luego.,hasta luego,retrotraduccion,despedida,0.988,despedida,0.9637
+Nos vemos luego.,hasta luego,retrotraduccion,despedida,0.8379,despedida,0.9638
+Nos vemos.,nos vemos,retrotraduccion,despedida,0.9866,despedida,0.9636
+Hasta luego.,nos vemos,retrotraduccion,despedida,0.8363,despedida,0.9637
+"Me voy, adiós.","me voy, bye",retrotraduccion,despedida,0.9664,despedida,0.9568
+"Me marcho, adiós.","me voy, bye",retrotraduccion,despedida,0.9546,despedida,0.9372
+"He terminado, estoy desconectado.","listo, me desconecto",retrotraduccion,despedida,0.7032,despedida,0.6815
+"Terminé, estoy desconectado.","listo, me desconecto",retrotraduccion,despedida,0.7152,despedida,0.531
+chaito bot,chaito bot,retrotraduccion,despedida,1.0,despedida,0.6661
+chaito bot,chaito bot,retrotraduccion,despedida,1.0,despedida,0.6661
+Tengo que irme.,ya me tengo que ir,retrotraduccion,despedida,0.9811,despedida,0.9573
+Me tengo que ir.,ya me tengo que ir,retrotraduccion,despedida,0.9814,despedida,0.9603
+Nos vemos mañana.,hasta mañana,retrotraduccion,despedida,0.8487,despedida,0.9627
+Hasta mañana.,hasta mañana,retrotraduccion,despedida,0.9804,despedida,0.9483
+Entonces te contestaré.,despues te vuelvo a escribir,retrotraduccion,despedida,0.6612,despedida,0.5568
+Entonces te escribiré.,despues te vuelvo a escribir,retrotraduccion,despedida,0.7753,despedida,0.9568
+Adiós.,adios,retrotraduccion,despedida,0.6278,despedida,0.4365
+- Adiós.,adios,retrotraduccion,despedida,0.6278,despedida,0.4365
+"Bueno, parce, todavía estoy con mis cosas.","bueno parce, sigo con mis cosas",retrotraduccion,despedida,0.9231,moodle_acceso,0.3213
+"Bueno, parce, sigo con mis cosas.","bueno parce, sigo con mis cosas",retrotraduccion,despedida,0.9935,despedida,0.597
+"Me despido, día feliz.","me despido, feliz dia",retrotraduccion,despedida,0.9806,despedida,0.9535
+"Me despido, día feliz","me despido, feliz dia",retrotraduccion,despedida,0.9907,despedida,0.9539
+"Listo, cambio y fuera.","listo, cambio y fuera",retrotraduccion,despedida,0.9599,despedida,0.9647
+"Listos, cambio y fuera.","listo, cambio y fuera",retrotraduccion,despedida,0.9396,despedida,0.9614
+Ahí es donde hablamos.,ahi hablamos,retrotraduccion,despedida,0.8991,despedida,0.4762
+Allí es donde hablamos.,ahi hablamos,retrotraduccion,despedida,0.8972,sobre_bot,0.2847
+"Ya no necesito nada, adiós.","ya no necesito nada mas, chao",retrotraduccion,despedida,0.833,despedida,0.6413
+"No necesito nada más, adiós.","ya no necesito nada mas, chao",retrotraduccion,despedida,0.8293,despedida,0.2738
+Cierro la charla.,cierro el chat,retrotraduccion,despedida,0.8238,despedida,0.9577
+Yo cierro la charla.,cierro el chat,retrotraduccion,despedida,0.7963,despedida,0.9508
+"Buena suerte, nos vemos pronto.","suerte, hasta pronto",retrotraduccion,despedida,0.9093,despedida,0.9638
+"Buena suerte, hasta pronto.","suerte, hasta pronto",retrotraduccion,despedida,0.9763,despedida,0.9635
+byee,byee,retrotraduccion,despedida,1.0,despedida,0.9641
+byee,byee,retrotraduccion,despedida,1.0,despedida,0.9641
+"Voy a clase, luego voy a seguir.","me voy a clase, despues sigo",retrotraduccion,despedida,0.9039,despedida,0.954
+"Voy a clase, y luego voy a seguir.","me voy a clase, despues sigo",retrotraduccion,despedida,0.8927,despedida,0.9281
+Eso fue todo por hoy.,eso fue todo por hoy,retrotraduccion,despedida,0.9969,despedida,0.9612
+Eso es todo por hoy.,eso fue todo por hoy,retrotraduccion,despedida,0.9471,despedida,0.9555
+Nos atrapan.,nos pillamos,retrotraduccion,despedida,0.7749,despedida,0.8255
+Nos pillan.,nos pillamos,retrotraduccion,despedida,0.9474,despedida,0.9307
+"Cuídate, bot.",cuidate bot,retrotraduccion,despedida,0.756,agradecimiento,0.765
+"Cuídate, bot.",cuidate bot,retrotraduccion,despedida,0.756,agradecimiento,0.765
+"Bueno, he terminado, adiós.","bueno ya termine, adios",retrotraduccion,despedida,0.7983,despedida,0.8406
+"Bueno, ya terminé, adiós.","bueno ya termine, adios",retrotraduccion,despedida,0.8481,despedida,0.7327
+ciao,ciao,retrotraduccion,despedida,1.0,despedida,0.9638
+cíao,ciao,retrotraduccion,despedida,0.9205,agradecimiento,0.5564
+"Me voy, feliz noche.","me salgo, feliz noche",retrotraduccion,despedida,0.9075,despedida,0.9623
+"Me marcho, feliz noche.","me salgo, feliz noche",retrotraduccion,despedida,0.8934,despedida,0.9614
+Gracias.,gracias,retrotraduccion,agradecimiento,0.9819,agradecimiento,0.9507
+- Gracias.,gracias,retrotraduccion,agradecimiento,0.9819,agradecimiento,0.9507
+"uff, gracias infinitamente","uff, gracias infinitas",retrotraduccion,agradecimiento,0.8859,agradecimiento,0.9672
+"uff, gracias infinitamente.","uff, gracias infinitas",retrotraduccion,agradecimiento,0.7896,agradecimiento,0.9658
+"Ya he trabajado, gracias!!","ya me funciono, gracias!!",retrotraduccion,agradecimiento,0.8627,agradecimiento,0.9696
+"Ya he trabajado, ¡gracias!!","ya me funciono, gracias!!",retrotraduccion,agradecimiento,0.787,agradecimiento,0.9655
+Muchas gracias por la ayuda.,muchas gracias por la ayuda,retrotraduccion,agradecimiento,0.9811,agradecimiento,0.9711
+Muchísimas gracias por la ayuda.,muchas gracias por la ayuda,retrotraduccion,agradecimiento,0.9596,agradecimiento,0.9676
+grax,grax,retrotraduccion,agradecimiento,1.0,agradecimiento,0.9701
+Grax,grax,retrotraduccion,agradecimiento,1.0,agradecimiento,0.9701
+"Si es bueno, te lo agradezco.","uy si sirvio, te lo agradezco",retrotraduccion,agradecimiento,0.7947,agradecimiento,0.9436
+"Si es bueno, se lo agradezco.","uy si sirvio, te lo agradezco",retrotraduccion,agradecimiento,0.7581,agradecimiento,0.9469
+"Eso es bueno, puedo entrar.","que bien, ya pude entrar",retrotraduccion,agradecimiento,0.8634,agradecimiento,0.8012
+"Eso está bien, puedo entrar.","que bien, ya pude entrar",retrotraduccion,agradecimiento,0.9012,agradecimiento,0.891
+"Gracias, parce.","listo ya quedo, gracias parce",retrotraduccion,agradecimiento,0.8067,agradecimiento,0.9402
+"Gracias, Parce.","listo ya quedo, gracias parce",retrotraduccion,agradecimiento,0.8067,agradecimiento,0.9402
+"Me salvaste, mañana entregaré tranquilamente.","me salvaste, mañana entrego tranquilo",retrotraduccion,agradecimiento,0.9494,agradecimiento,0.9199
+"Me salvaste, mañana entregaré con calma.","me salvaste, mañana entrego tranquilo",retrotraduccion,agradecimiento,0.95,agradecimiento,0.9537
+Es muy amable de su parte.,muy amable de tu parte,retrotraduccion,agradecimiento,0.8917,agradecimiento,0.9665
+Es muy amable de tu parte.,muy amable de tu parte,retrotraduccion,agradecimiento,0.9168,agradecimiento,0.9648
+"super, problema resuelto","super, problema resuelto",retrotraduccion,agradecimiento,1.0,agradecimiento,0.971
+"super, el problema resuelto","super, problema resuelto",retrotraduccion,agradecimiento,0.9882,agradecimiento,0.969
+Eres una grieta.,eres un crack,retrotraduccion,agradecimiento,0.7961,sobre_bot,0.8732
+Eres increíble.,eres un crack,retrotraduccion,agradecimiento,0.3885,agradecimiento,0.5512
+Muchas gracias.,te agradezco much,retrotraduccion,agradecimiento,0.8883,agradecimiento,0.9685
+Muchísimas gracias.,te agradezco much,retrotraduccion,agradecimiento,0.915,agradecimiento,0.9589
+"De acuerdo, entendido, Chevere.","ok, entendido, chevere",retrotraduccion,agradecimiento,0.9607,agradecimiento,0.9706
+"Bien, entendido, Chevere.","ok, entendido, chevere",retrotraduccion,agradecimiento,0.9702,agradecimiento,0.9705
+Gracias.,thanks,retrotraduccion,agradecimiento,0.7984,agradecimiento,0.9507
+gracias,thanks,retrotraduccion,agradecimiento,0.8512,agradecimiento,0.9547
+"Eso es bueno, eso es bueno.","buenisimo, eso era",retrotraduccion,agradecimiento,0.6156,agradecimiento,0.7631
+"Eso está bien, eso está bien.","buenisimo, eso era",retrotraduccion,agradecimiento,0.7079,agradecimiento,0.9148
+"Fuera de una, estoy fuera de ella.","de una, ya me salio",retrotraduccion,agradecimiento,0.7286,despedida,0.3788
+"Fuera de uno, estoy fuera de él.","de una, ya me salio",retrotraduccion,agradecimiento,0.7324,despedida,0.2242
+Gracias por su paciencia.,gracias por la paciencia,retrotraduccion,agradecimiento,0.945,agradecimiento,0.9683
+Gracias por tu paciencia.,gracias por la paciencia,retrotraduccion,agradecimiento,0.951,agradecimiento,0.967
+"Perfecto, ahora conéctame, gracias.","perfecto, ya me conecte, gracias",retrotraduccion,agradecimiento,0.9652,agradecimiento,0.8945
+"Perfecto, ahora conéctame, gracias","perfecto, ya me conecte, gracias",retrotraduccion,agradecimiento,0.9766,agradecimiento,0.9065
+"Vale, muchas gracias por explicarme.","vale, mil gracias por explicar",retrotraduccion,agradecimiento,0.9372,agradecimiento,0.968
+"Vale, muchas gracias por explicarlo.","vale, mil gracias por explicar",retrotraduccion,agradecimiento,0.9564,agradecimiento,0.9694
+"Bueno, gracias por una.","uy que bien, gracias de una",retrotraduccion,agradecimiento,0.8572,agradecimiento,0.8773
+"Bueno, gracias por uno.","uy que bien, gracias de una",retrotraduccion,agradecimiento,0.8476,agradecimiento,0.8662
+información muy útil,muy util la info,retrotraduccion,agradecimiento,0.9667,agradecimiento,0.9482
+Información muy útil,muy util la info,retrotraduccion,agradecimiento,0.9667,agradecimiento,0.9482
+"Bendiciones, me ayudaste mucho.","bendiciones, me ayudaste un monton",retrotraduccion,agradecimiento,0.9721,agradecimiento,0.9678
+"Bendiciones, me has ayudado mucho.","bendiciones, me ayudaste un monton",retrotraduccion,agradecimiento,0.9655,agradecimiento,0.9663
+Listos para trabajar el primero,listo funciono a la primera,retrotraduccion,agradecimiento,0.8248,hablar_con_soporte,0.4862
+Listo para trabajar el primero,listo funciono a la primera,retrotraduccion,agradecimiento,0.8557,hablar_con_soporte,0.482
+tx,tx,retrotraduccion,agradecimiento,1.0,agradecimiento,0.7042
+txs,tx,retrotraduccion,agradecimiento,0.8977,agradecimiento,0.3129
+agradecido por el apoyo,agradecida con el soporte,retrotraduccion,agradecimiento,0.991,agradecimiento,0.9707
+agradecida por el apoyo,agradecida con el soporte,retrotraduccion,agradecimiento,0.991,agradecimiento,0.9712
+¿Quién eres?,quien eres,retrotraduccion,sobre_bot,0.9375,sobre_bot,0.9498
+¿Quién eres tú?,quien eres,retrotraduccion,sobre_bot,0.9417,sobre_bot,0.7185
+que eres tú.,que eres tu,retrotraduccion,sobre_bot,0.974,sobre_bot,0.3961
+que eres tú,que eres tu,retrotraduccion,sobre_bot,0.9958,sobre_bot,0.9606
+¿Eres una persona o un robot?,eres una persona o un robot?,retrotraduccion,sobre_bot,0.9974,sobre_bot,0.961
+¿Es usted una persona o un robot?,eres una persona o un robot?,retrotraduccion,sobre_bot,0.9968,sobre_bot,0.9471
+¿Qué puedes hacer?,que puedes hacer,retrotraduccion,sobre_bot,0.7185,sobre_bot,0.8524
+¿Qué se puede hacer?,que puedes hacer,retrotraduccion,sobre_bot,0.5491,sobre_bot,0.3686
+en la que puedes ayudarme,en que me puedes ayudar,retrotraduccion,sobre_bot,0.9926,sobre_bot,0.9531
+en la que me puedes ayudar,en que me puedes ayudar,retrotraduccion,sobre_bot,0.9928,sobre_bot,0.9662
+¿Quién te cree?,quien te creo,retrotraduccion,sobre_bot,0.8964,sobre_bot,0.5935
+Quién te cree,quien te creo,retrotraduccion,sobre_bot,0.9639,agradecimiento,0.7447
+cómo se trabaja en el interior,como funcionas por dentro,retrotraduccion,sobre_bot,0.93,fuera_de_dominio,0.5355
+cómo trabajas en el interior,como funcionas por dentro,retrotraduccion,sobre_bot,0.9022,hablar_con_soporte,0.391
+¿Eres inteligencia artificial?,eres inteligencia artificial?,retrotraduccion,sobre_bot,0.993,sobre_bot,0.956
+¿Es usted inteligencia artificial?,eres inteligencia artificial?,retrotraduccion,sobre_bot,0.9917,sobre_bot,0.9243
+¿Qué problemas sabes resolver?,que problemas sabes resolver,retrotraduccion,sobre_bot,0.8794,sobre_bot,0.94
+¿Qué problemas sabe resolver?,que problemas sabes resolver,retrotraduccion,sobre_bot,0.8529,sobre_bot,0.821
+¿Cómo te llamas?,como te llamas,retrotraduccion,sobre_bot,0.9257,sobre_bot,0.8946
+¿Cuál es tu nombre?,como te llamas,retrotraduccion,sobre_bot,0.8735,sobre_bot,0.8625
+¿Eres del servicio de ayuda o de un programa?,tu eres de la mesa de ayuda o un programa?,retrotraduccion,sobre_bot,0.8439,sobre_bot,0.9029
+¿Eres del servicio de asistencia o de un programa?,tu eres de la mesa de ayuda o un programa?,retrotraduccion,sobre_bot,0.8411,hablar_con_soporte,0.7293
+¿Estoy hablando con una máquina?,estoy hablando con una maquina?,retrotraduccion,sobre_bot,0.9687,sobre_bot,0.8046
+- ¿Estoy hablando con una máquina?,estoy hablando con una maquina?,retrotraduccion,sobre_bot,0.9687,sobre_bot,0.8046
+¿Qué temas manejas?,que temas manejas,retrotraduccion,sobre_bot,0.6811,sobre_bot,0.9526
+qué temas manejas,que temas manejas,retrotraduccion,sobre_bot,0.8412,sobre_bot,0.9547
+¿Para qué es este chat?,para que sirve este chat,retrotraduccion,sobre_bot,0.7526,sobre_bot,0.4348
+para qué es este chat,para que sirve este chat,retrotraduccion,sobre_bot,0.889,sobre_bot,0.502
+¿Estás charlando?,eres chatgpt?,retrotraduccion,sobre_bot,0.7457,saludo,0.7599
+¿Estás hablando?,eres chatgpt?,retrotraduccion,sobre_bot,0.7064,saludo,0.4637
+¿Qué modelo utilizas?,que modelo usas,retrotraduccion,sobre_bot,0.869,sobre_bot,0.957
+¿Qué modelo utiliza?,que modelo usas,retrotraduccion,sobre_bot,0.8314,sobre_bot,0.7505
+donde obtienes las respuestas,de donde sacas las respuestas,retrotraduccion,sobre_bot,0.8829,sobre_bot,0.484
+donde se obtienen las respuestas,de donde sacas las respuestas,retrotraduccion,sobre_bot,0.8445,fuera_de_dominio,0.4648
+Eres de la U o de una compañía.,eres de la u o de una empresa,retrotraduccion,sobre_bot,0.9904,sobre_bot,0.5047
+Eres de la U o de una empresa.,eres de la u o de una empresa,retrotraduccion,sobre_bot,0.9965,sobre_bot,0.5798
+¿Cuáles son sus funciones?,cuales son tus funciones,retrotraduccion,sobre_bot,0.8084,sobre_bot,0.9212
+cuáles son sus funciones,cuales son tus funciones,retrotraduccion,sobre_bot,0.8276,sobre_bot,0.4574
+¿Puedes ayudarme con algo?,me puedes ayudar con cualquier cosa?,retrotraduccion,sobre_bot,0.957,sobre_bot,0.7511
+¿Puedes ayudarme en algo?,me puedes ayudar con cualquier cosa?,retrotraduccion,sobre_bot,0.9636,sobre_bot,0.7887
+¿Qué tan confiable es lo que estás diciendo?,que tan confiable es lo que dices,retrotraduccion,sobre_bot,0.8848,sobre_bot,0.7766
+¿Qué tan confiable es lo que dices?,que tan confiable es lo que dices,retrotraduccion,sobre_bot,0.9,sobre_bot,0.9335
+qué servicios cubre la u,que servicios de la u cubres,retrotraduccion,sobre_bot,0.7542,wifi_sede,0.6186
+que los servicios que cubre la u,que servicios de la u cubres,retrotraduccion,sobre_bot,0.78,hablar_con_soporte,0.4799
+No te había visto antes.,eres nuevo? no te habia visto,retrotraduccion,sobre_bot,0.7203,saludo,0.3901
+No te he visto antes.,eres nuevo? no te habia visto,retrotraduccion,sobre_bot,0.7145,saludo,0.5925
+¿Quién te programó?,quien te programo,retrotraduccion,sobre_bot,0.773,sobre_bot,0.4118
+Quién te programó,quien te programo,retrotraduccion,sobre_bot,0.8553,despedida,0.2925
+¿Te quedas con lo que te escribo?,guardas lo que te escribo?,retrotraduccion,sobre_bot,0.9536,moodle_entregas,0.2494
+¿Guardas lo que te escribo?,guardas lo que te escribo?,retrotraduccion,sobre_bot,0.9194,sobre_bot,0.9555
+Deepbot que es,deepbot que es,retrotraduccion,sobre_bot,1.0,sobre_bot,0.9674
+"Deepbot, que es",deepbot que es,retrotraduccion,sobre_bot,0.9962,sobre_bot,0.968
+¿Cómo va a ser el clima mañana?,como va a estar el clima mañana en faca,retrotraduccion,fuera_de_dominio,0.9175,fuera_de_dominio,0.6204
+¿Cómo va a ser el tiempo mañana?,como va a estar el clima mañana en faca,retrotraduccion,fuera_de_dominio,0.8677,fuera_de_dominio,0.2276
+Quien ganó el juego de millones,quien gano el partido de millos,retrotraduccion,fuera_de_dominio,0.6838,fuera_de_dominio,0.9203
+¿Quién ganó el juego de millones,quien gano el partido de millos,retrotraduccion,fuera_de_dominio,0.6491,restablecer_contrasena,0.3928
+me recomiendan una serie,recomiendame una serie,retrotraduccion,fuera_de_dominio,0.9824,fuera_de_dominio,0.66
+recomendarme una serie,recomiendame una serie,retrotraduccion,fuera_de_dominio,0.986,fuera_de_dominio,0.9121
+Cuéntame una broma.,cuentame un chiste,retrotraduccion,fuera_de_dominio,0.9581,sobre_bot,0.2177
+Dime una broma.,cuentame un chiste,retrotraduccion,fuera_de_dominio,0.9647,fuera_de_dominio,0.9266
+Como si hiciera algunas arepas.,como hago unas arepas,retrotraduccion,fuera_de_dominio,0.7484,plataforma_academica,0.4489
+Como hago algunas arepas.,como hago unas arepas,retrotraduccion,fuera_de_dominio,0.9047,fuera_de_dominio,0.9327
+me ayudas con la tarea de calcular,me ayudas con la tarea de calculo,retrotraduccion,fuera_de_dominio,0.91,fuera_de_dominio,0.9638
+me ayudes con la tarea de calcular,me ayudas con la tarea de calculo,retrotraduccion,fuera_de_dominio,0.864,fuera_de_dominio,0.9616
+¿Cuánto cuesta el dólar?,cuanto esta el dolar,retrotraduccion,fuera_de_dominio,0.8639,fuera_de_dominio,0.6517
+¿Cuánto es el dólar?,cuanto esta el dolar,retrotraduccion,fuera_de_dominio,0.8864,sobre_bot,0.4867
+al igual que hago una homologación de tipo de material,como hago una homologacion de materias,retrotraduccion,fuera_de_dominio,0.815,fuera_de_dominio,0.2402
+al igual que hago con una homologación de tipo de material,como hago una homologacion de materias,retrotraduccion,fuera_de_dominio,0.8056,teams,0.2851
+Quiero presentar una queja porque el profesor puso la nota mal.,quiero poner una queja porque el profe me puso mal la nota,retrotraduccion,fuera_de_dominio,0.9483,fuera_de_dominio,0.9514
+Quiero presentar una queja porque el profesor puso mal la nota.,quiero poner una queja porque el profe me puso mal la nota,retrotraduccion,fuera_de_dominio,0.951,fuera_de_dominio,0.9532
+cuando nos vamos de vacaciones,cuando salimos a vacaciones,retrotraduccion,fuera_de_dominio,0.9916,fuera_de_dominio,0.9622
+Cuando nos vamos de vacaciones,cuando salimos a vacaciones,retrotraduccion,fuera_de_dominio,0.9916,fuera_de_dominio,0.9622
+Rompí la pantalla de mi celular donde la arreglé.,se me rompio la pantalla del celular donde lo arreglo,retrotraduccion,fuera_de_dominio,0.9413,restablecer_contrasena,0.7084
+Rompí la pantalla de mi celular donde lo arreglé.,se me rompio la pantalla del celular donde lo arreglo,retrotraduccion,fuera_de_dominio,0.9397,restablecer_contrasena,0.8345
+Ese teléfono celular que me recomiendas comprar,que celular me recomiendas comprar,retrotraduccion,fuera_de_dominio,0.9788,fuera_de_dominio,0.8321
+Ese celular que me recomiendas comprar,que celular me recomiendas comprar,retrotraduccion,fuera_de_dominio,0.9786,fuera_de_dominio,0.8729
+Explícame que es una red neuronal.,explicame que es una red neuronal,retrotraduccion,fuera_de_dominio,0.9806,fuera_de_dominio,0.89
+Explícame que es una red neural.,explicame que es una red neuronal,retrotraduccion,fuera_de_dominio,0.9568,wifi_sede,0.3037
+quien es el rector de la universidad,quien es el rector de la universidad,retrotraduccion,fuera_de_dominio,1.0,fuera_de_dominio,0.9703
+que es el rector de la universidad,quien es el rector de la universidad,retrotraduccion,fuera_de_dominio,0.9837,fuera_de_dominio,0.9688
+donde hay una farmacia cerca de la sede,donde queda una drogueria cerca de la sede,retrotraduccion,fuera_de_dominio,0.8453,fuera_de_dominio,0.831
+donde hay una farmacia cerca del cuartel general,donde queda una drogueria cerca de la sede,retrotraduccion,fuera_de_dominio,0.8122,fuera_de_dominio,0.8629
+Escríbeme un poema.,escribeme un poema,retrotraduccion,fuera_de_dominio,0.9866,fuera_de_dominio,0.9285
+escríbeme un poema,escribeme un poema,retrotraduccion,fuera_de_dominio,0.997,fuera_de_dominio,0.9464
+cuánto cuesta una casa de fábrica,cuanto cuesta un domicilio a facatativa,retrotraduccion,fuera_de_dominio,0.7549,restablecer_contrasena,0.6059
+cuánto cuesta un hogar de fábrica,cuanto cuesta un domicilio a facatativa,retrotraduccion,fuera_de_dominio,0.8039,wifi_sede,0.2957
+Ayúdame a resolver este ejercicio de java,ayudame a resolver este ejercicio de java,retrotraduccion,fuera_de_dominio,0.993,fuera_de_dominio,0.9254
+Ayúdame a resolver este ejercicio de java.,ayudame a resolver este ejercicio de java,retrotraduccion,fuera_de_dominio,0.9848,fuera_de_dominio,0.9075
+ya que solicito un reemplazo,como solicito un supletorio,retrotraduccion,fuera_de_dominio,0.4016,restablecer_contrasena,0.3071
+como solicito un reemplazo,como solicito un supletorio,retrotraduccion,fuera_de_dominio,0.3885,fuera_de_dominio,0.7502
+Me gustaría solicitar una revisión de mi nota parcial.,quiero pedir revision de mi nota del parcial,retrotraduccion,fuera_de_dominio,0.9137,fuera_de_dominio,0.3291
+Me gustaría pedir una revisión de mi nota parcial.,quiero pedir revision de mi nota del parcial,retrotraduccion,fuera_de_dominio,0.9094,fuera_de_dominio,0.6389
+¿Qué hora es?,que hora es,retrotraduccion,fuera_de_dominio,0.9721,fuera_de_dominio,0.6866
+- ¿Qué hora es?,que hora es,retrotraduccion,fuera_de_dominio,0.9721,fuera_de_dominio,0.6866
+pon musica de reggaeton,pon musica de reggaeton,retrotraduccion,fuera_de_dominio,1.0,fuera_de_dominio,0.5068
+Pon musica de reggaeton,pon musica de reggaeton,retrotraduccion,fuera_de_dominio,1.0,fuera_de_dominio,0.5068
+que es la capital de Australia,cual es la capital de australia,retrotraduccion,fuera_de_dominio,0.9958,fuera_de_dominio,0.9313
+que es la capital de australia,cual es la capital de australia,retrotraduccion,fuera_de_dominio,0.9958,fuera_de_dominio,0.9313
+cómo me inscribo en la selección de fútbol u,como me inscribo a la seleccion de futbol de la u,retrotraduccion,fuera_de_dominio,0.815,wifi_sede,0.7311
+cómo me inscribo para la selección de fútbol u,como me inscribo a la seleccion de futbol de la u,retrotraduccion,fuera_de_dominio,0.8081,wifi_sede,0.6311
+"el subsidio de asistencia social, según lo solicitado",la beca de bienestar como se pide,retrotraduccion,fuera_de_dominio,0.6901,fuera_de_dominio,0.4425
+"el subsidio de bienestar, según lo solicitado",la beca de bienestar como se pide,retrotraduccion,fuera_de_dominio,0.7302,fuera_de_dominio,0.5882
+Me recomiendas un portátil barato para la carrera,me recomiendas un portatil barato para la carrera,retrotraduccion,fuera_de_dominio,0.8944,fuera_de_dominio,0.9668
+Me recomiendas un portátil barato para la carrera.,me recomiendas un portatil barato para la carrera,retrotraduccion,fuera_de_dominio,0.8881,fuera_de_dominio,0.9637
+No me deja entrar a Moodle y mañana entregaré,no me deja entrar a moodle y mañana entrego,retrotraduccion,moodle_acceso,0.9712,moodle_acceso,0.9575
+Él no me deja entrar a Moodle y mañana entregaré,no me deja entrar a moodle y mañana entrego,retrotraduccion,moodle_acceso,0.8547,moodle_acceso,0.9514
+"Moodle me dice la contraseña equivocada, pero estoy seguro de que eso es todo.",moodle me dice contraseña incorrecta pero estoy segura que es esa,retrotraduccion,moodle_acceso,0.9798,moodle_acceso,0.915
+Moodle me dice la contraseña equivocada pero estoy seguro de que eso es todo.,moodle me dice contraseña incorrecta pero estoy segura que es esa,retrotraduccion,moodle_acceso,0.9791,moodle_acceso,0.9117
+el aula virtual no se carga desde el teléfono celular,el aula virtual no carga desde el celular,retrotraduccion,moodle_acceso,0.9818,moodle_acceso,0.3671
+el aula virtual no se carga desde el teléfono móvil,el aula virtual no carga desde el celular,retrotraduccion,moodle_acceso,0.981,salas_computo,0.2707
+Estoy tratando de meter a Moodle en la laptop y mantiene la pantalla en blanco.,intento entrar a moodle en el portatil y se queda la pantalla en blanco,retrotraduccion,moodle_acceso,0.8532,moodle_acceso,0.9537
+Estoy tratando de meter a Moodle en el portátil y mantiene la pantalla en blanco.,intento entrar a moodle en el portatil y se queda la pantalla en blanco,retrotraduccion,moodle_acceso,0.8754,moodle_acceso,0.9454
+en la sala pc no abre la plataforma virtual,en el pc de la sala no abre la plataforma virtual,retrotraduccion,moodle_acceso,0.9933,moodle_acceso,0.9538
+en la sala de pc no abre la plataforma virtual,en el pc de la sala no abre la plataforma virtual,retrotraduccion,moodle_acceso,0.994,moodle_acceso,0.9531
+Moodle este otoño???? no me abre nada,moodle esta caido?? no me abre nada,retrotraduccion,moodle_acceso,0.8217,moodle_acceso,0.9618
+Moodle este otoño??? no me abre nada,moodle esta caido?? no me abre nada,retrotraduccion,moodle_acceso,0.8217,moodle_acceso,0.9618
+Entro y no recibo ninguno de mis cursos.,entro y no me aparece ninguno de mis cursos,retrotraduccion,moodle_acceso,0.924,plataforma_academica,0.8373
+Entro y no tengo ninguno de mis cursos.,entro y no me aparece ninguno de mis cursos,retrotraduccion,moodle_acceso,0.9298,plataforma_academica,0.8036
+Obtengo un error al iniciar la sesión en moodle,me sale error al iniciar sesion en moodle,retrotraduccion,moodle_acceso,0.8916,moodle_acceso,0.9588
+Obtengo un error al comenzar la sesión en moodle,me sale error al iniciar sesion en moodle,retrotraduccion,moodle_acceso,0.8955,moodle_acceso,0.9567
+que es el enlace para entrar en el aula virtual,cual es el link para entrar al aula virtual,retrotraduccion,moodle_acceso,0.9955,moodle_acceso,0.9452
+que es el enlace para entrar al aula virtual,cual es el link para entrar al aula virtual,retrotraduccion,moodle_acceso,0.9954,moodle_acceso,0.9478
+"me saca del moodle cada segundo, cierra la sesión sola","me saca de moodle a cada rato, se cierra la sesion sola",retrotraduccion,moodle_acceso,0.9055,moodle_acceso,0.9421
+"me saca del moodle cada segundo, cierra la sesión solo","me saca de moodle a cada rato, se cierra la sesion sola",retrotraduccion,moodle_acceso,0.9076,moodle_acceso,0.9449
+"No veo las cosas nuevas en mi moodle, ya estoy inscrito.","no veo la materia nueva en mi moodle, ya estoy matriculado",retrotraduccion,moodle_acceso,0.9239,moodle_acceso,0.9591
+"No veo las cosas nuevas en mi moodle, ya estoy matriculada.","no veo la materia nueva en mi moodle, ya estoy matriculado",retrotraduccion,moodle_acceso,0.9466,moodle_acceso,0.965
+la aplicación de moodle en la celda dice que el sitio no es válido,la app de moodle en el cel dice que el sitio no es valido,retrotraduccion,moodle_acceso,0.8498,moodle_acceso,0.9522
+la aplicación de moodle en la célula dice que el sitio no es válido,la app de moodle en el cel dice que el sitio no es valido,retrotraduccion,moodle_acceso,0.677,moodle_acceso,0.9269
+"moodle súper lento, toma años para cargar","moodle super lento, se demora años en cargar",retrotraduccion,moodle_acceso,0.9803,moodle_acceso,0.9585
+"moodle súper lento, tarda años en cargarse","moodle super lento, se demora años en cargar",retrotraduccion,moodle_acceso,0.99,moodle_acceso,0.9655
+Parche No puedo entrar en la plataforma del curso,parce no puedo ingresar a la plataforma de cursos,retrotraduccion,moodle_acceso,0.8833,moodle_acceso,0.8231
+Parce No puedo entrar en la plataforma del curso,parce no puedo ingresar a la plataforma de cursos,retrotraduccion,moodle_acceso,0.9251,moodle_acceso,0.9562
+Me niegan el acceso cuando entro en el curso,me aparece acceso denegado cuando entro al curso,retrotraduccion,moodle_acceso,0.9523,moodle_acceso,0.7946
+Me niegan el acceso cuando entro en el curso.,me aparece acceso denegado cuando entro al curso,retrotraduccion,moodle_acceso,0.9245,moodle_acceso,0.7487
+de la casa no me abre moodle pero en la u sí,desde la casa no me abre moodle pero en la u si,retrotraduccion,moodle_acceso,0.9678,moodle_acceso,0.9652
+de la casa no me abre moodle pero en el u sí,desde la casa no me abre moodle pero en la u si,retrotraduccion,moodle_acceso,0.973,moodle_acceso,0.9658
+Puse usuario y clave y vuelvo a la página de inicio de sesión,pongo usuario y clave y vuelve a la pagina de login,retrotraduccion,moodle_acceso,0.8826,restablecer_contrasena,0.8448
+Puse usuario y llave y vuelvo a la página de inicio de sesión,pongo usuario y clave y vuelve a la pagina de login,retrotraduccion,moodle_acceso,0.8868,restablecer_contrasena,0.7308
+"ayuda de emergencia, el aula virtual no me deja entrar y el parcial es en una hora","ayuda urgente, el aula virtual no me deja loguear y el parcial es en una hora",retrotraduccion,moodle_acceso,0.9438,moodle_acceso,0.9418
+"ayuda de emergencia, el aula virtual no me deja entrar y la parcial es en una hora","ayuda urgente, el aula virtual no me deja loguear y el parcial es en una hora",retrotraduccion,moodle_acceso,0.9435,moodle_acceso,0.9455
+"con qué usuario entrar a moodle, con el correo o con el código?","con que usuario entro a moodle, con el correo o con el codigo?",retrotraduccion,moodle_acceso,0.9899,moodle_acceso,0.9591
+"¿Con qué usuario entrar a moodle, con el correo o con el código?","con que usuario entro a moodle, con el correo o con el codigo?",retrotraduccion,moodle_acceso,0.987,moodle_acceso,0.9608
+en el ordenador portátil me sale el error 503 en moodle,en el portatil me sale error 503 en moodle,retrotraduccion,moodle_acceso,0.9481,moodle_acceso,0.9578
+en el ordenador portátil consigo error 503 en moodle,en el portatil me sale error 503 en moodle,retrotraduccion,moodle_acceso,0.9257,moodle_acceso,0.9585
+moodle no carga en cromo pero en el borde sí,moodle no carga en chrome pero en edge si,retrotraduccion,moodle_acceso,0.8209,moodle_acceso,0.9591
+"moodle no carga en cromo, pero en el borde sí",moodle no carga en chrome pero en edge si,retrotraduccion,moodle_acceso,0.8005,moodle_acceso,0.9557
+Soy estudiante de primer año y no sé cómo meterme en el moodle.,soy de primer semestre y no se como entrar a moodle,retrotraduccion,moodle_acceso,0.889,moodle_acceso,0.9418
+Soy estudiante de primer año y no sé cómo meterme en moodle.,soy de primer semestre y no se como entrar a moodle,retrotraduccion,moodle_acceso,0.8825,moodle_acceso,0.9537
+Mi cuenta de moodle dice que está suspendida.,mi cuenta de moodle dice que esta suspendida,retrotraduccion,moodle_acceso,0.9468,moodle_acceso,0.9652
+Mi cuenta de Moodle dice que está suspendida.,mi cuenta de moodle dice que esta suspendida,retrotraduccion,moodle_acceso,0.9468,moodle_acceso,0.9652
+la plataforma virtual me dice que la sesión expiró todo el tiempo,la plataforma virtual me dice sesion expirada todo el tiempo,retrotraduccion,moodle_acceso,0.8818,restablecer_contrasena,0.4493
+la plataforma virtual me dice que la sesión ha expirado todo el tiempo,la plataforma virtual me dice sesion expirada todo el tiempo,retrotraduccion,moodle_acceso,0.8944,moodle_acceso,0.7312
+En el teléfono móvil moodle se ve todo raro y no puedo abrir el curso,en el celular moodle se ve toda rara y no puedo abrir el curso,retrotraduccion,moodle_acceso,0.9688,moodle_acceso,0.9679
+En el teléfono móvil moodle parece todo raro y no puedo abrir el curso,en el celular moodle se ve toda rara y no puedo abrir el curso,retrotraduccion,moodle_acceso,0.9618,moodle_acceso,0.9674
+"Hace dos días no puedo acceder a moodle, ya probar todo","hace dos dias no puedo acceder a moodle, ya intente de todo",retrotraduccion,moodle_acceso,0.9927,moodle_acceso,0.9503
+"Hace dos días no puedo acceder a moodle, ya lo intento todo.","hace dos dias no puedo acceder a moodle, ya intente de todo",retrotraduccion,moodle_acceso,0.9924,moodle_acceso,0.9115
+"No puedo subir al taller a Moodle, me equivoco.","no puedo subir el taller a moodle, me sale error",retrotraduccion,moodle_entregas,0.9034,moodle_entregas,0.7398
+"No puedo subir al taller para moodle, me equivoco.","no puedo subir el taller a moodle, me sale error",retrotraduccion,moodle_entregas,0.8889,moodle_entregas,0.7111
+archivo pesa mucho y moodle no me lo consigue,el archivo pesa mucho y moodle no me lo recibe,retrotraduccion,moodle_entregas,0.9749,moodle_entregas,0.5746
+El archivo pesa mucho y moodle no me lo consigue.,el archivo pesa mucho y moodle no me lo recibe,retrotraduccion,moodle_entregas,0.9769,moodle_entregas,0.9358
+"Subí a la tarea, pero él sigue diciendo que no he entregado",subi la tarea pero sigue diciendo que no he entregado,retrotraduccion,moodle_entregas,0.9167,moodle_entregas,0.9419
+Subí a la tarea pero él sigue diciendo que no he entregado,subi la tarea pero sigue diciendo que no he entregado,retrotraduccion,moodle_entregas,0.9109,moodle_entregas,0.9494
+No entiendo el botón de tareas.,no me aparece el boton de enviar tarea,retrotraduccion,moodle_entregas,0.6625,restablecer_contrasena,0.3054
+No entiendo el botón de tarea.,no me aparece el boton de enviar tarea,retrotraduccion,moodle_entregas,0.6773,moodle_entregas,0.3532
+desde el teléfono celular no saben cómo adjuntar el pdf en la actividad,desde el celular no se como adjuntar el pdf en la actividad,retrotraduccion,moodle_entregas,0.9634,correo_institucional,0.3452
+desde el teléfono celular no sé cómo adjuntar el pdf en la actividad,desde el celular no se como adjuntar el pdf en la actividad,retrotraduccion,moodle_entregas,0.9258,correo_institucional,0.4091
+Estoy fuera de tiempo por 2 minutos. Moodle no lo dejará pasar.,"se me vencio el plazo por 2 minutos, moodle ya no deja subir",retrotraduccion,moodle_entregas,0.9113,moodle_acceso,0.9359
+Estoy fuera de tiempo por 2 minutos. Moodle no lo dejará ir.,"se me vencio el plazo por 2 minutos, moodle ya no deja subir",retrotraduccion,moodle_entregas,0.8612,moodle_acceso,0.9506
+el cuestionario está cerrado a mí sólo por la mitad,el cuestionario se me cerro solo a la mitad,retrotraduccion,moodle_entregas,0.9624,moodle_entregas,0.7036
+el cuestionario se cierra a mí sólo por la mitad,el cuestionario se me cerro solo a la mitad,retrotraduccion,moodle_entregas,0.9752,moodle_entregas,0.8839
+"Subí el archivo equivocado, como si lo hubiera cambiado.","subi el archivo equivocado, como lo cambio",retrotraduccion,moodle_entregas,0.9463,moodle_entregas,0.9332
+"Subí el archivo equivocado, como lo cambié.","subi el archivo equivocado, como lo cambio",retrotraduccion,moodle_entregas,0.9587,moodle_entregas,0.9229
+"moodle dice que el tipo de archivo no está permitido, es un .ipinb","moodle dice tipo de archivo no permitido, es un .ipynb",retrotraduccion,moodle_entregas,0.8622,moodle_entregas,0.9552
+"moodle dice que el tipo de archivo no está permitido, es un .ipynb","moodle dice tipo de archivo no permitido, es un .ipynb",retrotraduccion,moodle_entregas,0.9236,moodle_entregas,0.9544
+en el portátil arrastre el archivo y no cargue la barra,en el portatil arrastro el archivo y no carga la barra,retrotraduccion,moodle_entregas,0.8728,moodle_entregas,0.6024
+en el portátil arrastre el fichero y no cargue la barra,en el portatil arrastro el archivo y no carga la barra,retrotraduccion,moodle_entregas,0.8585,moodle_entregas,0.6266
+"el internet salió en medio del concurso, lo hago","se fue el internet en medio del quiz, que hago",retrotraduccion,moodle_entregas,0.8091,wifi_sede,0.3935
+"Internet salió en medio del concurso, lo hago","se fue el internet en medio del quiz, que hago",retrotraduccion,moodle_entregas,0.8187,wifi_sede,0.5764
+"la entrega está en forma de borrador, como el comando real","la entrega queda en borrador, como la mando de verdad",retrotraduccion,moodle_entregas,0.8926,moodle_entregas,0.5357
+"la entrega es en forma de borrador, como el comando real","la entrega queda en borrador, como la mando de verdad",retrotraduccion,moodle_entregas,0.8888,moodle_entregas,0.6632
+"entrega a tiempo, pero dice que entrega tarde",entregue a tiempo pero dice entregado con retraso,retrotraduccion,moodle_entregas,0.8765,moodle_entregas,0.8435
+"entrega a tiempo, pero dice entregado tarde",entregue a tiempo pero dice entregado con retraso,retrotraduccion,moodle_entregas,0.9335,moodle_entregas,0.931
+que es el tamaño máximo para subir archivos en moodle,cual es el tamaño maximo para subir archivos en moodle,retrotraduccion,moodle_entregas,0.9755,moodle_entregas,0.8918
+que es el tamaño máximo para cargar archivos en moodle,cual es el tamaño maximo para subir archivos en moodle,retrotraduccion,moodle_entregas,0.9262,moodle_entregas,0.8166
+el foro no me deja publicar mi respuesta,el foro no me deja publicar mi respuesta,retrotraduccion,moodle_entregas,1.0,moodle_entregas,0.9523
+el foro no me dejará publicar mi respuesta,el foro no me deja publicar mi respuesta,retrotraduccion,moodle_entregas,0.9727,moodle_entregas,0.9302
+en la pc de la sala subo la zip y deja el error del servidor,en el pc de la sala subo el zip y sale error de servidor,retrotraduccion,moodle_entregas,0.9488,moodle_entregas,0.9439
+en la pc de la habitación subo la zip y deja el error del servidor,en el pc de la sala subo el zip y sale error de servidor,retrotraduccion,moodle_entregas,0.9312,moodle_entregas,0.9141
+donde veo los comentarios del profesor sobre la tarea,donde veo la retroalimentacion del profe en la tarea,retrotraduccion,moodle_entregas,0.8137,plataforma_academica,0.4996
+donde veo la retroalimentación del profesor sobre la tarea,donde veo la retroalimentacion del profe en la tarea,retrotraduccion,moodle_entregas,0.839,moodle_entregas,0.4835
+la actividad aparece cerrada y aún no es la fecha,la actividad aparece cerrada y aun no es la fecha,retrotraduccion,moodle_entregas,0.9705,moodle_entregas,0.9453
+la actividad aparece cerrada y todavía no es la fecha,la actividad aparece cerrada y aun no es la fecha,retrotraduccion,moodle_entregas,0.9685,moodle_entregas,0.9402
+Subo el trabajo y sigue llevando infinito,subo el trabajo y se queda cargando infinito,retrotraduccion,moodle_entregas,0.9297,moodle_entregas,0.9568
+Subo el trabajo y sigue llevando infinito.,subo el trabajo y se queda cargando infinito,retrotraduccion,moodle_entregas,0.8951,moodle_entregas,0.9571
+No puedo encontrar dónde sube el trabajo final del curso.,no encuentro donde se sube el trabajo final del curso,retrotraduccion,moodle_entregas,0.9543,moodle_entregas,0.9428
+No puedo encontrar donde sube el trabajo final del curso.,no encuentro donde se sube el trabajo final del curso,retrotraduccion,moodle_entregas,0.9563,moodle_entregas,0.9425
+¿Cómo sé si mi tarea es enviada?,como se si mi tarea si quedo enviada,retrotraduccion,moodle_entregas,0.7057,moodle_entregas,0.5624
+¿Cómo puedo saber si mi tarea es enviada?,como se si mi tarea si quedo enviada,retrotraduccion,moodle_entregas,0.6965,moodle_entregas,0.8349
+"ayuda, el botón para añadir archivo en la tarea no responde y es para mañana","ayuda, el boton de agregar archivo en la tarea no responde y es para mañana",retrotraduccion,moodle_entregas,0.8815,moodle_entregas,0.9361
+"ayuda, el botón para agregar archivo en la tarea no responde y es para mañana","ayuda, el boton de agregar archivo en la tarea no responde y es para mañana",retrotraduccion,moodle_entregas,0.8905,moodle_entregas,0.9513
+Tal vez no me deje entrar en la siguiente pregunta.,el quiz no me deja pasar a la siguiente pregunta,retrotraduccion,moodle_entregas,0.8034,restablecer_contrasena,0.6076
+Quizá no me deje entrar en la siguiente pregunta.,el quiz no me deja pasar a la siguiente pregunta,retrotraduccion,moodle_entregas,0.8127,restablecer_contrasena,0.6254
+Me fui no podía cargar el archivo en la tarea,me salio no se pudo cargar el archivo en la tarea,retrotraduccion,moodle_entregas,0.9514,moodle_entregas,0.9369
+No pude cargar el archivo en la tarea.,me salio no se pudo cargar el archivo en la tarea,retrotraduccion,moodle_entregas,0.9586,moodle_entregas,0.9531
+en el teléfono celular la entrega se queda en 0% subiendo,en el celular la entrega se queda en 0% subiendo,retrotraduccion,moodle_entregas,0.995,moodle_entregas,0.5919
+en el teléfono celular la entrega se queda a 0% subiendo,en el celular la entrega se queda en 0% subiendo,retrotraduccion,moodle_entregas,0.9942,moodle_entregas,0.764
+¿Puedo entregar un enlace de unidad en lugar del archivo?,puedo entregar un link de drive en vez del archivo?,retrotraduccion,moodle_entregas,0.732,moodle_entregas,0.9174
+¿Puedo entregar un enlace de unidad en vez del archivo?,puedo entregar un link de drive en vez del archivo?,retrotraduccion,moodle_entregas,0.748,moodle_entregas,0.9341
+No recibo los correos a la institución.,no me llegan los correos al institucional,retrotraduccion,correo_institucional,0.8656,correo_institucional,0.9607
+No recibo los correos electrónicos a la institución.,no me llegan los correos al institucional,retrotraduccion,correo_institucional,0.851,correo_institucional,0.9252
+como configuro el correo de la u en el teléfono celular,como configuro el correo de la u en el celular,retrotraduccion,correo_institucional,0.9973,correo_institucional,0.9611
+a medida que configuro el correo de la u en el teléfono celular,como configuro el correo de la u en el celular,retrotraduccion,correo_institucional,0.9355,correo_institucional,0.9631
+Me dice que el buzo está lleno.,me dice que el buzon esta lleno,retrotraduccion,correo_institucional,0.6868,correo_institucional,0.4162
+Me dice que el buceador está lleno.,me dice que el buzon esta lleno,retrotraduccion,correo_institucional,0.6497,moodle_entregas,0.3842
+¿Cuál es mi correo institucional?,cual es mi correo institucional,retrotraduccion,correo_institucional,0.9517,correo_institucional,0.9464
+¿Cual es mi correo institucional?,cual es mi correo institucional,retrotraduccion,correo_institucional,0.9433,correo_institucional,0.9579
+Nunca he activado mi correo de la universidad.,nunca he activado mi correo de la universidad,retrotraduccion,correo_institucional,0.9868,correo_institucional,0.9633
+Nunca activé mi correo de la universidad.,nunca he activado mi correo de la universidad,retrotraduccion,correo_institucional,0.9503,correo_institucional,0.9571
+Correos electrónicos que rebotan,los correos que envio rebotan,retrotraduccion,correo_institucional,0.9367,correo_institucional,0.9485
+E-mails que rebotan,los correos que envio rebotan,retrotraduccion,correo_institucional,0.93,correo_institucional,0.9158
+mirar en el portátil no sincroniza el correo de la u,outlook en el portatil no sincroniza el correo de la u,retrotraduccion,correo_institucional,0.7892,correo_institucional,0.9637
+mira en el portátil no sincroniza el correo de la u,outlook en el portatil no sincroniza el correo de la u,retrotraduccion,correo_institucional,0.761,correo_institucional,0.9632
+a medida que reenvío correo institucional a mi gmail,como reenvio el correo institucional a mi gmail,retrotraduccion,correo_institucional,0.9657,correo_institucional,0.9635
+mientras reenvío correo institucional a mi gmail,como reenvio el correo institucional a mi gmail,retrotraduccion,correo_institucional,0.9673,correo_institucional,0.9636
+El profesor dice que me envía un e-mail y no aparece.,el profe dice que me mando un correo y no me aparece,retrotraduccion,correo_institucional,0.9376,correo_institucional,0.911
+El maestro dice que me envía un e-mail y no aparece.,el profe dice que me mando un correo y no me aparece,retrotraduccion,correo_institucional,0.9423,correo_institucional,0.9001
+en el teléfono celular la aplicación de aspecto me hace error al añadir la cuenta institucional,en el celular la app de outlook me sale error al agregar la cuenta institucional,retrotraduccion,correo_institucional,0.8108,office365,0.3209
+en el teléfono celular la aplicación de aspecto me hace error al agregar la cuenta institucional,en el celular la app de outlook me sale error al agregar la cuenta institucional,retrotraduccion,correo_institucional,0.7971,restablecer_contrasena,0.6097
+No quiero los e-mails de los profesores.,los correos de los profes me caen en correo no deseado,retrotraduccion,correo_institucional,0.5124,correo_institucional,0.5146
+No quiero los correos de los profesores.,los correos de los profes me caen en correo no deseado,retrotraduccion,correo_institucional,0.5286,correo_institucional,0.9035
+a medida que cambio la firma del correo institucional,como cambio la firma del correo institucional,retrotraduccion,correo_institucional,0.9805,correo_institucional,0.9322
+mientras cambio la firma del correo institucional,como cambio la firma del correo institucional,retrotraduccion,correo_institucional,0.9852,correo_institucional,0.9117
+No puedo adjuntar archivos grandes en el correo de la u,no puedo adjuntar archivos grandes en el correo de la u,retrotraduccion,correo_institucional,1.0,correo_institucional,0.9659
+No puedo adjuntar grandes archivos en el correo de la u,no puedo adjuntar archivos grandes en el correo de la u,retrotraduccion,correo_institucional,0.998,correo_institucional,0.9657
+"el correo institucional no carga, permanece la pantalla blanca","el correo institucional no carga, se queda la pantalla blanca",retrotraduccion,correo_institucional,0.9775,correo_institucional,0.9309
+"el correo institucional no carga, se mantiene la pantalla blanca","el correo institucional no carga, se queda la pantalla blanca",retrotraduccion,correo_institucional,0.9724,correo_institucional,0.9306
+"He eliminado correos electrónicos importantes, ¿pueden ser recuperados?","se me borraron correos importantes, se pueden recuperar?",retrotraduccion,correo_institucional,0.9416,correo_institucional,0.884
+"He eliminado emails importantes, ¿pueden ser recuperados?","se me borraron correos importantes, se pueden recuperar?",retrotraduccion,correo_institucional,0.9352,correo_institucional,0.5934
+desde el pc de la habitación no abre el correo de la,desde el pc de la sala no abre el correo de la u,retrotraduccion,correo_institucional,0.9839,correo_institucional,0.9499
+desde el pc de la sala no abre el correo de la,desde el pc de la sala no abre el correo de la u,retrotraduccion,correo_institucional,0.9912,correo_institucional,0.9306
+a quien escribo si mi correo tiene un nombre mal escrito,a quien le escribo si mi correo tiene mal escrito el nombre,retrotraduccion,correo_institucional,0.9761,correo_institucional,0.9627
+a quien le escribo si mi correo tiene un nombre mal escrito,a quien le escribo si mi correo tiene mal escrito el nombre,retrotraduccion,correo_institucional,0.9843,correo_institucional,0.9636
+como envío un e-mail a todos en mi curso,como mando un correo a todos los de mi curso,retrotraduccion,correo_institucional,0.9419,correo_institucional,0.8722
+como envío un correo electrónico a todos en mi curso,como mando un correo a todos los de mi curso,retrotraduccion,correo_institucional,0.9601,correo_institucional,0.9581
+El correo dice que no tengo permiso para enviar,el correo dice que no tengo permiso para enviar,retrotraduccion,correo_institucional,1.0,correo_institucional,0.9624
+el correo dice que no tengo permiso para enviar,el correo dice que no tengo permiso para enviar,retrotraduccion,correo_institucional,1.0,correo_institucional,0.9624
+Quiero tener tu correo en el mismo celular que el personal.,quiero tener el correo de la u en el mismo celular que el personal,retrotraduccion,correo_institucional,0.9763,correo_institucional,0.9586
+Quiero tener tu correo en el mismo teléfono celular que el personal.,quiero tener el correo de la u en el mismo celular que el personal,retrotraduccion,correo_institucional,0.9755,correo_institucional,0.9564
+"Tengo correos electrónicos de phishing a la institución, lo que hago.","me llegan correos de phishing al institucional, que hago",retrotraduccion,correo_institucional,0.9499,correo_institucional,0.9543
+"Tengo correos electrónicos de phishing a la institución, lo cual hago.","me llegan correos de phishing al institucional, que hago",retrotraduccion,correo_institucional,0.9542,correo_institucional,0.9543
+Me equivoqué 550 al enviar un e-mail,me salio error 550 al enviar un correo,retrotraduccion,correo_institucional,0.8318,correo_institucional,0.9497
+Me equivoqué 550 cuando envié un e-mail,me salio error 550 al enviar un correo,retrotraduccion,correo_institucional,0.8445,correo_institucional,0.8609
+¿Cuando me gradúo pierdo mi correo de la universidad?,cuando me gradue pierdo el correo de la universidad?,retrotraduccion,correo_institucional,0.9708,correo_institucional,0.9492
+¿Cuando me gradúo pierdo el correo de la universidad?,cuando me gradue pierdo el correo de la universidad?,retrotraduccion,correo_institucional,0.976,correo_institucional,0.9536
+cuál es el formato del correo de los estudiantes,cual es el formato del correo de estudiante,retrotraduccion,correo_institucional,0.9618,correo_institucional,0.9647
+cuál es el formato del correo del estudiante,cual es el formato del correo de estudiante,retrotraduccion,correo_institucional,0.9747,correo_institucional,0.9627
+Inbox no actualizado desde ayer,la bandeja de entrada no actualiza desde ayer,retrotraduccion,correo_institucional,0.7569,instalar_python,0.8935
+Entrada no actualizada desde ayer,la bandeja de entrada no actualiza desde ayer,retrotraduccion,correo_institucional,0.7765,moodle_entregas,0.4447
+en el correo de la u me dice la contraseña equivocada y no la he cambiado,en el correo de la u me dice contraseña incorrecta y no la he cambiado,retrotraduccion,correo_institucional,0.997,correo_institucional,0.9565
+en el correo de la u me dice contraseña equivocada y no la he cambiado,en el correo de la u me dice contraseña incorrecta y no la he cambiado,retrotraduccion,correo_institucional,0.9977,correo_institucional,0.9601
+olvidar la contraseña del correo institucional,olvide la contraseña del correo institucional,retrotraduccion,restablecer_contrasena,0.9957,restablecer_contrasena,0.9545
+olvide la contraseña del correo institucional,olvide la contraseña del correo institucional,retrotraduccion,restablecer_contrasena,1.0,restablecer_contrasena,0.9589
+a medida que cambio mi contraseña de la,como cambio mi contraseña de la u,retrotraduccion,restablecer_contrasena,0.935,restablecer_contrasena,0.8921
+mientras cambio mi contraseña de la,como cambio mi contraseña de la u,retrotraduccion,restablecer_contrasena,0.9445,restablecer_contrasena,0.9417
+Mi cuenta está bloqueada por intentarlo muchas veces.,mi cuenta esta bloqueada por intentar muchas veces,retrotraduccion,restablecer_contrasena,0.9805,correo_institucional,0.3702
+Mi cuenta está bloqueada por intentar muchas veces.,mi cuenta esta bloqueada por intentar muchas veces,retrotraduccion,restablecer_contrasena,0.9804,correo_institucional,0.3031
+Me dice que la contraseña que exhalo y no me deja poner una nueva,me dice que la contraseña expiro y no me deja poner una nueva,retrotraduccion,restablecer_contrasena,0.9903,restablecer_contrasena,0.9393
+Me dice que la contraseña que exhalo y no me deja poner una nueva.,me dice que la contraseña expiro y no me deja poner una nueva,retrotraduccion,restablecer_contrasena,0.9812,restablecer_contrasena,0.9079
+No recuerdo la llave de la plataforma.,no me acuerdo la clave de la plataforma,retrotraduccion,restablecer_contrasena,0.9756,restablecer_contrasena,0.3527
+No recuerdo la llave del andén.,no me acuerdo la clave de la plataforma,retrotraduccion,restablecer_contrasena,0.816,salas_computo,0.2377
+Quiero restablecer la contraseña desde el teléfono celular,quiero restablecer la contraseña desde el celular,retrotraduccion,restablecer_contrasena,0.9973,restablecer_contrasena,0.9597
+Quiero restablecer la contraseña del teléfono celular,quiero restablecer la contraseña desde el celular,retrotraduccion,restablecer_contrasena,0.981,restablecer_contrasena,0.9547
+Perdí mi celular y no tengo el código de verificación.,perdi el celular y no me llega el codigo de verificacion,retrotraduccion,restablecer_contrasena,0.9616,wifi_sede,0.4914
+Perdí mi móvil y no tengo el código de verificación.,perdi el celular y no me llega el codigo de verificacion,retrotraduccion,restablecer_contrasena,0.961,wifi_sede,0.353
+como una verificación activa en dos fases,como activo la verificacion en dos pasos,retrotraduccion,restablecer_contrasena,0.8826,restablecer_contrasena,0.7338
+como una verificación activa en dos etapas,como activo la verificacion en dos pasos,retrotraduccion,restablecer_contrasena,0.9079,restablecer_contrasena,0.7288
+Cambiar la contraseña y ahora en el portátil no me deja entrar en nada.,cambie la contraseña y ahora en el portatil no me deja entrar a nada,retrotraduccion,restablecer_contrasena,0.9475,restablecer_contrasena,0.9478
+Cambiar la contraseña y ahora en el portátil no me dejará entrar en nada.,cambie la contraseña y ahora en el portatil no me deja entrar a nada,retrotraduccion,restablecer_contrasena,0.9456,restablecer_contrasena,0.9267
+"la nueva contraseña no cumple con los requisitos, ¿qué pide?","la nueva contraseña no cumple los requisitos, que pide?",retrotraduccion,restablecer_contrasena,0.9889,restablecer_contrasena,0.9565
+"la nueva contraseña no cumple los requisitos, ¿qué pide?","la nueva contraseña no cumple los requisitos, que pide?",retrotraduccion,restablecer_contrasena,0.989,restablecer_contrasena,0.9574
+Le di que olvidé mi contraseña y no me llegó ningún correo.,le di olvide mi contraseña y no me llega ningun correo,retrotraduccion,restablecer_contrasena,0.9243,correo_institucional,0.8501
+Le di que olvidé mi contraseña y no me llegó correo.,le di olvide mi contraseña y no me llega ningun correo,retrotraduccion,restablecer_contrasena,0.9158,correo_institucional,0.8854
+"Me han hackeado la cuenta institucional, quiero cambiar la llave.","me hackearon la cuenta institucional, quiero cambiar la clave",retrotraduccion,restablecer_contrasena,0.9925,restablecer_contrasena,0.953
+"Me han hackeado la cuenta institucional, quiero cambiar la clave.","me hackearon la cuenta institucional, quiero cambiar la clave",retrotraduccion,restablecer_contrasena,0.9944,restablecer_contrasena,0.9626
+en la sala pc me pide que cambie la contraseña al iniciar,en el pc de la sala me pide cambiar la contraseña al iniciar,retrotraduccion,restablecer_contrasena,0.9878,restablecer_contrasena,0.9586
+en la sala pc me pide que cambie la contraseña al comenzar,en el pc de la sala me pide cambiar la contraseña al iniciar,retrotraduccion,restablecer_contrasena,0.9866,restablecer_contrasena,0.9291
+Olvidé la llave y mañana cedo a Moodle.,se me olvido la clave y mañana entrego en moodle,retrotraduccion,restablecer_contrasena,0.8842,moodle_acceso,0.8815
+Me olvido de la llave y mañana cedo a Moodle.,se me olvido la clave y mañana entrego en moodle,retrotraduccion,restablecer_contrasena,0.9391,moodle_acceso,0.8224
+cada vez que toque para cambiar su contraseña,cada cuanto toca cambiar la contraseña,retrotraduccion,restablecer_contrasena,0.9275,restablecer_contrasena,0.9582
+cada vez que tocas para cambiar tu contraseña,cada cuanto toca cambiar la contraseña,retrotraduccion,restablecer_contrasena,0.9297,restablecer_contrasena,0.8838
+Autenticación de Microsoft me pide un número y no sé cuál,la autenticacion de microsoft me pide un numero y no se cual,retrotraduccion,restablecer_contrasena,0.96,office365,0.8578
+Autenticación de Microsoft me pide un número y no sé qué,la autenticacion de microsoft me pide un numero y no se cual,retrotraduccion,restablecer_contrasena,0.9698,office365,0.7959
+cómo tengo acceso si no tengo el correo alternativo,como recupero el acceso si no tengo el correo alterno,retrotraduccion,restablecer_contrasena,0.9007,correo_institucional,0.9537
+cómo puedo acceder si no tengo el correo alternativo,como recupero el acceso si no tengo el correo alterno,retrotraduccion,restablecer_contrasena,0.8885,correo_institucional,0.9636
+Tengo tu cuenta bloqueada en mi celular.,me sale tu cuenta se ha bloqueado en el celular,retrotraduccion,restablecer_contrasena,0.9594,plataforma_academica,0.2271
+Tengo tu cuenta bloqueada en mi teléfono celular.,me sale tu cuenta se ha bloqueado en el celular,retrotraduccion,restablecer_contrasena,0.9632,plataforma_academica,0.2041
+Puse la llave mal varias veces y ya no puedo.,puse mal la clave varias veces y ya no puedo,retrotraduccion,restablecer_contrasena,0.9919,restablecer_contrasena,0.8699
+Puse la llave mal varias veces y ya no puedo más.,puse mal la clave varias veces y ya no puedo,retrotraduccion,restablecer_contrasena,0.9838,restablecer_contrasena,0.8198
+Obtengo error cambiando la contraseña en la computadora portátil,me sale error al cambiar la contraseña en el portatil,retrotraduccion,restablecer_contrasena,0.9219,restablecer_contrasena,0.9509
+Obtengo error cambiando la contraseña en el portátil,me sale error al cambiar la contraseña en el portatil,retrotraduccion,restablecer_contrasena,0.9274,restablecer_contrasena,0.9462
+cambiar el número y la comprobación llega a la anterior,cambie de numero y la verificacion le llega al anterior,retrotraduccion,restablecer_contrasena,0.9006,restablecer_contrasena,0.9529
+cambiar el número y la comprobación llega al anterior,cambie de numero y la verificacion le llega al anterior,retrotraduccion,restablecer_contrasena,0.899,restablecer_contrasena,0.9539
+donde se cambia la clave de usuario institucional,donde se cambia la clave del usuario institucional,retrotraduccion,restablecer_contrasena,0.9964,restablecer_contrasena,0.9633
+donde se modifica la clave de usuario institucional,donde se cambia la clave del usuario institucional,retrotraduccion,restablecer_contrasena,0.9933,restablecer_contrasena,0.9457
+Me dieron una contraseña temporal y no funciona.,me dieron una contraseña temporal y no funciona,retrotraduccion,restablecer_contrasena,0.9974,restablecer_contrasena,0.9586
+Me dieron una contraseña temporal y eso no funciona.,me dieron una contraseña temporal y no funciona,retrotraduccion,restablecer_contrasena,0.992,restablecer_contrasena,0.9584
+restablecer la tecla,restablecer clave,retrotraduccion,restablecer_contrasena,0.9367,restablecer_contrasena,0.8246
+restablecer la clave,restablecer clave,retrotraduccion,restablecer_contrasena,0.9773,restablecer_contrasena,0.8939
+"No sé cuál es mi contraseña inicial, soy nueva.","no se cual es mi contraseña inicial, soy nuevo",retrotraduccion,restablecer_contrasena,0.9556,restablecer_contrasena,0.4358
+"No sé cuál es mi contraseña inicial, soy nuevo.","no se cual es mi contraseña inicial, soy nuevo",retrotraduccion,restablecer_contrasena,0.9571,restablecer_contrasena,0.3806
+la aplicación autenticador se elimina del teléfono celular y no puedo entrar,la app authenticator se borro del celular y no puedo entrar,retrotraduccion,restablecer_contrasena,0.9652,restablecer_contrasena,0.8399
+la aplicación autenticador se borra del teléfono celular y no puedo entrar,la app authenticator se borro del celular y no puedo entrar,retrotraduccion,restablecer_contrasena,0.9613,restablecer_contrasena,0.889
+que es la clave wifi de la u,cual es la clave del wifi de la u,retrotraduccion,wifi_sede,0.9843,wifi_sede,0.7708
+que es la clave de wifi de la u,cual es la clave del wifi de la u,retrotraduccion,wifi_sede,0.9871,wifi_sede,0.7893
+el wifi de la sede no me conecta desde el teléfono celular,el wifi de la sede no me conecta desde el celular,retrotraduccion,wifi_sede,0.9986,wifi_sede,0.9697
+el wifi de la sede central no me conecta desde el teléfono celular,el wifi de la sede no me conecta desde el celular,retrotraduccion,wifi_sede,0.9696,wifi_sede,0.9675
+Me conecto al wifi pero dice sin internet,me conecto al wifi pero dice sin internet,retrotraduccion,wifi_sede,1.0,wifi_sede,0.971
+Me conecto al wifi pero dice que sin internet,me conecto al wifi pero dice sin internet,retrotraduccion,wifi_sede,0.9844,wifi_sede,0.9704
+en la biblioteca no hay casi ninguna señal de wifi,en la biblioteca casi no hay señal de wifi,retrotraduccion,wifi_sede,0.9966,wifi_sede,0.9691
+en la biblioteca casi no hay señales de wifi,en la biblioteca casi no hay señal de wifi,retrotraduccion,wifi_sede,0.9939,wifi_sede,0.9703
+cómo me conecto a la red universitaria en el portátil,como me conecto a la red de la universidad en el portatil,retrotraduccion,wifi_sede,0.9075,wifi_sede,0.8856
+cómo me conecto a la red universitaria en el ordenador portátil,como me conecto a la red de la universidad en el portatil,retrotraduccion,wifi_sede,0.9159,wifi_sede,0.8198
+el portátil no ve la red wifi de la,el portatil no ve la red wifi de la u,retrotraduccion,wifi_sede,0.9157,wifi_sede,0.9654
+el ordenador portátil no ve la red wifi de la,el portatil no ve la red wifi de la u,retrotraduccion,wifi_sede,0.9494,wifi_sede,0.9687
+Obtengo un error de autenticación al conectarme al wifi,me sale error de autenticacion al conectarme al wifi,retrotraduccion,wifi_sede,0.986,wifi_sede,0.9662
+Obtengo error de autenticación al conectarme al wifi,me sale error de autenticacion al conectarme al wifi,retrotraduccion,wifi_sede,0.9882,wifi_sede,0.9667
+¿El wifi de la sede ha caído?,el wifi de la sede esta caido?,retrotraduccion,wifi_sede,0.969,wifi_sede,0.9565
+¿El wifi de la oficina central ha caído?,el wifi de la sede esta caido?,retrotraduccion,wifi_sede,0.9082,wifi_sede,0.8692
+no abre la página de inicio de sesión wifi,no abre la pagina de login del wifi,retrotraduccion,wifi_sede,0.885,wifi_sede,0.7971
+no abre la página de acceso wifi,no abre la pagina de login del wifi,retrotraduccion,wifi_sede,0.9105,wifi_sede,0.934
+el internet de la u es lento,el internet de la u esta lentisimo,retrotraduccion,wifi_sede,0.8287,wifi_sede,0.8813
+el Internet de la u es lento,el internet de la u esta lentisimo,retrotraduccion,wifi_sede,0.8287,wifi_sede,0.8813
+con el que el usuario entra en el wifi de faca,con que usuario entro al wifi de faca,retrotraduccion,wifi_sede,0.9917,wifi_sede,0.9514
+con la que el usuario entra en el wifi de faca,con que usuario entro al wifi de faca,retrotraduccion,wifi_sede,0.9915,wifi_sede,0.9493
+Wi-Fi me desconecta cada 5 minutos,el wifi me desconecta cada 5 minutos,retrotraduccion,wifi_sede,0.8262,office365,0.6234
+El Wi-Fi me desconecta cada 5 minutos,el wifi me desconecta cada 5 minutos,retrotraduccion,wifi_sede,0.9273,wifi_sede,0.8752
+en el teléfono celular dice contraseña incorrecta en la red de la,en el celular dice contraseña incorrecta en la red de la u,retrotraduccion,wifi_sede,0.9791,wifi_sede,0.9585
+en el teléfono celular dice contraseña incorrecta en la red del,en el celular dice contraseña incorrecta en la red de la u,retrotraduccion,wifi_sede,0.9742,wifi_sede,0.9586
+"Soy visitante, ¿puedo usar el wifi?","soy visitante, puedo usar el wifi?",retrotraduccion,wifi_sede,0.9965,wifi_sede,0.9644
+"Soy un visitante, ¿puedo usar el wifi?","soy visitante, puedo usar el wifi?",retrotraduccion,wifi_sede,0.9942,wifi_sede,0.964
+En el teléfono celular si viajo pero el portátil no toma la red,en el celular si navego pero el portatil no agarra la red,retrotraduccion,wifi_sede,0.836,wifi_sede,0.8446
+En el teléfono celular si viajo pero el portátil no agarra la red,en el celular si navego pero el portatil no agarra la red,retrotraduccion,wifi_sede,0.8705,wifi_sede,0.8458
+el wifi bloquea youtube? no carga nada,el wifi bloquea youtube? no carga nada,retrotraduccion,wifi_sede,1.0,wifi_sede,0.9719
+el wifi bloquea el youtube? no carga nada,el wifi bloquea youtube? no carga nada,retrotraduccion,wifi_sede,0.9984,wifi_sede,0.9714
+como si me olvidara de la red y reconectara,como olvido la red y me vuelvo a conectar,retrotraduccion,wifi_sede,0.8929,wifi_sede,0.7462
+como me olvido de la red y reconectar,como olvido la red y me vuelvo a conectar,retrotraduccion,wifi_sede,0.9386,wifi_sede,0.8832
+mi mac no se conecta al wifi de la sede,mi mac no se conecta al wifi de la sede,retrotraduccion,wifi_sede,1.0,wifi_sede,0.9719
+mi mac no se conecta con el wifi de la sede,mi mac no se conecta al wifi de la sede,retrotraduccion,wifi_sede,0.9984,wifi_sede,0.9721
+la red pide un certificado y no sé qué poner,la red pide un certificado y no se que poner,retrotraduccion,wifi_sede,0.8511,wifi_sede,0.9582
+la red pide un certificado y yo no sé qué poner,la red pide un certificado y no se que poner,retrotraduccion,wifi_sede,0.8282,wifi_sede,0.9557
+parce no hay internet en la cafetería de la,parce no hay internet en la cafeteria de la u,retrotraduccion,wifi_sede,0.9609,wifi_sede,0.4453
+parce no hay Internet en la cafetería de la,parce no hay internet en la cafeteria de la u,retrotraduccion,wifi_sede,0.9609,wifi_sede,0.4453
+cuántos dispositivos puedo conectar al wifi institucional,cuantos dispositivos puedo conectar al wifi institucional,retrotraduccion,wifi_sede,0.9808,wifi_sede,0.9682
+cuántos dispositivos puedo conectar con el wifi institucional,cuantos dispositivos puedo conectar al wifi institucional,retrotraduccion,wifi_sede,0.9791,wifi_sede,0.9688
+conectarme pero las páginas no se cargan,me conecte pero las paginas no cargan,retrotraduccion,wifi_sede,0.8422,office365,0.6842
+conéctame pero las páginas no se cargan,me conecte pero las paginas no cargan,retrotraduccion,wifi_sede,0.925,restablecer_contrasena,0.4693
+en la tableta no me deja entrar el wifi de la,en la tablet no me deja entrar al wifi de la u,retrotraduccion,wifi_sede,0.9848,wifi_sede,0.9576
+en la tableta no me deja entrar en el wifi de la,en la tablet no me deja entrar al wifi de la u,retrotraduccion,wifi_sede,0.9843,wifi_sede,0.962
+No se puede conectar a esta red en ventanas,aparece no se puede conectar a esta red en windows,retrotraduccion,wifi_sede,0.9402,wifi_sede,0.8594
+No se puede conectar a esta red en las ventanas,aparece no se puede conectar a esta red en windows,retrotraduccion,wifi_sede,0.9395,wifi_sede,0.8404
+Necesito internet para parcial y wifi no funciona,necesito internet para el parcial y el wifi no sirve,retrotraduccion,wifi_sede,0.9859,wifi_sede,0.971
+Necesito Internet para parcial y wifi no funciona,necesito internet para el parcial y el wifi no sirve,retrotraduccion,wifi_sede,0.9859,wifi_sede,0.971
+el wifi de la sede tiene red para los estudiantes aparte?,el wifi de la sede tiene red para estudiantes aparte?,retrotraduccion,wifi_sede,0.998,wifi_sede,0.9738
+el wifi de la sede tiene red para estudiantes aparte?,el wifi de la sede tiene red para estudiantes aparte?,retrotraduccion,wifi_sede,1.0,wifi_sede,0.9734
+No puedo entrar en clase para equipos.,no puedo entrar a la clase por teams,retrotraduccion,teams,0.9755,plataforma_academica,0.6102
+No puedo entrar en clase para los equipos.,no puedo entrar a la clase por teams,retrotraduccion,teams,0.9748,plataforma_academica,0.5751
+Cómo me uno a un equipo de código,como me uno a un equipo con codigo,retrotraduccion,teams,0.8817,hablar_con_soporte,0.2739
+Cómo me uno a un equipo de código,como me uno a un equipo con codigo,retrotraduccion,teams,0.8817,hablar_con_soporte,0.2739
+El equipo no reconoce mi micrófono.,teams no me reconoce el microfono,retrotraduccion,teams,0.914,teams,0.4
+el equipo no reconoce mi micrófono.,teams no me reconoce el microfono,retrotraduccion,teams,0.914,teams,0.4
+La cámara no arranca en equipos desde el portátil.,la camara no prende en teams desde el portatil,retrotraduccion,teams,0.5438,teams,0.3885
+La cámara no empieza en equipos desde el portátil.,la camara no prende en teams desde el portatil,retrotraduccion,teams,0.5031,teams,0.2357
+donde las grabaciones de las clases permanecen en equipos,donde quedan las grabaciones de las clases en teams,retrotraduccion,teams,0.9538,salas_computo,0.6078
+donde las grabaciones de las clases permanecen en los equipos,donde quedan las grabaciones de las clases en teams,retrotraduccion,teams,0.9574,salas_computo,0.7215
+"equipos no se abre en el PC, se queda en la pantalla púrpura","teams no abre en el pc, se queda en la pantalla morada",retrotraduccion,teams,0.7174,office365,0.2664
+"equipos no se abren en el PC, se queda en la pantalla púrpura","teams no abre en el pc, se queda en la pantalla morada",retrotraduccion,teams,0.7115,salas_computo,0.306
+"En el celular, los equipos me sacan de la reunión.",en el celular teams me saca de la reunion,retrotraduccion,teams,0.9662,teams,0.2688
+"En el móvil, los equipos me sacan de la reunión.",en el celular teams me saca de la reunion,retrotraduccion,teams,0.9642,teams,0.3198
+Obtengo error al iniciar la sesión en equipos con la cuenta de la u,me sale error al iniciar sesion en teams con la cuenta de la u,retrotraduccion,teams,0.9062,office365,0.3874
+Obtengo un error al iniciar la sesión en equipos con la cuenta de la u,me sale error al iniciar sesion en teams con la cuenta de la u,retrotraduccion,teams,0.9043,office365,0.2822
+el enlace de la reunión me envía a descargar equipos y no lo tengo,el link de la reunion me manda a descargar teams y no lo tengo,retrotraduccion,teams,0.9451,wifi_sede,0.7098
+el enlace de la reunión me envía a descargar equipos y yo no lo tengo,el link de la reunion me manda a descargar teams y no lo tengo,retrotraduccion,teams,0.949,wifi_sede,0.6379
+No veo al equipo del asunto en equipos.,no me aparece el equipo de la materia en teams,retrotraduccion,teams,0.9026,hablar_con_soporte,0.2508
+No veo el equipo del asunto en equipos.,no me aparece el equipo de la materia en teams,retrotraduccion,teams,0.8916,teams,0.2618
+mientras comparto pantalla en equipos para exponer,como comparto pantalla en teams para exponer,retrotraduccion,teams,0.8446,teams,0.8225
+mientras comparto la pantalla en equipos para exponer,como comparto pantalla en teams para exponer,retrotraduccion,teams,0.817,teams,0.8419
+En los equipos no escucho al profesor.,en teams no escucho al profe,retrotraduccion,teams,0.9316,plataforma_academica,0.4804
+En los equipos no escucho a la maestra.,en teams no escucho al profe,retrotraduccion,teams,0.9358,plataforma_academica,0.5817
+¿Puedo usar equipos desde el navegador?,puedo usar teams desde el navegador?,retrotraduccion,teams,0.6897,instalar_python,0.6895
+¿Puedo utilizar equipos desde el navegador?,puedo usar teams desde el navegador?,retrotraduccion,teams,0.6968,instalar_python,0.6706
+Los equipos dicen que no se me permite unirme.,teams dice que no tengo permiso para unirme,retrotraduccion,teams,0.9598,teams,0.4925
+Los equipos dicen que no tengo permitido unirme.,teams dice que no tengo permiso para unirme,retrotraduccion,teams,0.9538,teams,0.4275
+la clase virtual se congela en equipos,la clase virtual se congela en teams,retrotraduccion,teams,0.9821,moodle_entregas,0.2643
+la clase virtual se congela en los equipos,la clase virtual se congela en teams,retrotraduccion,teams,0.9783,teams,0.2976
+a medida que cambio el fondo en equipos,como cambio el fondo en teams,retrotraduccion,teams,0.9593,plataforma_academica,0.2114
+a medida que cambio el fondo en los equipos,como cambio el fondo en teams,retrotraduccion,teams,0.9499,plataforma_academica,0.312
+chat de equipo no envía mensajes,el chat de teams no envia mensajes,retrotraduccion,teams,0.9514,teams,0.3885
+chat en equipo no envía mensajes,el chat de teams no envia mensajes,retrotraduccion,teams,0.9591,teams,0.2501
+Los equipos me tienen en la sala de espera hace un tiempo.,teams me tiene en la sala de espera hace rato,retrotraduccion,teams,0.9738,salas_computo,0.5195
+Los equipos me tienen en la sala de espera hace un rato.,teams me tiene en la sala de espera hace rato,retrotraduccion,teams,0.9777,salas_computo,0.494
+la aplicación del equipo móvil dice error de red,la app de teams del celular dice error de red,retrotraduccion,teams,0.8571,teams,0.7016
+la aplicación de equipo móvil dice error de red,la app de teams del celular dice error de red,retrotraduccion,teams,0.8437,restablecer_contrasena,0.2327
+No puedo encontrar la tarea que dejaron en los equipos.,no encuentro la tarea que dejaron en teams,retrotraduccion,teams,0.932,plataforma_academica,0.356
+No encuentro la tarea que dejaron en los equipos.,no encuentro la tarea que dejaron en teams,retrotraduccion,teams,0.9584,plataforma_academica,0.3961
+Me cierra los equipos solos en la sala PC,se me cierra teams solo en el pc de la sala,retrotraduccion,teams,0.8995,salas_computo,0.9618
+Me cierra equipos solos en la sala PC,se me cierra teams solo en el pc de la sala,retrotraduccion,teams,0.8688,salas_computo,0.959
+los equipos piden una cuenta personal y tengo la institucional,teams pide una cuenta personal y yo tengo la institucional,retrotraduccion,teams,0.987,wifi_sede,0.2192
+los equipos piden una cuenta personal y yo tengo la institucional,teams pide una cuenta personal y yo tengo la institucional,retrotraduccion,teams,0.9858,teams,0.2634
+como equipos de descarga en ventanas,como descargo teams en windows,retrotraduccion,teams,0.6895,instalar_python,0.4663
+como equipos de descarga en windows,como descargo teams en windows,retrotraduccion,teams,0.6087,office365,0.4703
+Mañana expondré para los equipos y no usaré el audio.,mañana expongo por teams y no me sirve el audio,retrotraduccion,teams,0.9368,teams,0.2513
+Mañana expondré para equipos y no usaré el audio.,mañana expongo por teams y no me sirve el audio,retrotraduccion,teams,0.9247,teams,0.3979
+Entro en la reunión y la pantalla es negra.,entro a la reunion y la pantalla queda negra,retrotraduccion,teams,0.9741,teams,0.7293
+Entro en la reunión y la pantalla está negra.,entro a la reunion y la pantalla queda negra,retrotraduccion,teams,0.9778,teams,0.8392
+El código del equipo me dice que no es válido.,el codigo del equipo me dice que no es valido,retrotraduccion,teams,0.9767,teams,0.6973
+El código del equipo dice que no es válido.,el codigo del equipo me dice que no es valido,retrotraduccion,teams,0.9327,teams,0.6439
+mientras instalo oficina con la cuenta de la u,como instalo office con la cuenta de la u,retrotraduccion,office365,0.9293,salas_computo,0.4446
+mientras instalo la oficina con la cuenta de la u,como instalo office con la cuenta de la u,retrotraduccion,office365,0.926,salas_computo,0.6144
+palabra me dice producto sin licencia,word me dice producto sin licencia,retrotraduccion,office365,0.9562,office365,0.7904
+palabra me dice el producto sin licencia,word me dice producto sin licencia,retrotraduccion,office365,0.9507,office365,0.6823
+excel está bloqueado en el portátil,excel se bloquea en el portatil,retrotraduccion,office365,0.9445,office365,0.9454
+excel está bloqueado en el ordenador portátil,excel se bloquea en el portatil,retrotraduccion,office365,0.9482,office365,0.9432
+¿Tengo derecho a una oficina gratuita porque soy estudiante?,tengo derecho a office gratis por ser estudiante?,retrotraduccion,office365,0.9597,salas_computo,0.3584
+¿Tengo derecho a una oficina gratis porque soy estudiante?,tengo derecho a office gratis por ser estudiante?,retrotraduccion,office365,0.9526,salas_computo,0.2908
+onedrive no sincroniza mis archivos,onedrive no sincroniza mis archivos,retrotraduccion,office365,1.0,office365,0.9617
+onedrive no sincroniza mis archivos.,onedrive no sincroniza mis archivos,retrotraduccion,office365,0.983,office365,0.9609
+cuánto espacio tengo en una unidad institucional,cuanto espacio tengo en onedrive institucional,retrotraduccion,office365,0.8346,salas_computo,0.6382
+¿Cuánto espacio tengo en una unidad institucional,cuanto espacio tengo en onedrive institucional,retrotraduccion,office365,0.8127,salas_computo,0.368
+como comparto un archivo onedrive con un socio,como comparto un archivo de onedrive con un compañero,retrotraduccion,office365,0.9907,office365,0.9547
+ya que comparto un archivo onedrive con un socio,como comparto un archivo de onedrive con un compañero,retrotraduccion,office365,0.9688,office365,0.9547
+Obtengo un error al activar la oficina en la PC,me sale error al activar office en el pc,retrotraduccion,office365,0.9513,moodle_entregas,0.4896
+Obtengo un error al activar la oficina en el pc,me sale error al activar office en el pc,retrotraduccion,office365,0.9547,moodle_entregas,0.4798
+Powerpoint dice que la cuenta no tiene licencia,powerpoint dice que la cuenta no tiene licencia,retrotraduccion,office365,1.0,instalar_python,0.8881
+Powerpoint dice que la cuenta no tiene licencia.,powerpoint dice que la cuenta no tiene licencia,retrotraduccion,office365,0.9835,instalar_python,0.8476
+oficina se puede instalar en el teléfono celular con la cuenta de la,se puede instalar office en el celular con la cuenta de la u,retrotraduccion,office365,0.9701,office365,0.3388
+oficina se puede instalar en el teléfono celular con la cuenta del,se puede instalar office en el celular con la cuenta de la u,retrotraduccion,office365,0.9673,wifi_sede,0.4994
+cuántas veces puedo instalar oficina en diferentes computadoras,cuantas veces puedo instalar office en distintos equipos,retrotraduccion,office365,0.9494,salas_computo,0.7948
+cuántas veces puedo instalar oficina en diferentes ordenadores,cuantas veces puedo instalar office en distintos equipos,retrotraduccion,office365,0.9501,office365,0.6753
+en mac no me deja iniciar sesión en palabra,en el mac no me deja iniciar sesion en word,retrotraduccion,office365,0.7824,office365,0.9057
+en mac no me deja empezar sesión en palabra,en el mac no me deja iniciar sesion en word,retrotraduccion,office365,0.7902,office365,0.8617
+"Me perdí un archivo onedrive, como si lo hubiera recuperado.","se me perdio un archivo de onedrive, como lo recupero",retrotraduccion,office365,0.9178,office365,0.9459
+"Me perdí un archivo de Onedrive, como si lo hubiera recuperado.","se me perdio un archivo de onedrive, como lo recupero",retrotraduccion,office365,0.919,office365,0.9475
+la instalación de la oficina se mantiene en 0%,la instalacion de office se queda en 0%,retrotraduccion,office365,0.9407,wifi_sede,0.4225
+la instalación de la oficina se mantiene al 0%,la instalacion de office se queda en 0%,retrotraduccion,office365,0.9307,salas_computo,0.4543
+¿Puedo usar la palabra en línea sin instalar nada?,puedo usar word en linea sin instalar nada?,retrotraduccion,office365,0.8814,office365,0.8829
+¿Puedo usar palabra en línea sin instalar nada?,puedo usar word en linea sin instalar nada?,retrotraduccion,office365,0.9157,office365,0.8403
+oficina me pide que pague la suscripción,office me pide pagar la suscripcion,retrotraduccion,office365,0.7921,restablecer_contrasena,0.2193
+oficina me pide que pague por suscripción,office me pide pagar la suscripcion,retrotraduccion,office365,0.8014,office365,0.3534
+onedrive dice almacenamiento completo,onedrive dice almacenamiento lleno,retrotraduccion,office365,0.9736,office365,0.9583
+Onedrive dice almacenamiento completo,onedrive dice almacenamiento lleno,retrotraduccion,office365,0.9736,office365,0.9583
+el excel en línea no carga,el excel en linea no carga,retrotraduccion,office365,0.7444,office365,0.9567
+el excel en línea no se carga,el excel en linea no carga,retrotraduccion,office365,0.6931,office365,0.957
+¿Cómo puedo cerrar la cuenta personal de la oficina y poner la de la u,como cierro la cuenta personal de office y pongo la de la u,retrotraduccion,office365,0.9103,wifi_sede,0.5176
+¿Cómo puedo cerrar la cuenta personal de la oficina y poner el de la u,como cierro la cuenta personal de office y pongo la de la u,retrotraduccion,office365,0.9083,wifi_sede,0.512
+"¿La palabra se apaga y pierde el documento, se recupera?","word se cerro y perdi el documento, se recupera?",retrotraduccion,office365,0.9129,moodle_entregas,0.8871
+"La palabra se apaga y pierde el documento, se recupera?","word se cerro y perdi el documento, se recupera?",retrotraduccion,office365,0.9276,moodle_entregas,0.862
+Me reduce la funcionalidad en la oficina,me sale funcionalidad reducida en office,retrotraduccion,office365,0.8753,office365,0.5996
+Obtengo funcionalidad reducida en la oficina,me sale funcionalidad reducida en office,retrotraduccion,office365,0.9186,office365,0.4933
+donde descargo la oficina 365 de la universidad,donde descargo office 365 de la universidad,retrotraduccion,office365,0.9774,wifi_sede,0.5254
+donde descargo la oficina 365 desde la universidad,donde descargo office 365 de la universidad,retrotraduccion,office365,0.9752,office365,0.4159
+oficina me dice que el límite de las instalaciones se ha alcanzado,office me dice que se alcanzo el limite de instalaciones,retrotraduccion,office365,0.9326,salas_computo,0.67
+oficina me dice que se ha alcanzado el límite de las instalaciones,office me dice que se alcanzo el limite de instalaciones,retrotraduccion,office365,0.9338,salas_computo,0.8244
+"No puedo editar el documento compartido, sólo leer","no puedo editar el documento compartido, solo lectura",retrotraduccion,office365,0.9912,moodle_entregas,0.9036
+"No puedo editar el documento compartido, leer sólo","no puedo editar el documento compartido, solo lectura",retrotraduccion,office365,0.9888,moodle_entregas,0.8896
+formularios no me dejan responder la encuesta del profesor,forms no me deja responder la encuesta del profe,retrotraduccion,office365,0.9451,moodle_entregas,0.5292
+formularios no me dejan responder a la encuesta del profesor,forms no me deja responder la encuesta del profe,retrotraduccion,office365,0.9356,moodle_entregas,0.3637
+"Mi nuevo portátil trae la oficina de pruebas, ya que lo cambio por usted.","mi portatil nuevo trae office de prueba, como lo cambio por el de la u",retrotraduccion,office365,0.884,restablecer_contrasena,0.5071
+"Mi nuevo portátil trae la oficina de pruebas, ya que lo cambio por el tuyo.","mi portatil nuevo trae office de prueba, como lo cambio por el de la u",retrotraduccion,office365,0.9036,restablecer_contrasena,0.4511
+mientras instalo python en las ventanas,como instalo python en windows,retrotraduccion,instalar_python,0.8904,instalar_python,0.9668
+mientras instalo python en ventanas,como instalo python en windows,retrotraduccion,instalar_python,0.8999,instalar_python,0.9667
+Python no se reconoce a sí mismo como un comando interno.,me sale python no se reconoce como comando interno,retrotraduccion,instalar_python,0.8963,instalar_python,0.9631
+Python no se reconoce como un comando interno.,me sale python no se reconoce como comando interno,retrotraduccion,instalar_python,0.912,instalar_python,0.9657
+"Me olvidé de marcar un añadido a la ruta, lo que hago.","se me olvido marcar add to path, que hago",retrotraduccion,instalar_python,0.6481,moodle_entregas,0.3648
+"Me olvidé de marcar un añadido a la ruta, lo cual hago.","se me olvido marcar add to path, que hago",retrotraduccion,instalar_python,0.6506,moodle_entregas,0.3854
+pip no funciona en la terminal,pip no funciona en la terminal,retrotraduccion,instalar_python,1.0,instalar_python,0.9658
+Pip no funciona en la terminal,pip no funciona en la terminal,retrotraduccion,instalar_python,1.0,instalar_python,0.9658
+mientras instalo jupyter en mi ordenador,como instalo jupyter en mi computador,retrotraduccion,instalar_python,0.9302,instalar_python,0.966
+mientras instalo jupyter en mi computadora,como instalo jupyter en mi computador,retrotraduccion,instalar_python,0.9265,instalar_python,0.966
+qué versión de python descargar,que version de python descargo,retrotraduccion,instalar_python,0.7898,instalar_python,0.965
+que versión de python descargar,que version de python descargo,retrotraduccion,instalar_python,0.8333,instalar_python,0.963
+en el ordenador portátil instalar python pero vs código no lo encuentra,en el portatil instale python pero vs code no lo encuentra,retrotraduccion,instalar_python,0.9407,instalar_python,0.9606
+"en el ordenador portátil instalar python, pero vs código no lo encuentra",en el portatil instale python pero vs code no lo encuentra,retrotraduccion,instalar_python,0.9408,instalar_python,0.9564
+cómo crear un entorno virtual,como creo un entorno virtual,retrotraduccion,instalar_python,0.9836,instalar_python,0.9453
+cómo creo un entorno virtual,como creo un entorno virtual,retrotraduccion,instalar_python,0.9932,instalar_python,0.9605
+pip install Obtengo un error de permisos,pip install me sale error de permisos,retrotraduccion,instalar_python,0.9509,instalar_python,0.9672
+pip install Obtengo el error de permisos,pip install me sale error de permisos,retrotraduccion,instalar_python,0.9495,instalar_python,0.9662
+Tengo dos versiones de Python instaladas y cruzan,tengo dos versiones de python instaladas y se cruzan,retrotraduccion,instalar_python,0.9877,instalar_python,0.9668
+Tengo dos versiones de Python instaladas y se cruzan,tengo dos versiones de python instaladas y se cruzan,retrotraduccion,instalar_python,1.0,instalar_python,0.9671
+al escribir python abre la tienda microsoft,al escribir python se abre la microsoft store,retrotraduccion,instalar_python,0.9873,instalar_python,0.967
+al escribir python abre el microsoft store,al escribir python se abre la microsoft store,retrotraduccion,instalar_python,0.9968,instalar_python,0.9636
+mientras instalo python en mac,como instalo python en mac,retrotraduccion,instalar_python,0.9659,instalar_python,0.9661
+como instalo python en mac,como instalo python en mac,retrotraduccion,instalar_python,1.0,instalar_python,0.9659
+como instalo nuppy con pip,como instalo numpy con pip,retrotraduccion,instalar_python,0.9383,instalar_python,0.9577
+a medida que instalo nuppy con pip,como instalo numpy con pip,retrotraduccion,instalar_python,0.9106,instalar_python,0.9575
+no me deja activar el vend en powershell,no me deja activar el venv en powershell,retrotraduccion,instalar_python,0.7222,instalar_python,0.9657
+no me deja activar el vend en powershell.,no me deja activar el venv en powershell,retrotraduccion,instalar_python,0.6898,instalar_python,0.9641
+El instalador de Python cierra solamente,el instalador de python se cierra solo,retrotraduccion,instalar_python,0.9437,instalar_python,0.9662
+El instalador de Python cierra solo,el instalador de python se cierra solo,retrotraduccion,instalar_python,0.946,instalar_python,0.9659
+jupyter notebook no se abre en el navegador,jupyter notebook no abre en el navegador,retrotraduccion,instalar_python,0.9945,instalar_python,0.9659
+jupyter portátil no se abre en el navegador,jupyter notebook no abre en el navegador,retrotraduccion,instalar_python,0.8933,instalar_python,0.9634
+cómo desinstalar Python completo,como desinstalo python completo,retrotraduccion,instalar_python,0.9756,instalar_python,0.9664
+Cómo desinstalar Python completo,como desinstalo python completo,retrotraduccion,instalar_python,0.9756,instalar_python,0.9664
+Necesito pitón para el taller y no lo instales.,necesito python para el taller y no se instalarlo,retrotraduccion,instalar_python,0.5543,restablecer_contrasena,0.23
+Necesito pitón para el taller y no lo instale.,necesito python para el taller y no se instalarlo,retrotraduccion,instalar_python,0.5727,restablecer_contrasena,0.3829
+MóduloNotFoundError sale incluso si ya instala la biblioteca,sale ModuleNotFoundError aunque ya instale la libreria,retrotraduccion,instalar_python,0.8084,instalar_python,0.9468
+ModuleNotFoundError sale incluso si ya instala la biblioteca,sale ModuleNotFoundError aunque ya instale la libreria,retrotraduccion,instalar_python,0.8404,instalar_python,0.9464
+¿Cómo sé si Python está bien instalado?,como se si python quedo bien instalado,retrotraduccion,instalar_python,0.8959,instalar_python,0.9365
+¿Cómo sé si python está bien instalado?,como se si python quedo bien instalado,retrotraduccion,instalar_python,0.8959,instalar_python,0.9365
+Python en Linux mientras lo instalo,python en linux como lo instalo,retrotraduccion,instalar_python,0.9571,instalar_python,0.9662
+Python en Linux como lo instalo,python en linux como lo instalo,retrotraduccion,instalar_python,1.0,instalar_python,0.9669
+¿Puedo instalar python en una tableta o teléfono celular?,puedo instalar python en una tablet o en el celular?,retrotraduccion,instalar_python,0.9938,instalar_python,0.9611
+¿Puedo instalar python en una tableta o un teléfono celular?,puedo instalar python en una tablet o en el celular?,retrotraduccion,instalar_python,0.994,instalar_python,0.9611
+vs código no muestra intérprete de pitón,vs code no muestra el interprete de python,retrotraduccion,instalar_python,0.6025,instalar_python,0.1821
+vs código no muestra intérprete de python,vs code no muestra el interprete de python,retrotraduccion,instalar_python,0.9398,instalar_python,0.9602
+El pip está desactualizado y sale una advertencia amarilla.,el pip esta desactualizado y sale un aviso amarillo,retrotraduccion,instalar_python,0.9251,instalar_python,0.9655
+El pip está desactualizado y una advertencia amarilla sale.,el pip esta desactualizado y sale un aviso amarillo,retrotraduccion,instalar_python,0.9145,instalar_python,0.9631
+Instala anaconda y ahora no sé qué pitón usas.,instale anaconda y ahora no se cual python usa,retrotraduccion,instalar_python,0.5375,office365,0.7622
+Instala anaconda y ahora no sé qué pitón usas,instale anaconda y ahora no se cual python usa,retrotraduccion,instalar_python,0.5886,office365,0.7584
+al instalar un paquete consigo un error de microsoft visual c++,al instalar un paquete me sale error de microsoft visual c++,retrotraduccion,instalar_python,0.9739,instalar_python,0.9641
+al instalar un paquete obtengo un error de microsoft visual c++,al instalar un paquete me sale error de microsoft visual c++,retrotraduccion,instalar_python,0.9918,instalar_python,0.9655
+como activa la gpu en la colab,como activo la gpu en colab,retrotraduccion,colab_gpu,0.9696,colab_gpu,0.9661
+como activo la gpu en la colab,como activo la gpu en colab,retrotraduccion,colab_gpu,0.9885,colab_gpu,0.9667
+colab dice que no hay gpu disponible,colab dice que no hay gpu disponible,retrotraduccion,colab_gpu,1.0,colab_gpu,0.9666
+colab dice que no hay GPU disponible,colab dice que no hay gpu disponible,retrotraduccion,colab_gpu,1.0,colab_gpu,0.9666
+Me desconecté y lo perdí todo.,se me desconecto colab y perdi todo,retrotraduccion,colab_gpu,0.8293,restablecer_contrasena,0.3672
+Me desconecté y perdí todo.,se me desconecto colab y perdi todo,retrotraduccion,colab_gpu,0.8197,wifi_sede,0.3757
+como una cantidad de google unidad en la colab,como monto google drive en colab,retrotraduccion,colab_gpu,0.6639,colab_gpu,0.9665
+como una cantidad de google unidad en colab,como monto google drive en colab,retrotraduccion,colab_gpu,0.6767,colab_gpu,0.9673
+cuda fuera de memoria en colab,sale cuda out of memory en colab,retrotraduccion,colab_gpu,0.7249,colab_gpu,0.9629
+cuda de memoria en colab,sale cuda out of memory en colab,retrotraduccion,colab_gpu,0.7277,colab_gpu,0.9612
+llegar al límite de uso de gpu en colab,alcance el limite de uso de gpu en colab,retrotraduccion,colab_gpu,0.9835,colab_gpu,0.9675
+llegar al límite de uso de la gpu en colab,alcance el limite de uso de gpu en colab,retrotraduccion,colab_gpu,0.9724,colab_gpu,0.9662
+mientras instalo una biblioteca en collab,como instalo una libreria en colab,retrotraduccion,colab_gpu,0.7894,salas_computo,0.4016
+cuando instalo una biblioteca en collab,como instalo una libreria en colab,retrotraduccion,colab_gpu,0.7809,salas_computo,0.2279
+colab no carga en el teléfono celular,colab no carga en el celular,retrotraduccion,colab_gpu,0.9606,colab_gpu,0.9662
+colab no se carga en el teléfono celular,colab no carga en el celular,retrotraduccion,colab_gpu,0.941,colab_gpu,0.9659
+el entorno de cola solo se reinicia,el entorno de colab se reinicia solo,retrotraduccion,colab_gpu,0.7631,colab_gpu,0.8103
+el entorno de cola sólo se reinicia,el entorno de colab se reinicia solo,retrotraduccion,colab_gpu,0.7568,colab_gpu,0.7306
+colab comete un error cuando importo antorcha,colab me sale error al importar torch,retrotraduccion,colab_gpu,0.638,colab_gpu,0.9661
+Colab comete un error cuando importo antorcha,colab me sale error al importar torch,retrotraduccion,colab_gpu,0.638,colab_gpu,0.9661
+cuánto tiempo dura una sesión de coláb libre,cuanto dura una sesion de colab gratis,retrotraduccion,colab_gpu,0.4828,office365,0.3572
+cuánto dura una sesión de coláb libre,cuanto dura una sesion de colab gratis,retrotraduccion,colab_gpu,0.4978,office365,0.5815
+cómo subo un archivo desde el portátil a colab,como subo un archivo del portatil a colab,retrotraduccion,colab_gpu,0.8568,colab_gpu,0.9514
+cómo subo un archivo desde el portatil a colab,como subo un archivo del portatil a colab,retrotraduccion,colab_gpu,0.89,colab_gpu,0.9554
+colab no abre con cuenta u,colab no abre con la cuenta de la u,retrotraduccion,colab_gpu,0.9146,colab_gpu,0.9665
+colab no abre con u cuenta,colab no abre con la cuenta de la u,retrotraduccion,colab_gpu,0.9561,colab_gpu,0.9666
+el gpu t4 que es tan bueno para el entrenamiento,la gpu t4 que tan buena es para entrenar,retrotraduccion,colab_gpu,0.982,fuera_de_dominio,0.27
+la gpu t4 que es tan buena para el entrenamiento,la gpu t4 que tan buena es para entrenar,retrotraduccion,colab_gpu,0.9835,fuera_de_dominio,0.2394
+en el portatil colab permanece en conexión,en el portatil colab se queda en conectando,retrotraduccion,colab_gpu,0.9014,colab_gpu,0.9644
+en el portatil colab permanece en conexión,en el portatil colab se queda en conectando,retrotraduccion,colab_gpu,0.9014,colab_gpu,0.9644
+mientras mantengo el cuaderno del laboratorio en la unidad,como guardo el notebook de colab en drive,retrotraduccion,colab_gpu,0.6396,salas_computo,0.6275
+mientras mantengo el cuaderno de colábs en la unidad,como guardo el notebook de colab en drive,retrotraduccion,colab_gpu,0.7058,moodle_entregas,0.214
+Colab me pide que compruebe que no soy un robot cada vez.,colab me pide verificar que no soy un robot cada rato,retrotraduccion,colab_gpu,0.9734,colab_gpu,0.9651
+Colab me pide que compruebe que no soy un robot todas las veces.,colab me pide verificar que no soy un robot cada rato,retrotraduccion,colab_gpu,0.9722,colab_gpu,0.9653
+"El entrenamiento de Colab es muy lento, use cpu","el entrenamiento en colab es muy lento, usa cpu",retrotraduccion,colab_gpu,0.9947,colab_gpu,0.9647
+"El entrenamiento de Colab es muy lento, use la CPU","el entrenamiento en colab es muy lento, usa cpu",retrotraduccion,colab_gpu,0.9931,colab_gpu,0.9638
+descargar el .ipynb y no puedo abrirlo en la cola,descargue el .ipynb y no lo puedo abrir en colab,retrotraduccion,colab_gpu,0.7991,instalar_python,0.4456
+descargar el .ipynb y no puedo abrirlo en la cola,descargue el .ipynb y no lo puedo abrir en colab,retrotraduccion,colab_gpu,0.7991,instalar_python,0.4456
+colab dice que el ambiente está bloqueado por el uso de todo el carnero,colab dice que el entorno se bloqueo por usar toda la ram,retrotraduccion,colab_gpu,0.7751,colab_gpu,0.9659
+colab dice que el medio ambiente está bloqueado por el uso de todo el carnero,colab dice que el entorno se bloqueo por usar toda la ram,retrotraduccion,colab_gpu,0.7658,colab_gpu,0.9643
+¿Cómo sé si Colab está usando la GPU?,como se si colab esta usando la gpu,retrotraduccion,colab_gpu,0.7903,colab_gpu,0.94
+¿Cómo sé si el laboratorio está usando la GPU?,como se si colab esta usando la gpu,retrotraduccion,colab_gpu,0.6782,wifi_sede,0.3753
+en la pc de la sala del laboratorio no deja montar la unidad,en el pc de la sala colab no deja montar drive,retrotraduccion,colab_gpu,0.6691,salas_computo,0.9151
+en el pc de la sala del laboratorio no deja montar la unidad,en el pc de la sala colab no deja montar drive,retrotraduccion,colab_gpu,0.6736,salas_computo,0.9388
+¿Colab Pro vale la pena?,colab pro vale la pena?,retrotraduccion,colab_gpu,0.8795,colab_gpu,0.9615
+¿Valió la pena el colab pro?,colab pro vale la pena?,retrotraduccion,colab_gpu,0.8738,colab_gpu,0.9586
+Mañana entregaré el modelo y el laboratorio no me dará gpu.,mañana entrego el modelo y colab no me da gpu,retrotraduccion,colab_gpu,0.8432,moodle_entregas,0.4437
+Mañana entregaré el modelo y el laboratorio no me dará gpu,mañana entrego el modelo y colab no me da gpu,retrotraduccion,colab_gpu,0.8544,moodle_entregas,0.5386
+los archivos que subí a colab desaparecieron,los archivos que subi a colab desaparecieron,retrotraduccion,colab_gpu,0.9988,colab_gpu,0.9668
+los archivos que subí al laboratorio desaparecieron,los archivos que subi a colab desaparecieron,retrotraduccion,colab_gpu,0.8446,moodle_entregas,0.6214
+mientras conecto colab a un repositorio de github,como conecto colab a un repositorio de github,retrotraduccion,colab_gpu,0.9317,colab_gpu,0.9658
+mientras conecto colab a un repositorio de github,como conecto colab a un repositorio de github,retrotraduccion,colab_gpu,0.9317,colab_gpu,0.9658
+No puedo entrar en la plataforma académica.,no puedo entrar a la plataforma academica,retrotraduccion,plataforma_academica,0.9889,moodle_acceso,0.6061
+No puedo entrar a la plataforma académica.,no puedo entrar a la plataforma academica,retrotraduccion,plataforma_academica,0.9888,moodle_acceso,0.619
+donde veo mis notas finales,donde veo mis notas definitivas,retrotraduccion,plataforma_academica,0.9131,plataforma_academica,0.9578
+donde veo mis últimas notas,donde veo mis notas definitivas,retrotraduccion,plataforma_academica,0.8928,plataforma_academica,0.9512
+mientras inscribo temas para el otro semestre,como inscribo materias para el otro semestre,retrotraduccion,plataforma_academica,0.9087,plataforma_academica,0.9338
+a medida que registro temas para el otro semestre,como inscribo materias para el otro semestre,retrotraduccion,plataforma_academica,0.8755,plataforma_academica,0.9351
+la plataforma académica no cobra cuando voy a inscribirme,la plataforma academica no carga cuando voy a matricular,retrotraduccion,plataforma_academica,0.9455,plataforma_academica,0.9095
+La plataforma académica no cobra cuando voy a inscribirme,la plataforma academica no carga cuando voy a matricular,retrotraduccion,plataforma_academica,0.9455,plataforma_academica,0.9095
+Tengo un error descargando el recibo de pago del teléfono celular,me sale error al descargar el recibo de pago desde el celular,retrotraduccion,plataforma_academica,0.953,correo_institucional,0.35
+Tengo un error descargando el recibo de pago del teléfono celular.,me sale error al descargar el recibo de pago desde el celular,retrotraduccion,plataforma_academica,0.9448,correo_institucional,0.4275
+donde saco un certificado de estudio,donde saco un certificado de estudio,retrotraduccion,plataforma_academica,1.0,plataforma_academica,0.9562
+donde saco un certificado de estudios,donde saco un certificado de estudio,retrotraduccion,plataforma_academica,0.9886,plataforma_academica,0.9367
+el horario oficial no me parece,el horario oficial no me aparece,retrotraduccion,plataforma_academica,0.9165,plataforma_academica,0.9455
+la agenda oficial no me parece,el horario oficial no me aparece,retrotraduccion,plataforma_academica,0.4805,plataforma_academica,0.9307
+en el teléfono celular la plataforma académica se corta,en el celular la plataforma academica se ve cortada,retrotraduccion,plataforma_academica,0.9713,restablecer_contrasena,0.7871
+en el teléfono celular se corta la plataforma académica,en el celular la plataforma academica se ve cortada,retrotraduccion,plataforma_academica,0.9603,restablecer_contrasena,0.8155
+"no me deja registrar un asunto, dice tiempo de cruzar","no me deja inscribir una materia, dice cruce de horario",retrotraduccion,plataforma_academica,0.8091,moodle_acceso,0.2951
+"no me deja registrar un asunto, dice el tiempo cruzando","no me deja inscribir una materia, dice cruce de horario",retrotraduccion,plataforma_academica,0.8407,fuera_de_dominio,0.4099
+¿cuál es la página para ver las notas del semestre,cual es la pagina para ver las notas del semestre,retrotraduccion,plataforma_academica,0.9809,plataforma_academica,0.8001
+¿Cuál es la página para ver las notas del semestre,cual es la pagina para ver las notas del semestre,retrotraduccion,plataforma_academica,0.9809,plataforma_academica,0.8001
+Ya pagué y la plataforma sigue diciendo que no estoy inscrito.,ya pague y la plataforma sigue diciendo que no estoy matriculado,retrotraduccion,plataforma_academica,0.9135,plataforma_academica,0.9339
+Ya he pagado y la plataforma sigue diciendo que no estoy inscrito.,ya pague y la plataforma sigue diciendo que no estoy matriculado,retrotraduccion,plataforma_academica,0.9462,plataforma_academica,0.9277
+la nota final aún no aparece,la nota definitiva no aparece todavia,retrotraduccion,plataforma_academica,0.9176,moodle_entregas,0.39
+la nota final no aparece todavía,la nota definitiva no aparece todavia,retrotraduccion,plataforma_academica,0.9153,plataforma_academica,0.3522
+el sistema acaba de caer en las inscripciones,se cayo el sistema justo en las inscripciones,retrotraduccion,plataforma_academica,0.7998,plataforma_academica,0.9425
+el sistema se acaba de caer en las inscripciones,se cayo el sistema justo en las inscripciones,retrotraduccion,plataforma_academica,0.7937,plataforma_academica,0.8932
+mientras descargo mi historia académica,como descargo mi historial academico,retrotraduccion,plataforma_academica,0.9196,moodle_entregas,0.6735
+a medida que descargo mi historia académica,como descargo mi historial academico,retrotraduccion,plataforma_academica,0.9359,moodle_entregas,0.7007
+en la laptop consigo error de sesión en la plataforma académica,en el portatil me sale error de sesion en la plataforma academica,retrotraduccion,plataforma_academica,0.7994,moodle_entregas,0.4179
+en la laptop tengo error de sesión en la plataforma académica,en el portatil me sale error de sesion en la plataforma academica,retrotraduccion,plataforma_academica,0.8148,moodle_entregas,0.3505
+cuando los registros se abren en la plataforma,cuando abren las inscripciones en la plataforma,retrotraduccion,plataforma_academica,0.705,moodle_entregas,0.4995
+cuando las inscripciones se abren en la plataforma,cuando abren las inscripciones en la plataforma,retrotraduccion,plataforma_academica,0.9934,plataforma_academica,0.478
+La plataforma me dice que tengo un bloqueo financiero.,la plataforma me dice que tengo un bloqueo financiero,retrotraduccion,plataforma_academica,0.9983,plataforma_academica,0.9564
+La plataforma me dice que tengo un cierre financiero.,la plataforma me dice que tengo un bloqueo financiero,retrotraduccion,plataforma_academica,0.8684,plataforma_academica,0.9461
+cómo actualizo mis datos personales en el sistema académico,como actualizo mis datos personales en el sistema academico,retrotraduccion,plataforma_academica,0.9801,office365,0.3183
+Cómo actualizo mis datos personales en el sistema académico,como actualizo mis datos personales en el sistema academico,retrotraduccion,plataforma_academica,0.9801,office365,0.3183
+donde veo mi promedio acumulado,donde veo mi promedio acumulado,retrotraduccion,plataforma_academica,1.0,plataforma_academica,0.9605
+donde veo mi media acumulada,donde veo mi promedio acumulado,retrotraduccion,plataforma_academica,0.9353,plataforma_academica,0.9496
+No puedo encontrar el botón para registrar a los sujetos.,no encuentro el boton para matricular materias,retrotraduccion,plataforma_academica,0.5179,salas_computo,0.2239
+No puedo encontrar el botón para registrar sujetos.,no encuentro el boton para matricular materias,retrotraduccion,plataforma_academica,0.5236,moodle_entregas,0.4155
+la plataforma académica me pide una contraseña que no sea la del correo,la plataforma academica me pide una contraseña distinta a la del correo,retrotraduccion,plataforma_academica,0.9186,correo_institucional,0.4853
+la plataforma académica me pide una contraseña distinta de la del correo,la plataforma academica me pide una contraseña distinta a la del correo,retrotraduccion,plataforma_academica,0.992,correo_institucional,0.8046
+Tengo una pantalla en blanco al imprimir el horario.,me salio pantalla en blanco al imprimir el horario,retrotraduccion,plataforma_academica,0.9397,plataforma_academica,0.9499
+Tengo una pantalla en blanco al imprimir la agenda.,me salio pantalla en blanco al imprimir el horario,retrotraduccion,plataforma_academica,0.6732,plataforma_academica,0.9306
+no se genera el recibo de registro,el recibo de matricula no se genera,retrotraduccion,plataforma_academica,0.7788,correo_institucional,0.6181
+no se genera recibo de registro,el recibo de matricula no se genera,retrotraduccion,plataforma_academica,0.7614,correo_institucional,0.5764
+¿Hay otra página aparte de moodle para las notas finales?,hay otra pagina distinta a moodle para las notas finales?,retrotraduccion,plataforma_academica,0.9843,plataforma_academica,0.8452
+¿Hay otra página que no sea moodle para las notas finales?,hay otra pagina distinta a moodle para las notas finales?,retrotraduccion,plataforma_academica,0.9711,plataforma_academica,0.7727
+Necesito el certificado de notas urgentes para una beca.,necesito el certificado de notas urgente para una beca,retrotraduccion,plataforma_academica,0.9957,plataforma_academica,0.9576
+Necesito un certificado de notas urgentes para una beca.,necesito el certificado de notas urgente para una beca,retrotraduccion,plataforma_academica,0.9922,plataforma_academica,0.9515
+desde el pc de la sala no abre el portal académico,desde el pc de la sala no abre el portal academico,retrotraduccion,plataforma_academica,0.9902,salas_computo,0.8649
+desde el pc de la sala no se abre el portal académico,desde el pc de la sala no abre el portal academico,retrotraduccion,plataforma_academica,0.9845,salas_computo,0.9393
+¿A qué hora abren las salas de computadoras?,a que hora abren las salas de computo,retrotraduccion,salas_computo,0.8455,salas_computo,0.963
+¿A qué hora abren las salas de ordenadores?,a que hora abren las salas de computo,retrotraduccion,salas_computo,0.8452,salas_computo,0.9604
+mientras reservo una sala de sistema,como reservo una sala de sistemas,retrotraduccion,salas_computo,0.8929,salas_computo,0.9629
+como reservo una sala de sistema,como reservo una sala de sistemas,retrotraduccion,salas_computo,0.9836,salas_computo,0.9644
+el pc de la habitación no ilumina,el pc de la sala no prende,retrotraduccion,salas_computo,0.8382,wifi_sede,0.4125
+la pc de la habitación no ilumina,el pc de la sala no prende,retrotraduccion,salas_computo,0.831,wifi_sede,0.5269
+con la que el usuario inicia sesión en los ordenadores de la sala,con que usuario inicio sesion en los computadores de la sala,retrotraduccion,salas_computo,0.9164,salas_computo,0.9627
+con el que el usuario inicia sesión en los ordenadores de la sala,con que usuario inicio sesion en los computadores de la sala,retrotraduccion,salas_computo,0.9141,salas_computo,0.9628
+La computadora de la habitación no tiene internet.,el computador de la sala no tiene internet,retrotraduccion,salas_computo,0.9845,salas_computo,0.9075
+El ordenador de la habitación no tiene internet.,el computador de la sala no tiene internet,retrotraduccion,salas_computo,0.9838,salas_computo,0.816
+que programas tienen salas instaladas,que programas tienen instalados las salas,retrotraduccion,salas_computo,0.9505,salas_computo,0.9279
+que programas tienen habitaciones instaladas,que programas tienen instalados las salas,retrotraduccion,salas_computo,0.9433,salas_computo,0.8159
+¿Puedo imprimir en la sala de computadoras?,puedo imprimir en la sala de computo?,retrotraduccion,salas_computo,0.8952,salas_computo,0.9623
+¿Puedo imprimir en la sala de ordenadores?,puedo imprimir en la sala de computo?,retrotraduccion,salas_computo,0.9011,salas_computo,0.9608
+el usb no lo reconoce para mí el PC de la habitación,la usb no me la reconoce el pc de la sala,retrotraduccion,salas_computo,0.9706,restablecer_contrasena,0.3623
+el usb no lo reconoce a mí el PC de la habitación,la usb no me la reconoce el pc de la sala,retrotraduccion,salas_computo,0.9706,restablecer_contrasena,0.3325
+el teclado del equipo 12 no funciona,el teclado del equipo 12 no sirve,retrotraduccion,salas_computo,0.9908,salas_computo,0.9635
+El teclado del equipo 12 no funciona,el teclado del equipo 12 no sirve,retrotraduccion,salas_computo,0.9908,salas_computo,0.9635
+¿Los ordenadores de la habitación tienen pitón?,los computadores de la sala tienen python?,retrotraduccion,salas_computo,0.6706,wifi_sede,0.5905
+¿Las computadoras de la habitación tienen pitón?,los computadores de la sala tienen python?,retrotraduccion,salas_computo,0.6708,salas_computo,0.5848
+Borré los archivos cuando apagué el ordenador de la habitación.,se me borraron los archivos al apagar el pc de la sala,retrotraduccion,salas_computo,0.9503,wifi_sede,0.477
+Borré los archivos cuando apagué el PC de la habitación.,se me borraron los archivos al apagar el pc de la sala,retrotraduccion,salas_computo,0.9566,restablecer_contrasena,0.3232
+Necesito una habitación para estudiar esta tarde.,necesito una sala para estudiar esta tarde,retrotraduccion,salas_computo,0.9948,fuera_de_dominio,0.4071
+Necesito un cuarto para estudiar esta tarde.,necesito una sala para estudiar esta tarde,retrotraduccion,salas_computo,0.9895,salas_computo,0.8876
+El PC del laboratorio es lento.,el pc del laboratorio esta lentisimo,retrotraduccion,salas_computo,0.7885,salas_computo,0.9319
+La PC del laboratorio es lenta.,el pc del laboratorio esta lentisimo,retrotraduccion,salas_computo,0.7967,salas_computo,0.9026
+¿La habitación está abierta los sábados?,la sala esta abierta los sabados?,retrotraduccion,salas_computo,0.62,wifi_sede,0.7479
+¿Está la habitación abierta los sábados?,la sala esta abierta los sabados?,retrotraduccion,salas_computo,0.6229,wifi_sede,0.6294
+en el equipo en la habitación Obtengo un error temporal de perfil,en el equipo de la sala me sale error de perfil temporal,retrotraduccion,salas_computo,0.9547,teams,0.6771
+en el equipo en la habitación Obtengo un error de perfil temporal,en el equipo de la sala me sale error de perfil temporal,retrotraduccion,salas_computo,0.9716,teams,0.6014
+El ratón de la computadora en la habitación no funciona.,el mouse del computador de la sala no funciona,retrotraduccion,salas_computo,0.9698,wifi_sede,0.4157
+El ratón del ordenador en la habitación no funciona.,el mouse del computador de la sala no funciona,retrotraduccion,salas_computo,0.9714,wifi_sede,0.7454
+a quien aconsejo que un equipo en la habitación está dañado,a quien le aviso que un equipo de la sala esta dañado,retrotraduccion,salas_computo,0.9167,hablar_con_soporte,0.3762
+a quien aconsejo que un equipo en la habitación esté dañado,a quien le aviso que un equipo de la sala esta dañado,retrotraduccion,salas_computo,0.9042,hablar_con_soporte,0.413
+¿Puedo instalar programas en las PC de la sala?,puedo instalar programas en los pc de la sala?,retrotraduccion,salas_computo,0.996,salas_computo,0.9668
+¿Puedo instalar programas en las PCs de la sala?,puedo instalar programas en los pc de la sala?,retrotraduccion,salas_computo,0.9891,salas_computo,0.9672
+La pantalla de la computadora del laboratorio es negra.,la pantalla del computador del laboratorio queda negra,retrotraduccion,salas_computo,0.9848,salas_computo,0.8936
+La pantalla del ordenador del laboratorio es negra.,la pantalla del computador del laboratorio queda negra,retrotraduccion,salas_computo,0.9822,salas_computo,0.8868
+¿Hay habitaciones con PC para hacer el parcial virtual?,hay salas con pc para hacer el parcial virtual?,retrotraduccion,salas_computo,0.9941,salas_computo,0.9507
+¿Hay habitaciones con PC para hacer la parcial virtual?,hay salas con pc para hacer el parcial virtual?,retrotraduccion,salas_computo,0.9938,salas_computo,0.9523
+donde las salas de ordenadores permanecen en la sede,donde quedan las salas de computo en la sede,retrotraduccion,salas_computo,0.7902,salas_computo,0.9616
+donde las salas de computadoras permanecen en la sede,donde quedan las salas de computo en la sede,retrotraduccion,salas_computo,0.7925,salas_computo,0.9631
+no me deja guardar en el escritorio de la sala PC,no me deja guardar en el escritorio del pc de la sala,retrotraduccion,salas_computo,0.9968,salas_computo,0.9649
+no me deja guardar en el escritorio de la sala pc,no me deja guardar en el escritorio del pc de la sala,retrotraduccion,salas_computo,0.9968,salas_computo,0.9649
+el proyector de la sala no se conecta,el proyector de la sala no conecta,retrotraduccion,salas_computo,0.9559,salas_computo,0.9552
+el proyector de la habitación no se conecta,el proyector de la sala no conecta,retrotraduccion,salas_computo,0.9415,moodle_entregas,0.3314
+se puede llevar comida a la sala de sistemas,se puede llevar comida a la sala de sistemas,retrotraduccion,salas_computo,1.0,salas_computo,0.965
+puede llevar comida a la sala de sistemas,se puede llevar comida a la sala de sistemas,retrotraduccion,salas_computo,0.9926,salas_computo,0.9645
+la PC de la habitación me dice contraseña incorrecta con mi usuario de la u,el pc de la sala me dice contraseña incorrecta con mi usuario de la u,retrotraduccion,salas_computo,0.9955,salas_computo,0.482
+el ordenador de la habitación me dice contraseña incorrecta con mi usuario de la u,el pc de la sala me dice contraseña incorrecta con mi usuario de la u,retrotraduccion,salas_computo,0.9793,wifi_sede,0.477
+"La habitación está llena, ¿hay otra disponible?","la sala esta llena, hay otra disponible?",retrotraduccion,salas_computo,0.9624,restablecer_contrasena,0.4034
+"La habitación está llena, ¿hay otro disponible?","la sala esta llena, hay otra disponible?",retrotraduccion,salas_computo,0.9631,hablar_con_soporte,0.2908
+Quiero hablar con una persona.,quiero hablar con una persona,retrotraduccion,hablar_con_soporte,0.9918,hablar_con_soporte,0.9669
+Quiero hablar con alguien.,quiero hablar con una persona,retrotraduccion,hablar_con_soporte,0.9668,hablar_con_soporte,0.9615
+Necesito un técnico.,necesito un tecnico,retrotraduccion,hablar_con_soporte,0.9831,hablar_con_soporte,0.8899
+Necesito una tecnología.,necesito un tecnico,retrotraduccion,hablar_con_soporte,0.7523,hablar_con_soporte,0.5472
+mientras abro un ticket de apoyo,como abro un ticket de soporte,retrotraduccion,hablar_con_soporte,0.8994,hablar_con_soporte,0.955
+mientras abro un ticket de soporte,como abro un ticket de soporte,retrotraduccion,hablar_con_soporte,0.9246,hablar_con_soporte,0.9671
+¿Cuál es el correo del servicio de ayuda?,cual es el correo de la mesa de ayuda,retrotraduccion,hablar_con_soporte,0.8393,correo_institucional,0.9486
+¿Cuál es el correo de ayuda?,cual es el correo de la mesa de ayuda,retrotraduccion,hablar_con_soporte,0.8638,correo_institucional,0.947
+¿A qué hora es la mesa de ayuda?,a que hora atiende la mesa de ayuda,retrotraduccion,hablar_con_soporte,0.9485,hablar_con_soporte,0.8691
+¿A qué hora es la mesa de asistencia?,a que hora atiende la mesa de ayuda,retrotraduccion,hablar_con_soporte,0.8172,hablar_con_soporte,0.8892
+"Nada de lo que dices funciona, pásame a alguien.","nada de lo que dices funciona, pasame con alguien",retrotraduccion,hablar_con_soporte,0.9396,hablar_con_soporte,0.9371
+"Nada de lo que estás diciendo funciona, pásame a alguien.","nada de lo que dices funciona, pasame con alguien",retrotraduccion,hablar_con_soporte,0.9334,hablar_con_soporte,0.932
+donde se encuentra la oficina del sistema,donde queda la oficina de sistemas,retrotraduccion,hablar_con_soporte,0.9741,fuera_de_dominio,0.4639
+donde esté situada la oficina del sistema,donde queda la oficina de sistemas,retrotraduccion,hablar_con_soporte,0.9704,salas_computo,0.2804
+¿Hay un número de teléfono de reserva?,hay un numero de telefono de soporte?,retrotraduccion,hablar_con_soporte,0.8706,restablecer_contrasena,0.5329
+¿Hay un número de teléfono de copia de seguridad?,hay un numero de telefono de soporte?,retrotraduccion,hablar_con_soporte,0.7723,restablecer_contrasena,0.6401
+"Lo intenté todo y aún así es inútil, quiero un humano.","ya intente todo y sigue sin servir, quiero un humano",retrotraduccion,hablar_con_soporte,0.8695,hablar_con_soporte,0.6755
+Lo intenté todo y aún así es inútil.,"ya intente todo y sigue sin servir, quiero un humano",retrotraduccion,hablar_con_soporte,0.5704,office365,0.3755
+cómo rastreo mi boleto,como hago seguimiento a mi ticket,retrotraduccion,hablar_con_soporte,0.8644,despedida,0.7921
+cómo rastreo mi billete,como hago seguimiento a mi ticket,retrotraduccion,hablar_con_soporte,0.7257,despedida,0.8495
+Puedes contactarme con un asesor.,me puedes comunicar con un asesor,retrotraduccion,hablar_con_soporte,0.9508,hablar_con_soporte,0.9643
+Puede ponerse en contacto conmigo con un asesor.,me puedes comunicar con un asesor,retrotraduccion,hablar_con_soporte,0.957,hablar_con_soporte,0.9502
+"No necesito el bot, necesito atención personalizada.","no me sirve el bot, necesito atencion personalizada",retrotraduccion,hablar_con_soporte,0.8904,hablar_con_soporte,0.9324
+"No necesito el robot, necesito atención personalizada.","no me sirve el bot, necesito atencion personalizada",retrotraduccion,hablar_con_soporte,0.798,hablar_con_soporte,0.9285
+¿El servicio de ayuda asiste los sábados?,la mesa de ayuda atiende los sabados?,retrotraduccion,hablar_con_soporte,0.4798,hablar_con_soporte,0.8972
+¿El servicio de asistencia asiste los sábados?,la mesa de ayuda atiende los sabados?,retrotraduccion,hablar_con_soporte,0.4269,hablar_con_soporte,0.9189
+Quiero reportar un grave fallo del sistema.,quiero reportar una falla grave en el sistema,retrotraduccion,hablar_con_soporte,0.9723,hablar_con_soporte,0.9396
+Quiero informar de un grave fallo del sistema.,quiero reportar una falla grave en el sistema,retrotraduccion,hablar_con_soporte,0.9472,hablar_con_soporte,0.9015
+Llevo una semana esperando una respuesta de apoyo.,llevo una semana esperando respuesta de soporte,retrotraduccion,hablar_con_soporte,0.9741,hablar_con_soporte,0.9587
+Llevo una semana esperando la respuesta de apoyo.,llevo una semana esperando respuesta de soporte,retrotraduccion,hablar_con_soporte,0.9668,hablar_con_soporte,0.9612
+Puedo ir personalmente a revisar mi laptop.,puedo ir personalmente a que me revisen el portatil,retrotraduccion,hablar_con_soporte,0.8706,hablar_con_soporte,0.9531
+Puedo ir personalmente a revisar mi portátil.,puedo ir personalmente a que me revisen el portatil,retrotraduccion,hablar_con_soporte,0.8943,hablar_con_soporte,0.9441
+¿Hay charlas con un agente de verdad?,hay chat con un agente real?,retrotraduccion,hablar_con_soporte,0.9551,hablar_con_soporte,0.9279
+¿Hay charla con un agente de verdad?,hay chat con un agente real?,retrotraduccion,hablar_con_soporte,0.9631,hablar_con_soporte,0.9007
+a quien escribo para un problema que no está en su lista,a quien escribo para un problema que no esta en tu lista,retrotraduccion,hablar_con_soporte,0.9914,hablar_con_soporte,0.9592
+a quien escribo para un problema que no está en tu lista,a quien escribo para un problema que no esta en tu lista,retrotraduccion,hablar_con_soporte,0.9978,hablar_con_soporte,0.9625
+Necesito que alguien de los sistemas me llame.,me urge que alguien de sistemas me llame,retrotraduccion,hablar_con_soporte,0.9506,hablar_con_soporte,0.962
+Necesito a alguien de los sistemas que me llame.,me urge que alguien de sistemas me llame,retrotraduccion,hablar_con_soporte,0.8797,hablar_con_soporte,0.9626
+el boleto que abrí estaba cerrado sin resolver,el ticket que abri lo cerraron sin solucionar,retrotraduccion,hablar_con_soporte,0.9566,moodle_entregas,0.8216
+el billete que abrí estaba cerrado sin resolver,el ticket que abri lo cerraron sin solucionar,retrotraduccion,hablar_con_soporte,0.8234,moodle_entregas,0.7908
+escalar el caso para apoyar,escalar caso a soporte,retrotraduccion,hablar_con_soporte,0.8441,hablar_con_soporte,0.9189
+escalar el caso para apoyarlo,escalar caso a soporte,retrotraduccion,hablar_con_soporte,0.8085,hablar_con_soporte,0.9458
+donde radiografío una solicitud a la tecnología,donde radico una solicitud a tecnologia,retrotraduccion,hablar_con_soporte,0.7662,restablecer_contrasena,0.4826
+donde me radiografío una solicitud a la tecnología,donde radico una solicitud a tecnologia,retrotraduccion,hablar_con_soporte,0.7791,hablar_con_soporte,0.5429
+Me comunicaste con un oficial.,me pasas con un funcionario,retrotraduccion,hablar_con_soporte,0.8204,hablar_con_soporte,0.9453
+Usted me puso a través de un oficial.,me pasas con un funcionario,retrotraduccion,hablar_con_soporte,0.8168,hablar_con_soporte,0.5891
+"He estado en el PC por dos horas, y necesito a alguien que me ayude ahora.",llevo dos horas con el error en el pc y necesito que alguien me ayude ya,retrotraduccion,hablar_con_soporte,0.8692,hablar_con_soporte,0.9593
+"He estado en el PC por dos horas, y necesito que alguien me ayude ahora.",llevo dos horas con el error en el pc y necesito que alguien me ayude ya,retrotraduccion,hablar_con_soporte,0.8891,hablar_con_soporte,0.9517
+"El celular sigue en el mismo micrófono, quiero que lo veas técnico.","el celular sigue con el mismo error, quiero que lo vea un tecnico",retrotraduccion,hablar_con_soporte,0.7614,restablecer_contrasena,0.2633
+"El celular sigue en el mismo error, quiero que lo veas técnico.","el celular sigue con el mismo error, quiero que lo vea un tecnico",retrotraduccion,hablar_con_soporte,0.9612,hablar_con_soporte,0.73
+que es el apoyo whatsapp de la u,cual es el whatsapp de soporte de la u,retrotraduccion,hablar_con_soporte,0.9746,hablar_con_soporte,0.9452
+que es el apoyo whatsapp de la U,cual es el whatsapp de soporte de la u,retrotraduccion,hablar_con_soporte,0.9746,hablar_con_soporte,0.9452

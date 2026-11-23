@@ -1,0 +1,443 @@
+id,texto,intenciones,origen,particion
+0,hola,saludo,asistente_ia,train
+1,buenas tardes,saludo,asistente_ia,train
+2,q mas pues,saludo,asistente_ia,test
+3,"holi, hay alguien atendiendo?",saludo,asistente_ia,train
+4,buenos dias mesa de ayuda,saludo,asistente_ia,test
+5,quiubo bot,saludo,asistente_ia,val
+6,"buenas noches, estas activo?",saludo,asistente_ia,train
+7,hey que tal,saludo,asistente_ia,train
+8,ola buenas,saludo,asistente_ia,val
+9,"buenas deepbot, me ayudas?",saludo,asistente_ia,train
+10,"saludos cordiales, tengo una inquietud",saludo,asistente_ia,train
+11,epa buenas,saludo,asistente_ia,train
+12,"buen dia, una consultica",saludo,asistente_ia,train
+13,"holis, todo bien?",saludo,asistente_ia,test
+14,buenaas,saludo,asistente_ia,train
+15,"hola, acabo de abrir el chat",saludo,asistente_ia,train
+16,que hubo parce,saludo,asistente_ia,test
+17,holaaa como va,saludo,asistente_ia,train
+18,"buenas, me puedes colaborar?",saludo,asistente_ia,train
+19,hola soporte,saludo,asistente_ia,train
+20,"buenos dias, disculpa la hora",saludo,asistente_ia,val
+21,como estas bot,saludo,asistente_ia,train
+22,"qhubo, estas ahi?",saludo,asistente_ia,train
+23,"hola, que mas, todo bien por alla?",saludo,asistente_ia,train
+24,buenass tardecitas,saludo,asistente_ia,train
+25,"hey, buen dia por alla",saludo,asistente_ia,val
+26,chao,despedida,asistente_ia,test
+27,"bueno, eso era todo",despedida,asistente_ia,train
+28,hasta luego,despedida,asistente_ia,train
+29,nos vemos,despedida,asistente_ia,train
+30,"me voy, bye",despedida,asistente_ia,train
+31,"listo, me desconecto",despedida,asistente_ia,train
+32,chaito bot,despedida,asistente_ia,test
+33,ya me tengo que ir,despedida,asistente_ia,val
+34,hasta mañana,despedida,asistente_ia,test
+35,despues te vuelvo a escribir,despedida,asistente_ia,train
+36,adios,despedida,asistente_ia,train
+37,"bueno parce, sigo con mis cosas",despedida,asistente_ia,val
+38,"me despido, feliz dia",despedida,asistente_ia,val
+39,"listo, cambio y fuera",despedida,asistente_ia,train
+40,ahi hablamos,despedida,asistente_ia,val
+41,"ya no necesito nada mas, chao",despedida,asistente_ia,train
+42,cierro el chat,despedida,asistente_ia,train
+43,"suerte, hasta pronto",despedida,asistente_ia,train
+44,byee,despedida,asistente_ia,train
+45,"me voy a clase, despues sigo",despedida,asistente_ia,train
+46,eso fue todo por hoy,despedida,asistente_ia,train
+47,nos pillamos,despedida,asistente_ia,train
+48,cuidate bot,despedida,asistente_ia,train
+49,"bueno ya termine, adios",despedida,asistente_ia,test
+50,ciao,despedida,asistente_ia,train
+51,"me salgo, feliz noche",despedida,asistente_ia,train
+52,gracias,agradecimiento,asistente_ia,val
+53,"uff, gracias infinitas",agradecimiento,asistente_ia,val
+54,"ya me funciono, gracias!!",agradecimiento,asistente_ia,train
+55,muchas gracias por la ayuda,agradecimiento,asistente_ia,train
+56,grax,agradecimiento,asistente_ia,train
+57,"uy si sirvio, te lo agradezco",agradecimiento,asistente_ia,val
+58,"que bien, ya pude entrar",agradecimiento,asistente_ia,train
+59,"listo ya quedo, gracias parce",agradecimiento,asistente_ia,train
+60,"me salvaste, mañana entrego tranquilo",agradecimiento,asistente_ia,train
+61,muy amable de tu parte,agradecimiento,asistente_ia,train
+62,"super, problema resuelto",agradecimiento,asistente_ia,train
+63,eres un crack,agradecimiento,asistente_ia,test
+64,te agradezco much,agradecimiento,asistente_ia,train
+65,"ok, entendido, chevere",agradecimiento,asistente_ia,train
+66,thanks,agradecimiento,asistente_ia,train
+67,"buenisimo, eso era",agradecimiento,asistente_ia,train
+68,"de una, ya me salio",agradecimiento,asistente_ia,train
+69,gracias por la paciencia,agradecimiento,asistente_ia,train
+70,"perfecto, ya me conecte, gracias",agradecimiento,asistente_ia,train
+71,"vale, mil gracias por explicar",agradecimiento,asistente_ia,train
+72,"uy que bien, gracias de una",agradecimiento,asistente_ia,val
+73,muy util la info,agradecimiento,asistente_ia,train
+74,"bendiciones, me ayudaste un monton",agradecimiento,asistente_ia,train
+75,listo funciono a la primera,agradecimiento,asistente_ia,test
+76,tx,agradecimiento,asistente_ia,test
+77,agradecida con el soporte,agradecimiento,asistente_ia,train
+78,quien eres,sobre_bot,asistente_ia,train
+79,que eres tu,sobre_bot,asistente_ia,test
+80,eres una persona o un robot?,sobre_bot,asistente_ia,train
+81,que puedes hacer,sobre_bot,asistente_ia,train
+82,en que me puedes ayudar,sobre_bot,asistente_ia,train
+83,quien te creo,sobre_bot,asistente_ia,train
+84,como funcionas por dentro,sobre_bot,asistente_ia,train
+85,eres inteligencia artificial?,sobre_bot,asistente_ia,train
+86,que problemas sabes resolver,sobre_bot,asistente_ia,train
+87,como te llamas,sobre_bot,asistente_ia,val
+88,tu eres de la mesa de ayuda o un programa?,sobre_bot,asistente_ia,train
+89,estoy hablando con una maquina?,sobre_bot,asistente_ia,train
+90,que temas manejas,sobre_bot,asistente_ia,train
+91,para que sirve este chat,sobre_bot,asistente_ia,train
+92,eres chatgpt?,sobre_bot,asistente_ia,val
+93,que modelo usas,sobre_bot,asistente_ia,train
+94,de donde sacas las respuestas,sobre_bot,asistente_ia,test
+95,eres de la u o de una empresa,sobre_bot,asistente_ia,val
+96,cuales son tus funciones,sobre_bot,asistente_ia,train
+97,me puedes ayudar con cualquier cosa?,sobre_bot,asistente_ia,train
+98,que tan confiable es lo que dices,sobre_bot,asistente_ia,train
+99,que servicios de la u cubres,sobre_bot,asistente_ia,test
+100,eres nuevo? no te habia visto,sobre_bot,asistente_ia,val
+101,quien te programo,sobre_bot,asistente_ia,test
+102,guardas lo que te escribo?,sobre_bot,asistente_ia,train
+103,deepbot que es,sobre_bot,asistente_ia,train
+104,como va a estar el clima mañana en faca,fuera_de_dominio,asistente_ia,train
+105,quien gano el partido de millos,fuera_de_dominio,asistente_ia,train
+106,recomiendame una serie,fuera_de_dominio,asistente_ia,val
+107,cuentame un chiste,fuera_de_dominio,asistente_ia,train
+108,como hago unas arepas,fuera_de_dominio,asistente_ia,val
+109,me ayudas con la tarea de calculo,fuera_de_dominio,asistente_ia,train
+110,cuanto esta el dolar,fuera_de_dominio,asistente_ia,train
+111,como hago una homologacion de materias,fuera_de_dominio,asistente_ia,val
+112,quiero poner una queja porque el profe me puso mal la nota,fuera_de_dominio,asistente_ia,train
+113,cuando salimos a vacaciones,fuera_de_dominio,asistente_ia,train
+114,se me rompio la pantalla del celular donde lo arreglo,fuera_de_dominio,asistente_ia,train
+115,que celular me recomiendas comprar,fuera_de_dominio,asistente_ia,test
+116,explicame que es una red neuronal,fuera_de_dominio,asistente_ia,train
+117,quien es el rector de la universidad,fuera_de_dominio,asistente_ia,train
+118,donde queda una drogueria cerca de la sede,fuera_de_dominio,asistente_ia,train
+119,escribeme un poema,fuera_de_dominio,asistente_ia,test
+120,cuanto cuesta un domicilio a facatativa,fuera_de_dominio,asistente_ia,train
+121,ayudame a resolver este ejercicio de java,fuera_de_dominio,asistente_ia,train
+122,como solicito un supletorio,fuera_de_dominio,asistente_ia,train
+123,quiero pedir revision de mi nota del parcial,fuera_de_dominio,asistente_ia,train
+124,que hora es,fuera_de_dominio,asistente_ia,train
+125,pon musica de reggaeton,fuera_de_dominio,asistente_ia,val
+126,cual es la capital de australia,fuera_de_dominio,asistente_ia,test
+127,como me inscribo a la seleccion de futbol de la u,fuera_de_dominio,asistente_ia,train
+128,la beca de bienestar como se pide,fuera_de_dominio,asistente_ia,test
+129,me recomiendas un portatil barato para la carrera,fuera_de_dominio,asistente_ia,train
+130,no me deja entrar a moodle y mañana entrego,moodle_acceso,asistente_ia,train
+131,moodle me dice contraseña incorrecta pero estoy segura que es esa,moodle_acceso,asistente_ia,val
+132,el aula virtual no carga desde el celular,moodle_acceso,asistente_ia,val
+133,intento entrar a moodle en el portatil y se queda la pantalla en blanco,moodle_acceso,asistente_ia,train
+134,en el pc de la sala no abre la plataforma virtual,moodle_acceso,asistente_ia,train
+135,moodle esta caido?? no me abre nada,moodle_acceso,asistente_ia,train
+136,entro y no me aparece ninguno de mis cursos,moodle_acceso,asistente_ia,test
+137,me sale error al iniciar sesion en moodle,moodle_acceso,asistente_ia,train
+138,cual es el link para entrar al aula virtual,moodle_acceso,asistente_ia,train
+139,"me saca de moodle a cada rato, se cierra la sesion sola",moodle_acceso,asistente_ia,train
+140,"no veo la materia nueva en mi moodle, ya estoy matriculado",moodle_acceso,asistente_ia,train
+141,la app de moodle en el cel dice que el sitio no es valido,moodle_acceso,asistente_ia,test
+142,"moodle super lento, se demora años en cargar",moodle_acceso,asistente_ia,train
+143,parce no puedo ingresar a la plataforma de cursos,moodle_acceso,asistente_ia,train
+144,me aparece acceso denegado cuando entro al curso,moodle_acceso,asistente_ia,train
+145,desde la casa no me abre moodle pero en la u si,moodle_acceso,asistente_ia,train
+146,pongo usuario y clave y vuelve a la pagina de login,moodle_acceso,asistente_ia,val
+147,"ayuda urgente, el aula virtual no me deja loguear y el parcial es en una hora",moodle_acceso,asistente_ia,train
+148,"con que usuario entro a moodle, con el correo o con el codigo?",moodle_acceso,asistente_ia,train
+149,en el portatil me sale error 503 en moodle,moodle_acceso,asistente_ia,test
+150,moodle no carga en chrome pero en edge si,moodle_acceso,asistente_ia,train
+151,soy de primer semestre y no se como entrar a moodle,moodle_acceso,asistente_ia,train
+152,mi cuenta de moodle dice que esta suspendida,moodle_acceso,asistente_ia,train
+153,la plataforma virtual me dice sesion expirada todo el tiempo,moodle_acceso,asistente_ia,train
+154,en el celular moodle se ve toda rara y no puedo abrir el curso,moodle_acceso,asistente_ia,val
+155,"hace dos dias no puedo acceder a moodle, ya intente de todo",moodle_acceso,asistente_ia,test
+156,"no puedo subir el taller a moodle, me sale error",moodle_entregas,asistente_ia,train
+157,el archivo pesa mucho y moodle no me lo recibe,moodle_entregas,asistente_ia,train
+158,subi la tarea pero sigue diciendo que no he entregado,moodle_entregas,asistente_ia,train
+159,no me aparece el boton de enviar tarea,moodle_entregas,asistente_ia,test
+160,desde el celular no se como adjuntar el pdf en la actividad,moodle_entregas,asistente_ia,test
+161,"se me vencio el plazo por 2 minutos, moodle ya no deja subir",moodle_entregas,asistente_ia,test
+162,el cuestionario se me cerro solo a la mitad,moodle_entregas,asistente_ia,train
+163,"subi el archivo equivocado, como lo cambio",moodle_entregas,asistente_ia,train
+164,"moodle dice tipo de archivo no permitido, es un .ipynb",moodle_entregas,asistente_ia,train
+165,en el portatil arrastro el archivo y no carga la barra,moodle_entregas,asistente_ia,train
+166,"se fue el internet en medio del quiz, que hago",moodle_entregas,asistente_ia,val
+167,"la entrega queda en borrador, como la mando de verdad",moodle_entregas,asistente_ia,val
+168,entregue a tiempo pero dice entregado con retraso,moodle_entregas,asistente_ia,train
+169,cual es el tamaño maximo para subir archivos en moodle,moodle_entregas,asistente_ia,train
+170,el foro no me deja publicar mi respuesta,moodle_entregas,asistente_ia,train
+171,en el pc de la sala subo el zip y sale error de servidor,moodle_entregas,asistente_ia,train
+172,donde veo la retroalimentacion del profe en la tarea,moodle_entregas,asistente_ia,val
+173,la actividad aparece cerrada y aun no es la fecha,moodle_entregas,asistente_ia,train
+174,subo el trabajo y se queda cargando infinito,moodle_entregas,asistente_ia,train
+175,no encuentro donde se sube el trabajo final del curso,moodle_entregas,asistente_ia,train
+176,como se si mi tarea si quedo enviada,moodle_entregas,asistente_ia,train
+177,"ayuda, el boton de agregar archivo en la tarea no responde y es para mañana",moodle_entregas,asistente_ia,train
+178,el quiz no me deja pasar a la siguiente pregunta,moodle_entregas,asistente_ia,val
+179,me salio no se pudo cargar el archivo en la tarea,moodle_entregas,asistente_ia,train
+180,en el celular la entrega se queda en 0% subiendo,moodle_entregas,asistente_ia,test
+181,puedo entregar un link de drive en vez del archivo?,moodle_entregas,asistente_ia,train
+182,no me llegan los correos al institucional,correo_institucional,asistente_ia,train
+183,como configuro el correo de la u en el celular,correo_institucional,asistente_ia,test
+184,me dice que el buzon esta lleno,correo_institucional,asistente_ia,train
+185,cual es mi correo institucional,correo_institucional,asistente_ia,test
+186,nunca he activado mi correo de la universidad,correo_institucional,asistente_ia,train
+187,los correos que envio rebotan,correo_institucional,asistente_ia,train
+188,outlook en el portatil no sincroniza el correo de la u,correo_institucional,asistente_ia,train
+189,como reenvio el correo institucional a mi gmail,correo_institucional,asistente_ia,train
+190,el profe dice que me mando un correo y no me aparece,correo_institucional,asistente_ia,train
+191,en el celular la app de outlook me sale error al agregar la cuenta institucional,correo_institucional,asistente_ia,test
+192,los correos de los profes me caen en correo no deseado,correo_institucional,asistente_ia,train
+193,como cambio la firma del correo institucional,correo_institucional,asistente_ia,test
+194,no puedo adjuntar archivos grandes en el correo de la u,correo_institucional,asistente_ia,train
+195,"el correo institucional no carga, se queda la pantalla blanca",correo_institucional,asistente_ia,val
+196,"se me borraron correos importantes, se pueden recuperar?",correo_institucional,asistente_ia,val
+197,desde el pc de la sala no abre el correo de la u,correo_institucional,asistente_ia,val
+198,a quien le escribo si mi correo tiene mal escrito el nombre,correo_institucional,asistente_ia,train
+199,como mando un correo a todos los de mi curso,correo_institucional,asistente_ia,val
+200,el correo dice que no tengo permiso para enviar,correo_institucional,asistente_ia,train
+201,quiero tener el correo de la u en el mismo celular que el personal,correo_institucional,asistente_ia,train
+202,"me llegan correos de phishing al institucional, que hago",correo_institucional,asistente_ia,train
+203,me salio error 550 al enviar un correo,correo_institucional,asistente_ia,train
+204,cuando me gradue pierdo el correo de la universidad?,correo_institucional,asistente_ia,train
+205,cual es el formato del correo de estudiante,correo_institucional,asistente_ia,train
+206,la bandeja de entrada no actualiza desde ayer,correo_institucional,asistente_ia,train
+207,en el correo de la u me dice contraseña incorrecta y no la he cambiado,correo_institucional,asistente_ia,train
+208,olvide la contraseña del correo institucional,restablecer_contrasena,asistente_ia,train
+209,como cambio mi contraseña de la u,restablecer_contrasena,asistente_ia,val
+210,mi cuenta esta bloqueada por intentar muchas veces,restablecer_contrasena,asistente_ia,test
+211,me dice que la contraseña expiro y no me deja poner una nueva,restablecer_contrasena,asistente_ia,train
+212,no me acuerdo la clave de la plataforma,restablecer_contrasena,asistente_ia,train
+213,quiero restablecer la contraseña desde el celular,restablecer_contrasena,asistente_ia,train
+214,perdi el celular y no me llega el codigo de verificacion,restablecer_contrasena,asistente_ia,train
+215,como activo la verificacion en dos pasos,restablecer_contrasena,asistente_ia,train
+216,cambie la contraseña y ahora en el portatil no me deja entrar a nada,restablecer_contrasena,asistente_ia,train
+217,"la nueva contraseña no cumple los requisitos, que pide?",restablecer_contrasena,asistente_ia,train
+218,le di olvide mi contraseña y no me llega ningun correo,restablecer_contrasena,asistente_ia,train
+219,"me hackearon la cuenta institucional, quiero cambiar la clave",restablecer_contrasena,asistente_ia,train
+220,en el pc de la sala me pide cambiar la contraseña al iniciar,restablecer_contrasena,asistente_ia,train
+221,se me olvido la clave y mañana entrego en moodle,restablecer_contrasena,asistente_ia,test
+222,cada cuanto toca cambiar la contraseña,restablecer_contrasena,asistente_ia,train
+223,la autenticacion de microsoft me pide un numero y no se cual,restablecer_contrasena,asistente_ia,val
+224,como recupero el acceso si no tengo el correo alterno,restablecer_contrasena,asistente_ia,train
+225,me sale tu cuenta se ha bloqueado en el celular,restablecer_contrasena,asistente_ia,val
+226,puse mal la clave varias veces y ya no puedo,restablecer_contrasena,asistente_ia,train
+227,me sale error al cambiar la contraseña en el portatil,restablecer_contrasena,asistente_ia,train
+228,cambie de numero y la verificacion le llega al anterior,restablecer_contrasena,asistente_ia,train
+229,donde se cambia la clave del usuario institucional,restablecer_contrasena,asistente_ia,train
+230,me dieron una contraseña temporal y no funciona,restablecer_contrasena,asistente_ia,train
+231,restablecer clave,restablecer_contrasena,asistente_ia,val
+232,"no se cual es mi contraseña inicial, soy nuevo",restablecer_contrasena,asistente_ia,test
+233,la app authenticator se borro del celular y no puedo entrar,restablecer_contrasena,asistente_ia,test
+234,cual es la clave del wifi de la u,wifi_sede,asistente_ia,test
+235,el wifi de la sede no me conecta desde el celular,wifi_sede,asistente_ia,train
+236,me conecto al wifi pero dice sin internet,wifi_sede,asistente_ia,train
+237,en la biblioteca casi no hay señal de wifi,wifi_sede,asistente_ia,train
+238,como me conecto a la red de la universidad en el portatil,wifi_sede,asistente_ia,val
+239,el portatil no ve la red wifi de la u,wifi_sede,asistente_ia,train
+240,me sale error de autenticacion al conectarme al wifi,wifi_sede,asistente_ia,train
+241,el wifi de la sede esta caido?,wifi_sede,asistente_ia,val
+242,no abre la pagina de login del wifi,wifi_sede,asistente_ia,train
+243,el internet de la u esta lentisimo,wifi_sede,asistente_ia,train
+244,con que usuario entro al wifi de faca,wifi_sede,asistente_ia,val
+245,el wifi me desconecta cada 5 minutos,wifi_sede,asistente_ia,test
+246,en el celular dice contraseña incorrecta en la red de la u,wifi_sede,asistente_ia,train
+247,"soy visitante, puedo usar el wifi?",wifi_sede,asistente_ia,train
+248,en el celular si navego pero el portatil no agarra la red,wifi_sede,asistente_ia,test
+249,el wifi bloquea youtube? no carga nada,wifi_sede,asistente_ia,train
+250,como olvido la red y me vuelvo a conectar,wifi_sede,asistente_ia,train
+251,mi mac no se conecta al wifi de la sede,wifi_sede,asistente_ia,train
+252,la red pide un certificado y no se que poner,wifi_sede,asistente_ia,train
+253,parce no hay internet en la cafeteria de la u,wifi_sede,asistente_ia,test
+254,cuantos dispositivos puedo conectar al wifi institucional,wifi_sede,asistente_ia,train
+255,me conecte pero las paginas no cargan,wifi_sede,asistente_ia,val
+256,en la tablet no me deja entrar al wifi de la u,wifi_sede,asistente_ia,train
+257,aparece no se puede conectar a esta red en windows,wifi_sede,asistente_ia,train
+258,necesito internet para el parcial y el wifi no sirve,wifi_sede,asistente_ia,train
+259,el wifi de la sede tiene red para estudiantes aparte?,wifi_sede,asistente_ia,train
+260,no puedo entrar a la clase por teams,teams,asistente_ia,val
+261,como me uno a un equipo con codigo,teams,asistente_ia,train
+262,teams no me reconoce el microfono,teams,asistente_ia,train
+263,la camara no prende en teams desde el portatil,teams,asistente_ia,test
+264,donde quedan las grabaciones de las clases en teams,teams,asistente_ia,train
+265,"teams no abre en el pc, se queda en la pantalla morada",teams,asistente_ia,train
+266,en el celular teams me saca de la reunion,teams,asistente_ia,train
+267,me sale error al iniciar sesion en teams con la cuenta de la u,teams,asistente_ia,test
+268,el link de la reunion me manda a descargar teams y no lo tengo,teams,asistente_ia,train
+269,no me aparece el equipo de la materia en teams,teams,asistente_ia,train
+270,como comparto pantalla en teams para exponer,teams,asistente_ia,train
+271,en teams no escucho al profe,teams,asistente_ia,train
+272,puedo usar teams desde el navegador?,teams,asistente_ia,val
+273,teams dice que no tengo permiso para unirme,teams,asistente_ia,val
+274,la clase virtual se congela en teams,teams,asistente_ia,train
+275,como cambio el fondo en teams,teams,asistente_ia,test
+276,el chat de teams no envia mensajes,teams,asistente_ia,train
+277,teams me tiene en la sala de espera hace rato,teams,asistente_ia,train
+278,la app de teams del celular dice error de red,teams,asistente_ia,train
+279,no encuentro la tarea que dejaron en teams,teams,asistente_ia,val
+280,se me cierra teams solo en el pc de la sala,teams,asistente_ia,test
+281,teams pide una cuenta personal y yo tengo la institucional,teams,asistente_ia,train
+282,como descargo teams en windows,teams,asistente_ia,train
+283,mañana expongo por teams y no me sirve el audio,teams,asistente_ia,train
+284,entro a la reunion y la pantalla queda negra,teams,asistente_ia,train
+285,el codigo del equipo me dice que no es valido,teams,asistente_ia,train
+286,como instalo office con la cuenta de la u,office365,asistente_ia,val
+287,word me dice producto sin licencia,office365,asistente_ia,train
+288,excel se bloquea en el portatil,office365,asistente_ia,train
+289,tengo derecho a office gratis por ser estudiante?,office365,asistente_ia,train
+290,onedrive no sincroniza mis archivos,office365,asistente_ia,train
+291,cuanto espacio tengo en onedrive institucional,office365,asistente_ia,train
+292,como comparto un archivo de onedrive con un compañero,office365,asistente_ia,test
+293,me sale error al activar office en el pc,office365,asistente_ia,test
+294,powerpoint dice que la cuenta no tiene licencia,office365,asistente_ia,test
+295,se puede instalar office en el celular con la cuenta de la u,office365,asistente_ia,train
+296,cuantas veces puedo instalar office en distintos equipos,office365,asistente_ia,train
+297,en el mac no me deja iniciar sesion en word,office365,asistente_ia,train
+298,"se me perdio un archivo de onedrive, como lo recupero",office365,asistente_ia,train
+299,la instalacion de office se queda en 0%,office365,asistente_ia,train
+300,puedo usar word en linea sin instalar nada?,office365,asistente_ia,train
+301,office me pide pagar la suscripcion,office365,asistente_ia,train
+302,onedrive dice almacenamiento lleno,office365,asistente_ia,train
+303,el excel en linea no carga,office365,asistente_ia,train
+304,como cierro la cuenta personal de office y pongo la de la u,office365,asistente_ia,val
+305,"word se cerro y perdi el documento, se recupera?",office365,asistente_ia,val
+306,me sale funcionalidad reducida en office,office365,asistente_ia,train
+307,donde descargo office 365 de la universidad,office365,asistente_ia,train
+308,office me dice que se alcanzo el limite de instalaciones,office365,asistente_ia,train
+309,"no puedo editar el documento compartido, solo lectura",office365,asistente_ia,val
+310,forms no me deja responder la encuesta del profe,office365,asistente_ia,test
+311,"mi portatil nuevo trae office de prueba, como lo cambio por el de la u",office365,asistente_ia,train
+312,como instalo python en windows,instalar_python,asistente_ia,test
+313,me sale python no se reconoce como comando interno,instalar_python,asistente_ia,train
+314,"se me olvido marcar add to path, que hago",instalar_python,asistente_ia,train
+315,pip no funciona en la terminal,instalar_python,asistente_ia,train
+316,como instalo jupyter en mi computador,instalar_python,asistente_ia,train
+317,que version de python descargo,instalar_python,asistente_ia,test
+318,en el portatil instale python pero vs code no lo encuentra,instalar_python,asistente_ia,val
+319,como creo un entorno virtual,instalar_python,asistente_ia,train
+320,pip install me sale error de permisos,instalar_python,asistente_ia,train
+321,tengo dos versiones de python instaladas y se cruzan,instalar_python,asistente_ia,train
+322,al escribir python se abre la microsoft store,instalar_python,asistente_ia,test
+323,como instalo python en mac,instalar_python,asistente_ia,val
+324,como instalo numpy con pip,instalar_python,asistente_ia,train
+325,no me deja activar el venv en powershell,instalar_python,asistente_ia,train
+326,el instalador de python se cierra solo,instalar_python,asistente_ia,train
+327,jupyter notebook no abre en el navegador,instalar_python,asistente_ia,train
+328,como desinstalo python completo,instalar_python,asistente_ia,train
+329,necesito python para el taller y no se instalarlo,instalar_python,asistente_ia,train
+330,sale ModuleNotFoundError aunque ya instale la libreria,instalar_python,asistente_ia,train
+331,como se si python quedo bien instalado,instalar_python,asistente_ia,val
+332,python en linux como lo instalo,instalar_python,asistente_ia,train
+333,puedo instalar python en una tablet o en el celular?,instalar_python,asistente_ia,train
+334,vs code no muestra el interprete de python,instalar_python,asistente_ia,test
+335,el pip esta desactualizado y sale un aviso amarillo,instalar_python,asistente_ia,train
+336,instale anaconda y ahora no se cual python usa,instalar_python,asistente_ia,val
+337,al instalar un paquete me sale error de microsoft visual c++,instalar_python,asistente_ia,train
+338,como activo la gpu en colab,colab_gpu,asistente_ia,train
+339,colab dice que no hay gpu disponible,colab_gpu,asistente_ia,train
+340,se me desconecto colab y perdi todo,colab_gpu,asistente_ia,train
+341,como monto google drive en colab,colab_gpu,asistente_ia,val
+342,sale cuda out of memory en colab,colab_gpu,asistente_ia,train
+343,alcance el limite de uso de gpu en colab,colab_gpu,asistente_ia,train
+344,como instalo una libreria en colab,colab_gpu,asistente_ia,test
+345,colab no carga en el celular,colab_gpu,asistente_ia,train
+346,el entorno de colab se reinicia solo,colab_gpu,asistente_ia,val
+347,colab me sale error al importar torch,colab_gpu,asistente_ia,train
+348,cuanto dura una sesion de colab gratis,colab_gpu,asistente_ia,train
+349,como subo un archivo del portatil a colab,colab_gpu,asistente_ia,train
+350,colab no abre con la cuenta de la u,colab_gpu,asistente_ia,train
+351,la gpu t4 que tan buena es para entrenar,colab_gpu,asistente_ia,test
+352,en el portatil colab se queda en conectando,colab_gpu,asistente_ia,train
+353,como guardo el notebook de colab en drive,colab_gpu,asistente_ia,train
+354,colab me pide verificar que no soy un robot cada rato,colab_gpu,asistente_ia,train
+355,"el entrenamiento en colab es muy lento, usa cpu",colab_gpu,asistente_ia,test
+356,descargue el .ipynb y no lo puedo abrir en colab,colab_gpu,asistente_ia,train
+357,colab dice que el entorno se bloqueo por usar toda la ram,colab_gpu,asistente_ia,train
+358,como se si colab esta usando la gpu,colab_gpu,asistente_ia,train
+359,en el pc de la sala colab no deja montar drive,colab_gpu,asistente_ia,train
+360,colab pro vale la pena?,colab_gpu,asistente_ia,train
+361,mañana entrego el modelo y colab no me da gpu,colab_gpu,asistente_ia,test
+362,los archivos que subi a colab desaparecieron,colab_gpu,asistente_ia,train
+363,como conecto colab a un repositorio de github,colab_gpu,asistente_ia,val
+364,no puedo entrar a la plataforma academica,plataforma_academica,asistente_ia,test
+365,donde veo mis notas definitivas,plataforma_academica,asistente_ia,train
+366,como inscribo materias para el otro semestre,plataforma_academica,asistente_ia,test
+367,la plataforma academica no carga cuando voy a matricular,plataforma_academica,asistente_ia,train
+368,me sale error al descargar el recibo de pago desde el celular,plataforma_academica,asistente_ia,val
+369,donde saco un certificado de estudio,plataforma_academica,asistente_ia,train
+370,el horario oficial no me aparece,plataforma_academica,asistente_ia,train
+371,en el celular la plataforma academica se ve cortada,plataforma_academica,asistente_ia,train
+372,"no me deja inscribir una materia, dice cruce de horario",plataforma_academica,asistente_ia,val
+373,cual es la pagina para ver las notas del semestre,plataforma_academica,asistente_ia,train
+374,ya pague y la plataforma sigue diciendo que no estoy matriculado,plataforma_academica,asistente_ia,train
+375,la nota definitiva no aparece todavia,plataforma_academica,asistente_ia,test
+376,se cayo el sistema justo en las inscripciones,plataforma_academica,asistente_ia,train
+377,como descargo mi historial academico,plataforma_academica,asistente_ia,train
+378,en el portatil me sale error de sesion en la plataforma academica,plataforma_academica,asistente_ia,train
+379,cuando abren las inscripciones en la plataforma,plataforma_academica,asistente_ia,test
+380,la plataforma me dice que tengo un bloqueo financiero,plataforma_academica,asistente_ia,train
+381,como actualizo mis datos personales en el sistema academico,plataforma_academica,asistente_ia,train
+382,donde veo mi promedio acumulado,plataforma_academica,asistente_ia,train
+383,no encuentro el boton para matricular materias,plataforma_academica,asistente_ia,train
+384,la plataforma academica me pide una contraseña distinta a la del correo,plataforma_academica,asistente_ia,val
+385,me salio pantalla en blanco al imprimir el horario,plataforma_academica,asistente_ia,train
+386,el recibo de matricula no se genera,plataforma_academica,asistente_ia,val
+387,hay otra pagina distinta a moodle para las notas finales?,plataforma_academica,asistente_ia,train
+388,necesito el certificado de notas urgente para una beca,plataforma_academica,asistente_ia,train
+389,desde el pc de la sala no abre el portal academico,plataforma_academica,asistente_ia,train
+390,a que hora abren las salas de computo,salas_computo,asistente_ia,train
+391,como reservo una sala de sistemas,salas_computo,asistente_ia,train
+392,el pc de la sala no prende,salas_computo,asistente_ia,train
+393,con que usuario inicio sesion en los computadores de la sala,salas_computo,asistente_ia,train
+394,el computador de la sala no tiene internet,salas_computo,asistente_ia,train
+395,que programas tienen instalados las salas,salas_computo,asistente_ia,val
+396,puedo imprimir en la sala de computo?,salas_computo,asistente_ia,train
+397,la usb no me la reconoce el pc de la sala,salas_computo,asistente_ia,test
+398,el teclado del equipo 12 no sirve,salas_computo,asistente_ia,train
+399,los computadores de la sala tienen python?,salas_computo,asistente_ia,train
+400,se me borraron los archivos al apagar el pc de la sala,salas_computo,asistente_ia,train
+401,necesito una sala para estudiar esta tarde,salas_computo,asistente_ia,train
+402,el pc del laboratorio esta lentisimo,salas_computo,asistente_ia,val
+403,la sala esta abierta los sabados?,salas_computo,asistente_ia,val
+404,en el equipo de la sala me sale error de perfil temporal,salas_computo,asistente_ia,train
+405,el mouse del computador de la sala no funciona,salas_computo,asistente_ia,train
+406,a quien le aviso que un equipo de la sala esta dañado,salas_computo,asistente_ia,train
+407,puedo instalar programas en los pc de la sala?,salas_computo,asistente_ia,train
+408,la pantalla del computador del laboratorio queda negra,salas_computo,asistente_ia,test
+409,hay salas con pc para hacer el parcial virtual?,salas_computo,asistente_ia,train
+410,donde quedan las salas de computo en la sede,salas_computo,asistente_ia,train
+411,no me deja guardar en el escritorio del pc de la sala,salas_computo,asistente_ia,val
+412,el proyector de la sala no conecta,salas_computo,asistente_ia,test
+413,se puede llevar comida a la sala de sistemas,salas_computo,asistente_ia,train
+414,el pc de la sala me dice contraseña incorrecta con mi usuario de la u,salas_computo,asistente_ia,train
+415,"la sala esta llena, hay otra disponible?",salas_computo,asistente_ia,test
+416,quiero hablar con una persona,hablar_con_soporte,asistente_ia,train
+417,necesito un tecnico,hablar_con_soporte,asistente_ia,train
+418,como abro un ticket de soporte,hablar_con_soporte,asistente_ia,train
+419,cual es el correo de la mesa de ayuda,hablar_con_soporte,asistente_ia,val
+420,a que hora atiende la mesa de ayuda,hablar_con_soporte,asistente_ia,train
+421,"nada de lo que dices funciona, pasame con alguien",hablar_con_soporte,asistente_ia,train
+422,donde queda la oficina de sistemas,hablar_con_soporte,asistente_ia,test
+423,hay un numero de telefono de soporte?,hablar_con_soporte,asistente_ia,train
+424,"ya intente todo y sigue sin servir, quiero un humano",hablar_con_soporte,asistente_ia,train
+425,como hago seguimiento a mi ticket,hablar_con_soporte,asistente_ia,test
+426,me puedes comunicar con un asesor,hablar_con_soporte,asistente_ia,train
+427,"no me sirve el bot, necesito atencion personalizada",hablar_con_soporte,asistente_ia,train
+428,la mesa de ayuda atiende los sabados?,hablar_con_soporte,asistente_ia,val
+429,quiero reportar una falla grave en el sistema,hablar_con_soporte,asistente_ia,train
+430,llevo una semana esperando respuesta de soporte,hablar_con_soporte,asistente_ia,train
+431,puedo ir personalmente a que me revisen el portatil,hablar_con_soporte,asistente_ia,train
+432,hay chat con un agente real?,hablar_con_soporte,asistente_ia,test
+433,a quien escribo para un problema que no esta en tu lista,hablar_con_soporte,asistente_ia,train
+434,me urge que alguien de sistemas me llame,hablar_con_soporte,asistente_ia,val
+435,el ticket que abri lo cerraron sin solucionar,hablar_con_soporte,asistente_ia,test
+436,escalar caso a soporte,hablar_con_soporte,asistente_ia,train
+437,donde radico una solicitud a tecnologia,hablar_con_soporte,asistente_ia,train
+438,me pasas con un funcionario,hablar_con_soporte,asistente_ia,train
+439,llevo dos horas con el error en el pc y necesito que alguien me ayude ya,hablar_con_soporte,asistente_ia,train
+440,"el celular sigue con el mismo error, quiero que lo vea un tecnico",hablar_con_soporte,asistente_ia,train
+441,cual es el whatsapp de soporte de la u,hablar_con_soporte,asistente_ia,train

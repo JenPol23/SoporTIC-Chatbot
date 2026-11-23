@@ -1,0 +1,181 @@
+texto,intencion,escenario,uso
+enciende la lámpara,fuera_de_dominio,iot,train
+quédate en silencio,fuera_de_dominio,audio,train
+por favor consulte los conciertos de rock programados para este fin de semana,fuera_de_dominio,recommendation,train
+pide comida china,fuera_de_dominio,takeaway,train
+pone un canal de radio para música trance,fuera_de_dominio,play,train
+informe mensual del tiempo,fuera_de_dominio,weather,train
+siri puedes poner mi música favorita,fuera_de_dominio,play,train
+apagar todas las luces a la derecha,fuera_de_dominio,iot,train
+sintoniza mi estación de radio favorita por favor,fuera_de_dominio,play,train
+por favor guarda esa canción,fuera_de_dominio,music,train
+obtener un pronóstico sobre la velocidad del viento esta noche,fuera_de_dominio,weather,train
+por favor apaga las luces del dormitorio,fuera_de_dominio,iot,train
+quiero escuchar el último episodio del podcast de rorro echavez,fuera_de_dominio,play,train
+cómo está reaccionando a los casos de corrupción del psoe,fuera_de_dominio,news,train
+dónde puedo comprar como turista local,fuera_de_dominio,recommendation,train
+puedes encontrarme el billete de tren más barato para este destino,fuera_de_dominio,transport,train
+baja el brillo,fuera_de_dominio,iot,train
+quién entrega cerca de aquí,fuera_de_dominio,takeaway,train
+cuanto tiempo para llegar al trabajo,fuera_de_dominio,transport,train
+cual este el nombre de esa canción que acaba de sonar,fuera_de_dominio,music,train
+pon amanecer de david bisbal,fuera_de_dominio,play,train
+subir el volumen al nivel más alta,fuera_de_dominio,audio,train
+obtener el tiempo de hoy,fuera_de_dominio,weather,train
+borra la lista anterior,fuera_de_dominio,lists,train
+quiero dormir,fuera_de_dominio,iot,train
+ir cerca de la aspiradora,fuera_de_dominio,iot,train
+me gustaria escuchar el podcast del rorro echavez que se reproduce esta noche,fuera_de_dominio,play,train
+horarios de tren para mañana,fuera_de_dominio,transport,train
+cómo se supone que estará el tiempo el martes,fuera_de_dominio,weather,train
+dime dónde puedo ir de compras en esta zona,fuera_de_dominio,recommendation,train
+reproducir música de kate perry sin mezclar,fuera_de_dominio,play,train
+siguiente por favor,fuera_de_dominio,play,train
+olly hay demasiada luz aquí puedes apagar una luz,fuera_de_dominio,iot,train
+voy a necesitar hoy un abrigo grueso,fuera_de_dominio,weather,train
+tiene el restaurante para llevar,fuera_de_dominio,takeaway,train
+busca cuatro rosas y ponla,fuera_de_dominio,play,train
+por favor para un rato,fuera_de_dominio,audio,train
+toca algunas canciones para mí,fuera_de_dominio,play,train
+hola siri dime las noticias principales de hoy,fuera_de_dominio,news,train
+qué tan denso es el tráfico en la i quince en las vegas a esta hora,fuera_de_dominio,transport,train
+qué es lo último sobre los eventos recientes que están sucediendo ahora,fuera_de_dominio,news,train
+reproducir los siete hábitos de las personas eficaces,fuera_de_dominio,play,train
+puedo hacer un pedido de comida para llevar a esta hora,fuera_de_dominio,takeaway,train
+a qué hora sale el tren a palma,fuera_de_dominio,transport,train
+dime el tiempo que hizo los últimos cinco días,fuera_de_dominio,weather,train
+no vuelvas a poner esta canción,fuera_de_dominio,music,train
+cambia las luces a azúl,fuera_de_dominio,iot,train
+reproducir la lista de reproducción uno,fuera_de_dominio,play,train
+es hora de silencio,fuera_de_dominio,audio,train
+puedes decirme lo que hay en mi lista de la compra,fuera_de_dominio,lists,train
+cambia las luces a rosa,fuera_de_dominio,iot,train
+alexa reproduce música relacionada a la música que escuché esta mañana,fuera_de_dominio,play,train
+a que hora sale el tren del centro de madrid a granada,fuera_de_dominio,transport,train
+por favor pon mi música,fuera_de_dominio,play,train
+cuál es la máxima temperatura en sabadell,fuera_de_dominio,weather,train
+cancelar mi alarma de las ocho de la mañana,fuera_de_dominio,alarm,train
+juega tetris conmigo,fuera_de_dominio,play,train
+pasar al siguiente podcast,fuera_de_dominio,play,train
+léeme las noticias más actualizadas de la vanguardia,fuera_de_dominio,news,train
+olly me muero de hambre qué hay de bueno para comer en cincinnati,fuera_de_dominio,recommendation,train
+poner la alarma para las cinco en punto de la mañana,fuera_de_dominio,alarm,train
+necesito pegar una lista de tareas para el trabajo,fuera_de_dominio,lists,train
+haz que las luces sean de un color diferente,fuera_de_dominio,iot,train
+puedes sugerirme un buen drama para que lo vea,fuera_de_dominio,recommendation,train
+salta hacia el siguiente episodio de este podcast,fuera_de_dominio,play,train
+olly dime qué listas tengo actualmente,fuera_de_dominio,lists,train
+por cuánto tiempo cocino un huevo,fuera_de_dominio,cooking,train
+me puedes contar más sobre mi música más escuchada,fuera_de_dominio,music,train
+eliminar ese elemento de mi lista,fuera_de_dominio,lists,train
+hablame del presupuesto federal,fuera_de_dominio,news,train
+consígueme los horarios de los trenes a la ubicación desde la estación,fuera_de_dominio,transport,train
+está soleado hoy,fuera_de_dominio,weather,train
+despiértame a las cuatro de la mañana,fuera_de_dominio,alarm,train
+pon alejandro sanz en modo aleatorio,fuera_de_dominio,play,train
+pon run,fuera_de_dominio,play,train
+puedes cambiar la mejor canción de lady gaga,fuera_de_dominio,play,train
+que esta pasando en españa,fuera_de_dominio,news,train
+encender la estufa ajustar la llama para cocinar pon todos los ingredientes en la olla a presión para cocinar los ingredientes manténlos en la estufa y espera a que se cocinen,fuera_de_dominio,cooking,train
+contacta con pizza hut y pide una pizza grande de jamón y champiñones,fuera_de_dominio,takeaway,train
+activa silencio,fuera_de_dominio,audio,train
+olly tengo algo que no haya en alguna lista,fuera_de_dominio,lists,train
+como hacer una hamburguesa,fuera_de_dominio,cooking,train
+hay alguna alarma activa,fuera_de_dominio,alarm,train
+poner una alarma el miércoles al mediodía para que pueda registrarme para la feria de caza,fuera_de_dominio,alarm,train
+crear evento con alarma para reunión en dos horas,fuera_de_dominio,alarm,train
+este fin de semana qué eventos están sucediendo en madrid,fuera_de_dominio,recommendation,train
+dime las noticias del país,fuera_de_dominio,news,train
+quiero poner piedra papel tijeras vamos a jugar,fuera_de_dominio,play,train
+qué listas tengo,fuera_de_dominio,lists,train
+necesito un billete de tren a roma reservar billete,fuera_de_dominio,transport,train
+solo cuéntame las noticias más recientes de c. n. n.,fuera_de_dominio,news,train
+cual es la letra de la canción que está sonando,fuera_de_dominio,music,train
+qué hora es india,fuera_de_dominio,transport,train
+pon algo de rock clasico mi aguita amarilla,fuera_de_dominio,play,train
+baja el nivel de la luz en mi casa,fuera_de_dominio,iot,train
+programa una notificación sobre las noticias de las seis y punto,fuera_de_dominio,news,train
+incluye este elemento,fuera_de_dominio,lists,train
+elimina la leche de la lista de la compra,fuera_de_dominio,lists,train
+cuál es la mejor parte de la carne de res,fuera_de_dominio,cooking,train
+dónde está la librería más cercana,fuera_de_dominio,recommendation,train
+hay alguna actualización con respecto a los lazos de pedro sánchez con rusia,fuera_de_dominio,news,validación
+pon sesenta y seis punto cinco,fuera_de_dominio,play,validación
+poner la canción quiéreme,fuera_de_dominio,play,validación
+pon radio,fuera_de_dominio,play,validación
+blanco,fuera_de_dominio,iot,validación
+tengo una lista de tareas para hoy no,fuera_de_dominio,lists,validación
+pon pizza en la lista,fuera_de_dominio,lists,validación
+muestra me las noticias de t. v. e.,fuera_de_dominio,news,validación
+voy a necesitar un paraguas hoy después de la puesta de sol,fuera_de_dominio,weather,validación
+pon modo silencioso,fuera_de_dominio,audio,validación
+por favor pon games de disturbed,fuera_de_dominio,play,validación
+a qué hora llega el tren de san diego a north hwood,fuera_de_dominio,transport,validación
+va a hacer frío mañana,fuera_de_dominio,weather,validación
+borrar mi lista de citas para mañana,fuera_de_dominio,lists,validación
+cuáles son mis alarmas,fuera_de_dominio,alarm,validación
+pon música que me ha gustado,fuera_de_dominio,play,validación
+cuando va a estar mi comida aquí,fuera_de_dominio,takeaway,validación
+encuentra un restaurante bonito para la cena,fuera_de_dominio,recommendation,validación
+cuál es la descripción de la alarma a las once de la mañana,fuera_de_dominio,alarm,validación
+pon la estación de radio,fuera_de_dominio,play,validación
+baje la luz del pasillo por ciento,fuera_de_dominio,iot,validación
+mañana será un día soleado verdad,fuera_de_dominio,weather,validación
+cuáles son las nuevas estaciones de radio de rock,fuera_de_dominio,play,validación
+me encanta zydeco jams,fuera_de_dominio,music,validación
+resérvame un taxi,fuera_de_dominio,transport,validación
+cuál es la mejor receta para una margarita,fuera_de_dominio,cooking,validación
+eventos actuales,fuera_de_dominio,recommendation,validación
+añade luz,fuera_de_dominio,iot,validación
+hay trafico,fuera_de_dominio,transport,validación
+guardar mis preferencias de canción en la lista de reproducción,fuera_de_dominio,music,validación
+no hagas nada de ruido hasta la alarma de la mañana,fuera_de_dominio,audio,prueba aparte
+cuál es la diferencia entre hornear y rostizar,fuera_de_dominio,cooking,prueba aparte
+cual es el próximo evento en la biblioteca,fuera_de_dominio,recommendation,prueba aparte
+cancelar alarma,fuera_de_dominio,alarm,prueba aparte
+salta al siguiente episodio de podcast,fuera_de_dominio,play,prueba aparte
+identifica la canción,fuera_de_dominio,music,prueba aparte
+pon al álbum de el bicho,fuera_de_dominio,play,prueba aparte
+a qué hora suenan mis alarmas,fuera_de_dominio,alarm,prueba aparte
+esta el ultimo pedido preparado,fuera_de_dominio,takeaway,prueba aparte
+que esta pasando por aquí este fin de semana,fuera_de_dominio,recommendation,prueba aparte
+quiero que vayas a los flaix f. m. en ciento cinco punto siete,fuera_de_dominio,play,prueba aparte
+comienza el cafe a las seis a. m.,fuera_de_dominio,iot,prueba aparte
+direcciones por favor,fuera_de_dominio,transport,prueba aparte
+dame noticias sobre pedro sánchez,fuera_de_dominio,news,prueba aparte
+deshazte de la lista google,fuera_de_dominio,lists,prueba aparte
+que cancion es esta,fuera_de_dominio,music,prueba aparte
+como es el trafico ahora mismo,fuera_de_dominio,transport,prueba aparte
+quita esta lista de las demas,fuera_de_dominio,lists,prueba aparte
+cuáles son las últimas estadísticas de crimenes para mi área,fuera_de_dominio,news,prueba aparte
+cuáles son los artículos de tendencia sobre el país,fuera_de_dominio,news,prueba aparte
+robot aspira la sala de estar ahora,fuera_de_dominio,iot,prueba aparte
+oye google ponme algo de música jazz,fuera_de_dominio,play,prueba aparte
+abre spotify,fuera_de_dominio,play,prueba aparte
+pon la llamada en la radio del coche,fuera_de_dominio,play,prueba aparte
+título de la canción,fuera_de_dominio,music,prueba aparte
+por favor crea una nueva lista para mí,fuera_de_dominio,lists,prueba aparte
+sólo reproduce kiss f. m.,fuera_de_dominio,play,prueba aparte
+rap,fuera_de_dominio,play,prueba aparte
+apaga mi enchufe wemo,fuera_de_dominio,iot,prueba aparte
+todo lo que hay en una tarta de santiago,fuera_de_dominio,cooking,prueba aparte
+quiero saber qué supermercado cerca de mí tiene el mejor precio en pan sin glúten,fuera_de_dominio,recommendation,prueba aparte
+hay nieve en el pronóstico,fuera_de_dominio,weather,prueba aparte
+léeme los últimos titulares de rtve,fuera_de_dominio,news,prueba aparte
+cómo está el tiempo ahora mismo en madrid,fuera_de_dominio,weather,prueba aparte
+dime la temperatura,fuera_de_dominio,weather,prueba aparte
+borra los datos,fuera_de_dominio,audio,prueba aparte
+dime como esta el trafico de la ciudad,fuera_de_dominio,transport,prueba aparte
+borra la lista de música vieja,fuera_de_dominio,lists,prueba aparte
+busca en google billetes de tren a madrid,fuera_de_dominio,transport,prueba aparte
+apaga las luces ahora,fuera_de_dominio,iot,prueba aparte
+cuál es la temperatura actual fuera,fuera_de_dominio,weather,prueba aparte
+ponme una canción alegre a través de tus altavoces,fuera_de_dominio,play,prueba aparte
+va a llover ahora,fuera_de_dominio,weather,prueba aparte
+dejar de operar luces,fuera_de_dominio,iot,prueba aparte
+enciende la radio y pon la emisora ciento seis punto nueve,fuera_de_dominio,play,prueba aparte
+iniciar la aplicación de música y reproducir una canción para mí,fuera_de_dominio,play,prueba aparte
+poner una alarma a las seis de la mañana,fuera_de_dominio,alarm,prueba aparte
+puedo hacer un pedido para llevar del rosario's,fuera_de_dominio,takeaway,prueba aparte
+apaga la luz de mi habitación a las nueve y media p. m.,fuera_de_dominio,iot,prueba aparte
+nueva música pop,fuera_de_dominio,play,prueba aparte

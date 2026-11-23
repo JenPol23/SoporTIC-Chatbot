@@ -1,0 +1,24 @@
+{
+  "umbrales": {
+    "agradecimiento": 0.5,
+    "colab_gpu": 0.5,
+    "correo_institucional": 0.7,
+    "despedida": 0.5,
+    "fuera_de_dominio": 0.1,
+    "hablar_con_soporte": 0.3,
+    "instalar_python": 0.65,
+    "moodle_acceso": 0.1,
+    "moodle_entregas": 0.55,
+    "office365": 0.25,
+    "plataforma_academica": 0.35,
+    "restablecer_contrasena": 0.15,
+    "salas_computo": 0.3,
+    "saludo": 0.5,
+    "sobre_bot": 0.5,
+    "teams": 0.5,
+    "wifi_sede": 0.5
+  },
+  "umbral_comun": 0.5,
+  "min_positivos": 8,
+  "max_intenciones": 3
+}

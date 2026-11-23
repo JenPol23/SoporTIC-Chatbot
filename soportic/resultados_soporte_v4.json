@@ -1,0 +1,101 @@
+{
+  "version": "v4 — memoria por soluciones, diagnóstico y cambio de tema",
+  "metodo_clasificacion": "Ensamble (completo + segmentos)",
+  "normalizacion_tildes_entrada": true,
+  "conversaciones": {
+    "archivo": "conversaciones_memoria_v4.json",
+    "n": 30,
+    "n_cambio_de_tema": 5,
+    "turnos": 126,
+    "expectativas_cambiadas_respecto_de_v3": 41,
+    "similitud_max_entrenamiento_aumento": 1.0
+  },
+  "memoria": {
+    "con_memoria": {
+      "turnos": 104,
+      "intencion_por_turno": 0.9230769230769231,
+      "accion_por_turno": 0.9711538461538461,
+      "caso_activo": 0.9326923076923077,
+      "slots_correctos": 0.9787234042553191,
+      "n_slots": 47,
+      "conversaciones_resueltas_o_bien_escaladas": 0.9,
+      "n_conversaciones": 30,
+      "soluciones_repetidas": 0,
+      "seguimientos_bien_resueltos": 0.9104477611940298,
+      "n_seguimientos": 67,
+      "cambios_de_tema_bien_resueltos": null,
+      "n_cambios_de_tema": 0,
+      "avisos_privacidad_correctos": 1.0
+    },
+    "sin_memoria": {
+      "turnos": 104,
+      "intencion_por_turno": 0.38461538461538464,
+      "accion_por_turno": 0.3557692307692308,
+      "caso_activo": 0.6634615384615384,
+      "slots_correctos": 0.8085106382978723,
+      "n_slots": 47,
+      "conversaciones_resueltas_o_bien_escaladas": 0.0,
+      "n_conversaciones": 30,
+      "soluciones_repetidas": 0,
+      "seguimientos_bien_resueltos": 0.0,
+      "n_seguimientos": 67,
+      "cambios_de_tema_bien_resueltos": null,
+      "n_cambios_de_tema": 0,
+      "avisos_privacidad_correctos": 1.0
+    },
+    "cambio_de_tema": {
+      "turnos": 22,
+      "intencion_por_turno": 0.9545454545454546,
+      "accion_por_turno": 0.9545454545454546,
+      "caso_activo": 0.9545454545454546,
+      "slots_correctos": 1.0,
+      "n_slots": 1,
+      "conversaciones_resueltas_o_bien_escaladas": 0.8,
+      "n_conversaciones": 5,
+      "soluciones_repetidas": 0,
+      "seguimientos_bien_resueltos": 0.9411764705882353,
+      "n_seguimientos": 17,
+      "cambios_de_tema_bien_resueltos": 1.0,
+      "n_cambios_de_tema": 5,
+      "avisos_privacidad_correctos": null
+    }
+  },
+  "memoria_v3_reportada": {
+    "con_memoria": {
+      "turnos": 104,
+      "intencion_por_turno": 0.9230769230769231,
+      "accion_por_turno": 0.9807692307692307,
+      "caso_activo": 0.9230769230769231,
+      "slots_correctos": 0.9787234042553191,
+      "n_slots": 47,
+      "conversaciones_resueltas_o_bien_escaladas": 0.9,
+      "n_conversaciones": 30,
+      "pasos_repetidos": 2,
+      "seguimientos_bien_resueltos": 0.8955223880597015,
+      "n_seguimientos": 67,
+      "avisos_privacidad_correctos": 1.0
+    },
+    "sin_memoria": {
+      "turnos": 104,
+      "intencion_por_turno": 0.3557692307692308,
+      "accion_por_turno": 0.3557692307692308,
+      "caso_activo": 0.6153846153846154,
+      "slots_correctos": 0.7872340425531915,
+      "n_slots": 47,
+      "conversaciones_resueltas_o_bien_escaladas": 0.0,
+      "n_conversaciones": 30,
+      "pasos_repetidos": 4,
+      "seguimientos_bien_resueltos": 0.0,
+      "n_seguimientos": 67,
+      "avisos_privacidad_correctos": 1.0
+    }
+  },
+  "modo_ia": {
+    "activo": true,
+    "modelo": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  "tiempos_s": {
+    "evaluacion_memoria": 5.0,
+    "notebook_hasta_aqui": 3769.6
+  }
+}

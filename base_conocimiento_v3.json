@@ -1,0 +1,291 @@
+{
+  "_descripcion": "Base de conocimiento de SoporTIC: una guía de solución por intención técnica, redactada con base en documentación oficial pública y en datos institucionales aportados por los autores. Los datos propios de la UdeC que aún no se conocen aparecen como [COMPLETAR: descripción] y no deben inventarse.",
+  "_formato": "guias.<intencion> -> {titulo, resumen, pasos: [..] (orden en que el bot guía al usuario; lo usa la memoria de estado), si_no_funciona, referencias: [{titulo, url, pasos (opcional: índices desde 0 de los pasos que respalda la referencia; [] = documento de contexto que no respalda un paso concreto; sin el campo = referencia general de la guía)}], restricciones (opcional)}",
+  "_verificacion_urls": "Comprobadas el 2026-11-14. Microsoft, Python, Colab, Google, Apple y los documentos y páginas de ucundinamarca.edu.co: HTTP 200 (algunas noticias redirigen a una URL nueva del mismo sitio). docs.moodle.org bloquea las peticiones automáticas: URL tomadas del índice de búsqueda. moodle.ucundinamarca.edu.co no respondió desde el equipo de desarrollo (sin conexión): esas referencias llevan 'estado_url' y deben verificarse a mano.",
+  "_regla_completar": "El bot nunca muestra un marcador [COMPLETAR: ...]. Un paso que lo contenga se omite y la respuesta remite a contacto_por_defecto (TICS a un CLIC) con su horario y correo.",
+  "_regla_vigencia": "Las referencias de 2022 o antes, o cuya vigencia señalaron los autores, llevan «(verificar vigencia)» en el título.",
+  "contacto_por_defecto": {
+    "nombre": "Mesa de ayuda «TICS a un CLIC»",
+    "canales": ["chat de Microsoft Teams", "ticsaunclic@ucundinamarca.edu.co"],
+    "horario": "lunes a viernes de 8:00 a. m. a 12:00 m. y de 2:00 p. m. a 6:00 p. m.",
+    "texto": "Para este caso comunícate con la mesa de ayuda «TICS a un CLIC» por el chat de Microsoft Teams o al correo ticsaunclic@ucundinamarca.edu.co, de lunes a viernes de 8:00 a. m. a 12:00 m. y de 2:00 p. m. a 6:00 p. m.",
+    "referencia": {"titulo": "Instructivo de uso de la plataforma – Universidad de Cundinamarca (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/documents/varios/2022/INSTRUCTIVO_USO_PLATAFORMA.pdf"}
+  },
+  "soporte_plataforma_institucional": {
+    "nombre": "Dirección de Sistemas y Tecnología – Área de Sistemas de Información",
+    "extensiones": ["170", "246"],
+    "correo": "sistemasdeinformacion@ucundinamarca.edu.co",
+    "referencia": {"titulo": "Guía de consulta de usuario y contraseña e ingreso a la plataforma institucional – Dirección de Sistemas y Tecnología, UdeC (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/documents/varios/2020/guia.-rapida-usuario-contrasena.pdf"}
+  },
+  "tramites_reglamento": {
+    "_uso": "Complemento de la respuesta fija 'fuera_de_dominio_tramite'. Los trámites no son soporte técnico; aquí solo se indica dónde se radican.",
+    "sis": "Los trámites se hacen en el Sistema Institucional de Solicitudes (SIS) de la plataforma institucional: Gestión Formación y Aprendizaje → Estudiante → Solicitudes.",
+    "cancelacion_matricula": "La cancelación de la matrícula académica se solicita dentro de las cuatro primeras semanas del periodo académico.",
+    "referencias": [
+      {"titulo": "Portal de estudiantes – Universidad de Cundinamarca", "url": "https://www.ucundinamarca.edu.co/estudiantes/"}
+    ]
+  },
+  "guias": {
+    "moodle_acceso": {
+      "titulo": "No puedo entrar a Moodle (aula virtual)",
+      "resumen": "La mayoría de fallas de ingreso se deben a credenciales mal escritas, a la caché o las cookies del navegador, a una caída temporal del servicio o a que la matrícula en el curso aún no se ha sincronizado.",
+      "pasos": [
+        "Entra al aula virtual de pregrado en https://moodle.ucundinamarca.edu.co, o desde el portal de la universidad en Servicios → Aulas Virtuales, donde hay aulas de pregrado y de posgrado: elige la que corresponde a tu programa.",
+        "Ingresa con tu usuario institucional y tu contraseña, respetando mayúsculas y minúsculas.",
+        "Si olvidaste la contraseña de Moodle, usa el botón «Ayuda en línea» que está debajo de «Ingresar»; el reinicio pide tu usuario institucional, tu correo institucional y tu número de documento.",
+        "Si la página queda en blanco, carga sin fin o te devuelve al inicio de sesión, abre una ventana privada o de incógnito, o borra la caché y las cookies del navegador, y vuelve a intentar.",
+        "Prueba con otro navegador actualizado (Chrome, Edge o Firefox) o con otro dispositivo (portátil, celular) para descartar un problema local.",
+        "Si usas la app Moodle en el celular, verifica que la dirección del sitio sea la oficial y que la app esté actualizada; si sigue fallando, entra desde el navegador del celular.",
+        "Si entras pero no ves un curso, confirma que la matrícula de la materia esté registrada; la sincronización con Moodle puede tardar [COMPLETAR: tiempo de sincronización de matrícula con Moodle].",
+        "Si el sitio no carga para nadie (error 503 o similar), espera unos minutos y revisa los avisos de la universidad: [COMPLETAR: canal donde la UdeC anuncia caídas o mantenimientos]."
+      ],
+      "si_no_funciona": "Si después de estos pasos no puedes entrar, escribe al soporte del aula virtual (soporteaulavirtual@ucundinamarca.edu.co) o a la mesa de ayuda «TICS a un CLIC», con una captura del error, el navegador y el dispositivo que usas.",
+      "referencias": [
+        {"titulo": "Moodle Pregrado – Universidad de Cundinamarca", "url": "https://moodle.ucundinamarca.edu.co", "estado_url": "sin respuesta desde el equipo de desarrollo el 2026-11-14; verificar a mano"},
+        {"titulo": "Ingreso a Moodle – Universidad de Cundinamarca", "url": "https://moodle.ucundinamarca.edu.co/iniciar/", "estado_url": "sin respuesta desde el equipo de desarrollo el 2026-11-14; verificar a mano"},
+        {"titulo": "Restablecer contraseña de Moodle – Universidad de Cundinamarca", "url": "https://moodle.ucundinamarca.edu.co/reset_password/index.php", "estado_url": "sin respuesta desde el equipo de desarrollo el 2026-11-14; verificar a mano"},
+        {"titulo": "Uso de aulas virtuales para estudiantes – Universidad de Cundinamarca (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/index.php/noticias-ucundinamarca/84-institucional/1533-uso-de-aulas-virtuales-estudiantes"},
+        {"titulo": "Can not log in – MoodleDocs", "url": "https://docs.moodle.org/503/en/Can_not_log_in"},
+        {"titulo": "Moodle app FAQ – MoodleDocs", "url": "https://docs.moodle.org/503/en/Moodle_app_FAQ"}
+      ]
+    },
+    "moodle_entregas": {
+      "titulo": "Problemas para entregar una tarea o cuestionario en Moodle",
+      "resumen": "Las fallas al entregar suelen deberse al tamaño o tipo de archivo, a una entrega que quedó en borrador, al cierre de la actividad o a la conexión durante la carga.",
+      "pasos": [
+        "Abre la actividad y revisa la fecha de cierre, el tipo de archivo permitido y el tamaño máximo que indica el docente.",
+        "Pulsa «Agregar entrega», arrastra o selecciona el archivo y espera a que termine la carga antes de pulsar «Guardar cambios».",
+        "Si Moodle rechaza el archivo por tipo, conviértelo al formato pedido (por ejemplo PDF) o comprímelo en .zip si el docente lo permite.",
+        "Si el archivo supera el tamaño máximo, redúcelo (comprimir imágenes, exportar PDF optimizado) o pregunta al docente si acepta un enlace.",
+        "Revisa el estado de la entrega: si dice «Borrador (no enviado)», pulsa «Enviar tarea» y confirma; el estado debe cambiar a «Enviado para calificar».",
+        "Si la carga se queda en 0 % o da error de servidor, cambia de red o de dispositivo y vuelve a intentar; evita subir desde una conexión inestable.",
+        "En un cuestionario, no cierres la pestaña: si se corta la conexión, vuelve a entrar y, si el intento sigue abierto, continúa desde donde quedaste.",
+        "Si la actividad ya cerró o se registró como entrega tardía, guarda una captura con la hora y comunícate con el docente; el bot no puede reabrir actividades."
+      ],
+      "si_no_funciona": "Si el error persiste antes del cierre, toma captura del mensaje y repórtalo al soporte del aula virtual (soporteaulavirtual@ucundinamarca.edu.co) y al docente, indicando la actividad, la hora y el archivo.",
+      "referencias": [
+        {"titulo": "Uso de aulas virtuales para estudiantes – Universidad de Cundinamarca (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/index.php/noticias-ucundinamarca/84-institucional/1533-uso-de-aulas-virtuales-estudiantes"},
+        {"titulo": "Assignment activity – MoodleDocs", "url": "https://docs.moodle.org/503/en/Assignment_activity"},
+        {"titulo": "Using Assignment – MoodleDocs", "url": "https://docs.moodle.org/503/en/Using_Assignment"}
+      ]
+    },
+    "correo_institucional": {
+      "titulo": "Problemas con el correo institucional",
+      "resumen": "La universidad tiene licenciamiento campus Office 365 A3, que incluye el correo Exchange. La guía cubre acceso, mensajes que no llegan o no se envían, buzón lleno y configuración en el celular o en Outlook de escritorio.",
+      "pasos": [
+        "Confirma tu dirección de correo institucional: [COMPLETAR: formato de la dirección de correo de estudiantes de la UdeC].",
+        "Entra por la versión web de Outlook (outlook.office.com, acceso general de Microsoft 365) con tu cuenta institucional para verificar si el problema es del buzón o de la aplicación.",
+        "Si no te llegan mensajes, revisa las carpetas de correo no deseado y otros, y las reglas o reenvíos configurados.",
+        "Si el buzón está lleno, elimina correos con adjuntos grandes y vacía la papelera; la cuota es [COMPLETAR: tamaño del buzón institucional].",
+        "Si los correos rebotan o sale un error de envío (p. ej. 550), revisa que la dirección del destinatario esté bien escrita y que el adjunto no supere el límite.",
+        "Para el celular, instala Outlook, elige agregar cuenta, escribe tu correo institucional completo y completa la verificación que pida la cuenta (la universidad usa verificación en dos pasos con Microsoft Authenticator).",
+        "Si recibes un correo sospechoso que pide tu contraseña, no abras enlaces ni respondas; repórtalo como suplantación (phishing).",
+        "Si olvidaste la contraseña del correo, se recupera con el correo personal alternativo y el celular registrados en la admisión (ver la guía de restablecer contraseña)."
+      ],
+      "si_no_funciona": "Para otros errores del correo escribe a serviciostecnologicos@ucundinamarca.edu.co o a la mesa de ayuda «TICS a un CLIC». Si el problema es la contraseña o la cuenta está bloqueada, sigue la guía de restablecer contraseña.",
+      "referencias": [
+        {"titulo": "Paso a paso para el acceso al correo institucional – Universidad de Cundinamarca (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/documents/varios/2021/paso-a%20paso-acceso-correo.pdf"},
+        {"titulo": "Instructivo del correo institucional – Universidad de Cundinamarca (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/documents/sistemas/instructivo-correo.pdf"},
+        {"titulo": "Documento F-CD-158 (licenciamiento campus Office 365 A3) – Universidad de Cundinamarca, 2024", "url": "https://www.ucundinamarca.edu.co/documents/contratacion/invitaciones/2024/F-CD-158_ABS.pdf"},
+        {"titulo": "Configurar el correo electrónico en la aplicación de Outlook para Android – Soporte de Microsoft", "url": "https://support.microsoft.com/es-es/outlook/install-mobile/set-up-email-in-the-outlook-for-android-app"},
+        {"titulo": "Configurar la aplicación de Outlook para iOS – Soporte de Microsoft", "url": "https://support.microsoft.com/es-es/outlook/install-mobile/set-up-the-outlook-app-for-ios"}
+      ]
+    },
+    "restablecer_contrasena": {
+      "titulo": "Olvidé o tengo bloqueada la contraseña institucional",
+      "resumen": "La cuenta de Microsoft 365 (correo, Teams, OneDrive), la plataforma institucional (Academusoft) y Moodle tienen procesos de recuperación distintos. Cubre contraseña olvidada, vencida o bloqueada, primer ingreso, cambio de contraseña y verificación en dos pasos.",
+      "pasos": [
+        "Identifica qué cuenta falla: correo, Teams u OneDrive (cuenta de Microsoft 365); plataforma institucional (Academusoft); o Moodle. Cada una se recupera por un camino distinto.",
+        "Correo, Teams u OneDrive: la contraseña se recupera con el correo personal alternativo y el número de celular que registraste en la admisión; ten ambos a mano para recibir el código de verificación.",
+        "Si la cuenta de Microsoft 365 pide verificación en dos pasos, usa la app Microsoft Authenticator del celular; si cambiaste de celular o borraste la app, no podrás completar la verificación solo y debes contactar a la mesa de ayuda.",
+        "Plataforma institucional: entra a https://www.ucundinamarca.edu.co/, ve a Servicios → PLATAFORMA INSTITUCIONAL y elige «Recuperación de contraseña»; si no recuerdas el usuario, usa «Consultar usuario». La plataforma se abre en una ventana emergente: permítela en el navegador y en el antivirus.",
+        "Primer ingreso a la plataforma institucional: la contraseña inicial es el mismo nombre de usuario y el sistema pide cambiarla.",
+        "Si la recuperación de la plataforma envía el código a un correo que ya no usas, actualiza el correo registrado en la Oficina de Admisiones, Registro y Control Académico de tu sede.",
+        "Moodle: usa el botón «Ayuda en línea» debajo de «Ingresar»; el reinicio pide usuario institucional, correo institucional y número de documento.",
+        "Si la cuenta está bloqueada por intentos fallidos, espera [COMPLETAR: tiempo de desbloqueo automático, si existe] antes de volver a intentar.",
+        "Crea una contraseña nueva que cumpla la política: [COMPLETAR: requisitos de la contraseña institucional (longitud, caracteres, vigencia)].",
+        "Después del cambio, cierra sesión en el celular, el portátil y los PC de la sala, y vuelve a entrar con la contraseña nueva en cada aplicación."
+      ],
+      "si_no_funciona": "Si no tienes acceso a ningún método de verificación o sospechas que alguien entró a tu cuenta, contacta de inmediato a la mesa de ayuda «TICS a un CLIC». Para la plataforma institucional también atiende el Área de Sistemas de Información (extensiones 170 y 246, sistemasdeinformacion@ucundinamarca.edu.co).",
+      "referencias": [
+        {"titulo": "Plataforma institucional – servicios – Universidad de Cundinamarca", "url": "https://www.ucundinamarca.edu.co/plataforma-institucional-servicios/", "pasos": [3, 4, 5]},
+        {"titulo": "Guía de consulta de usuario y contraseña e ingreso a la plataforma institucional – Dirección de Sistemas y Tecnología, UdeC (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/documents/varios/2020/guia.-rapida-usuario-contrasena.pdf", "pasos": [3, 4, 5]},
+        {"titulo": "Instructivo del correo institucional – Universidad de Cundinamarca (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/documents/sistemas/instructivo-correo.pdf"},
+        {"titulo": "Protege tu cuenta (verificación en dos pasos) – Universidad de Cundinamarca (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/documents/sistemas/2022/protege-tu-cuenta.pdf", "pasos": [2]},
+        {"titulo": "Restablecer contraseña de Moodle – Universidad de Cundinamarca", "url": "https://moodle.ucundinamarca.edu.co/reset_password/index.php", "estado_url": "sin respuesta desde el equipo de desarrollo el 2026-11-14; verificar a mano", "pasos": [6]},
+        {"titulo": "Restablecer la contraseña de la cuenta profesional o educativa de Microsoft con la información de seguridad – Soporte de Microsoft", "url": "https://support.microsoft.com/es-es/account-billing/restablecer-la-contrase%C3%B1a-de-la-cuenta-profesional-o-educativa-mediante-la-informaci%C3%B3n-de-seguridad-23dde81f-08bb-4776-ba72-e6b72b9dda9e", "pasos": [1, 2]}
+      ]
+    },
+    "wifi_sede": {
+      "titulo": "No me conecto al Wi-Fi de la sede Facatativá",
+      "resumen": "Incluye no ver la red, error de autenticación, conexión «sin internet», portal de inicio que no abre, desconexiones y señal débil.",
+      "pasos": [
+        "Busca la red oficial para estudiantes: [COMPLETAR: nombre (SSID) de la red Wi-Fi de estudiantes en la sede Facatativá].",
+        "Ingresa con las credenciales que pide la red: [COMPLETAR: tipo de autenticación del Wi-Fi (usuario institucional, clave compartida o portal cautivo) y formato del usuario].",
+        "Si la red pide un certificado al conectarte, usa la configuración indicada por la UdeC: [COMPLETAR: configuración de certificado/EAP para Android, iPhone y Windows, si aplica].",
+        "Si aparece «contraseña incorrecta» o error de autenticación, elimina (olvida) la red en el dispositivo y conéctate de nuevo escribiendo los datos con cuidado.",
+        "Si dice conectado pero sin internet, abre el navegador para que aparezca la página de inicio de la red; si no aparece, abre una página sin https para forzarla.",
+        "Apaga y enciende el Wi-Fi del dispositivo; en el portátil, ejecuta el solucionador de problemas de red de Windows.",
+        "Si la señal es débil o se desconecta, acércate a una zona con mejor cobertura: [COMPLETAR: zonas con cobertura Wi-Fi en la sede].",
+        "Si la red no funciona para nadie en la sede, es una caída del servicio: repórtala a la mesa de ayuda."
+      ],
+      "si_no_funciona": "Si el dispositivo no ve la red o sigue fallando la autenticación, contacta a la mesa de ayuda «TICS a un CLIC» indicando el dispositivo y el mensaje de error.",
+      "referencias": [
+        {"titulo": "Solucionar problemas de conexión Wi-Fi en Windows – Soporte de Microsoft", "url": "https://support.microsoft.com/es-es/windows/solucionar-problemas-de-conexi%C3%B3n-wi-fi-en-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c"},
+        {"titulo": "Cómo conectarte a redes Wi-Fi en un dispositivo Android – Ayuda de Android", "url": "https://support.google.com/android/answer/9075847?hl=es-419"},
+        {"titulo": "Si no puedes conectarte a una red wifi en el iPhone o iPad – Soporte de Apple", "url": "https://support.apple.com/es-es/111786"}
+      ]
+    },
+    "teams": {
+      "titulo": "Problemas con Microsoft Teams",
+      "resumen": "La universidad usa Microsoft Teams para las clases virtuales (licenciamiento Office 365 A3). Incluye entrar a clases o reuniones, unirse a equipos, micrófono, cámara, audio, grabaciones, archivos compartidos y fallas al abrir la aplicación.",
+      "pasos": [
+        "Inicia sesión en Teams con tu cuenta institucional, no con una cuenta personal; si la app abre con otra cuenta, cierra sesión y vuelve a entrar.",
+        "Para entrar a una clase, usa el enlace de la reunión o el botón «Unirse» del canal o del calendario; si no tienes la app, elige continuar en el navegador.",
+        "Para unirte a un equipo, ve a Equipos, «Unirse a un equipo o crear uno» y escribe el código que entregó el docente.",
+        "Si no aparece el equipo de la materia, confirma con el docente que te haya agregado o que el código sea vigente.",
+        "Si no funciona el micrófono o la cámara, revisa que no estén silenciados, elige el dispositivo correcto en la configuración de dispositivos de Teams y da permiso a Teams en la configuración de privacidad del sistema o del navegador.",
+        "Cierra otras aplicaciones que usen la cámara o el micrófono y haz una llamada de prueba desde la configuración de dispositivos.",
+        "Si la app no abre o se queda cargando, ciérrala por completo, actualízala o usa la versión web.",
+        "Las grabaciones de las clases aparecen en el chat o canal de la reunión cuando el organizador las comparte; los archivos adjuntos de los chats quedan en tu OneDrive, en la carpeta «Microsoft Teams Chat Files»."
+      ],
+      "si_no_funciona": "Si Teams no te deja iniciar sesión por la contraseña, sigue la guía de restablecer contraseña; si el problema es de licencia o permisos, contacta a la mesa de ayuda «TICS a un CLIC».",
+      "referencias": [
+        {"titulo": "Comunicado 006 de 2025 – Universidad de Cundinamarca", "url": "https://www.ucundinamarca.edu.co/documents/varios/2025/COMUNICADO_006.pdf", "pasos": [7]},
+        {"titulo": "Documento F-CD-158 (licenciamiento campus Office 365 A3) – Universidad de Cundinamarca, 2024", "url": "https://www.ucundinamarca.edu.co/documents/contratacion/invitaciones/2024/F-CD-158_ABS.pdf", "pasos": []},
+        {"titulo": "Unirse a una reunión en Microsoft Teams – Soporte de Microsoft", "url": "https://support.microsoft.com/es-es/office/unirse-a-una-reuni%C3%B3n-en-microsoft-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9"},
+        {"titulo": "Mi micrófono no funciona en Microsoft Teams – Soporte de Microsoft", "url": "https://support.microsoft.com/es-es/office/mi-micr%C3%B3fono-no-funciona-en-microsoft-teams-666d1123-9dd0-4a31-ad2e-a758b204f33a", "pasos": [4, 5]},
+        {"titulo": "La cámara no funciona en Microsoft Teams – Soporte de Microsoft", "url": "https://support.microsoft.com/es-es/teams/meetings/my-camera-isn-t-working-in-microsoft-teams", "pasos": [4, 5]}
+      ]
+    },
+    "office365": {
+      "titulo": "Office 365 (Word, Excel, PowerPoint) y OneDrive con la cuenta institucional",
+      "resumen": "La universidad tiene licenciamiento campus Office 365 A3 (Teams, correo Exchange, OneDrive, SharePoint). Incluye instalar o activar Office, avisos de producto sin licencia o funcionalidad reducida, Office en línea y problemas de OneDrive.",
+      "pasos": [
+        "Para usar Office sin instalar nada, entra a Microsoft 365 en el navegador con tu cuenta institucional.",
+        "Para instalar, inicia sesión en Microsoft 365 con la cuenta institucional y descarga las aplicaciones desde la opción de instalar; no uses claves de producto de terceros. Número de instalaciones permitidas: [COMPLETAR: número de instalaciones de Office permitidas por estudiante].",
+        "Si sale «producto sin licencia» o «funcionalidad reducida», abre Word, ve a Cuenta, cierra la sesión de cuentas personales e inicia sesión con la institucional.",
+        "Si la instalación se queda detenida, reinicia el equipo, desinstala versiones de prueba previas y vuelve a ejecutar el instalador.",
+        "Si OneDrive no sincroniza, revisa el ícono de OneDrive en la barra de tareas, pausa y reanuda la sincronización, y si persiste, restablece OneDrive.",
+        "Si OneDrive está lleno, libera espacio en la papelera de OneDrive; la cuota es [COMPLETAR: espacio de OneDrive para estudiantes].",
+        "Para recuperar un archivo borrado, búscalo en la papelera de reciclaje de OneDrive o en el historial de versiones del archivo.",
+        "Los archivos que compartes en los chats de Teams quedan en tu OneDrive, en la carpeta «Microsoft Teams Chat Files»."
+      ],
+      "si_no_funciona": "Si la cuenta no tiene licencia asignada o alcanzaste el límite de instalaciones, contacta a la mesa de ayuda «TICS a un CLIC».",
+      "referencias": [
+        {"titulo": "Documento F-CD-158 (licenciamiento campus Office 365 A3) – Universidad de Cundinamarca, 2024", "url": "https://www.ucundinamarca.edu.co/documents/contratacion/invitaciones/2024/F-CD-158_ABS.pdf"},
+        {"titulo": "Comunicado 006 de 2025 – Universidad de Cundinamarca", "url": "https://www.ucundinamarca.edu.co/documents/varios/2025/COMUNICADO_006.pdf", "pasos": [7]},
+        {"titulo": "Descargar, instalar o reinstalar Microsoft 365 u Office en un PC o Mac – Soporte de Microsoft", "url": "https://support.microsoft.com/es-es/office/descargar-e-instalar-o-reinstalar-microsoft-365-o-office-2021-en-un-pc-o-mac-4414eaaf-0478-48be-9c42-23adc4716658", "pasos": [1, 3]},
+        {"titulo": "Reparar conexiones de sincronización en OneDrive profesional o educativo – Soporte de Microsoft", "url": "https://support.microsoft.com/es-es/office/reparar-conexiones-de-sincronizaci%C3%B3n-en-onedrive-para-el-trabajo-o-la-escuela-21aac895-9f32-4e3e-a75a-6f12824f0975", "pasos": [4]},
+        {"titulo": "Restablecer OneDrive – Soporte de Microsoft", "url": "https://support.microsoft.com/es-es/office/restablecer-onedrive-34701e00-bf7b-42db-b960-84905399050c", "pasos": [4]}
+      ]
+    },
+    "instalar_python": {
+      "titulo": "Instalar y configurar Python en el computador propio",
+      "resumen": "Incluye descarga e instalación, la opción PATH, el error «python no se reconoce», pip, entornos virtuales y Jupyter o VS Code en local.",
+      "pasos": [
+        "Descarga el instalador oficial desde python.org; usa la versión que indique el docente o, si no indica, una versión estable reciente.",
+        "En Windows, al ejecutar el instalador marca la opción para agregar Python al PATH antes de pulsar instalar.",
+        "Cierra y vuelve a abrir la terminal y verifica la instalación con «python --version» (o «py --version» en Windows).",
+        "Si sale «python no se reconoce» o se abre la Microsoft Store, ejecuta de nuevo el instalador, elige «Modify» y activa la opción de PATH, o desactiva los alias de ejecución de la Store en la configuración de Windows.",
+        "Crea un entorno virtual en la carpeta del proyecto con «python -m venv .venv» y actívalo (en PowerShell: «.venv\\Scripts\\Activate.ps1»).",
+        "Si PowerShell bloquea la activación por la política de ejecución, permite scripts para tu usuario o usa el símbolo del sistema.",
+        "Instala las librerías con «python -m pip install nombre_paquete» dentro del entorno activado.",
+        "En VS Code, elige el intérprete del entorno con «Python: Select Interpreter»; para notebooks instala jupyter con pip."
+      ],
+      "si_no_funciona": "Si el instalador falla por permisos de administrador o el equipo es de la universidad, consulta a la mesa de ayuda «TICS a un CLIC»; en los PC de las salas no se instala software por cuenta propia.",
+      "referencias": [
+        {"titulo": "Uso de Python en Windows – Documentación de Python", "url": "https://docs.python.org/es/3/using/windows.html"},
+        {"titulo": "Entornos virtuales y paquetes – Documentación de Python", "url": "https://docs.python.org/es/3/tutorial/venv.html"},
+        {"titulo": "Installing Python modules – Documentación de Python", "url": "https://docs.python.org/es/3/installing/index.html"}
+      ]
+    },
+    "colab_gpu": {
+      "titulo": "Google Colab: GPU, sesiones y archivos",
+      "resumen": "Incluye activar la GPU, falta de GPU disponible o límite de uso, desconexiones, memoria insuficiente, montar Drive y subir archivos.",
+      "pasos": [
+        "Abre el notebook y ve a Entorno de ejecución → Cambiar tipo de entorno de ejecución → elige GPU (T4 en la versión gratuita) y guarda.",
+        "Comprueba que la GPU está activa ejecutando «!nvidia-smi» o, en PyTorch, «torch.cuda.is_available()».",
+        "Si Colab indica que no hay GPU disponible o alcanzaste el límite de uso, trabaja en CPU mientras tanto o intenta más tarde; los recursos gratuitos no están garantizados.",
+        "Monta Google Drive con «from google.colab import drive» y «drive.mount('/content/drive')» y guarda allí modelos y resultados.",
+        "Los archivos subidos directamente a la sesión se borran al reiniciarse el entorno: guarda una copia en Drive.",
+        "Si aparece «CUDA out of memory», reduce el tamaño del lote o la longitud de las secuencias y reinicia el entorno para liberar memoria.",
+        "Si la sesión se desconecta por inactividad, vuelve a conectar y ejecuta de nuevo las celdas; guarda puntos de control durante entrenamientos largos.",
+        "Instala librerías con «!pip install nombre_paquete» al inicio del notebook, porque cada sesión nueva parte de cero."
+      ],
+      "si_no_funciona": "Si Colab no abre con la cuenta institucional, prueba con una cuenta personal de Google; [COMPLETAR: si la cuenta institucional de la UdeC tiene acceso a servicios de Google].",
+      "referencias": [
+        {"titulo": "Preguntas frecuentes de Colaboratory – Google Research", "url": "https://research.google.com/colaboratory/faq.html"},
+        {"titulo": "Uso de GPU en Colab – Google Colab", "url": "https://colab.research.google.com/notebooks/gpu.ipynb"},
+        {"titulo": "Entrada y salida de datos (Drive, archivos) – Google Colab", "url": "https://colab.research.google.com/notebooks/io.ipynb"}
+      ]
+    },
+    "plataforma_academica": {
+      "titulo": "Plataforma institucional (Academusoft): matrícula, inscripción, recibos y notas",
+      "resumen": "La plataforma institucional es el aplicativo Academusoft, distinto de Moodle. Incluye ingreso, inscripción de materias, recibo de matrícula, notas definitivas, historial y el Sistema Institucional de Solicitudes (SIS).",
+      "restricciones": ["El bot nunca da fechas ni valores de pago: las fechas dependen del programa, la jornada (diurna o nocturna) y de si el estudiante es nivelado o no nivelado; se remite al calendario académico y a las publicaciones del portal."],
+      "pasos": [
+        "Entra a la plataforma institucional desde https://www.ucundinamarca.edu.co/ → Servicios → PLATAFORMA INSTITUCIONAL.",
+        "La plataforma se abre en una ventana emergente: si después de iniciar sesión no aparece, verifica que ni el navegador ni el antivirus estén bloqueando las ventanas emergentes.",
+        "Primer ingreso: la contraseña inicial es el mismo nombre de usuario y el sistema pide cambiarla. Si no recuerdas el usuario, usa «Consultar usuario»; si olvidaste la contraseña, «Recuperación de contraseña».",
+        "Si la página no carga o queda en blanco, prueba en ventana privada, en otro navegador o desde el portátil en lugar del celular.",
+        "Recibo de matrícula: genéralo en la plataforma con la opción «Genera tu recibo de matrícula» y págalo por PSE o en el banco; antes de pagar, revisa que esté a tu nombre y con tu número de documento.",
+        "Inscripción de materias: primero se paga la matrícula y después se inscriben las materias, en la plataforma con tu usuario y contraseña, rol estudiante → matrícula académica en línea, en las fechas del calendario académico. Las fechas cambian según el programa, la jornada y si eres nivelado o no nivelado; revisa el calendario académico y las publicaciones del portal. Si estás en trabajo de grado, también debes registrarlo. En posgrados la inscripción la hace el instituto de posgrados.",
+        "Si el sistema muestra cruce de horario o materia no disponible, revisa los grupos ofrecidos; ese mensaje lo genera la plataforma y no es una falla técnica.",
+        "Para notas definitivas, historial y promedio, usa la opción correspondiente: [COMPLETAR: ruta del menú para consultar notas e historial].",
+        "Las solicitudes y trámites se registran en el Sistema Institucional de Solicitudes (SIS): Gestión Formación y Aprendizaje → Estudiante → Solicitudes. Para certificados: [COMPLETAR: confirmar si los certificados de estudio se solicitan por el SIS u otra ruta].",
+        "Si ya pagaste y la plataforma no lo refleja, espera el tiempo de registro del pago: [COMPLETAR: tiempo de actualización del pago en la plataforma].",
+        "Para actualizar el correo registrado en la plataforma, acude a la Oficina de Admisiones, Registro y Control Académico de tu sede."
+      ],
+      "si_no_funciona": "Las solicitudes de reglamento (homologaciones, revisión de notas, supletorios, cancelación de matrícula) no son de soporte técnico: las maneja la dependencia académica correspondiente. Para fallas técnicas de la plataforma institucional, contacta al Área de Sistemas de Información de la Dirección de Sistemas y Tecnología (extensiones 170 y 246, sistemasdeinformacion@ucundinamarca.edu.co).",
+      "referencias": [
+        {"titulo": "Portal de estudiantes – Universidad de Cundinamarca", "url": "https://www.ucundinamarca.edu.co/estudiantes/"},
+        {"titulo": "Plataforma institucional – servicios – Universidad de Cundinamarca", "url": "https://www.ucundinamarca.edu.co/plataforma-institucional-servicios/"},
+        {"titulo": "Procedimiento MARP03 de inscripción de materias – SUIT", "url": "https://tramites1.suit.gov.co/registro-web/suit_descargar_archivo?A=135456"},
+        {"titulo": "Registro académico estudiantes antiguos IPA 2022 – Universidad de Cundinamarca (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/index.php/admisiones-y-registro/3356-registro-academico-estudiantes-antiguos-ipa-2022"},
+        {"titulo": "Conoce aquí toda la información importante sobre tu matrícula académica IIPA 2026 – Universidad de Cundinamarca", "url": "https://www.ucundinamarca.edu.co/index.php/noticias-ucundinamarca/84-institucional/5399-conoce-aqui-toda-la-informacion-importante-sobre-tu-matricula-academica-iipa-2026"},
+        {"titulo": "Guía de consulta de usuario y contraseña e ingreso a la plataforma institucional – Dirección de Sistemas y Tecnología, UdeC (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/documents/varios/2020/guia.-rapida-usuario-contrasena.pdf"}
+      ]
+    },
+    "salas_computo": {
+      "titulo": "Salas de cómputo de la sede",
+      "resumen": "Incluye horarios y reservas, inicio de sesión en los equipos, software instalado, impresión, archivos y reporte de equipos dañados.",
+      "pasos": [
+        "Consulta el horario y la ubicación de las salas: [COMPLETAR: horario y ubicación de las salas de cómputo de la sede Facatativá].",
+        "Para reservar, sigue [COMPLETAR: procedimiento de reserva de salas para estudiantes].",
+        "Inicia sesión en el equipo con [COMPLETAR: credenciales de los PC de las salas (usuario institucional o cuenta local)].",
+        "Si el equipo dice contraseña incorrecta o carga un perfil temporal, cierra sesión, reinicia el equipo e intenta de nuevo; si persiste, cambia de equipo y reporta el número del equipo.",
+        "Guarda tu trabajo en OneDrive o en una USB: los archivos del escritorio pueden borrarse al cerrar sesión o apagar el equipo.",
+        "Si la USB no aparece, pruébala en otro puerto o en otro equipo.",
+        "El software instalado es [COMPLETAR: listado de software disponible en las salas]; los estudiantes no pueden instalar programas en estos equipos.",
+        "Si un equipo no prende, no tiene internet o tiene teclado, mouse o pantalla dañados, avisa al encargado de la sala indicando el número del equipo: [COMPLETAR: encargado o canal de reporte de daños en salas]."
+      ],
+      "si_no_funciona": "Para impresión y otros servicios de la sala, consulta [COMPLETAR: disponibilidad y procedimiento de impresión en las salas].",
+      "referencias": [
+        {"titulo": "[COMPLETAR: reglamento o página oficial de salas de cómputo de la UdeC]", "url": "[COMPLETAR: URL del reglamento de salas]"}
+      ]
+    },
+    "hablar_con_soporte": {
+      "titulo": "Contactar a la mesa de ayuda (atención humana)",
+      "resumen": "El usuario pide hablar con una persona, abrir o seguir un caso, o el problema no se resolvió con las guías del bot.",
+      "pasos": [
+        "La mesa de ayuda de la universidad es «TICS a un CLIC»: escríbele por el chat de Microsoft Teams o al correo ticsaunclic@ucundinamarca.edu.co.",
+        "Horario de atención: lunes a viernes de 8:00 a. m. a 12:00 m. y de 2:00 p. m. a 6:00 p. m.",
+        "Los requerimientos a la mesa de servicios también se registran por el módulo SIS de la plataforma institucional.",
+        "Canales por servicio: plataforma institucional, Área de Sistemas de Información (extensiones 170 y 246, sistemasdeinformacion@ucundinamarca.edu.co); aula virtual, soporteaulavirtual@ucundinamarca.edu.co; correo, serviciostecnologicos@ucundinamarca.edu.co.",
+        "Atención presencial: [COMPLETAR: ubicación de la oficina de sistemas o tecnología en la sede Facatativá].",
+        "En tu mensaje incluye tu nombre, código estudiantil, servicio afectado, dispositivo, mensaje de error y una captura de pantalla.",
+        "Guarda el número de caso para hacer seguimiento: [COMPLETAR: cómo consultar el estado de un caso].",
+        "Si el problema impide una entrega, indícalo en el caso y avisa también al docente."
+      ],
+      "si_no_funciona": "Si no hay respuesta en el tiempo esperado ([COMPLETAR: tiempo de respuesta de la mesa de ayuda]), escala por [COMPLETAR: canal de escalamiento].",
+      "referencias": [
+        {"titulo": "Instructivo de uso de la plataforma – Universidad de Cundinamarca (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/documents/varios/2022/INSTRUCTIVO_USO_PLATAFORMA.pdf"},
+        {"titulo": "Matriz de comunicaciones COMUNASI – Universidad de Cundinamarca", "url": "https://www.ucundinamarca.edu.co/sgc/documents/matriz_comunicaciones/COMUNASI.pdf"},
+        {"titulo": "Guía de consulta de usuario y contraseña e ingreso a la plataforma institucional – Dirección de Sistemas y Tecnología, UdeC (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/documents/varios/2020/guia.-rapida-usuario-contrasena.pdf"},
+        {"titulo": "Uso de aulas virtuales para estudiantes – Universidad de Cundinamarca (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/index.php/noticias-ucundinamarca/84-institucional/1533-uso-de-aulas-virtuales-estudiantes"},
+        {"titulo": "Paso a paso para el acceso al correo institucional – Universidad de Cundinamarca (verificar vigencia)", "url": "https://www.ucundinamarca.edu.co/documents/varios/2021/paso-a%20paso-acceso-correo.pdf"}
+      ]
+    }
+  }
+}

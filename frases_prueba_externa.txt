@@ -1,0 +1,126 @@
+# Conjunto externo — redactado por un asistente de IA distinto del generador del dataset, a partir de
+# problemas frecuentes documentados por mesas de ayuda universitarias. Nunca se usa para ajustar nada.
+# Formato: frase;intencion  o  frase;intencion1|intencion2
+# --- Una intención (85) ---
+muy buenas, apenas estoy entrando a este chat;saludo
+buenas noches, hay alguien ahi?;saludo
+quiubo;saludo
+hola, escribo porque me recomendaron este chat;saludo
+buen dia señor bot;saludo
+listo, me voy;despedida
+ahi te escribo si vuelve a fallar, por ahora me voy;despedida
+nada mas por ahora, bye;despedida
+ya no necesito nada mas, feliz noche;despedida
+bueno, ya me desconecto, cuidate;despedida
+muchisimas gracias me salvaste la vida;agradecimiento
+ya quedo, gracias por la ayuda;agradecimiento
+uff ya me aparecio todo, mil gracias de verdad;agradecimiento
+te pasaste, gracias;agradecimiento
+gracias parcero ya pude entrar;agradecimiento
+y tu que vienes siendo, un asistente de la oficina de sistemas?;sobre_bot
+que cosas me puedes ayudar a resolver;sobre_bot
+del otro lado hay alguien escribiendo o todo es automatico;sobre_bot
+a ti quien te hizo, algun estudiante?;sobre_bot
+tus respuestas son oficiales de la universidad?;sobre_bot
+quien gano el partido de nacional anoche;fuera_de_dominio
+me ayudas con un ensayo de filosofia;fuera_de_dominio
+como hago para pedir una homologacion de materias;fuera_de_dominio
+recomiendame donde almorzar barato en faca;fuera_de_dominio
+cuando es el proximo puente festivo;fuera_de_dominio
+me sale que los invitados no pueden entrar a este curso;moodle_acceso
+ya estoy matriculado pero no me aparece ninguna materia en el aula virtual;moodle_acceso
+pongo usuario y clave y se queda cargando y vuelve al inicio;moodle_acceso
+la plataforma de aulas esta caida? no abre desde ayer;moodle_acceso
+entro a moodle y a los 5 minutos me saca otra vez;moodle_acceso
+me dice que el archivo excede el tamaño maximo y es un pdf de 30 megas;moodle_entregas
+no me deja subir el trabajo en .rar, solo acepta pdf, que hago;moodle_entregas
+eran las 11:59 y no alcance a dar enviar, se cerro la entrega;moodle_entregas
+adjunte el archivo pero aparece como borrador y no como enviado;moodle_entregas
+el cuestionario se me cerro solo cuando iba en la pregunta 8;moodle_entregas
+el profe dice que me mando la guia por correo pero en mi bandeja de la u no hay nada, ni en spam;correo_institucional
+como pongo el correo de la u en la app de gmail del celular;correo_institucional
+me llego un correo raro pidiendo mi clave, es fraude?;correo_institucional
+no se si mi cuenta es nombre.apellido o con numeros, como la averiguo;correo_institucional
+soy de primer semestre y no se como activar el correo;correo_institucional
+olvide la clave de la plataforma y no me acuerdo ni del usuario;restablecer_contrasena
+me sale que mi clave expiro y cuando pongo la nueva dice que no cumple los requisitos;restablecer_contrasena
+bloquee la cuenta por meter mal la clave varias veces;restablecer_contrasena
+el codigo de verificacion me llega a un numero que ya no tengo;restablecer_contrasena
+creo que alguien sabe mi clave, como pongo una nueva;restablecer_contrasena
+el wifi de la u me pide usuario y contraseña, cuales pongo;wifi_sede
+me conecto pero no abre ninguna pagina;wifi_sede
+en el bloque nuevo no llega la señal del wifi;wifi_sede
+cual es el nombre de la red para estudiantes;wifi_sede
+el portatil no encuentra la red de la universidad pero el celular si;wifi_sede
+el profe mando un codigo para unirme al equipo y no se donde ponerlo;teams
+en la reunion nadie me escucha aunque tengo el microfono prendido;teams
+el profe grabo la sesion de ayer y no la encuentro por ningun lado;teams
+teams se queda en pantalla blanca cuando lo abro;teams
+no me aparece la clase de hoy en el calendario de teams;teams
+abro un documento y arriba sale una barra roja de que office no esta activado;office365
+como instalo office gratis con la cuenta de la u;office365
+guardo cosas en la carpeta de la nube del pc y en el celular no aparecen;office365
+se me lleno el espacio de onedrive;office365
+excel en linea no me deja editar el archivo que me compartieron;office365
+en la terminal sale python no se reconoce como comando;instalar_python
+como instalo pandas con pip en mi computador;instalar_python
+instale anaconda y jupyter no abre;instalar_python
+cree un entorno virtual y no se como activarlo en windows;instalar_python
+en visual studio code me sale select interpreter y la lista esta vacia;instalar_python
+colab me dice que no puedo conectarme a un backend con gpu;colab_gpu
+donde se cambia el tipo de entorno para que el notebook use t4 en vez de cpu;colab_gpu
+me salio cuda out of memory entrenando en colab;colab_gpu
+no puedo montar mi drive en colab;colab_gpu
+llevaba dos horas entrenando el modelo en el cuaderno de google y se reinicio el entorno solito;colab_gpu
+como descargo el recibo de pago de la matricula;plataforma_academica
+le doy ingresar en academusoft y no pasa nada, como si el boton no hiciera nada;plataforma_academica
+ya pague hace tres dias y sigue saliendo pendiente;plataforma_academica
+donde veo las notas definitivas del semestre;plataforma_academica
+no me deja inscribir materias, dice fuera de fechas;plataforma_academica
+a que horas abren las salas de sistemas;salas_computo
+el computador de la sala no tiene instalado el programa que necesito;salas_computo
+como reservo una sala para un grupo de estudio;salas_computo
+hay impresora en las salas de sistemas o toca ir a una papeleria;salas_computo
+el pc de la sala no me deja iniciar sesion con mi usuario;salas_computo
+necesito hablar con alguien de sistemas, no un robot;hablar_con_soporte
+a que correo escribo para que me ayuden de verdad;hablar_con_soporte
+como creo un caso o ticket para soporte;hablar_con_soporte
+hice todo lo que dijiste y no funciona, paseme con un tecnico;hablar_con_soporte
+hasta que hora puedo escribirle a los de sistemas hoy;hablar_con_soporte
+# --- Varias intenciones (30) ---
+ya no recuerdo la clave de la plataforma y aparte los mensajes de los profes no aparecen en mi bandeja de outlook;restablecer_contrasena|correo_institucional
+no puedo entrar a moodle y ademas el wifi de la sede no sirve;moodle_acceso|wifi_sede
+como activo la gpu en colab y como instalo python en mi pc;colab_gpu|instalar_python
+teams no me reconoce la camara y word dice sin licencia;teams|office365
+no me deja subir la tarea en moodle, y a que horas abren las salas de computo?;moodle_entregas|salas_computo
+me bloquearon la cuenta por intentos y necesito hablar con alguien de soporte;restablecer_contrasena|hablar_con_soporte
+donde veo las notas definitivas? y otra cosa, onedrive no sincroniza;plataforma_academica|office365
+el correo no me llega al celular y teams tampoco abre;correo_institucional|teams
+no encuentro la red wifi de estudiantes, y en la sala de computo el pc no prende;wifi_sede|salas_computo
+python no se reconoce en la terminal y tambien se me desconecta colab;instalar_python|colab_gpu
+se me vencio la clave y ademas no me aparecen los cursos en moodle;restablecer_contrasena|moodle_acceso
+el archivo pesa mucho para moodle, como lo subo a onedrive y comparto el link?;moodle_entregas|office365
+quien eres? y como recupero mi contraseña;sobre_bot|restablecer_contrasena
+me llego un correo pidiendo mi clave y no puedo pagar la matricula en la plataforma;correo_institucional|plataforma_academica
+no me deja inscribir materias y el wifi esta lentisimo;plataforma_academica|wifi_sede
+se cerro el cuestionario de moodle y en teams nadie me escucha;moodle_entregas|teams
+cual es el horario de la mesa de ayuda? tambien quiero saber como instalar office;hablar_con_soporte|office365
+colab dice cuda out of memory y quiero saber a que horas puedo usar las salas;colab_gpu|salas_computo
+no me deja entrar a moodle desde el celular y tampoco me abre el correo;moodle_acceso|correo_institucional
+jupyter no abre despues de instalar anaconda y onedrive se lleno;instalar_python|office365
+cambie de celular y no me llega el codigo de verificacion, y ademas teams se cierra solo;restablecer_contrasena|teams
+subi la tarea pero sale como borrador, y quien gano el partido ayer jaja;moodle_entregas|fuera_de_dominio
+el wifi me dice sin internet y no puedo conectarme a la clase en teams;wifi_sede|teams
+necesito un certificado de estudios y no se como activar el correo institucional;plataforma_academica|correo_institucional
+en la sala de computo no esta instalado python, como lo instalo en mi portatil;salas_computo|instalar_python
+ni el aula virtual ni el sistema de matricula me cargan desde esta mañana;plataforma_academica|moodle_acceso
+como monto drive en colab y como subo el notebook a la tarea de moodle;colab_gpu|moodle_entregas
+ya probe todo con el wifi y nada, quiero un ticket de soporte;wifi_sede|hablar_con_soporte
+que sabes hacer? tengo problemas con excel y con el correo;sobre_bot|office365|correo_institucional
+olvide mi usuario de la plataforma y no se donde reservar una sala;restablecer_contrasena|salas_computo
+# --- Una intención con conectores (control de falsos positivos de multiintención) ---
+no puedo subir el pdf y la entrega se cierra hoy a medianoche;moodle_entregas
+me conecto al wifi y luego se desconecta a cada rato;wifi_sede
+abro teams y se me cierra y vuelvo a abrir y nada;teams
+instale python y ahora pip no funciona;instalar_python
+olvide la clave y ya intente recuperarla tres veces;restablecer_contrasena

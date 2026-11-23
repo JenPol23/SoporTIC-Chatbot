@@ -1,0 +1,50 @@
+{
+  "version": "v3 — memoria del caso y chatbot completo (Fase 4)",
+  "metodo_clasificacion": "Ensamble (completo + segmentos)",
+  "pasos_por_turno": 2,
+  "fallos_para_escalar": 2,
+  "conversaciones": {
+    "archivo": "conversaciones_memoria.json",
+    "n": 30,
+    "turnos": 104,
+    "similitud_max_entrenamiento_aumento": 1.0
+  },
+  "memoria": {
+    "con_memoria": {
+      "turnos": 104,
+      "intencion_por_turno": 0.9230769230769231,
+      "accion_por_turno": 0.9807692307692307,
+      "caso_activo": 0.9230769230769231,
+      "slots_correctos": 0.9787234042553191,
+      "n_slots": 47,
+      "conversaciones_resueltas_o_bien_escaladas": 0.9,
+      "n_conversaciones": 30,
+      "pasos_repetidos": 2,
+      "seguimientos_bien_resueltos": 0.8955223880597015,
+      "n_seguimientos": 67,
+      "avisos_privacidad_correctos": 1.0
+    },
+    "sin_memoria": {
+      "turnos": 104,
+      "intencion_por_turno": 0.3557692307692308,
+      "accion_por_turno": 0.3557692307692308,
+      "caso_activo": 0.6153846153846154,
+      "slots_correctos": 0.7872340425531915,
+      "n_slots": 47,
+      "conversaciones_resueltas_o_bien_escaladas": 0.0,
+      "n_conversaciones": 30,
+      "pasos_repetidos": 4,
+      "seguimientos_bien_resueltos": 0.0,
+      "n_seguimientos": 67,
+      "avisos_privacidad_correctos": 1.0
+    }
+  },
+  "modo_ia": {
+    "activo": true,
+    "modelo": "Qwen/Qwen2.5-3B-Instruct"
+  },
+  "tiempos_s": {
+    "evaluacion_memoria": 3.2,
+    "notebook_hasta_aqui": 2407.8
+  }
+}

@@ -1,0 +1,70 @@
+# ---------- Entorno y cachés de Python ----------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Pesos y modelos (se generan con el notebook o se descargan de Hugging Face; ver LEEME.md de cada carpeta) ----------
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+*.h5
+checkpoint-*/
+soportic/modelo_*/*
+!soportic/modelo_*/LEEME.md
+!soportic/modelo_*/umbrales.json
+soportic/v1_congelada/modelo_bert_intenciones/*
+!soportic/v1_congelada/modelo_bert_intenciones/LEEME.md
+soportic/fase3_concatenadas/modelo_bert_multietiqueta/*
+!soportic/fase3_concatenadas/modelo_bert_multietiqueta/LEEME.md
+!soportic/fase3_concatenadas/modelo_bert_multietiqueta/umbrales.json
+# Dataset tokenizado (derivado; el notebook lo regenera en la sección 4)
+soportic/datos/dataset_tokenizado/
+
+# ---------- Paquetes y copias de entrega (duplican archivos de la raíz) ----------
+ENTREGA_SoporTIC/
+soportic_datos.zip
+*.zip
+
+# ---------- Notas internas del asistente y bitácoras ----------
+CLAUDE.md
+PROGRESO.md
+.claude/
+
+# ---------- Archivos con rutas personales ----------
+# Contiene C:\Users\<usuario>\ChatBot_Soporte fijo en la línea 6 (ver Pendientes en GUIA_CAMBIOS.md)
+herramientas/medir_latencia_ia.py
+
+# ---------- Logs y temporales ----------
+*.log
+logs/
+*.tmp
+*.bak
+.gradio/
+flagged/
+
+# ---------- Secretos y credenciales ----------
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+token.json
+.huggingface/
+hf_token*
+
+# ---------- Sistema operativo y editores ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

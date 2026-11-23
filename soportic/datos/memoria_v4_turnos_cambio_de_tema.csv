@@ -1,0 +1,23 @@
+conversacion,turno,usuario,intencion_esperada,intencion_obtenida,accion_esperada,accion_obtenida,activo_esperado,activo_obtenido,seguimiento,cambio_de_tema,slots_ok,aviso_privacidad_esperado,aviso_privacidad,soluciones_ofrecidas,intencion_ok,accion_ok,activo_ok
+n01,1,el wifi de la cafetería se desconecta a cada rato,wifi_sede,wifi_sede,guiar,guiar,wifi_sede,wifi_sede,False,False,{},False,False,1,True,True,True
+n01,2,"oye, y teams tampoco me deja unirme a la clase de cálculo",teams,teams,guiar,guiar,teams,teams,True,True,{},False,False,1,True,True,True
+n01,3,"listo, ya pude entrar a la clase",teams,teams,cerrar_y_siguiente,cerrar_y_siguiente,wifi_sede,wifi_sede,True,False,{},False,False,0,True,True,True
+n01,4,"no, el wifi sigue igual",wifi_sede,wifi_sede,escalar,escalar,,,True,False,{},False,False,0,True,True,True
+n02,1,se me olvidó la clave de la plataforma academusoft,restablecer_contrasena,restablecer_contrasena,guiar,guiar,restablecer_contrasena,restablecer_contrasena,False,False,{},False,False,1,True,True,True
+n02,2,no puedo abrir el aula virtual de moodle,moodle_acceso,moodle_acceso,guiar,guiar,moodle_acceso,moodle_acceso,True,True,{},False,False,0,True,True,True
+n02,3,ya me funcionó el moodle,moodle_acceso,moodle_acceso,cerrar_y_siguiente,cerrar_y_siguiente,restablecer_contrasena,restablecer_contrasena,True,False,{},False,False,0,True,True,True
+n02,4,"sí, se solucionó",restablecer_contrasena,restablecer_contrasena,cerrar,cerrar,,,True,False,{},False,False,0,True,True,True
+n03,1,en colab sale que la gpu no está disponible ahora mismo,colab_gpu,colab_gpu,guiar,guiar,colab_gpu,colab_gpu,False,False,{},False,False,1,True,True,True
+n03,2,ya lo había intentado,colab_gpu,colab_gpu,escalar,escalar,,,True,False,{},False,False,0,True,True,True
+n03,3,"mejor ayúdame con python, que no se instala en mi portátil",instalar_python,instalar_python,guiar,guiar,instalar_python,instalar_python,True,True,{'dispositivo': True},False,False,1,True,True,True
+n03,4,"no, sigue igual",instalar_python,instalar_python,escalar,escalar,,,True,False,{},False,False,0,True,True,True
+n03,5,ya funciona python,instalar_python,instalar_python,cerrar,cerrar,,,True,False,{},False,False,0,True,True,True
+n04,1,outlook no me muestra los correos nuevos,correo_institucional,correo_institucional,guiar,guiar,correo_institucional,correo_institucional,False,False,{},False,False,1,True,True,True
+n04,2,"no, sigue igual",correo_institucional,correo_institucional,escalar,escalar,,,True,False,{},False,False,0,True,True,True
+n04,3,ahora el excel me dice que la licencia no es válida,office365,office365,guiar,guiar,office365,office365,True,True,{},False,False,1,True,True,True
+n04,4,"sí, se solucionó",office365,office365,cerrar,cerrar,,,True,False,{},False,False,0,True,True,True
+n04,5,"no, sigue igual",correo_institucional,,guiar,aclarar,correo_institucional,,True,False,{},False,False,0,False,False,False
+n05,1,en la sala de cómputo no puedo iniciar sesión en el pc,salas_computo,salas_computo,guiar,guiar,salas_computo,salas_computo,False,False,{},False,False,1,True,True,True
+n05,2,y además teams se queda cargando en ese mismo equipo,teams,teams,guiar,guiar,teams,teams,True,True,{},False,False,1,True,True,True
+n05,3,prefiero que me atienda alguien de la mesa de ayuda,teams,teams,escalar,escalar,salas_computo,salas_computo,True,False,{},False,False,0,True,True,True
+n05,4,"gracias, ya pude entrar al pc",salas_computo,salas_computo,cerrar,cerrar,,,True,False,{},False,False,0,True,True,True

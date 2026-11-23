@@ -1,0 +1,69 @@
+texto,intencion,origen
+"buenas buenas, alguien me lee?",saludo,asistente_ia
+"hola, que tal todo por alla",saludo,asistente_ia
+"uy hola, por fin alguien",saludo,asistente_ia
+saludos desde faca,saludo,asistente_ia
+"listo, ya me voy desconectando",despedida,asistente_ia
+ahi te hablo mas tarde,despedida,asistente_ia
+"bueno ya no te molesto mas, chao",despedida,asistente_ia
+"me retiro, que este bien",despedida,asistente_ia
+"uff ya abrio todo, muchas gracias",agradecimiento,asistente_ia
+"te pasaste, me sirvio demasiado",agradecimiento,asistente_ia
+"gracias de verdad, me quitaste un estres",agradecimiento,asistente_ia
+"funciono perfecto, gracias",agradecimiento,asistente_ia
+tu como sabes tanto de sistemas,sobre_bot,asistente_ia
+que clase de programa eres,sobre_bot,asistente_ia
+quien te puso a contestar aca,sobre_bot,asistente_ia
+puedes recordar lo que te pregunte ayer,sobre_bot,asistente_ia
+a que hora juega la seleccion,fuera_de_dominio,asistente_ia
+como hago para que me suban la nota del final,fuera_de_dominio,asistente_ia
+dame una receta de lentejas,fuera_de_dominio,asistente_ia
+quiero homologar materias de otra universidad,fuera_de_dominio,asistente_ia
+llevo media hora tratando de entrar al moodle y nada,moodle_acceso,asistente_ia
+el moodle me rebota al login aunque pongo bien la clave,moodle_acceso,asistente_ia
+en el iphone no abre la pagina del aula virtual,moodle_acceso,asistente_ia
+no me salen las materias en el moodle,moodle_acceso,asistente_ia
+el pdf no sube a la actividad del profe,moodle_entregas,asistente_ia
+como se si el profe recibio mi tarea en moodle,moodle_entregas,asistente_ia
+el quiz se cerro antes de que terminara,moodle_entregas,asistente_ia
+"moodle no deja enviar el taller, la fecha ya paso",moodle_entregas,asistente_ia
+los correos de la u no me entran desde ayer,correo_institucional,asistente_ia
+quiero ver el correo institucional en el iphone,correo_institucional,asistente_ia
+el correo dice que ya no tengo espacio,correo_institucional,asistente_ia
+como se llama mi correo de la universidad,correo_institucional,asistente_ia
+perdi la clave de mi usuario de la u,restablecer_contrasena,asistente_ia
+me bloquearon la cuenta por meter mal la clave,restablecer_contrasena,asistente_ia
+como hago para tener otra clave,restablecer_contrasena,asistente_ia
+no me llega el codigo para entrar a la cuenta,restablecer_contrasena,asistente_ia
+no agarra el wifi en el salon,wifi_sede,asistente_ia
+el internet de la sede no funciona en mi cel,wifi_sede,asistente_ia
+que red uso para conectarme en la u,wifi_sede,asistente_ia
+el wifi dice conectado pero no navega,wifi_sede,asistente_ia
+no me deja unirme a la reunion de teams,teams,asistente_ia
+el audio de teams no funciona en la clase,teams,asistente_ia
+donde busco la clase grabada de teams,teams,asistente_ia
+no me sale el equipo del curso,teams,asistente_ia
+necesito instalar word y excel en mi portatil,office365,asistente_ia
+office dice que debo activar el producto,office365,asistente_ia
+no puedo subir archivos a mi onedrive,office365,asistente_ia
+como uso powerpoint gratis con la cuenta de la u,office365,asistente_ia
+descargue python pero la consola no lo encuentra,instalar_python,asistente_ia
+como pongo python en mi computador,instalar_python,asistente_ia
+pip install no hace nada,instalar_python,asistente_ia
+como hago un venv,instalar_python,asistente_ia
+colab no me asigna gpu,colab_gpu,asistente_ia
+como pongo la t4 en colab,colab_gpu,asistente_ia
+colab se desconecta a mitad del entrenamiento,colab_gpu,asistente_ia
+no me deja conectar drive en colab,colab_gpu,asistente_ia
+donde consulto la nota final del semestre,plataforma_academica,asistente_ia
+la pagina de matriculas no me abre,plataforma_academica,asistente_ia
+como saco la constancia de estudio,plataforma_academica,asistente_ia
+no puedo descargar el recibo de la matricula,plataforma_academica,asistente_ia
+el computador del laboratorio no arranca,salas_computo,asistente_ia
+hay sala libre para trabajar ahorita,salas_computo,asistente_ia
+que horario tienen los laboratorios de sistemas,salas_computo,asistente_ia
+el equipo de la sala no lee mi memoria,salas_computo,asistente_ia
+necesito que una persona me revise esto,hablar_con_soporte,asistente_ia
+como contacto a la gente de sistemas,hablar_con_soporte,asistente_ia
+quiero radicar un caso,hablar_con_soporte,asistente_ia
+el horario de atencion de soporte cual es,hablar_con_soporte,asistente_ia

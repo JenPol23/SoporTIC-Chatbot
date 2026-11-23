@@ -1,0 +1,85 @@
+{
+  "BETO (v1, una intención)": {
+    "parametros": 109863953,
+    "capas": 12,
+    "oculta": 768,
+    "cabezas": 12,
+    "intermedia": 3072,
+    "vocabulario": 31002,
+    "salidas": 17,
+    "problem_type": "single_label_classification"
+  },
+  "BETO multietiqueta (v2)": {
+    "parametros": 109863953,
+    "capas": 12,
+    "oculta": 768,
+    "cabezas": 12,
+    "intermedia": 3072,
+    "vocabulario": 31002,
+    "salidas": 17,
+    "problem_type": "multi_label_classification"
+  },
+  "MiniLM multilingüe": {
+    "parametros": 117653760,
+    "capas": 12,
+    "oculta": 384,
+    "cabezas": 12,
+    "intermedia": 1536,
+    "vocabulario": 250037,
+    "dim_embedding": 384
+  },
+  "Qwen/Qwen2.5-3B-Instruct": {
+    "parametros": 3085938688,
+    "capas": 36,
+    "oculta": 2048,
+    "cabezas": 16,
+    "cabezas_kv": 2,
+    "intermedia": 11008,
+    "vocabulario": 151936,
+    "contexto": 32768
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+    "parametros": 1543714304,
+    "capas": 28,
+    "oculta": 1536,
+    "cabezas": 12,
+    "cabezas_kv": 2,
+    "intermedia": 8960,
+    "vocabulario": 151936,
+    "contexto": 32768
+  },
+  "Helsinki-NLP/opus-mt-es-en": {
+    "parametros": 77943296,
+    "capas_codificador": 6,
+    "capas_decodificador": 6,
+    "oculta": 512,
+    "cabezas": 8,
+    "intermedia": 2048,
+    "vocabulario": 65001
+  },
+  "Helsinki-NLP/opus-mt-en-es": {
+    "parametros": 77943296,
+    "capas_codificador": 6,
+    "capas_decodificador": 6,
+    "oculta": 512,
+    "cabezas": 8,
+    "intermedia": 2048,
+    "vocabulario": 65001
+  },
+  "BiLSTM desde cero": {
+    "parametros": 381201,
+    "vocabulario": 880,
+    "embedding": 128,
+    "oculta": 128,
+    "direcciones": 2,
+    "salidas": 17,
+    "frases_entrenamiento": 409
+  },
+  "TF-IDF + regresión logística": {
+    "parametros": 46478,
+    "caracteristicas": 2733,
+    "ngramas": "1–2",
+    "salidas": 17,
+    "frases_entrenamiento": 409
+  }
+}

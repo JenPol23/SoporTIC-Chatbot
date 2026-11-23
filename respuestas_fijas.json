@@ -1,0 +1,28 @@
+{
+  "_estado": "Aprobado por los autores el 2026-11-14 (sobre_bot con la frase final pedida).",
+  "_regla_variante_tramites": "La variante 'fuera_de_dominio_tramite' se usa cuando la frase clasificada como fuera_de_dominio contiene un término de trámite de reglamento de la lista fija 'terminos_tramite' (definida a partir de la definición aprobada de la intención, no de los conjuntos de evaluación).",
+  "terminos_tramite": [
+    "homolog",
+    "supletorio",
+    "revision de nota",
+    "revision de mi nota",
+    "queja",
+    "reclamo",
+    "beca",
+    "reglamento",
+    "reintegro",
+    "cancelacion de semestre",
+    "validacion de materia",
+    "cancelacion de matricula",
+    "cancelar matricula",
+    "cancelar la matricula"
+  ],
+  "respuestas": {
+    "saludo": "¡Hola! Soy SoporTIC, el asistente de mesa de ayuda para estudiantes de la UdeC Facatativá. Puedo ayudarte con Moodle, correo institucional, contraseñas, Wi-Fi de la sede, Teams, Office 365, instalación de Python, Google Colab, la plataforma institucional y las salas de cómputo. Cuéntame qué problema tienes y desde qué dispositivo (celular, portátil o PC de la sala).",
+    "despedida": "¡Hasta pronto! Si el problema vuelve a aparecer, escríbeme de nuevo o comunícate con la mesa de ayuda «TICS a un CLIC» (chat de Teams o ticsaunclic@ucundinamarca.edu.co).",
+    "agradecimiento": "¡Con gusto! Me alegra que se haya resuelto. ¿Hay algo más en lo que te pueda ayudar?",
+    "sobre_bot": "Soy SoporTIC, un asistente automático (no una persona) desarrollado como proyecto académico de la Electiva Profesional II: Fundamentos de Deep Learning de la Universidad de Cundinamarca. Identifico el tipo de problema con un modelo de lenguaje en español (BETO) y te guío con pasos basados en documentación oficial. No tengo acceso a tu cuenta: no puedo cambiar contraseñas, matricularte ni reabrir actividades, y mis respuestas no reemplazan a la mesa de ayuda oficial «TICS a un CLIC». No escribas contraseñas en este chat. Si tu caso no se resuelve, puedo darte los canales oficiales de soporte.",
+    "fuera_de_dominio": "Ese tema está fuera de lo que atiendo. Soy un asistente de soporte técnico para estudiantes: puedo ayudarte con Moodle, correo institucional, contraseñas, Wi-Fi de la sede, Teams, Office 365, Python, Google Colab, la plataforma institucional y las salas de cómputo. Por ejemplo: «no me deja entrar a moodle» o «olvidé la contraseña del correo».",
+    "fuera_de_dominio_tramite": "Ese trámite (homologaciones, revisión de notas, supletorios, becas u otros procesos del reglamento) no es de soporte técnico: lo maneja la dependencia correspondiente de la universidad. Si al hacerlo tienes un problema técnico, por ejemplo la plataforma institucional no abre o no puedes iniciar sesión, cuéntamelo y te ayudo."
+  }
+}

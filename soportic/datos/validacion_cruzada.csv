@@ -1,0 +1,21 @@
+particion,modelo,accuracy,f1_macro
+1,TF-IDF + regresión logística,0.6067,0.6242
+1,BiLSTM desde cero,0.4831,0.4829
+1,Solo similitud semántica (MiniLM),0.5955,0.5864
+1,BETO fine-tuned,0.7978,0.7884
+2,TF-IDF + regresión logística,0.5506,0.6067
+2,BiLSTM desde cero,0.5393,0.5495
+2,Solo similitud semántica (MiniLM),0.6742,0.6815
+2,BETO fine-tuned,0.8427,0.8371
+3,TF-IDF + regresión logística,0.6023,0.6339
+3,BiLSTM desde cero,0.4205,0.385
+3,Solo similitud semántica (MiniLM),0.6023,0.5805
+3,BETO fine-tuned,0.75,0.7565
+4,TF-IDF + regresión logística,0.5,0.5228
+4,BiLSTM desde cero,0.4886,0.4996
+4,Solo similitud semántica (MiniLM),0.6477,0.6291
+4,BETO fine-tuned,0.7045,0.7075
+5,TF-IDF + regresión logística,0.5909,0.6139
+5,BiLSTM desde cero,0.5568,0.58
+5,Solo similitud semántica (MiniLM),0.7045,0.6961
+5,BETO fine-tuned,0.7841,0.7668

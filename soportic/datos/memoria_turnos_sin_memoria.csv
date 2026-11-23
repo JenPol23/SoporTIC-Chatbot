@@ -1,0 +1,105 @@
+conversacion,turno,usuario,intencion_esperada,intencion_obtenida,accion_esperada,accion_obtenida,activo_esperado,activo_obtenido,seguimiento,slots_ok,aviso_privacidad_esperado,aviso_privacidad,pasos_mostrados,intencion_ok,accion_ok,activo_ok
+c01,1,"buenas, no he podido entrar al aula virtual desde el celular",moodle_acceso,moodle_acceso,guiar,guiar,moodle_acceso,moodle_acceso,False,"{'dispositivo': True, 'plataforma': True}",False,False,2,True,True,True
+c01,2,"no, sigue igual",moodle_acceso,,siguiente_paso,aclarar,moodle_acceso,,True,{},False,False,0,False,False,False
+c01,3,tampoco,moodle_acceso,,escalar,aclarar,,,True,{},False,False,0,False,False,True
+c02,1,"el correo institucional no me abre en el portatil, uso chrome",correo_institucional,correo_institucional,guiar,guiar,correo_institucional,correo_institucional,False,"{'dispositivo': True, 'navegador': True, 'plataforma': True}",False,False,2,True,True,True
+c02,2,eso ya lo hice,correo_institucional,,marcar_hecho,aclarar,correo_institucional,,True,{},False,False,0,False,False,False
+c02,3,"listo, ya funcionó",correo_institucional,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c03,1,el wifi de la sede no me conecta en el portatil,wifi_sede,wifi_sede,guiar,guiar,wifi_sede,wifi_sede,False,"{'dispositivo': True, 'plataforma': True}",False,False,2,True,True,True
+c03,2,y en el celular?,wifi_sede,,cambio_slot,aclarar,wifi_sede,,True,{'dispositivo': False},False,False,0,False,False,False
+c03,3,no funcionó,wifi_sede,,siguiente_paso,aclarar,wifi_sede,,True,{},False,False,0,False,False,False
+c03,4,sigue igual,wifi_sede,,escalar,aclarar,,,True,{},False,False,0,False,False,True
+c04,1,olvide la contraseña del correo y tampoco puedo subir el taller a moodle,restablecer_contrasena,restablecer_contrasena,guiar,guiar,restablecer_contrasena,restablecer_contrasena,False,{},False,False,2,True,True,True
+c04,2,ya funcionó,restablecer_contrasena,despedida,cerrar_y_siguiente,social,moodle_entregas,,True,{},False,False,0,False,False,False
+c04,3,no me sirvió,moodle_entregas,,siguiente_paso,aclarar,moodle_entregas,,True,{},False,False,0,False,False,False
+c04,4,"listo, ya pude subirlo",moodle_entregas,,cerrar,aclarar,,,True,{},False,False,0,False,False,True
+c05,1,outlook se queda cargando en el computador de la sala,correo_institucional,salas_computo,guiar,guiar,correo_institucional,salas_computo,False,"{'dispositivo': True, 'plataforma': True}",False,False,2,False,True,False
+c05,2,lo mismo me pasa con teams,teams,teams,nuevo_caso,guiar,teams,teams,True,"{'dispositivo': False, 'plataforma': True}",False,False,2,True,False,True
+c05,3,ya quedó teams,teams,teams,cerrar_y_siguiente,guiar,correo_institucional,teams,True,{},False,False,2,True,False,False
+c05,4,el correo sigue igual,correo_institucional,,siguiente_paso,aclarar,correo_institucional,,True,{},False,False,0,False,False,False
+c05,5,"ya funcionó, gracias",correo_institucional,agradecimiento,cerrar,social,,,True,{},False,False,0,False,False,True
+c06,1,colab no me asigna gpu para el entrenamiento,colab_gpu,colab_gpu,guiar,guiar,colab_gpu,colab_gpu,False,{'plataforma': True},False,False,2,True,True,True
+c06,2,eso ya lo habia hecho,colab_gpu,,marcar_hecho,aclarar,colab_gpu,,True,{},False,False,0,False,False,False
+c06,3,ya lo hice tambien,colab_gpu,,marcar_hecho,aclarar,colab_gpu,,True,{},False,False,0,False,False,False
+c06,4,ahora si funcionó,colab_gpu,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c07,1,instale python en windows y la terminal no lo reconoce,instalar_python,instalar_python,guiar,guiar,instalar_python,instalar_python,False,{'plataforma': True},False,False,2,True,True,True
+c07,2,"no, me sigue saliendo lo mismo",instalar_python,,siguiente_paso,aclarar,instalar_python,,True,{},False,False,0,False,False,False
+c07,3,"nada, igual",instalar_python,,escalar,aclarar,,,True,{},False,False,0,False,False,True
+c08,1,word me dice que el producto no tiene licencia en mi mac,office365,office365,guiar,guiar,office365,office365,False,"{'dispositivo': True, 'plataforma': True, 'error': True}",False,False,2,True,True,True
+c08,2,ya funcionó,office365,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c09,1,en academusoft me sale error 500 cuando intento ver el horario,plataforma_academica,plataforma_academica,guiar,guiar,plataforma_academica,plataforma_academica,False,"{'plataforma': True, 'error': True}",False,False,2,True,True,True
+c09,2,sigue igual,plataforma_academica,,siguiente_paso,aclarar,plataforma_academica,,True,{},False,False,0,False,False,False
+c09,3,listo ya me cargó,plataforma_academica,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c10,1,hola,saludo,saludo,social,social,,,False,{},False,False,0,True,True,True
+c10,2,no me deja entrar a la reunion de teams desde el celular,teams,teams,guiar,guiar,teams,teams,False,"{'dispositivo': True, 'plataforma': True}",False,False,2,True,True,True
+c10,3,"ya pude entrar, gracias",teams,agradecimiento,cerrar,social,,,True,{},False,False,0,False,False,True
+c11,1,mi contraseña es Facatativa2024 y no me deja entrar al correo,correo_institucional,restablecer_contrasena,guiar,guiar,correo_institucional,restablecer_contrasena,False,{'plataforma': True},True,True,2,False,True,False
+c11,2,no funcionó,correo_institucional,,siguiente_paso,aclarar,correo_institucional,,True,{},False,False,0,False,False,False
+c11,3,ya pude entrar,correo_institucional,agradecimiento,cerrar,social,,,True,{},False,False,0,False,False,True
+c12,1,el wifi no conecta y en la sala de computo el pc no prende,wifi_sede,wifi_sede,guiar,guiar,wifi_sede,wifi_sede,False,{},False,False,2,True,True,True
+c12,2,tampoco,wifi_sede,,siguiente_paso,aclarar,wifi_sede,,True,{},False,False,0,False,False,False
+c12,3,sigue sin servir,wifi_sede,,escalar,aclarar,salas_computo,,True,{},False,False,0,False,False,False
+c12,4,"listo, ya funcionó el pc",salas_computo,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c13,1,no me deja adjuntar el pdf en la tarea de moodle,moodle_entregas,moodle_entregas,guiar,guiar,moodle_entregas,moodle_entregas,False,{'plataforma': True},False,False,2,True,True,True
+c13,2,y desde el celular?,moodle_entregas,,cambio_slot,aclarar,moodle_entregas,,True,{'dispositivo': False},False,False,0,False,False,False
+c13,3,ya funcionó,moodle_entregas,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c14,1,asdkjh qweoiu zxmnb,,,reformular,reformular,,,False,{},False,False,0,True,True,True
+c14,2,no me llegan los correos de los profesores,correo_institucional,correo_institucional,guiar,guiar,correo_institucional,correo_institucional,False,{'plataforma': True},False,False,2,True,True,True
+c14,3,no,correo_institucional,,siguiente_paso,aclarar,correo_institucional,,True,{},False,False,0,False,False,False
+c14,4,tampoco funcionó,correo_institucional,despedida,escalar,social,,,True,{},False,False,0,False,False,True
+c15,1,no me deja,,,aclarar,aclarar,,,False,{},False,False,0,True,True,True
+c15,2,"en moodle, no puedo iniciar sesion",moodle_acceso,moodle_acceso,guiar,guiar,moodle_acceso,moodle_acceso,False,{'plataforma': True},False,False,2,True,True,True
+c15,3,listo,moodle_acceso,,cerrar,aclarar,,,True,{},False,False,0,False,False,True
+c16,1,quiero hablar con una persona de soporte,hablar_con_soporte,hablar_con_soporte,guiar,guiar,hablar_con_soporte,hablar_con_soporte,False,{},False,False,2,True,True,True
+c16,2,"gracias, eso era todo",hablar_con_soporte,agradecimiento,cerrar,social,,,True,{},False,False,0,False,False,True
+c17,1,el computador de la sala me dice perfil temporal,salas_computo,salas_computo,guiar,guiar,salas_computo,salas_computo,False,{'dispositivo': True},False,False,2,True,True,True
+c17,2,eso ya lo hice,salas_computo,,marcar_hecho,aclarar,salas_computo,,True,{},False,False,0,False,False,False
+c17,3,ya lo hice tambien,salas_computo,,escalar,aclarar,,,True,{},False,False,0,False,False,True
+c18,1,moodle se queda en blanco,moodle_acceso,moodle_acceso,guiar,guiar,moodle_acceso,moodle_acceso,False,"{'plataforma': True, 'error': True}",False,False,2,True,True,True
+c18,2,estoy usando firefox en el portatil,moodle_acceso,,cambio_slot,aclarar,moodle_acceso,,True,"{'navegador': False, 'dispositivo': False}",False,False,0,False,False,False
+c18,3,ya funcionó,moodle_acceso,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c19,1,excel en linea no me deja editar,office365,office365,guiar,guiar,office365,office365,False,{'plataforma': True},False,False,2,True,True,True
+c19,2,lo mismo me pasa en el correo,correo_institucional,,nuevo_caso,aclarar,correo_institucional,,True,{'plataforma': False},False,False,0,False,False,False
+c19,3,"listo, ya funcionó el correo",correo_institucional,,cerrar_y_siguiente,aclarar,office365,,True,{},False,False,0,False,False,False
+c19,4,excel sigue igual,office365,office365,siguiente_paso,guiar,office365,office365,True,{},False,False,2,True,False,True
+c19,5,ya quedó,office365,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c20,1,teams no me abre y python no se instala,teams,teams,guiar,guiar,teams,teams,False,{},False,False,2,True,True,True
+c20,2,no,teams,,siguiente_paso,aclarar,teams,,True,{},False,False,0,False,False,False
+c20,3,no,teams,,escalar,aclarar,instalar_python,,True,{},False,False,0,False,False,False
+c20,4,ya funcionó,instalar_python,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c21,1,la plataforma institucional no me deja pagar la matricula,plataforma_academica,plataforma_academica,guiar,guiar,plataforma_academica,plataforma_academica,False,{'plataforma': True},False,False,2,True,True,True
+c21,2,"este bot no sirve para nada, malparido",,,cortesia,cortesia,plataforma_academica,,False,{},False,False,0,True,True,False
+c21,3,no funcionó lo que dijiste,plataforma_academica,fuera_de_dominio,siguiente_paso,social,plataforma_academica,,True,{},False,False,0,False,False,False
+c21,4,"ya pude pagar, listo",plataforma_academica,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c22,1,cambie de celular y ya no tengo el authenticator para entrar a la cuenta,restablecer_contrasena,restablecer_contrasena,guiar,guiar,restablecer_contrasena,restablecer_contrasena,False,{'dispositivo': True},False,False,2,True,True,True
+c22,2,ya lo hice,restablecer_contrasena,,marcar_hecho,aclarar,restablecer_contrasena,,True,{},False,False,0,False,False,False
+c22,3,sigue igual,restablecer_contrasena,,siguiente_paso,aclarar,restablecer_contrasena,,True,{},False,False,0,False,False,False
+c22,4,nada,restablecer_contrasena,,escalar,aclarar,,,True,{},False,False,0,False,False,True
+c23,1,mi cedula es 1070123456 y no puedo entrar a la plataforma institucional,plataforma_academica,moodle_entregas,guiar,guiar,plataforma_academica,moodle_entregas,False,{'plataforma': False},True,True,2,False,True,False
+c23,2,ya funcionó,plataforma_academica,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c24,1,en teams nadie me escucha en clase,teams,teams,guiar,guiar,teams,teams,False,{'plataforma': True},False,False,2,True,True,True
+c24,2,y en el pc de la sala?,teams,,cambio_slot,aclarar,teams,,True,{'dispositivo': False},False,False,0,False,False,False
+c24,3,tampoco,teams,,siguiente_paso,aclarar,teams,,True,{},False,False,0,False,False,False
+c24,4,ya funcionó,teams,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c25,1,colab se desconecta cada rato cuando entreno,colab_gpu,colab_gpu,guiar,guiar,colab_gpu,colab_gpu,False,{'plataforma': True},False,False,2,True,True,True
+c25,2,oye y tu eres una persona?,sobre_bot,sobre_bot,social,social,colab_gpu,,False,{},False,False,0,True,True,False
+c25,3,no funcionó lo de antes,colab_gpu,,siguiente_paso,aclarar,colab_gpu,,True,{},False,False,0,False,False,False
+c25,4,listo ya funcionó,colab_gpu,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c26,1,me recomiendas una pelicula,fuera_de_dominio,fuera_de_dominio,social,social,,,False,{},False,False,0,True,True,True
+c26,2,jupyter no abre despues de instalar anaconda,instalar_python,instalar_python,guiar,guiar,instalar_python,instalar_python,False,{'plataforma': True},False,False,2,True,True,True
+c26,3,ya funcionó,instalar_python,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c27,1,como solicito un supletorio,fuera_de_dominio,fuera_de_dominio,social,social,,,False,{},False,False,0,True,True,True
+c27,2,y la plataforma no me carga el formulario,plataforma_academica,plataforma_academica,guiar,guiar,plataforma_academica,plataforma_academica,False,{'plataforma': True},False,False,2,True,True,True
+c27,3,sigue igual,plataforma_academica,,siguiente_paso,aclarar,plataforma_academica,,True,{},False,False,0,False,False,False
+c27,4,tampoco,plataforma_academica,,escalar,aclarar,,,True,{},False,False,0,False,False,True
+c28,1,no encuentro la grabacion de la clase en teams y onedrive no sincroniza,teams,teams,guiar,guiar,teams,teams,False,{},False,False,2,True,True,True
+c28,2,"ya la encontré, listo",teams,despedida,cerrar_y_siguiente,social,office365,,True,{},False,False,0,False,False,False
+c28,3,y en el celular?,office365,,cambio_slot,aclarar,office365,,True,{'dispositivo': False},False,False,0,False,False,False
+c28,4,ya funcionó,office365,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c29,1,me aparece cuda out of memory en colab,colab_gpu,colab_gpu,guiar,guiar,colab_gpu,colab_gpu,False,"{'plataforma': True, 'error': True}",False,False,2,True,True,True
+c29,2,no,colab_gpu,,siguiente_paso,aclarar,colab_gpu,,True,{},False,False,0,False,False,False
+c29,3,ya funcionó,colab_gpu,despedida,cerrar,social,,,True,{},False,False,0,False,False,True
+c30,1,no me abre el correo en el celular,correo_institucional,correo_institucional,guiar,guiar,correo_institucional,correo_institucional,False,"{'dispositivo': True, 'plataforma': True}",False,False,2,True,True,True
+c30,2,y en el portatil tampoco abre,correo_institucional,,cambio_slot,aclarar,correo_institucional,,True,{'dispositivo': False},False,False,0,False,False,False
+c30,3,eso ya lo hice,correo_institucional,,marcar_hecho,aclarar,correo_institucional,,True,{},False,False,0,False,False,False
+c30,4,ya funcionó,correo_institucional,despedida,cerrar,social,,,True,{},False,False,0,False,False,True

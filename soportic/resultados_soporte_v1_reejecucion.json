@@ -1,0 +1,549 @@
+{
+  "version": "v1 — línea base de una intención (Fase 2)",
+  "n_intenciones": 17,
+  "n_ejemplos": 442,
+  "n_train": 309,
+  "n_val": 96,
+  "n_test": 67,
+  "n_generalizacion": 68,
+  "n_externo_una_intencion": 90,
+  "n_externo_varias_intenciones": 30,
+  "beto": {
+    "epocas_entrenadas": 9,
+    "mejor_epoca": 5,
+    "val_f1_macro_mejor_epoca": 0.8275,
+    "val_loss_mejor_epoca": 0.5241,
+    "accuracy_val": 0.8646,
+    "accuracy_test": 0.7612,
+    "precision_macro_test": 0.7676,
+    "recall_macro_test": 0.7549,
+    "f1_macro_test": 0.7316,
+    "f1_ponderado_test": 0.7351,
+    "n_errores_test": 16,
+    "clase_peor_f1_test": "restablecer_contrasena",
+    "f1_peor_clase_test": 0.0
+  },
+  "comparacion_modelos": {
+    "TF-IDF + regresión logística": {
+      "Accuracy prueba": 0.5522,
+      "F1 macro prueba": 0.5642,
+      "Accuracy generalización": 0.7059,
+      "F1 macro generalización": 0.7277,
+      "Accuracy externa": 0.7333,
+      "F1 macro externa": 0.7591
+    },
+    "BiLSTM desde cero": {
+      "Accuracy prueba": 0.4328,
+      "F1 macro prueba": 0.4311,
+      "Accuracy generalización": 0.5588,
+      "F1 macro generalización": 0.595,
+      "Accuracy externa": 0.5889,
+      "F1 macro externa": 0.5943
+    },
+    "Solo similitud semántica (MiniLM)": {
+      "Accuracy prueba": 0.6119,
+      "F1 macro prueba": 0.6015,
+      "Accuracy generalización": 0.7794,
+      "F1 macro generalización": 0.7754,
+      "Accuracy externa": 0.8,
+      "F1 macro externa": 0.7943
+    },
+    "BETO fine-tuned": {
+      "Accuracy prueba": 0.7612,
+      "F1 macro prueba": 0.7316,
+      "Accuracy generalización": 0.8824,
+      "F1 macro generalización": 0.8827,
+      "Accuracy externa": 0.8111,
+      "F1 macro externa": 0.8256
+    },
+    "Híbrido SoporTIC (BETO + semántico)": {
+      "Accuracy prueba": 0.791,
+      "F1 macro prueba": 0.7811,
+      "Accuracy generalización": 0.8824,
+      "F1 macro generalización": 0.885,
+      "Accuracy externa": 0.8111,
+      "F1 macro externa": 0.7774
+    }
+  },
+  "prueba_externa": {
+    "control_fuga": {
+      "umbral_minilm": 0.9,
+      "frases_con_fuga": 0,
+      "detalle": []
+    },
+    "reportada": true,
+    "beto_accuracy": 0.8111,
+    "beto_f1_macro": 0.8256
+  },
+  "prueba_fuera_de_dominio_massive": {
+    "TF-IDF + regresión logística": 0.98,
+    "BiLSTM desde cero": 0.92,
+    "Solo similitud semántica (MiniLM)": 0.9,
+    "BETO fine-tuned": 0.94,
+    "Híbrido SoporTIC (BETO + semántico)": 0.96
+  },
+  "validacion_cruzada": {
+    "TF-IDF + regresión logística": {
+      "accuracy_media": 0.5701,
+      "accuracy_de": 0.045,
+      "f1_macro_media": 0.6003,
+      "f1_macro_de": 0.0445
+    },
+    "BiLSTM desde cero": {
+      "accuracy_media": 0.4977,
+      "accuracy_de": 0.0536,
+      "f1_macro_media": 0.4994,
+      "f1_macro_de": 0.0748
+    },
+    "Solo similitud semántica (MiniLM)": {
+      "accuracy_media": 0.6448,
+      "accuracy_de": 0.0466,
+      "f1_macro_media": 0.6347,
+      "f1_macro_de": 0.0531
+    },
+    "BETO fine-tuned": {
+      "accuracy_media": 0.7758,
+      "accuracy_de": 0.0519,
+      "f1_macro_media": 0.7713,
+      "f1_macro_de": 0.0473
+    }
+  },
+  "calibracion_val": {
+    "ece": 0.0657,
+    "intervalos": 15,
+    "curva": [
+      {
+        "desde": 0.333,
+        "hasta": 0.4,
+        "confianza_media": 0.377,
+        "accuracy": 0.6667,
+        "n": 3
+      },
+      {
+        "desde": 0.4,
+        "hasta": 0.467,
+        "confianza_media": 0.444,
+        "accuracy": 0.5,
+        "n": 4
+      },
+      {
+        "desde": 0.467,
+        "hasta": 0.533,
+        "confianza_media": 0.5135,
+        "accuracy": 0.3333,
+        "n": 3
+      },
+      {
+        "desde": 0.533,
+        "hasta": 0.6,
+        "confianza_media": 0.5673,
+        "accuracy": 0.0,
+        "n": 2
+      },
+      {
+        "desde": 0.6,
+        "hasta": 0.667,
+        "confianza_media": 0.6415,
+        "accuracy": 0.0,
+        "n": 2
+      },
+      {
+        "desde": 0.667,
+        "hasta": 0.733,
+        "confianza_media": 0.7141,
+        "accuracy": 1.0,
+        "n": 2
+      },
+      {
+        "desde": 0.733,
+        "hasta": 0.8,
+        "confianza_media": 0.7629,
+        "accuracy": 1.0,
+        "n": 1
+      },
+      {
+        "desde": 0.8,
+        "hasta": 0.867,
+        "confianza_media": 0.8367,
+        "accuracy": 1.0,
+        "n": 2
+      },
+      {
+        "desde": 0.867,
+        "hasta": 0.933,
+        "confianza_media": 0.9012,
+        "accuracy": 0.7778,
+        "n": 9
+      },
+      {
+        "desde": 0.933,
+        "hasta": 1.0,
+        "confianza_media": 0.9707,
+        "accuracy": 0.9706,
+        "n": 68
+      }
+    ]
+  },
+  "umbrales_hibrido": {
+    "umbral_bert": 0.45,
+    "umbral_semantico": 0.6,
+    "accuracy_val": 0.875,
+    "accuracy_val_solo_beto": 0.8646
+  },
+  "aclaracion": {
+    "U_aclarar": 0.65,
+    "M": 0.0,
+    "tasa_aclaracion_val": 0.1146,
+    "accuracy_directa_val": 0.9412,
+    "accuracy_sin_aclaracion_val": 0.8646
+  },
+  "silueta_cls": {
+    "preentrenado": -0.0537,
+    "ajustado": 0.4533
+  },
+  "rag": {
+    "fragmentos": 125,
+    "indexados": 100,
+    "omitidos_por_completar": 25,
+    "top1_guia_correcta_val": 0.6522,
+    "top3_guia_correcta_val": 0.7826
+  },
+  "config_beto_elegida": {
+    "learning_rate": 2e-05,
+    "aumento": "tildes+ruido+retrotraducción",
+    "tecnicas_aumento": [
+      "tildes",
+      "ruido",
+      "retrotraduccion"
+    ],
+    "massive": true,
+    "criterio": "mayor F1 macro de validación (desempate: menor pérdida de validación)",
+    "paciencia": 4,
+    "batch_size": 16,
+    "epocas_max": 20
+  },
+  "busqueda_beto": [
+    {
+      "etapa": 1,
+      "aumento": "no",
+      "massive": "sí",
+      "learning_rate": 2e-05,
+      "epocas_max": 20,
+      "n_train": 409,
+      "val_f1_macro": 0.7997,
+      "val_accuracy": 0.8438,
+      "val_f1_fuera_de_dominio": 0.9296,
+      "val_loss": 0.5868,
+      "mejor_epoca": 12,
+      "epocas_ejecutadas": 16,
+      "tiempo_s": 160.3
+    },
+    {
+      "etapa": 1,
+      "aumento": "tildes",
+      "massive": "sí",
+      "learning_rate": 2e-05,
+      "epocas_max": 20,
+      "n_train": 409,
+      "val_f1_macro": 0.7997,
+      "val_accuracy": 0.8438,
+      "val_f1_fuera_de_dominio": 0.9296,
+      "val_loss": 0.5868,
+      "mejor_epoca": 12,
+      "epocas_ejecutadas": 16,
+      "tiempo_s": 143.7
+    },
+    {
+      "etapa": 1,
+      "aumento": "tildes+ruido",
+      "massive": "sí",
+      "learning_rate": 2e-05,
+      "epocas_max": 20,
+      "n_train": 713,
+      "val_f1_macro": 0.8246,
+      "val_accuracy": 0.875,
+      "val_f1_fuera_de_dominio": 0.9851,
+      "val_loss": 0.4804,
+      "mejor_epoca": 8,
+      "epocas_ejecutadas": 12,
+      "tiempo_s": 156.1
+    },
+    {
+      "etapa": 1,
+      "aumento": "tildes+ruido+retrotraducción",
+      "massive": "sí",
+      "learning_rate": 2e-05,
+      "epocas_max": 20,
+      "n_train": 1150,
+      "val_f1_macro": 0.8275,
+      "val_accuracy": 0.8646,
+      "val_f1_fuera_de_dominio": 0.9706,
+      "val_loss": 0.5241,
+      "mejor_epoca": 5,
+      "epocas_ejecutadas": 9,
+      "tiempo_s": 192.7
+    },
+    {
+      "etapa": 1,
+      "aumento": "tildes",
+      "massive": "no",
+      "learning_rate": 2e-05,
+      "epocas_max": 20,
+      "n_train": 309,
+      "val_f1_macro": 0.716,
+      "val_accuracy": 0.6875,
+      "val_f1_fuera_de_dominio": 0.6275,
+      "val_loss": 1.2078,
+      "mejor_epoca": 13,
+      "epocas_ejecutadas": 17,
+      "tiempo_s": 127.8
+    },
+    {
+      "etapa": 2,
+      "aumento": "tildes+ruido+retrotraducción",
+      "massive": "sí",
+      "learning_rate": 3e-05,
+      "epocas_max": 20,
+      "n_train": 1150,
+      "val_f1_macro": 0.8146,
+      "val_accuracy": 0.8542,
+      "val_f1_fuera_de_dominio": 0.9552,
+      "val_loss": 0.568,
+      "mejor_epoca": 8,
+      "epocas_ejecutadas": 12,
+      "tiempo_s": 309.3
+    },
+    {
+      "etapa": 2,
+      "aumento": "tildes+ruido+retrotraducción",
+      "massive": "sí",
+      "learning_rate": 5e-05,
+      "epocas_max": 20,
+      "n_train": 1150,
+      "val_f1_macro": 0.8079,
+      "val_accuracy": 0.8542,
+      "val_f1_fuera_de_dominio": 0.9697,
+      "val_loss": 0.6673,
+      "mejor_epoca": 5,
+      "epocas_ejecutadas": 9,
+      "tiempo_s": 231.0
+    }
+  ],
+  "tamanos_train": {
+    "original": 309,
+    "original + MASSIVE": 409,
+    "+ no": 409,
+    "+ tildes": 409,
+    "+ tildes+ruido": 713,
+    "+ tildes+ruido+retrotraducción": 1150
+  },
+  "aumento_conteos": {
+    "retrotraduccion": {
+      "generadas": 618,
+      "anti-fuga: similitud ≥ 0,90 con frases reservadas": 6,
+      "conservada": 437,
+      "duplicado": 78,
+      "etiqueta: BETO de referencia > 0,90 en otra intención": 3,
+      "etiqueta: similitud con origen < 0,70": 39,
+      "retrotraducción: origen de menos de 3 palabras": 32,
+      "vacía o igual al origen": 23
+    },
+    "ruido": {
+      "generadas": 309,
+      "anti-fuga: similitud ≥ 0,90 con frases reservadas": 3,
+      "conservada": 304,
+      "duplicado": 2,
+      "etiqueta: BETO de referencia > 0,90 en otra intención": 0,
+      "etiqueta: similitud con origen < 0,70": 0,
+      "retrotraducción: origen de menos de 3 palabras": 0,
+      "vacía o igual al origen": 0
+    },
+    "tildes": {
+      "generadas": 309,
+      "anti-fuga: similitud ≥ 0,90 con frases reservadas": 0,
+      "conservada": 0,
+      "duplicado": 309,
+      "etiqueta: BETO de referencia > 0,90 en otra intención": 0,
+      "etiqueta: similitud con origen < 0,70": 0,
+      "retrotraducción: origen de menos de 3 palabras": 0,
+      "vacía o igual al origen": 0
+    }
+  },
+  "massive": {
+    "usado": true,
+    "train": 100,
+    "validacion": 30,
+    "prueba_aparte": 50,
+    "escenarios": [
+      "alarm",
+      "audio",
+      "cooking",
+      "iot",
+      "lists",
+      "music",
+      "news",
+      "play",
+      "recommendation",
+      "takeaway",
+      "transport",
+      "weather"
+    ]
+  },
+  "tiempos_s": {
+    "tfidf": 0.67,
+    "bilstm": 12.5,
+    "beto_busqueda_total": 1320.9,
+    "beto_final": 192.7,
+    "validacion_cruzada": 506.7,
+    "notebook_total": 1972.7
+  },
+  "historial_beto": {
+    "train_loss": [
+      2.78,
+      2.2877,
+      1.2059,
+      0.4036,
+      0.1086,
+      0.0331,
+      0.0161,
+      0.0107,
+      0.0083
+    ],
+    "val_loss": [
+      2.424,
+      1.545,
+      0.7999,
+      0.5889,
+      0.5241,
+      0.5089,
+      0.5169,
+      0.5218,
+      0.5187
+    ],
+    "train_acc": [
+      0.1017,
+      0.3626,
+      0.7861,
+      0.9539,
+      0.9922,
+      0.9991,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "val_acc": [
+      0.3958,
+      0.6354,
+      0.7917,
+      0.8229,
+      0.8646,
+      0.8646,
+      0.8646,
+      0.8646,
+      0.8646
+    ],
+    "val_f1": [
+      0.1057,
+      0.4541,
+      0.7162,
+      0.7605,
+      0.8275,
+      0.8229,
+      0.821,
+      0.8197,
+      0.8197
+    ]
+  },
+  "historial_bilstm": {
+    "train_loss": [
+      2.7152,
+      2.3057,
+      1.902,
+      1.4057,
+      0.9206,
+      0.5977,
+      0.3386,
+      0.1763,
+      0.0948,
+      0.0506,
+      0.0306,
+      0.0213,
+      0.0147,
+      0.0123,
+      0.0109,
+      0.0088,
+      0.0079,
+      0.0064,
+      0.0059,
+      0.0062
+    ],
+    "val_loss": [
+      2.4168,
+      2.1861,
+      1.8669,
+      1.6995,
+      1.4942,
+      1.6241,
+      1.4789,
+      1.3708,
+      1.3882,
+      1.5057,
+      1.3573,
+      1.3622,
+      1.3603,
+      1.3836,
+      1.3626,
+      1.395,
+      1.3859,
+      1.3858,
+      1.4298,
+      1.368
+    ],
+    "val_acc": [
+      0.3542,
+      0.3854,
+      0.4479,
+      0.4896,
+      0.5833,
+      0.5312,
+      0.5729,
+      0.5625,
+      0.5938,
+      0.5625,
+      0.6146,
+      0.6667,
+      0.625,
+      0.6458,
+      0.6458,
+      0.6042,
+      0.6146,
+      0.6458,
+      0.5729,
+      0.6042
+    ],
+    "val_f1": [
+      0.0308,
+      0.1026,
+      0.2123,
+      0.2893,
+      0.4041,
+      0.357,
+      0.4117,
+      0.4043,
+      0.5103,
+      0.4343,
+      0.5,
+      0.5405,
+      0.5203,
+      0.5323,
+      0.5144,
+      0.4953,
+      0.4972,
+      0.5167,
+      0.4586,
+      0.4736
+    ]
+  },
+  "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU",
+  "vram_pico_gb": 3.65
+}

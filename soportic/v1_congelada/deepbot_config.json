@@ -1,0 +1,69 @@
+{
+  "version": "v1_una_intencion",
+  "modelo_base": "dccuchile/bert-base-spanish-wwm-uncased",
+  "modelo_semantico": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "max_len": 64,
+  "umbral_bert": 0.45,
+  "umbral_semantico": 0.6,
+  "u_aclarar": 0.65,
+  "m_aclarar": 0.0,
+  "label2id": {
+    "agradecimiento": 0,
+    "colab_gpu": 1,
+    "correo_institucional": 2,
+    "despedida": 3,
+    "fuera_de_dominio": 4,
+    "hablar_con_soporte": 5,
+    "instalar_python": 6,
+    "moodle_acceso": 7,
+    "moodle_entregas": 8,
+    "office365": 9,
+    "plataforma_academica": 10,
+    "restablecer_contrasena": 11,
+    "salas_computo": 12,
+    "saludo": 13,
+    "sobre_bot": 14,
+    "teams": 15,
+    "wifi_sede": 16
+  },
+  "id2label": {
+    "0": "agradecimiento",
+    "1": "colab_gpu",
+    "2": "correo_institucional",
+    "3": "despedida",
+    "4": "fuera_de_dominio",
+    "5": "hablar_con_soporte",
+    "6": "instalar_python",
+    "7": "moodle_acceso",
+    "8": "moodle_entregas",
+    "9": "office365",
+    "10": "plataforma_academica",
+    "11": "restablecer_contrasena",
+    "12": "salas_computo",
+    "13": "saludo",
+    "14": "sobre_bot",
+    "15": "teams",
+    "16": "wifi_sede"
+  },
+  "hiperparametros": {
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "epocas_max": 20,
+    "paciencia": 4,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_grad_norm": 1.0,
+    "max_len": 64,
+    "aumento": "tildes+ruido+retrotraducción",
+    "tecnicas_aumento": [
+      "tildes",
+      "ruido",
+      "retrotraduccion"
+    ],
+    "massive": true
+  },
+  "archivos": {
+    "respuestas_fijas": "respuestas_fijas.json",
+    "base_conocimiento": "base_conocimiento.json"
+  }
+}

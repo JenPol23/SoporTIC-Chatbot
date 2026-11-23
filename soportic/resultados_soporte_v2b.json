@@ -1,0 +1,1226 @@
+{
+  "version": "v2b — mejora de la multiintención (Fase 3b)",
+  "nota_diseno": "Diseñada después de ver los resultados de prueba de la v2; la evidencia principal es la validación cruzada y la prueba externa, evaluada una sola vez con el método elegido.",
+  "datos": {
+    "principal": {
+      "concat_te": 80,
+      "qwen_te": 40,
+      "concat_va": 80,
+      "qwen_va": 40,
+      "neg_va": 30,
+      "concat_tr": 600,
+      "qwen_tr": 300,
+      "neg_tr": 150
+    },
+    "pliegue_1": {
+      "concat_te": 80,
+      "qwen_te": 40,
+      "concat_va": 80,
+      "qwen_va": 40,
+      "neg_va": 30,
+      "concat_tr": 600,
+      "qwen_tr": 300,
+      "neg_tr": 150
+    },
+    "pliegue_2": {
+      "concat_te": 80,
+      "qwen_te": 40,
+      "concat_va": 80,
+      "qwen_va": 40,
+      "neg_va": 30,
+      "concat_tr": 600,
+      "qwen_tr": 300,
+      "neg_tr": 150
+    },
+    "pliegue_3": {
+      "concat_te": 80,
+      "qwen_te": 40,
+      "concat_va": 80,
+      "qwen_va": 40,
+      "neg_va": 30,
+      "concat_tr": 600,
+      "qwen_tr": 300,
+      "neg_tr": 150
+    },
+    "pliegue_4": {
+      "concat_te": 80,
+      "qwen_te": 40,
+      "concat_va": 80,
+      "qwen_va": 40,
+      "neg_va": 30,
+      "concat_tr": 600,
+      "qwen_tr": 300,
+      "neg_tr": 150
+    },
+    "pliegue_5": {
+      "concat_te": 80,
+      "qwen_te": 40,
+      "concat_va": 80,
+      "qwen_va": 40,
+      "neg_va": 30,
+      "concat_tr": 600,
+      "qwen_tr": 300,
+      "neg_tr": 150
+    }
+  },
+  "filtros_principal": {
+    "concat_te": {
+      "conservadas": 80
+    },
+    "qwen_te": {
+      "vacía, muy corta/larga, en otro idioma o igual a un origen": 0,
+      "(1) similitud MiniLM con algún origen < 0.5": 17,
+      "duplicado": 4,
+      "conservadas": 40,
+      "rondas": 1,
+      "candidatos": 80
+    },
+    "concat_va": {
+      "conservadas": 80
+    },
+    "qwen_va": {
+      "vacía, muy corta/larga, en otro idioma o igual a un origen": 0,
+      "duplicado": 6,
+      "(1) similitud MiniLM con algún origen < 0.5": 12,
+      "conservadas": 40,
+      "rondas": 1,
+      "candidatos": 80
+    },
+    "neg_va": {
+      "par repetido": 2,
+      "conservadas": 30
+    },
+    "concat_tr": {
+      "par repetido": 4,
+      "conservadas": 600
+    },
+    "qwen_tr": {
+      "vacía, muy corta/larga, en otro idioma o igual a un origen": 0,
+      "(1) v1 congelada: alguna intención fuera del top-3": 159,
+      "(1b) v1 congelada: tercera intención técnica ≥ 0.3": 6,
+      "conservadas": 300,
+      "rondas": 1,
+      "candidatos": 600
+    },
+    "neg_tr": {
+      "par repetido": 3,
+      "conservadas": 150
+    }
+  },
+  "qwen": {
+    "generadas_en_esta_ejecucion": 0,
+    "modelo": [
+      "Qwen/Qwen2.5-3B-Instruct"
+    ],
+    "tiempo_generacion_s": 0.0
+  },
+  "beto_multietiqueta_nuevo": {
+    "mejor_epoca": 9,
+    "epocas_ejecutadas": 13,
+    "val_f1_micro_umbral_05": 0.8257,
+    "n_train": 2200
+  },
+  "config_metodos": {
+    "BETO multietiqueta nuevo": {
+      "piso": "sin piso",
+      "exact_match_val_por_piso": {
+        "sin piso": 0.6951219512195121,
+        "piso 0,30": 0.6788617886178862
+      },
+      "umbrales": {
+        "agradecimiento": 0.55,
+        "colab_gpu": 0.5,
+        "correo_institucional": 0.45,
+        "despedida": 0.55,
+        "fuera_de_dominio": 0.05,
+        "hablar_con_soporte": 0.25,
+        "instalar_python": 0.75,
+        "moodle_acceso": 0.1,
+        "moodle_entregas": 0.15,
+        "office365": 0.5,
+        "plataforma_academica": 0.35,
+        "restablecer_contrasena": 0.15,
+        "salas_computo": 0.4,
+        "saludo": 0.55,
+        "sobre_bot": 0.55,
+        "teams": 0.5,
+        "wifi_sede": 0.75
+      }
+    },
+    "Combinado (segmentos + multietiqueta)": {
+      "piso": "piso 0,30",
+      "exact_match_val_por_piso": {
+        "sin piso": 0.6300813008130082,
+        "piso 0,30": 0.6585365853658537
+      },
+      "umbrales": {
+        "agradecimiento": 0.55,
+        "colab_gpu": 0.5,
+        "correo_institucional": 0.45,
+        "despedida": 0.55,
+        "fuera_de_dominio": 0.5,
+        "hablar_con_soporte": 0.3,
+        "instalar_python": 0.75,
+        "moodle_acceso": 0.5,
+        "moodle_entregas": 0.3,
+        "office365": 0.5,
+        "plataforma_academica": 0.35,
+        "restablecer_contrasena": 0.3,
+        "salas_computo": 0.4,
+        "saludo": 0.55,
+        "sobre_bot": 0.55,
+        "teams": 0.5,
+        "wifi_sede": 0.75
+      }
+    },
+    "Ensamble (completo + segmentos)": {
+      "piso": "sin piso",
+      "exact_match_val_por_piso": {
+        "sin piso": 0.7439024390243902,
+        "piso 0,30": 0.7032520325203252
+      },
+      "umbrales": {
+        "agradecimiento": 0.5,
+        "colab_gpu": 0.5,
+        "correo_institucional": 0.9,
+        "despedida": 0.5,
+        "fuera_de_dominio": 0.5,
+        "hablar_con_soporte": 0.2,
+        "instalar_python": 0.65,
+        "moodle_acceso": 0.5,
+        "moodle_entregas": 0.25,
+        "office365": 0.6,
+        "plataforma_academica": 0.7,
+        "restablecer_contrasena": 0.2,
+        "salas_computo": 0.5,
+        "saludo": 0.5,
+        "sobre_bot": 0.5,
+        "teams": 0.5,
+        "wifi_sede": 0.05
+      }
+    }
+  },
+  "validacion": [
+    {
+      "método": "BETO multietiqueta nuevo",
+      "piso": "sin piso",
+      "n": 246,
+      "exact_match": 0.6951219512,
+      "f1_micro": 0.8552456839,
+      "f1_macro": 0.8903178149,
+      "hamming": 0.0260640842,
+      "exactitud_1": 0.8253968254,
+      "n_1": 126,
+      "exactitud_2mas": 0.5583333333,
+      "n_2mas": 120,
+      "tasa_fp_multi": 0.1349206349
+    },
+    {
+      "método": "Combinado (segmentos + multietiqueta)",
+      "piso": "piso 0,30",
+      "n": 246,
+      "exact_match": 0.6585365854,
+      "f1_micro": 0.786545925,
+      "f1_macro": 0.8213584251,
+      "hamming": 0.0394548063,
+      "exactitud_1": 0.7857142857,
+      "n_1": 126,
+      "exactitud_2mas": 0.525,
+      "n_2mas": 120,
+      "tasa_fp_multi": 0.1587301587
+    },
+    {
+      "método": "Ensamble (completo + segmentos)",
+      "piso": "sin piso",
+      "n": 246,
+      "exact_match": 0.743902439,
+      "f1_micro": 0.8669410151,
+      "f1_macro": 0.890404898,
+      "hamming": 0.0231946437,
+      "exactitud_1": 0.873015873,
+      "n_1": 126,
+      "exactitud_2mas": 0.6083333333,
+      "n_2mas": 120,
+      "tasa_fp_multi": 0.0634920635
+    },
+    {
+      "método": "Segmentación + v1",
+      "piso": "—",
+      "n": 246,
+      "exact_match": 0.5894308943,
+      "f1_micro": 0.7648648649,
+      "f1_macro": 0.8071170509,
+      "hamming": 0.0416068867,
+      "exactitud_1": 0.7698412698,
+      "n_1": 126,
+      "exactitud_2mas": 0.4,
+      "n_2mas": 120,
+      "tasa_fp_multi": 0.1349206349
+    },
+    {
+      "método": "v1 top-1",
+      "piso": "—",
+      "n": 246,
+      "exact_match": 0.4512195122,
+      "f1_micro": 0.7058823529,
+      "f1_macro": 0.7323125161,
+      "hamming": 0.0430416069,
+      "exactitud_1": 0.880952381,
+      "n_1": 126,
+      "exactitud_2mas": 0.0,
+      "n_2mas": 120,
+      "tasa_fp_multi": 0.0
+    }
+  ],
+  "validacion_cruzada": {
+    "por_particion": [
+      {
+        "particion": 1,
+        "método": "BETO multietiqueta nuevo",
+        "piso": "sin piso",
+        "n": 209,
+        "exact_match": 0.6937799043,
+        "f1_micro": 0.859399684,
+        "f1_macro": 0.8514024227,
+        "hamming": 0.0250492542,
+        "exactitud_1": 0.8651685393,
+        "n_1": 89,
+        "exactitud_2mas": 0.5666666667,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.0224719101,
+        "tasa_fp_multi_val": 0.0530973451,
+        "exact_match_val": 0.7296137339
+      },
+      {
+        "particion": 1,
+        "método": "Combinado (segmentos + multietiqueta)",
+        "piso": "piso 0,30",
+        "n": 209,
+        "exact_match": 0.5933014354,
+        "f1_micro": 0.8086330935,
+        "f1_macro": 0.7930470175,
+        "hamming": 0.0374331551,
+        "exactitud_1": 0.7752808989,
+        "n_1": 89,
+        "exactitud_2mas": 0.4583333333,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.1123595506,
+        "tasa_fp_multi_val": 0.1504424779,
+        "exact_match_val": 0.6566523605
+      },
+      {
+        "particion": 1,
+        "método": "Ensamble (completo + segmentos)",
+        "piso": "piso 0,30",
+        "n": 209,
+        "exact_match": 0.7129186603,
+        "f1_micro": 0.85625966,
+        "f1_macro": 0.8297377721,
+        "hamming": 0.0261750633,
+        "exactitud_1": 0.8426966292,
+        "n_1": 89,
+        "exactitud_2mas": 0.6166666667,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.0337078652,
+        "tasa_fp_multi_val": 0.0353982301,
+        "exact_match_val": 0.7596566524
+      },
+      {
+        "particion": 2,
+        "método": "BETO multietiqueta nuevo",
+        "piso": "sin piso",
+        "n": 209,
+        "exact_match": 0.6220095694,
+        "f1_micro": 0.84,
+        "f1_macro": 0.8204195062,
+        "hamming": 0.0292710386,
+        "exactitud_1": 0.8202247191,
+        "n_1": 89,
+        "exactitud_2mas": 0.475,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.0561797753,
+        "tasa_fp_multi_val": 0.1150442478,
+        "exact_match_val": 0.5751072961
+      },
+      {
+        "particion": 2,
+        "método": "Combinado (segmentos + multietiqueta)",
+        "piso": "sin piso",
+        "n": 209,
+        "exact_match": 0.6650717703,
+        "f1_micro": 0.8714285714,
+        "f1_macro": 0.8216946599,
+        "hamming": 0.0253307064,
+        "exactitud_1": 0.7528089888,
+        "n_1": 89,
+        "exactitud_2mas": 0.6,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.1348314607,
+        "tasa_fp_multi_val": 0.2831858407,
+        "exact_match_val": 0.4806866953
+      },
+      {
+        "particion": 2,
+        "método": "Ensamble (completo + segmentos)",
+        "piso": "sin piso",
+        "n": 209,
+        "exact_match": 0.6602870813,
+        "f1_micro": 0.8643815201,
+        "f1_macro": 0.8404679726,
+        "hamming": 0.0256121587,
+        "exactitud_1": 0.797752809,
+        "n_1": 89,
+        "exactitud_2mas": 0.5583333333,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.0898876404,
+        "tasa_fp_multi_val": 0.1504424779,
+        "exact_match_val": 0.5836909871
+      },
+      {
+        "particion": 3,
+        "método": "BETO multietiqueta nuevo",
+        "piso": "piso 0,30",
+        "n": 208,
+        "exact_match": 0.5384615385,
+        "f1_micro": 0.7954545455,
+        "f1_macro": 0.8133091233,
+        "hamming": 0.0356334842,
+        "exactitud_1": 0.7840909091,
+        "n_1": 88,
+        "exactitud_2mas": 0.3583333333,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.0568181818,
+        "tasa_fp_multi_val": 0.0350877193,
+        "exact_match_val": 0.7735042735
+      },
+      {
+        "particion": 3,
+        "método": "Combinado (segmentos + multietiqueta)",
+        "piso": "piso 0,30",
+        "n": 208,
+        "exact_match": 0.5240384615,
+        "f1_micro": 0.7847025496,
+        "f1_macro": 0.774919572,
+        "hamming": 0.0429864253,
+        "exactitud_1": 0.7272727273,
+        "n_1": 88,
+        "exactitud_2mas": 0.375,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.1477272727,
+        "tasa_fp_multi_val": 0.1403508772,
+        "exact_match_val": 0.6709401709
+      },
+      {
+        "particion": 3,
+        "método": "Ensamble (completo + segmentos)",
+        "piso": "sin piso",
+        "n": 208,
+        "exact_match": 0.5913461538,
+        "f1_micro": 0.8072289157,
+        "f1_macro": 0.8263652003,
+        "hamming": 0.036199095,
+        "exactitud_1": 0.7840909091,
+        "n_1": 88,
+        "exactitud_2mas": 0.45,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.0681818182,
+        "tasa_fp_multi_val": 0.0789473684,
+        "exact_match_val": 0.8034188034
+      },
+      {
+        "particion": 4,
+        "método": "BETO multietiqueta nuevo",
+        "piso": "sin piso",
+        "n": 208,
+        "exact_match": 0.5528846154,
+        "f1_micro": 0.7360248447,
+        "f1_macro": 0.7435502018,
+        "hamming": 0.0480769231,
+        "exactitud_1": 0.7613636364,
+        "n_1": 88,
+        "exactitud_2mas": 0.4,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.0795454545,
+        "tasa_fp_multi_val": 0.0877192982,
+        "exact_match_val": 0.6923076923
+      },
+      {
+        "particion": 4,
+        "método": "Combinado (segmentos + multietiqueta)",
+        "piso": "piso 0,30",
+        "n": 208,
+        "exact_match": 0.5721153846,
+        "f1_micro": 0.7468175389,
+        "f1_macro": 0.7349876209,
+        "hamming": 0.0506221719,
+        "exactitud_1": 0.7159090909,
+        "n_1": 88,
+        "exactitud_2mas": 0.4666666667,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.1363636364,
+        "tasa_fp_multi_val": 0.2368421053,
+        "exact_match_val": 0.5982905983
+      },
+      {
+        "particion": 4,
+        "método": "Ensamble (completo + segmentos)",
+        "piso": "sin piso",
+        "n": 208,
+        "exact_match": 0.6201923077,
+        "f1_micro": 0.7671232877,
+        "f1_macro": 0.764239005,
+        "hamming": 0.0432692308,
+        "exactitud_1": 0.7613636364,
+        "n_1": 88,
+        "exactitud_2mas": 0.5166666667,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.0681818182,
+        "tasa_fp_multi_val": 0.0964912281,
+        "exact_match_val": 0.6965811966
+      },
+      {
+        "particion": 5,
+        "método": "BETO multietiqueta nuevo",
+        "piso": "sin piso",
+        "n": 208,
+        "exact_match": 0.6682692308,
+        "f1_micro": 0.8474576271,
+        "f1_macro": 0.8364012947,
+        "hamming": 0.0279977376,
+        "exactitud_1": 0.8068181818,
+        "n_1": 88,
+        "exactitud_2mas": 0.5666666667,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.0795454545,
+        "tasa_fp_multi_val": 0.0526315789,
+        "exact_match_val": 0.735042735
+      },
+      {
+        "particion": 5,
+        "método": "Combinado (segmentos + multietiqueta)",
+        "piso": "sin piso",
+        "n": 208,
+        "exact_match": 0.6586538462,
+        "f1_micro": 0.8350364964,
+        "f1_macro": 0.8015679821,
+        "hamming": 0.0319570136,
+        "exactitud_1": 0.7840909091,
+        "n_1": 88,
+        "exactitud_2mas": 0.5666666667,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.1136363636,
+        "tasa_fp_multi_val": 0.1842105263,
+        "exact_match_val": 0.6752136752
+      },
+      {
+        "particion": 5,
+        "método": "Ensamble (completo + segmentos)",
+        "piso": "sin piso",
+        "n": 208,
+        "exact_match": 0.6634615385,
+        "f1_micro": 0.8446455505,
+        "f1_macro": 0.8357634036,
+        "hamming": 0.0291289593,
+        "exactitud_1": 0.8068181818,
+        "n_1": 88,
+        "exactitud_2mas": 0.5583333333,
+        "n_2mas": 120,
+        "tasa_fp_multi": 0.0568181818,
+        "tasa_fp_multi_val": 0.1052631579,
+        "exact_match_val": 0.7307692308
+      }
+    ],
+    "resumen": {
+      "BETO multietiqueta nuevo": {
+        "exact_match": {
+          "media": 0.615080971659919,
+          "de": 0.06857376074463685
+        },
+        "f1_micro": {
+          "media": 0.815667340267584,
+          "de": 0.05066236949414991
+        },
+        "f1_macro": {
+          "media": 0.813016509733103,
+          "de": 0.041535479989403046
+        },
+        "hamming": {
+          "media": 0.03320568750135314,
+          "de": 0.009167598569051175
+        },
+        "exactitud_1": {
+          "media": 0.8075331971399387,
+          "de": 0.039257444697592694
+        },
+        "exactitud_2mas": {
+          "media": 0.47333333333333333,
+          "de": 0.09490492318338623
+        },
+        "tasa_fp_multi": {
+          "media": 0.05891215526046987,
+          "de": 0.023405171278756135
+        },
+        "tasa_fp_multi_val": {
+          "media": 0.06871603788231641,
+          "de": 0.03217508403521129
+        }
+      },
+      "Combinado (segmentos + multietiqueta)": {
+        "exact_match": {
+          "media": 0.6026361796098638,
+          "de": 0.0596498944187786
+        },
+        "f1_micro": {
+          "media": 0.8093236499551868,
+          "de": 0.04751805212947525
+        },
+        "f1_macro": {
+          "media": 0.7852433704811904,
+          "de": 0.03274258514027785
+        },
+        "hamming": {
+          "media": 0.03766589447703998,
+          "de": 0.009759297196337028
+        },
+        "exactitud_1": {
+          "media": 0.7510725229826354,
+          "de": 0.029504964959491148
+        },
+        "exactitud_2mas": {
+          "media": 0.49333333333333335,
+          "de": 0.09040802570077011
+        },
+        "tasa_fp_multi": {
+          "media": 0.12898365679264556,
+          "de": 0.015426311631503547
+        },
+        "tasa_fp_multi_val": {
+          "media": 0.19900636547120013,
+          "de": 0.06028175842773585
+        }
+      },
+      "Ensamble (completo + segmentos)": {
+        "exact_match": {
+          "media": 0.6496411483253588,
+          "de": 0.04629774073669695
+        },
+        "f1_micro": {
+          "media": 0.82792778679002,
+          "de": 0.040424880070636354
+        },
+        "f1_macro": {
+          "media": 0.8193146706861503,
+          "de": 0.03126380879009385
+        },
+        "hamming": {
+          "media": 0.03207690142674663,
+          "de": 0.0075428056791308215
+        },
+        "exactitud_1": {
+          "media": 0.7985444330949949,
+          "de": 0.03004086387930922
+        },
+        "exactitud_2mas": {
+          "media": 0.54,
+          "de": 0.06163287362366868
+        },
+        "tasa_fp_multi": {
+          "media": 0.06335546475995914,
+          "de": 0.020446637567805456
+        },
+        "tasa_fp_multi_val": {
+          "media": 0.09330849247011333,
+          "de": 0.04176474737367365
+        }
+      }
+    }
+  },
+  "eleccion": {
+    "metodo_final": "Ensamble (completo + segmentos)",
+    "piso_en_particion_principal": "sin piso",
+    "criterio": "mayor exact match medio en la validación cruzada; empate: exactitud 2+; luego menor tasa de FP",
+    "medias_cv": {
+      "BETO multietiqueta nuevo": {
+        "exact_match": 0.6151,
+        "exactitud_2mas": 0.4733,
+        "tasa_fp_multi": 0.0589
+      },
+      "Combinado (segmentos + multietiqueta)": {
+        "exact_match": 0.6026,
+        "exactitud_2mas": 0.4933,
+        "tasa_fp_multi": 0.129
+      },
+      "Ensamble (completo + segmentos)": {
+        "exact_match": 0.6496,
+        "exactitud_2mas": 0.54,
+        "tasa_fp_multi": 0.0634
+      }
+    },
+    "fijada_antes_de_la_prueba": "2026-11-15 22:48:47"
+  },
+  "prueba": [
+    {
+      "conjunto": "prueba (total)",
+      "método": "v1 top-1",
+      "elegido": false,
+      "n": 187,
+      "exact_match": 0.2727272727,
+      "f1_micro": 0.6153846154,
+      "f1_macro": 0.612010283,
+      "hamming": 0.0597672224,
+      "exactitud_1": 0.7611940299,
+      "n_1": 67,
+      "exactitud_2mas": 0.0,
+      "n_2mas": 120,
+      "tasa_fp_multi": 0.0
+    },
+    {
+      "conjunto": "prueba (total)",
+      "método": "Segmentación + v1",
+      "elegido": false,
+      "n": 187,
+      "exact_match": 0.5828877005,
+      "f1_micro": 0.7495854063,
+      "f1_macro": 0.7134609102,
+      "hamming": 0.0474992136,
+      "exactitud_1": 0.7462686567,
+      "n_1": 67,
+      "exactitud_2mas": 0.4916666667,
+      "n_2mas": 120,
+      "tasa_fp_multi": 0.0447761194
+    },
+    {
+      "conjunto": "prueba (total)",
+      "método": "BETO multietiqueta v2",
+      "elegido": false,
+      "n": 187,
+      "exact_match": 0.4973262032,
+      "f1_micro": 0.7371900826,
+      "f1_macro": 0.7349167404,
+      "hamming": 0.0500157282,
+      "exactitud_1": 0.776119403,
+      "n_1": 67,
+      "exactitud_2mas": 0.3416666667,
+      "n_2mas": 120,
+      "tasa_fp_multi": 0.0149253731
+    },
+    {
+      "conjunto": "prueba (total)",
+      "método": "BETO multietiqueta nuevo",
+      "elegido": false,
+      "n": 187,
+      "exact_match": 0.5454545455,
+      "f1_micro": 0.7917329094,
+      "f1_macro": 0.7888931798,
+      "hamming": 0.041207927,
+      "exactitud_1": 0.7014925373,
+      "n_1": 67,
+      "exactitud_2mas": 0.4583333333,
+      "n_2mas": 120,
+      "tasa_fp_multi": 0.1492537313
+    },
+    {
+      "conjunto": "prueba (total)",
+      "método": "Combinado (segmentos + multietiqueta)",
+      "elegido": false,
+      "n": 187,
+      "exact_match": 0.614973262,
+      "f1_micro": 0.7975270479,
+      "f1_macro": 0.7843149218,
+      "hamming": 0.041207927,
+      "exactitud_1": 0.7462686567,
+      "n_1": 67,
+      "exactitud_2mas": 0.5416666667,
+      "n_2mas": 120,
+      "tasa_fp_multi": 0.1194029851
+    },
+    {
+      "conjunto": "prueba (total)",
+      "método": "Ensamble (completo + segmentos)",
+      "elegido": true,
+      "n": 187,
+      "exact_match": 0.6577540107,
+      "f1_micro": 0.8292682927,
+      "f1_macro": 0.8288544936,
+      "hamming": 0.0330292545,
+      "exactitud_1": 0.776119403,
+      "n_1": 67,
+      "exactitud_2mas": 0.5916666667,
+      "n_2mas": 120,
+      "tasa_fp_multi": 0.0746268657
+    },
+    {
+      "conjunto": "prueba: originales",
+      "método": "v1 top-1",
+      "elegido": false,
+      "n": 67,
+      "exact_match": 0.7611940299,
+      "f1_micro": 0.7611940299,
+      "f1_macro": 0.7316059757,
+      "hamming": 0.02809482,
+      "exactitud_1": 0.7611940299,
+      "n_1": 67,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0
+    },
+    {
+      "conjunto": "prueba: originales",
+      "método": "Segmentación + v1",
+      "elegido": false,
+      "n": 67,
+      "exact_match": 0.7462686567,
+      "f1_micro": 0.7591240876,
+      "f1_macro": 0.7459553518,
+      "hamming": 0.0289727831,
+      "exactitud_1": 0.7462686567,
+      "n_1": 67,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0447761194
+    },
+    {
+      "conjunto": "prueba: originales",
+      "método": "BETO multietiqueta v2",
+      "elegido": false,
+      "n": 67,
+      "exact_match": 0.776119403,
+      "f1_micro": 0.7851851852,
+      "f1_macro": 0.7876920465,
+      "hamming": 0.0254609306,
+      "exactitud_1": 0.776119403,
+      "n_1": 67,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0149253731
+    },
+    {
+      "conjunto": "prueba: originales",
+      "método": "BETO multietiqueta nuevo",
+      "elegido": false,
+      "n": 67,
+      "exact_match": 0.7014925373,
+      "f1_micro": 0.7916666667,
+      "f1_macro": 0.8055088702,
+      "hamming": 0.0263388938,
+      "exactitud_1": 0.7014925373,
+      "n_1": 67,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.1492537313
+    },
+    {
+      "conjunto": "prueba: originales",
+      "método": "Combinado (segmentos + multietiqueta)",
+      "elegido": false,
+      "n": 67,
+      "exact_match": 0.7462686567,
+      "f1_micro": 0.8028169014,
+      "f1_macro": 0.8120787709,
+      "hamming": 0.0245829675,
+      "exactitud_1": 0.7462686567,
+      "n_1": 67,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.1194029851
+    },
+    {
+      "conjunto": "prueba: originales",
+      "método": "Ensamble (completo + segmentos)",
+      "elegido": true,
+      "n": 67,
+      "exact_match": 0.776119403,
+      "f1_micro": 0.8201438849,
+      "f1_macro": 0.8238434768,
+      "hamming": 0.0219490781,
+      "exactitud_1": 0.776119403,
+      "n_1": 67,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0746268657
+    },
+    {
+      "conjunto": "prueba: concatenadas",
+      "método": "v1 top-1",
+      "elegido": false,
+      "n": 80,
+      "exact_match": 0.0,
+      "f1_micro": 0.55,
+      "f1_macro": 0.4834102119,
+      "hamming": 0.0794117647,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.0,
+      "n_2mas": 80,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "prueba: concatenadas",
+      "método": "Segmentación + v1",
+      "elegido": false,
+      "n": 80,
+      "exact_match": 0.5125,
+      "f1_micro": 0.7555555556,
+      "f1_macro": 0.7510044678,
+      "hamming": 0.0566176471,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.5125,
+      "n_2mas": 80,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "prueba: concatenadas",
+      "método": "BETO multietiqueta v2",
+      "elegido": false,
+      "n": 80,
+      "exact_match": 0.3625,
+      "f1_micro": 0.7331189711,
+      "f1_macro": 0.7123389166,
+      "hamming": 0.0610294118,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.3625,
+      "n_2mas": 80,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "prueba: concatenadas",
+      "método": "BETO multietiqueta nuevo",
+      "elegido": false,
+      "n": 80,
+      "exact_match": 0.45,
+      "f1_micro": 0.7925696594,
+      "f1_macro": 0.7823188494,
+      "hamming": 0.0492647059,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.45,
+      "n_2mas": 80,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "prueba: concatenadas",
+      "método": "Combinado (segmentos + multietiqueta)",
+      "elegido": false,
+      "n": 80,
+      "exact_match": 0.5125,
+      "f1_micro": 0.7952522255,
+      "f1_macro": 0.8226252628,
+      "hamming": 0.0507352941,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.5125,
+      "n_2mas": 80,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "prueba: concatenadas",
+      "método": "Ensamble (completo + segmentos)",
+      "elegido": true,
+      "n": 80,
+      "exact_match": 0.5875,
+      "f1_micro": 0.8364779874,
+      "f1_macro": 0.8293737555,
+      "hamming": 0.0382352941,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.5875,
+      "n_2mas": 80,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "prueba: qwen",
+      "método": "v1 top-1",
+      "elegido": false,
+      "n": 40,
+      "exact_match": 0.0,
+      "f1_micro": 0.5833333333,
+      "f1_macro": 0.5455747956,
+      "hamming": 0.0735294118,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.0,
+      "n_2mas": 40,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "prueba: qwen",
+      "método": "Segmentación + v1",
+      "elegido": false,
+      "n": 40,
+      "exact_match": 0.45,
+      "f1_micro": 0.7284768212,
+      "f1_macro": 0.7468247031,
+      "hamming": 0.0602941176,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.45,
+      "n_2mas": 40,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "prueba: qwen",
+      "método": "BETO multietiqueta v2",
+      "elegido": false,
+      "n": 40,
+      "exact_match": 0.3,
+      "f1_micro": 0.7044025157,
+      "f1_macro": 0.6964104133,
+      "hamming": 0.0691176471,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.3,
+      "n_2mas": 40,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "prueba: qwen",
+      "método": "BETO multietiqueta nuevo",
+      "elegido": false,
+      "n": 40,
+      "exact_match": 0.475,
+      "f1_micro": 0.7901234568,
+      "f1_macro": 0.7902726552,
+      "hamming": 0.05,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.475,
+      "n_2mas": 40,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "prueba: qwen",
+      "método": "Combinado (segmentos + multietiqueta)",
+      "elegido": false,
+      "n": 40,
+      "exact_match": 0.6,
+      "f1_micro": 0.7976190476,
+      "f1_macro": 0.8147081354,
+      "hamming": 0.05,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.6,
+      "n_2mas": 40,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "prueba: qwen",
+      "método": "Ensamble (completo + segmentos)",
+      "elegido": true,
+      "n": 40,
+      "exact_match": 0.6,
+      "f1_micro": 0.8227848101,
+      "f1_macro": 0.8188649435,
+      "hamming": 0.0411764706,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.6,
+      "n_2mas": 40,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "generalización",
+      "método": "v1 top-1",
+      "elegido": false,
+      "n": 68,
+      "exact_match": 0.8823529412,
+      "f1_micro": 0.8823529412,
+      "f1_macro": 0.8826500297,
+      "hamming": 0.0138408304,
+      "exactitud_1": 0.8823529412,
+      "n_1": 68,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0
+    },
+    {
+      "conjunto": "generalización",
+      "método": "Segmentación + v1",
+      "elegido": false,
+      "n": 68,
+      "exact_match": 0.8823529412,
+      "f1_micro": 0.8823529412,
+      "f1_macro": 0.8826500297,
+      "hamming": 0.0138408304,
+      "exactitud_1": 0.8823529412,
+      "n_1": 68,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0
+    },
+    {
+      "conjunto": "generalización",
+      "método": "BETO multietiqueta v2",
+      "elegido": false,
+      "n": 68,
+      "exact_match": 0.8970588235,
+      "f1_micro": 0.9142857143,
+      "f1_macro": 0.9192046516,
+      "hamming": 0.0103806228,
+      "exactitud_1": 0.8970588235,
+      "n_1": 68,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0441176471
+    },
+    {
+      "conjunto": "generalización",
+      "método": "BETO multietiqueta nuevo",
+      "elegido": false,
+      "n": 68,
+      "exact_match": 0.8676470588,
+      "f1_micro": 0.8873239437,
+      "f1_macro": 0.8979171156,
+      "hamming": 0.0138408304,
+      "exactitud_1": 0.8676470588,
+      "n_1": 68,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0735294118
+    },
+    {
+      "conjunto": "generalización",
+      "método": "Combinado (segmentos + multietiqueta)",
+      "elegido": false,
+      "n": 68,
+      "exact_match": 0.8970588235,
+      "f1_micro": 0.8985507246,
+      "f1_macro": 0.9015575927,
+      "hamming": 0.0121107266,
+      "exactitud_1": 0.8970588235,
+      "n_1": 68,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0147058824
+    },
+    {
+      "conjunto": "generalización",
+      "método": "Ensamble (completo + segmentos)",
+      "elegido": true,
+      "n": 68,
+      "exact_match": 0.9117647059,
+      "f1_micro": 0.9130434783,
+      "f1_macro": 0.9140056022,
+      "hamming": 0.0103806228,
+      "exactitud_1": 0.9117647059,
+      "n_1": 68,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0147058824
+    }
+  ],
+  "externo": [
+    {
+      "conjunto": "externo completo (120)",
+      "método": "Ensamble (completo + segmentos)",
+      "n": 120,
+      "exact_match": 0.8,
+      "f1_micro": 0.86,
+      "f1_macro": 0.8404472053,
+      "hamming": 0.0205882353,
+      "exactitud_1": 0.8444444444,
+      "n_1": 90,
+      "exactitud_2mas": 0.6666666667,
+      "n_2mas": 30,
+      "tasa_fp_multi": 0.0444444444
+    },
+    {
+      "conjunto": "una intención (90)",
+      "método": "Ensamble (completo + segmentos)",
+      "n": 90,
+      "exact_match": 0.8444444444,
+      "f1_micro": 0.8369565217,
+      "f1_macro": 0.8316294816,
+      "hamming": 0.0196078431,
+      "exactitud_1": 0.8444444444,
+      "n_1": 90,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0444444444
+    },
+    {
+      "conjunto": "30 naturales de varias intenciones",
+      "método": "Ensamble (completo + segmentos)",
+      "n": 30,
+      "exact_match": 0.6666666667,
+      "f1_micro": 0.8965517241,
+      "f1_macro": 0.7659340659,
+      "hamming": 0.0235294118,
+      "exactitud_1": null,
+      "n_1": 0,
+      "exactitud_2mas": 0.6666666667,
+      "n_2mas": 30,
+      "tasa_fp_multi": null
+    },
+    {
+      "conjunto": "5 de control con conectores",
+      "método": "Ensamble (completo + segmentos)",
+      "n": 5,
+      "exact_match": 1.0,
+      "f1_micro": 1.0,
+      "f1_macro": 1.0,
+      "hamming": 0.0,
+      "exactitud_1": 1.0,
+      "n_1": 5,
+      "exactitud_2mas": null,
+      "n_2mas": 0,
+      "tasa_fp_multi": 0.0
+    }
+  ],
+  "tiempos_s": {
+    "datos_v2b_y_qwen": 80.4,
+    "qwen_generacion": 0.0,
+    "beto_multietiqueta_nuevo": 134.6,
+    "validacion_cruzada_v2b": 861.4,
+    "fase3b_total": 1089.6,
+    "notebook_hasta_aqui": 3745.9
+  },
+  "historial": {
+    "train_loss": [
+      0.4798,
+      0.2771,
+      0.1861,
+      0.1111,
+      0.075,
+      0.0559,
+      0.0446,
+      0.037,
+      0.0318,
+      0.028,
+      0.0251,
+      0.0228,
+      0.0209
+    ],
+    "val_loss": [
+      0.3089,
+      0.2415,
+      0.1653,
+      0.1327,
+      0.1237,
+      0.1123,
+      0.1058,
+      0.1054,
+      0.1021,
+      0.1032,
+      0.1052,
+      0.1038,
+      0.102
+    ],
+    "val_f1_micro": [
+      0.1307,
+      0.5556,
+      0.7347,
+      0.7671,
+      0.7954,
+      0.8158,
+      0.804,
+      0.8011,
+      0.8257,
+      0.8155,
+      0.8034,
+      0.8109,
+      0.8143
+    ]
+  }
+}

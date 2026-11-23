@@ -1,0 +1,36 @@
+conversacion,final_esperado,final_obtenido,final_ok,soluciones_repetidas
+c01,{'moodle_acceso': 'escalado'},{'moodle_acceso': 'escalado'},True,0
+c02,{'correo_institucional': 'resuelto'},{'correo_institucional': 'resuelto'},True,0
+c03,{'wifi_sede': 'escalado'},{'wifi_sede': 'escalado'},True,0
+c04,"{'restablecer_contrasena': 'resuelto', 'moodle_entregas': 'resuelto'}","{'restablecer_contrasena': 'resuelto', 'moodle_entregas': 'resuelto'}",True,0
+c05,"{'correo_institucional': 'resuelto', 'teams': 'resuelto'}","{'salas_computo': 'resuelto', 'teams': 'resuelto'}",False,0
+c06,{'colab_gpu': 'resuelto'},{'colab_gpu': 'resuelto'},True,0
+c07,{'instalar_python': 'abierto'},{'instalar_python': 'abierto'},True,0
+c08,{'office365': 'resuelto'},{'office365': 'resuelto'},True,0
+c09,{'plataforma_academica': 'resuelto'},{'plataforma_academica': 'resuelto'},True,0
+c10,{'teams': 'resuelto'},{'teams': 'resuelto'},True,0
+c11,{'correo_institucional': 'resuelto'},{'restablecer_contrasena': 'resuelto'},False,0
+c12,"{'wifi_sede': 'escalado', 'salas_computo': 'resuelto'}","{'wifi_sede': 'escalado', 'salas_computo': 'resuelto'}",True,0
+c13,{'moodle_entregas': 'resuelto'},{'moodle_entregas': 'resuelto'},True,0
+c14,{'correo_institucional': 'escalado'},{'correo_institucional': 'escalado'},True,0
+c15,{'moodle_acceso': 'resuelto'},{'moodle_acceso': 'resuelto'},True,0
+c16,{'hablar_con_soporte': 'resuelto'},{'hablar_con_soporte': 'resuelto'},True,0
+c17,{'salas_computo': 'escalado'},{'salas_computo': 'escalado'},True,0
+c18,{'moodle_acceso': 'resuelto'},{'moodle_acceso': 'resuelto'},True,0
+c19,"{'office365': 'resuelto', 'correo_institucional': 'resuelto'}","{'office365': 'resuelto', 'correo_institucional': 'resuelto'}",True,0
+c20,"{'teams': 'escalado', 'instalar_python': 'resuelto'}","{'teams': 'escalado', 'instalar_python': 'resuelto'}",True,0
+c21,{'plataforma_academica': 'resuelto'},{'plataforma_academica': 'resuelto'},True,0
+c22,{'restablecer_contrasena': 'abierto'},{'restablecer_contrasena': 'abierto'},True,0
+c23,{'plataforma_academica': 'resuelto'},"{'moodle_entregas': 'resuelto', 'moodle_acceso': 'abierto'}",False,0
+c24,{'teams': 'resuelto'},{'teams': 'resuelto'},True,0
+c25,{'colab_gpu': 'resuelto'},{'colab_gpu': 'resuelto'},True,0
+c26,{'instalar_python': 'resuelto'},{'instalar_python': 'resuelto'},True,0
+c27,{'plataforma_academica': 'abierto'},"{'plataforma_academica': 'abierto', 'moodle_entregas': 'abierto'}",True,0
+c28,"{'teams': 'resuelto', 'office365': 'resuelto'}","{'teams': 'resuelto', 'office365': 'resuelto'}",True,0
+c29,{'colab_gpu': 'resuelto'},{'colab_gpu': 'resuelto'},True,0
+c30,{'correo_institucional': 'resuelto'},{'correo_institucional': 'resuelto'},True,0
+n01,"{'wifi_sede': 'escalado', 'teams': 'resuelto'}","{'wifi_sede': 'escalado', 'teams': 'resuelto'}",True,0
+n02,"{'restablecer_contrasena': 'resuelto', 'moodle_acceso': 'resuelto'}","{'restablecer_contrasena': 'resuelto', 'moodle_acceso': 'resuelto'}",True,0
+n03,"{'colab_gpu': 'escalado', 'instalar_python': 'resuelto'}","{'colab_gpu': 'escalado', 'instalar_python': 'resuelto'}",True,0
+n04,"{'correo_institucional': 'abierto', 'office365': 'resuelto'}","{'correo_institucional': 'escalado', 'office365': 'resuelto'}",False,0
+n05,"{'teams': 'escalado', 'salas_computo': 'resuelto'}","{'salas_computo': 'resuelto', 'teams': 'escalado'}",True,0

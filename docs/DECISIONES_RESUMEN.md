@@ -1,0 +1,20 @@
+# Decisiones de metodología (resumen para el informe)
+
+Extracto de `DECISIONES.md` y de las decisiones aprobadas por los autores. Criterio general: ante varias opciones, la más conservadora para la integridad de la evaluación.
+
+| Tema | Qué se decidió | Con qué datos | Por qué |
+|---|---|---|---|
+| Selección de modelos y umbrales | Hiperparámetros, aumento, umbrales del híbrido, umbrales por intención, piso de umbral, temperatura y método final se eligen solo en validación o validación cruzada | Partición de validación (70/15/15, semilla 42) y 5 pliegues estratificados | La prueba, la generalización y el externo no influyen en ninguna elección |
+| Control de fuga | Ninguna frase de evaluación ni de aumento puede tener similitud MiniLM ≥ 0,90 con otra de otro conjunto; la cifra externa solo se calcula si el control da 0 | MiniLM multilingüe sobre dataset, generalización, externo, aumento, batería y conversaciones | Evita medir memorización de paráfrasis casi idénticas |
+| Línea base congelada | La v1 (una intención) se congeló antes de la multiintención; la v2 también se conserva intacta | `v1_congelada/`, `fase3_concatenadas/` | Comparar cada mejora contra una referencia fija |
+| Fase 3b posterior a la prueba de la v2 | Se declara que la mejora se diseñó después de ver la prueba de la v2; su evidencia principal es la validación cruzada y el externo | 5 pliegues con datos sintéticos generados dentro de cada pliegue; externo de 120 líneas evaluado una vez | La prueba interna dejó de ser independiente para la v2b |
+| Filtro de las frases de Qwen | Entrenamiento: las dos intenciones en el top-3 de la v1 congelada; validación y prueba: similitud MiniLM ≥ 0,50 con cada frase origen, sin modelos comparados | Frases generadas por Qwen2.5-3B a partir de pares de la misma partición | Filtrar la prueba con un modelo comparado la sesgaría a su favor |
+| Ensamble | p = ½·p(mensaje completo) + ½·máx. de p(segmentos), umbrales propios en validación | Validación | No diluye una intención que aparece en un solo segmento |
+| Segmentación | Patrón de conectores fijado en la v2, sin adaptarlo a las estructuras sintéticas nuevas | — | Adaptarlo a los datos generados inflaría la prueba sintética |
+| Elección del método final | Mayor exact match medio en validación cruzada; empate: exactitud en 2+ intenciones; luego menor tasa de falsos positivos; se escribe antes de calcular la prueba | `eleccion_metodo_v2b.json` | Regla fijada de antemano |
+| Datos institucionales | Ningún dato de la UdeC se inventa; los desconocidos quedan como `[COMPLETAR]` y el bot nunca los muestra (omite el paso y remite a TICS a un CLIC) | `base_conocimiento.json` (28 marcadores) | Exactitud de la información y trazabilidad de fuentes |
+| Memoria del caso | 2 pasos por turno; «ya lo hice» no es fallo; 2 fallos seguidos o pasos agotados → escalamiento con resumen sin datos personales; un caso por intención | Reglas deterministas (sin modelo) | Comportamiento predecible y verificable con pruebas unitarias |
+| Modo IA | Qwen solo redacta los pasos elegidos por la memoria; RAG por estado sobre la guía activa; verificador que rechaza URL, correos o números ausentes del contexto y exige conservar los del contexto | Guías de la base de conocimiento | Evitar datos inventados; si falla, se muestra el texto verificado |
+| Pruebas escritas antes de ejecutar | 30 conversaciones y 254 casos de batería guardados antes de ejecutarlos; 31 frases de la batería con fuga se reescribieron antes de la primera ejecución; 4 mensajes de las conversaciones con fuga se reportan sin cambiarlos | `conversaciones_memoria.json`, `bateria_soporte.json` | No ajustar las pruebas a los resultados |
+| Correcciones tras la batería | Solo fallos funcionales evidentes (excepción, `[COMPLETAR]` visible, eco de datos personales, respuesta vacía); los errores de clasificación se reportan sin corregir | Batería | Separar la depuración del ajuste a la evaluación |
+| Evaluación humana | 10 tareas guiadas, dos evaluadores por separado; acuerdo con kappa de Cohen | `tareas_evaluacion.csv` | La califican los autores, no el sistema |

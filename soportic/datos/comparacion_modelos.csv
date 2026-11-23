@@ -1,0 +1,6 @@
+Modelo,Accuracy prueba,F1 macro prueba,Accuracy generalización,F1 macro generalización,Accuracy externa,F1 macro externa
+TF-IDF + regresión logística,0.5522,0.5642,0.7059,0.7277,0.7333,0.7591
+BiLSTM desde cero,0.4328,0.4311,0.5588,0.595,0.5889,0.5943
+Solo similitud semántica (MiniLM),0.6119,0.6015,0.7794,0.7754,0.8,0.7943
+BETO fine-tuned,0.7612,0.7316,0.8824,0.8827,0.8111,0.8256
+Híbrido SoporTIC (BETO + semántico),0.791,0.7811,0.8824,0.885,0.8111,0.7774

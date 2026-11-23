@@ -1,0 +1,8 @@
+etapa,aumento,massive,learning_rate,epocas_max,n_train,val_f1_macro,val_accuracy,val_f1_fuera_de_dominio,val_loss,mejor_epoca,epocas_ejecutadas,tiempo_s
+1,no,sí,2e-05,20,409,0.7997,0.8438,0.9296,0.5868,12,16,131.6
+1,tildes,sí,2e-05,20,409,0.7997,0.8438,0.9296,0.5868,12,16,129.0
+1,tildes+ruido,sí,2e-05,20,713,0.8246,0.875,0.9851,0.4804,8,12,168.3
+1,tildes+ruido+retrotraducción,sí,2e-05,20,1150,0.8275,0.8646,0.9706,0.5241,5,9,186.8
+1,tildes,no,2e-05,20,309,0.716,0.6875,0.6275,1.2078,13,17,97.0
+2,tildes+ruido+retrotraducción,sí,3e-05,20,1150,0.8146,0.8542,0.9552,0.568,8,12,229.6
+2,tildes+ruido+retrotraducción,sí,5e-05,20,1150,0.8079,0.8542,0.9697,0.6673,5,9,126.6

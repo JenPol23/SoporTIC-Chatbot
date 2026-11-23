@@ -1,0 +1,72 @@
+{
+  "metodo_final": "Ensamble (completo + segmentos)",
+  "max_intenciones": 3,
+  "metodos": {
+    "BETO multietiqueta nuevo": {
+      "piso": "sin piso",
+      "umbrales": {
+        "agradecimiento": 0.55,
+        "colab_gpu": 0.5,
+        "correo_institucional": 0.45,
+        "despedida": 0.55,
+        "fuera_de_dominio": 0.05,
+        "hablar_con_soporte": 0.25,
+        "instalar_python": 0.75,
+        "moodle_acceso": 0.1,
+        "moodle_entregas": 0.15,
+        "office365": 0.5,
+        "plataforma_academica": 0.35,
+        "restablecer_contrasena": 0.15,
+        "salas_computo": 0.4,
+        "saludo": 0.55,
+        "sobre_bot": 0.55,
+        "teams": 0.5,
+        "wifi_sede": 0.75
+      }
+    },
+    "Combinado (segmentos + multietiqueta)": {
+      "piso": "piso 0,30",
+      "umbrales": {
+        "agradecimiento": 0.55,
+        "colab_gpu": 0.5,
+        "correo_institucional": 0.45,
+        "despedida": 0.55,
+        "fuera_de_dominio": 0.5,
+        "hablar_con_soporte": 0.3,
+        "instalar_python": 0.75,
+        "moodle_acceso": 0.5,
+        "moodle_entregas": 0.3,
+        "office365": 0.5,
+        "plataforma_academica": 0.35,
+        "restablecer_contrasena": 0.3,
+        "salas_computo": 0.4,
+        "saludo": 0.55,
+        "sobre_bot": 0.55,
+        "teams": 0.5,
+        "wifi_sede": 0.75
+      }
+    },
+    "Ensamble (completo + segmentos)": {
+      "piso": "sin piso",
+      "umbrales": {
+        "agradecimiento": 0.5,
+        "colab_gpu": 0.5,
+        "correo_institucional": 0.9,
+        "despedida": 0.5,
+        "fuera_de_dominio": 0.5,
+        "hablar_con_soporte": 0.2,
+        "instalar_python": 0.65,
+        "moodle_acceso": 0.5,
+        "moodle_entregas": 0.25,
+        "office365": 0.6,
+        "plataforma_academica": 0.7,
+        "restablecer_contrasena": 0.2,
+        "salas_computo": 0.5,
+        "saludo": 0.5,
+        "sobre_bot": 0.5,
+        "teams": 0.5,
+        "wifi_sede": 0.05
+      }
+    }
+  }
+}

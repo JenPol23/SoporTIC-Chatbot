@@ -1,0 +1,411 @@
+{
+  "version": "v2 — multiintención y calibración (Fase 3)",
+  "reetiquetado": {
+    "frases_reetiquetadas": 0,
+    "guia": "guia_anotacion_multietiqueta.md"
+  },
+  "sinteticas": {
+    "n": {
+      "train": 200,
+      "val": 40,
+      "test": 40
+    },
+    "filtros": {
+      "train": {
+        "conservadas": 200
+      },
+      "val": {
+        "conservadas": 40
+      },
+      "test": {
+        "conservadas": 40
+      }
+    },
+    "conectores": [
+      "y",
+      "y ademas",
+      "tambien",
+      "otra cosa",
+      "dos preguntas",
+      "aparte de eso"
+    ]
+  },
+  "beto_multietiqueta": {
+    "mejor_epoca": 12,
+    "epocas_ejecutadas": 16,
+    "val_f1_micro_umbral_05": 0.8211,
+    "val_f1_micro_umbrales": 0.8466,
+    "n_train": 1350,
+    "learning_rate": 2e-05,
+    "umbral_comun": 0.5,
+    "umbrales": {
+      "agradecimiento": 0.5,
+      "colab_gpu": 0.5,
+      "correo_institucional": 0.7,
+      "despedida": 0.5,
+      "fuera_de_dominio": 0.1,
+      "hablar_con_soporte": 0.3,
+      "instalar_python": 0.65,
+      "moodle_acceso": 0.1,
+      "moodle_entregas": 0.55,
+      "office365": 0.25,
+      "plataforma_academica": 0.35,
+      "restablecer_contrasena": 0.15,
+      "salas_computo": 0.3,
+      "saludo": 0.5,
+      "sobre_bot": 0.5,
+      "teams": 0.5,
+      "wifi_sede": 0.5
+    },
+    "umbral_propio": {
+      "agradecimiento": false,
+      "colab_gpu": true,
+      "correo_institucional": true,
+      "despedida": false,
+      "fuera_de_dominio": true,
+      "hablar_con_soporte": true,
+      "instalar_python": true,
+      "moodle_acceso": true,
+      "moodle_entregas": true,
+      "office365": true,
+      "plataforma_academica": true,
+      "restablecer_contrasena": true,
+      "salas_computo": true,
+      "saludo": false,
+      "sobre_bot": false,
+      "teams": true,
+      "wifi_sede": true
+    }
+  },
+  "evaluacion": [
+    {
+      "conjunto": "prueba",
+      "modelo": "v1 top-1",
+      "n": 107,
+      "exact_match": 0.476635514,
+      "f1_micro": 0.6850393701,
+      "f1_macro": 0.6695603497,
+      "hamming": 0.0439802089,
+      "exactitud_1": 0.7611940299,
+      "n_1": 67,
+      "exactitud_2mas": 0.0,
+      "n_2mas": 40
+    },
+    {
+      "conjunto": "prueba",
+      "modelo": "Segmentación + v1",
+      "n": 107,
+      "exact_match": 0.6728971963,
+      "f1_micro": 0.7666666667,
+      "f1_macro": 0.7387172327,
+      "hamming": 0.0384826828,
+      "exactitud_1": 0.7462686567,
+      "n_1": 67,
+      "exactitud_2mas": 0.55,
+      "n_2mas": 40
+    },
+    {
+      "conjunto": "prueba",
+      "modelo": "BETO multietiqueta",
+      "n": 107,
+      "exact_match": 0.6728971963,
+      "f1_micro": 0.8,
+      "f1_macro": 0.7897580851,
+      "hamming": 0.0324354041,
+      "exactitud_1": 0.776119403,
+      "n_1": 67,
+      "exactitud_2mas": 0.5,
+      "n_2mas": 40
+    },
+    {
+      "conjunto": "generalización",
+      "modelo": "v1 top-1",
+      "n": 68,
+      "exact_match": 0.8823529412,
+      "f1_micro": 0.8823529412,
+      "f1_macro": 0.8826500297,
+      "hamming": 0.0138408304,
+      "exactitud_1": 0.8823529412,
+      "n_1": 68,
+      "exactitud_2mas": null,
+      "n_2mas": 0
+    },
+    {
+      "conjunto": "generalización",
+      "modelo": "Segmentación + v1",
+      "n": 68,
+      "exact_match": 0.8823529412,
+      "f1_micro": 0.8823529412,
+      "f1_macro": 0.8826500297,
+      "hamming": 0.0138408304,
+      "exactitud_1": 0.8823529412,
+      "n_1": 68,
+      "exactitud_2mas": null,
+      "n_2mas": 0
+    },
+    {
+      "conjunto": "generalización",
+      "modelo": "BETO multietiqueta",
+      "n": 68,
+      "exact_match": 0.8970588235,
+      "f1_micro": 0.9142857143,
+      "f1_macro": 0.9192046516,
+      "hamming": 0.0103806228,
+      "exactitud_1": 0.8970588235,
+      "n_1": 68,
+      "exactitud_2mas": null,
+      "n_2mas": 0
+    }
+  ],
+  "prueba_externa_evaluada": true,
+  "validacion_cruzada_multietiqueta": {
+    "por_particion": [
+      {
+        "particion": 1,
+        "n": 129,
+        "exact_match": 0.6589147287,
+        "f1_micro": 0.7794561934,
+        "f1_macro": 0.760134834,
+        "hamming": 0.0332877337,
+        "exactitud_1": 0.7640449438,
+        "n_1": 89,
+        "exactitud_2mas": 0.425,
+        "n_2mas": 40
+      },
+      {
+        "particion": 2,
+        "n": 129,
+        "exact_match": 0.5736434109,
+        "f1_micro": 0.7305389222,
+        "f1_macro": 0.7258448677,
+        "hamming": 0.0410396717,
+        "exactitud_1": 0.7528089888,
+        "n_1": 89,
+        "exactitud_2mas": 0.175,
+        "n_2mas": 40
+      },
+      {
+        "particion": 3,
+        "n": 128,
+        "exact_match": 0.671875,
+        "f1_micro": 0.802359882,
+        "f1_macro": 0.8092354553,
+        "hamming": 0.0307904412,
+        "exactitud_1": 0.7613636364,
+        "n_1": 88,
+        "exactitud_2mas": 0.475,
+        "n_2mas": 40
+      },
+      {
+        "particion": 4,
+        "n": 128,
+        "exact_match": 0.5703125,
+        "f1_micro": 0.730878187,
+        "f1_macro": 0.7410894277,
+        "hamming": 0.0436580882,
+        "exactitud_1": 0.7272727273,
+        "n_1": 88,
+        "exactitud_2mas": 0.225,
+        "n_2mas": 40
+      },
+      {
+        "particion": 5,
+        "n": 128,
+        "exact_match": 0.6484375,
+        "f1_micro": 0.7896253602,
+        "f1_macro": 0.7997715344,
+        "hamming": 0.0335477941,
+        "exactitud_1": 0.7954545455,
+        "n_1": 88,
+        "exactitud_2mas": 0.325,
+        "n_2mas": 40
+      }
+    ],
+    "resumen": {
+      "exact_match": {
+        "media": 0.6246366279069767,
+        "de": 0.04879639474781543
+      },
+      "f1_micro": {
+        "media": 0.7665717089428897,
+        "de": 0.033729302327395703
+      },
+      "f1_macro": {
+        "media": 0.7672152237929198,
+        "de": 0.03629672409506489
+      },
+      "hamming": {
+        "media": 0.03646474578203374,
+        "de": 0.005555939798903151
+      },
+      "exactitud_1": {
+        "media": 0.7601889683350357,
+        "de": 0.02448393527209281
+      },
+      "exactitud_2mas": {
+        "media": 0.325,
+        "de": 0.12747548783981963
+      }
+    }
+  },
+  "f1_por_intencion_prueba": {
+    "agradecimiento": {
+      "v1 top-1": 0.5,
+      "BETO multietiqueta": 0.8,
+      "soporte": 3
+    },
+    "colab_gpu": {
+      "v1 top-1": 0.8889,
+      "BETO multietiqueta": 0.8889,
+      "soporte": 10
+    },
+    "correo_institucional": {
+      "v1 top-1": 0.875,
+      "BETO multietiqueta": 0.8,
+      "soporte": 9
+    },
+    "despedida": {
+      "v1 top-1": 0.8,
+      "BETO multietiqueta": 0.8,
+      "soporte": 4
+    },
+    "fuera_de_dominio": {
+      "v1 top-1": 0.6667,
+      "BETO multietiqueta": 0.6667,
+      "soporte": 4
+    },
+    "hablar_con_soporte": {
+      "v1 top-1": 0.25,
+      "BETO multietiqueta": 0.5556,
+      "soporte": 13
+    },
+    "instalar_python": {
+      "v1 top-1": 0.9,
+      "BETO multietiqueta": 0.9,
+      "soporte": 9
+    },
+    "moodle_acceso": {
+      "v1 top-1": 0.6316,
+      "BETO multietiqueta": 0.6667,
+      "soporte": 9
+    },
+    "moodle_entregas": {
+      "v1 top-1": 0.75,
+      "BETO multietiqueta": 0.6667,
+      "soporte": 9
+    },
+    "office365": {
+      "v1 top-1": 0.7,
+      "BETO multietiqueta": 0.8889,
+      "soporte": 13
+    },
+    "plataforma_academica": {
+      "v1 top-1": 0.5455,
+      "BETO multietiqueta": 0.8,
+      "soporte": 11
+    },
+    "restablecer_contrasena": {
+      "v1 top-1": 0.0,
+      "BETO multietiqueta": 0.7273,
+      "soporte": 10
+    },
+    "salas_computo": {
+      "v1 top-1": 0.6316,
+      "BETO multietiqueta": 0.88,
+      "soporte": 12
+    },
+    "saludo": {
+      "v1 top-1": 0.8571,
+      "BETO multietiqueta": 0.6667,
+      "soporte": 4
+    },
+    "sobre_bot": {
+      "v1 top-1": 0.8889,
+      "BETO multietiqueta": 0.8571,
+      "soporte": 4
+    },
+    "teams": {
+      "v1 top-1": 0.9091,
+      "BETO multietiqueta": 0.9524,
+      "soporte": 11
+    },
+    "wifi_sede": {
+      "v1 top-1": 0.5882,
+      "BETO multietiqueta": 0.9091,
+      "soporte": 12
+    }
+  },
+  "temperature_scaling_v1": {
+    "T": 1.0461,
+    "validación": {
+      "ece_antes": 0.0657,
+      "ece_despues": 0.0652
+    },
+    "prueba": {
+      "ece_antes": 0.1442,
+      "ece_despues": 0.1411
+    }
+  },
+  "tiempos_s": {
+    "beto_multietiqueta": 101.3,
+    "validacion_cruzada_multietiqueta": 575.7,
+    "fase3_total": 683.6,
+    "notebook_total": 2656.3
+  },
+  "historial_multietiqueta": {
+    "train_loss": [
+      0.5221,
+      0.2718,
+      0.2323,
+      0.1837,
+      0.1317,
+      0.0934,
+      0.0713,
+      0.0593,
+      0.0507,
+      0.0448,
+      0.0403,
+      0.0368,
+      0.034,
+      0.0316,
+      0.0299,
+      0.0286
+    ],
+    "val_loss": [
+      0.3193,
+      0.2586,
+      0.2173,
+      0.1684,
+      0.1395,
+      0.1223,
+      0.1093,
+      0.106,
+      0.0975,
+      0.0968,
+      0.0966,
+      0.091,
+      0.0909,
+      0.0863,
+      0.088,
+      0.0907
+    ],
+    "val_f1_micro": [
+      0.0577,
+      0.2372,
+      0.5256,
+      0.7308,
+      0.7732,
+      0.7492,
+      0.7927,
+      0.7951,
+      0.8204,
+      0.8155,
+      0.8133,
+      0.8211,
+      0.8097,
+      0.819,
+      0.8179,
+      0.8119
+    ]
+  }
+}

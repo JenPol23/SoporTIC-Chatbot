@@ -1,0 +1,178 @@
+{
+  "_descripcion": "30 conversaciones de prueba de la memoria del caso (Fase 4). Escritas y guardadas el 2026-11-14 ANTES de implementar o ejecutar el bot con memoria; no se modifican después de ver resultados.",
+  "_formato": {
+    "intencion_turno": "intención que atiende el turno: la social (saludo, sobre_bot, fuera_de_dominio...), la del caso que se abre o la del caso al que se refiere el seguimiento; null si el turno no se atribuye a ninguna (texto sin sentido, insulto, aclaración)",
+    "caso_activo": "intención del caso activo después del turno (null si no queda ninguno abierto)",
+    "accion": "guiar | siguiente_paso | marcar_hecho | cerrar | cerrar_y_siguiente | escalar | social | aclarar | reformular | cortesia | cambio_slot | nuevo_caso",
+    "slots": "valores esperados en el caso activo después del turno (dispositivo, navegador, plataforma; error: subcadena esperada)",
+    "seguimiento": "true si el turno es un seguimiento corto que debe resolverse con el caso activo",
+    "aviso_privacidad": "true si el turno debe advertir que no se escriban contraseñas o datos personales",
+    "final": "estado final esperado de cada caso: resuelto | escalado"
+  },
+  "conversaciones": [
+    {"id": "c01", "turnos": [
+      {"usuario": "buenas, no he podido entrar al aula virtual desde el celular", "intencion_turno": "moodle_acceso", "caso_activo": "moodle_acceso", "accion": "guiar", "slots": {"dispositivo": "celular", "plataforma": "Moodle"}},
+      {"usuario": "no, sigue igual", "intencion_turno": "moodle_acceso", "caso_activo": "moodle_acceso", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "tampoco", "intencion_turno": "moodle_acceso", "caso_activo": null, "accion": "escalar", "seguimiento": true}],
+     "final": {"moodle_acceso": "escalado"}},
+    {"id": "c02", "turnos": [
+      {"usuario": "el correo institucional no me abre en el portatil, uso chrome", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "guiar", "slots": {"dispositivo": "portátil", "navegador": "Chrome", "plataforma": "correo institucional"}},
+      {"usuario": "eso ya lo hice", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "marcar_hecho", "seguimiento": true},
+      {"usuario": "listo, ya funcionó", "intencion_turno": "correo_institucional", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"correo_institucional": "resuelto"}},
+    {"id": "c03", "turnos": [
+      {"usuario": "el wifi de la sede no me conecta en el portatil", "intencion_turno": "wifi_sede", "caso_activo": "wifi_sede", "accion": "guiar", "slots": {"dispositivo": "portátil", "plataforma": "Wi-Fi"}},
+      {"usuario": "y en el celular?", "intencion_turno": "wifi_sede", "caso_activo": "wifi_sede", "accion": "cambio_slot", "slots": {"dispositivo": "celular"}, "seguimiento": true},
+      {"usuario": "no funcionó", "intencion_turno": "wifi_sede", "caso_activo": "wifi_sede", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "sigue igual", "intencion_turno": "wifi_sede", "caso_activo": null, "accion": "escalar", "seguimiento": true}],
+     "final": {"wifi_sede": "escalado"}},
+    {"id": "c04", "turnos": [
+      {"usuario": "olvide la contraseña del correo y tampoco puedo subir el taller a moodle", "intencion_turno": "restablecer_contrasena", "caso_activo": "restablecer_contrasena", "accion": "guiar"},
+      {"usuario": "ya funcionó", "intencion_turno": "restablecer_contrasena", "caso_activo": "moodle_entregas", "accion": "cerrar_y_siguiente", "seguimiento": true},
+      {"usuario": "no me sirvió", "intencion_turno": "moodle_entregas", "caso_activo": "moodle_entregas", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "listo, ya pude subirlo", "intencion_turno": "moodle_entregas", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"restablecer_contrasena": "resuelto", "moodle_entregas": "resuelto"}},
+    {"id": "c05", "turnos": [
+      {"usuario": "outlook se queda cargando en el computador de la sala", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "guiar", "slots": {"dispositivo": "PC de la sala", "plataforma": "correo institucional"}},
+      {"usuario": "lo mismo me pasa con teams", "intencion_turno": "teams", "caso_activo": "teams", "accion": "nuevo_caso", "slots": {"dispositivo": "PC de la sala", "plataforma": "Teams"}, "seguimiento": true},
+      {"usuario": "ya quedó teams", "intencion_turno": "teams", "caso_activo": "correo_institucional", "accion": "cerrar_y_siguiente", "seguimiento": true},
+      {"usuario": "el correo sigue igual", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "ya funcionó, gracias", "intencion_turno": "correo_institucional", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"correo_institucional": "resuelto", "teams": "resuelto"}},
+    {"id": "c06", "turnos": [
+      {"usuario": "colab no me asigna gpu para el entrenamiento", "intencion_turno": "colab_gpu", "caso_activo": "colab_gpu", "accion": "guiar", "slots": {"plataforma": "Colab"}},
+      {"usuario": "eso ya lo habia hecho", "intencion_turno": "colab_gpu", "caso_activo": "colab_gpu", "accion": "marcar_hecho", "seguimiento": true},
+      {"usuario": "ya lo hice tambien", "intencion_turno": "colab_gpu", "caso_activo": "colab_gpu", "accion": "marcar_hecho", "seguimiento": true},
+      {"usuario": "ahora si funcionó", "intencion_turno": "colab_gpu", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"colab_gpu": "resuelto"}},
+    {"id": "c07", "turnos": [
+      {"usuario": "instale python en windows y la terminal no lo reconoce", "intencion_turno": "instalar_python", "caso_activo": "instalar_python", "accion": "guiar", "slots": {"plataforma": "Python"}},
+      {"usuario": "no, me sigue saliendo lo mismo", "intencion_turno": "instalar_python", "caso_activo": "instalar_python", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "nada, igual", "intencion_turno": "instalar_python", "caso_activo": null, "accion": "escalar", "seguimiento": true}],
+     "final": {"instalar_python": "escalado"}},
+    {"id": "c08", "turnos": [
+      {"usuario": "word me dice que el producto no tiene licencia en mi mac", "intencion_turno": "office365", "caso_activo": "office365", "accion": "guiar", "slots": {"dispositivo": "Mac", "plataforma": "Office 365", "error": "licencia"}},
+      {"usuario": "ya funcionó", "intencion_turno": "office365", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"office365": "resuelto"}},
+    {"id": "c09", "turnos": [
+      {"usuario": "en academusoft me sale error 500 cuando intento ver el horario", "intencion_turno": "plataforma_academica", "caso_activo": "plataforma_academica", "accion": "guiar", "slots": {"plataforma": "plataforma institucional", "error": "500"}},
+      {"usuario": "sigue igual", "intencion_turno": "plataforma_academica", "caso_activo": "plataforma_academica", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "listo ya me cargó", "intencion_turno": "plataforma_academica", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"plataforma_academica": "resuelto"}},
+    {"id": "c10", "turnos": [
+      {"usuario": "hola", "intencion_turno": "saludo", "caso_activo": null, "accion": "social"},
+      {"usuario": "no me deja entrar a la reunion de teams desde el celular", "intencion_turno": "teams", "caso_activo": "teams", "accion": "guiar", "slots": {"dispositivo": "celular", "plataforma": "Teams"}},
+      {"usuario": "ya pude entrar, gracias", "intencion_turno": "teams", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"teams": "resuelto"}},
+    {"id": "c11", "turnos": [
+      {"usuario": "mi contraseña es Facatativa2024 y no me deja entrar al correo", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "guiar", "aviso_privacidad": true, "slots": {"plataforma": "correo institucional"}},
+      {"usuario": "no funcionó", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "ya pude entrar", "intencion_turno": "correo_institucional", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"correo_institucional": "resuelto"}},
+    {"id": "c12", "turnos": [
+      {"usuario": "el wifi no conecta y en la sala de computo el pc no prende", "intencion_turno": "wifi_sede", "caso_activo": "wifi_sede", "accion": "guiar"},
+      {"usuario": "tampoco", "intencion_turno": "wifi_sede", "caso_activo": "wifi_sede", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "sigue sin servir", "intencion_turno": "wifi_sede", "caso_activo": "salas_computo", "accion": "escalar", "seguimiento": true},
+      {"usuario": "listo, ya funcionó el pc", "intencion_turno": "salas_computo", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"wifi_sede": "escalado", "salas_computo": "resuelto"}},
+    {"id": "c13", "turnos": [
+      {"usuario": "no me deja adjuntar el pdf en la tarea de moodle", "intencion_turno": "moodle_entregas", "caso_activo": "moodle_entregas", "accion": "guiar", "slots": {"plataforma": "Moodle"}},
+      {"usuario": "y desde el celular?", "intencion_turno": "moodle_entregas", "caso_activo": "moodle_entregas", "accion": "cambio_slot", "slots": {"dispositivo": "celular"}, "seguimiento": true},
+      {"usuario": "ya funcionó", "intencion_turno": "moodle_entregas", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"moodle_entregas": "resuelto"}},
+    {"id": "c14", "turnos": [
+      {"usuario": "asdkjh qweoiu zxmnb", "intencion_turno": null, "caso_activo": null, "accion": "reformular"},
+      {"usuario": "no me llegan los correos de los profesores", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "guiar", "slots": {"plataforma": "correo institucional"}},
+      {"usuario": "no", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "tampoco funcionó", "intencion_turno": "correo_institucional", "caso_activo": null, "accion": "escalar", "seguimiento": true}],
+     "final": {"correo_institucional": "escalado"}},
+    {"id": "c15", "turnos": [
+      {"usuario": "no me deja", "intencion_turno": null, "caso_activo": null, "accion": "aclarar"},
+      {"usuario": "en moodle, no puedo iniciar sesion", "intencion_turno": "moodle_acceso", "caso_activo": "moodle_acceso", "accion": "guiar", "slots": {"plataforma": "Moodle"}},
+      {"usuario": "listo", "intencion_turno": "moodle_acceso", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"moodle_acceso": "resuelto"}},
+    {"id": "c16", "turnos": [
+      {"usuario": "quiero hablar con una persona de soporte", "intencion_turno": "hablar_con_soporte", "caso_activo": "hablar_con_soporte", "accion": "guiar"},
+      {"usuario": "gracias, eso era todo", "intencion_turno": "hablar_con_soporte", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"hablar_con_soporte": "resuelto"}},
+    {"id": "c17", "turnos": [
+      {"usuario": "el computador de la sala me dice perfil temporal", "intencion_turno": "salas_computo", "caso_activo": "salas_computo", "accion": "guiar", "slots": {"dispositivo": "PC de la sala"}},
+      {"usuario": "eso ya lo hice", "intencion_turno": "salas_computo", "caso_activo": "salas_computo", "accion": "marcar_hecho", "seguimiento": true},
+      {"usuario": "ya lo hice tambien", "intencion_turno": "salas_computo", "caso_activo": null, "accion": "escalar", "seguimiento": true}],
+     "final": {"salas_computo": "escalado"}},
+    {"id": "c18", "turnos": [
+      {"usuario": "moodle se queda en blanco", "intencion_turno": "moodle_acceso", "caso_activo": "moodle_acceso", "accion": "guiar", "slots": {"plataforma": "Moodle", "error": "blanco"}},
+      {"usuario": "estoy usando firefox en el portatil", "intencion_turno": "moodle_acceso", "caso_activo": "moodle_acceso", "accion": "cambio_slot", "slots": {"navegador": "Firefox", "dispositivo": "portátil"}, "seguimiento": true},
+      {"usuario": "ya funcionó", "intencion_turno": "moodle_acceso", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"moodle_acceso": "resuelto"}},
+    {"id": "c19", "turnos": [
+      {"usuario": "excel en linea no me deja editar", "intencion_turno": "office365", "caso_activo": "office365", "accion": "guiar", "slots": {"plataforma": "Office 365"}},
+      {"usuario": "lo mismo me pasa en el correo", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "nuevo_caso", "slots": {"plataforma": "correo institucional"}, "seguimiento": true},
+      {"usuario": "listo, ya funcionó el correo", "intencion_turno": "correo_institucional", "caso_activo": "office365", "accion": "cerrar_y_siguiente", "seguimiento": true},
+      {"usuario": "excel sigue igual", "intencion_turno": "office365", "caso_activo": "office365", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "ya quedó", "intencion_turno": "office365", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"office365": "resuelto", "correo_institucional": "resuelto"}},
+    {"id": "c20", "turnos": [
+      {"usuario": "teams no me abre y python no se instala", "intencion_turno": "teams", "caso_activo": "teams", "accion": "guiar"},
+      {"usuario": "no", "intencion_turno": "teams", "caso_activo": "teams", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "no", "intencion_turno": "teams", "caso_activo": "instalar_python", "accion": "escalar", "seguimiento": true},
+      {"usuario": "ya funcionó", "intencion_turno": "instalar_python", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"teams": "escalado", "instalar_python": "resuelto"}},
+    {"id": "c21", "turnos": [
+      {"usuario": "la plataforma institucional no me deja pagar la matricula", "intencion_turno": "plataforma_academica", "caso_activo": "plataforma_academica", "accion": "guiar", "slots": {"plataforma": "plataforma institucional"}},
+      {"usuario": "este bot no sirve para nada, malparido", "intencion_turno": null, "caso_activo": "plataforma_academica", "accion": "cortesia"},
+      {"usuario": "no funcionó lo que dijiste", "intencion_turno": "plataforma_academica", "caso_activo": "plataforma_academica", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "ya pude pagar, listo", "intencion_turno": "plataforma_academica", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"plataforma_academica": "resuelto"}},
+    {"id": "c22", "turnos": [
+      {"usuario": "cambie de celular y ya no tengo el authenticator para entrar a la cuenta", "intencion_turno": "restablecer_contrasena", "caso_activo": "restablecer_contrasena", "accion": "guiar", "slots": {"dispositivo": "celular"}},
+      {"usuario": "ya lo hice", "intencion_turno": "restablecer_contrasena", "caso_activo": "restablecer_contrasena", "accion": "marcar_hecho", "seguimiento": true},
+      {"usuario": "sigue igual", "intencion_turno": "restablecer_contrasena", "caso_activo": "restablecer_contrasena", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "nada", "intencion_turno": "restablecer_contrasena", "caso_activo": null, "accion": "escalar", "seguimiento": true}],
+     "final": {"restablecer_contrasena": "escalado"}},
+    {"id": "c23", "turnos": [
+      {"usuario": "mi cedula es 1070123456 y no puedo entrar a la plataforma institucional", "intencion_turno": "plataforma_academica", "caso_activo": "plataforma_academica", "accion": "guiar", "aviso_privacidad": true, "slots": {"plataforma": "plataforma institucional"}},
+      {"usuario": "ya funcionó", "intencion_turno": "plataforma_academica", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"plataforma_academica": "resuelto"}},
+    {"id": "c24", "turnos": [
+      {"usuario": "en teams nadie me escucha en clase", "intencion_turno": "teams", "caso_activo": "teams", "accion": "guiar", "slots": {"plataforma": "Teams"}},
+      {"usuario": "y en el pc de la sala?", "intencion_turno": "teams", "caso_activo": "teams", "accion": "cambio_slot", "slots": {"dispositivo": "PC de la sala"}, "seguimiento": true},
+      {"usuario": "tampoco", "intencion_turno": "teams", "caso_activo": "teams", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "ya funcionó", "intencion_turno": "teams", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"teams": "resuelto"}},
+    {"id": "c25", "turnos": [
+      {"usuario": "colab se desconecta cada rato cuando entreno", "intencion_turno": "colab_gpu", "caso_activo": "colab_gpu", "accion": "guiar", "slots": {"plataforma": "Colab"}},
+      {"usuario": "oye y tu eres una persona?", "intencion_turno": "sobre_bot", "caso_activo": "colab_gpu", "accion": "social"},
+      {"usuario": "no funcionó lo de antes", "intencion_turno": "colab_gpu", "caso_activo": "colab_gpu", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "listo ya funcionó", "intencion_turno": "colab_gpu", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"colab_gpu": "resuelto"}},
+    {"id": "c26", "turnos": [
+      {"usuario": "me recomiendas una pelicula", "intencion_turno": "fuera_de_dominio", "caso_activo": null, "accion": "social"},
+      {"usuario": "jupyter no abre despues de instalar anaconda", "intencion_turno": "instalar_python", "caso_activo": "instalar_python", "accion": "guiar", "slots": {"plataforma": "Python"}},
+      {"usuario": "ya funcionó", "intencion_turno": "instalar_python", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"instalar_python": "resuelto"}},
+    {"id": "c27", "turnos": [
+      {"usuario": "como solicito un supletorio", "intencion_turno": "fuera_de_dominio", "caso_activo": null, "accion": "social"},
+      {"usuario": "y la plataforma no me carga el formulario", "intencion_turno": "plataforma_academica", "caso_activo": "plataforma_academica", "accion": "guiar", "slots": {"plataforma": "plataforma institucional"}},
+      {"usuario": "sigue igual", "intencion_turno": "plataforma_academica", "caso_activo": "plataforma_academica", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "tampoco", "intencion_turno": "plataforma_academica", "caso_activo": null, "accion": "escalar", "seguimiento": true}],
+     "final": {"plataforma_academica": "escalado"}},
+    {"id": "c28", "turnos": [
+      {"usuario": "no encuentro la grabacion de la clase en teams y onedrive no sincroniza", "intencion_turno": "teams", "caso_activo": "teams", "accion": "guiar"},
+      {"usuario": "ya la encontré, listo", "intencion_turno": "teams", "caso_activo": "office365", "accion": "cerrar_y_siguiente", "seguimiento": true},
+      {"usuario": "y en el celular?", "intencion_turno": "office365", "caso_activo": "office365", "accion": "cambio_slot", "slots": {"dispositivo": "celular"}, "seguimiento": true},
+      {"usuario": "ya funcionó", "intencion_turno": "office365", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"teams": "resuelto", "office365": "resuelto"}},
+    {"id": "c29", "turnos": [
+      {"usuario": "me aparece cuda out of memory en colab", "intencion_turno": "colab_gpu", "caso_activo": "colab_gpu", "accion": "guiar", "slots": {"plataforma": "Colab", "error": "out of memory"}},
+      {"usuario": "no", "intencion_turno": "colab_gpu", "caso_activo": "colab_gpu", "accion": "siguiente_paso", "seguimiento": true},
+      {"usuario": "ya funcionó", "intencion_turno": "colab_gpu", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"colab_gpu": "resuelto"}},
+    {"id": "c30", "turnos": [
+      {"usuario": "no me abre el correo en el celular", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "guiar", "slots": {"dispositivo": "celular", "plataforma": "correo institucional"}},
+      {"usuario": "y en el portatil tampoco abre", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "cambio_slot", "slots": {"dispositivo": "portátil"}, "seguimiento": true},
+      {"usuario": "eso ya lo hice", "intencion_turno": "correo_institucional", "caso_activo": "correo_institucional", "accion": "marcar_hecho", "seguimiento": true},
+      {"usuario": "ya funcionó", "intencion_turno": "correo_institucional", "caso_activo": null, "accion": "cerrar", "seguimiento": true}],
+     "final": {"correo_institucional": "resuelto"}}
+  ]
+}

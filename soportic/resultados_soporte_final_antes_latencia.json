@@ -1,0 +1,137 @@
+{
+  "version": "Fase 5 — evaluación del sistema completo",
+  "bateria": {
+    "n": 254,
+    "por_categoria": {
+      "[COMPLETAR] nunca mostrado": {
+        "pasa": 12,
+        "aclara": 0,
+        "falla": 0,
+        "omitida": 0,
+        "% pasa": 100.0
+      },
+      "entrada inválida": {
+        "pasa": 12,
+        "aclara": 0,
+        "falla": 3,
+        "omitida": 0,
+        "% pasa": 80.0
+      },
+      "escalamiento": {
+        "pasa": 8,
+        "aclara": 1,
+        "falla": 1,
+        "omitida": 0,
+        "% pasa": 80.0
+      },
+      "fuera de dominio": {
+        "pasa": 9,
+        "aclara": 1,
+        "falla": 0,
+        "omitida": 0,
+        "% pasa": 90.0
+      },
+      "intención": {
+        "pasa": 72,
+        "aclara": 5,
+        "falla": 8,
+        "omitida": 0,
+        "% pasa": 84.7
+      },
+      "inyección de instrucciones": {
+        "pasa": 10,
+        "aclara": 0,
+        "falla": 0,
+        "omitida": 0,
+        "% pasa": 100.0
+      },
+      "modo IA con verificador": {
+        "pasa": 10,
+        "aclara": 0,
+        "falla": 0,
+        "omitida": 0,
+        "% pasa": 100.0
+      },
+      "multiintención": {
+        "pasa": 13,
+        "aclara": 0,
+        "falla": 7,
+        "omitida": 0,
+        "% pasa": 65.0
+      },
+      "ortografía y jerga": {
+        "pasa": 20,
+        "aclara": 4,
+        "falla": 1,
+        "omitida": 0,
+        "% pasa": 80.0
+      },
+      "otro idioma": {
+        "pasa": 7,
+        "aclara": 0,
+        "falla": 1,
+        "omitida": 0,
+        "% pasa": 87.5
+      },
+      "privacidad": {
+        "pasa": 15,
+        "aclara": 0,
+        "falla": 0,
+        "omitida": 0,
+        "% pasa": 100.0
+      },
+      "seguimientos y memoria": {
+        "pasa": 18,
+        "aclara": 1,
+        "falla": 1,
+        "omitida": 0,
+        "% pasa": 90.0
+      },
+      "sesiones paralelas": {
+        "pasa": 5,
+        "aclara": 0,
+        "falla": 1,
+        "omitida": 0,
+        "% pasa": 83.3
+      },
+      "trámites": {
+        "pasa": 2,
+        "aclara": 2,
+        "falla": 4,
+        "omitida": 0,
+        "% pasa": 25.0
+      },
+      "TOTAL": {
+        "pasa": 213,
+        "aclara": 14,
+        "falla": 27,
+        "omitida": 0,
+        "% pasa": 83.9
+      }
+    },
+    "fallos_funcionales": 0,
+    "tiempo_s": 197.4
+  },
+  "latencia": {
+    "fijo": {
+      "n": 30,
+      "media_s": 0.023,
+      "p95_s": 0.03,
+      "max_s": 0.031
+    },
+    "ia": {
+      "n": 30,
+      "media_s": 17.235,
+      "p95_s": 21.13,
+      "max_s": 24.477
+    }
+  },
+  "vram_gb": {
+    "pico_notebook_antes_de_la_latencia": 7.91,
+    "pico_bot": 7.91,
+    "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU"
+  },
+  "generador": "Qwen/Qwen2.5-3B-Instruct",
+  "eventos_gpu": [],
+  "tiempo_total_notebook_s": 3164.6
+}

@@ -1,0 +1,32 @@
+# Versiones probadas en local (Python 3.11, torch 2.11.0+cu128), tomadas del .venv del proyecto.
+# torch NO se incluye: en Colab ya viene instalado y en local se hereda del Python global (.venv con --system-site-packages).
+# Si hace falta instalarlo, usar el índice de PyTorch con la versión de CUDA de la GPU (ver GUIA_CAMBIOS.md).
+# En Colab no se usa este archivo: la primera celda del notebook instala solo las librerías de Hugging Face, gradio y nltk.
+
+# Hugging Face y modelos
+transformers==4.57.6
+tokenizers==0.22.2
+huggingface_hub==0.36.2
+accelerate==1.15.0
+datasets==5.0.1
+sentence-transformers==5.7.0
+sentencepiece==0.2.2      # MarianTokenizer (retrotraducción del aumento de datos)
+sacremoses==0.2.0         # recomendado por MarianMT
+
+# Datos, métricas y figuras (en Colab ya vienen instalados)
+numpy==2.4.6
+pandas==3.0.6
+scikit-learn==1.9.0
+matplotlib==3.11.1
+
+# Interfaz y texto
+gradio==6.17.3
+nltk==3.10.4
+
+# Ejecución local del notebook sin abrirlo, emparejamiento .py <-> .ipynb y lanzador
+jupytext==1.19.6
+nbconvert==7.17.2
+ipykernel==7.4.0
+
+# Pruebas unitarias (tests/)
+pytest==9.1.1

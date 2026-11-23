@@ -1,0 +1,23 @@
+{
+  "metodo_final": "Ensamble (completo + segmentos)",
+  "piso_en_particion_principal": "sin piso",
+  "criterio": "mayor exact match medio en la validación cruzada; empate: exactitud 2+; luego menor tasa de FP",
+  "medias_cv": {
+    "BETO multietiqueta nuevo": {
+      "exact_match": 0.6151,
+      "exactitud_2mas": 0.4733,
+      "tasa_fp_multi": 0.0589
+    },
+    "Combinado (segmentos + multietiqueta)": {
+      "exact_match": 0.6026,
+      "exactitud_2mas": 0.4933,
+      "tasa_fp_multi": 0.129
+    },
+    "Ensamble (completo + segmentos)": {
+      "exact_match": 0.6496,
+      "exactitud_2mas": 0.54,
+      "tasa_fp_multi": 0.0634
+    }
+  },
+  "fijada_antes_de_la_prueba": "2026-11-15 22:48:47"
+}
